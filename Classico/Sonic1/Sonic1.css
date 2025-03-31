@@ -98,7 +98,7 @@
     }
   
     #logo {
-      visibility: hidden;
+      display:none
     }
   
     .col-6 {

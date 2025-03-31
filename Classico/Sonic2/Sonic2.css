@@ -89,7 +89,7 @@ a {
         display: none;
     }
     #logo {
-        visibility: hidden;
+        display: none;
     }
     .col-6{
         font-weight: bold;
