@@ -1,0 +1,42 @@
+@media only screen and (min-width: 1200px) {
+#BackgroundInicio{
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-image: url(IMG/Index-bg.png);
+height: 90vh;
+}
+
+#logo-img{ 
+    width: 10vw;
+}
+
+#subtitulo{
+    text-align: center;
+    font-size: 2vw;
+    color: black;
+}
+
+#explicação{
+    text-align: center;
+    font-size: 1.5vw;
+    color: black;
+}
+}
+@media only screen and (max-width: 600px){
+    #logo-img{ 
+        width: 30vw;
+        margin-left: 25vw;
+    }
+    #BackgroundInicio{
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(IMG/Index-bgMobile.png);
+        height: 90vh;
+        }
+    #inicio{
+        text-align: center;
+    }
+
+}
