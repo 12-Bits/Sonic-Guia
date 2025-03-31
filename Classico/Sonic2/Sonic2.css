@@ -89,9 +89,6 @@ a {
         display: none;
     }
     #logo {
-        margin-top: 50px;
-        width:auto;
-        margin-left: 120px;
         visibility: hidden;
     }
     .col-6{
