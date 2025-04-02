@@ -24,10 +24,15 @@ height: 90vh;
 }
 }
 @media only screen and (max-width: 600px){
-    #logo-img{ 
-        width: 30vw;
-        margin-left: 25vw;
+    body {
+      background-color: #2F60AC;
+      max-width: 100%;
+      overflow-x: hidden;
     }
+    #logo-img{ 
+      width: 30vw;
+      padding-left: 50vw;
+  }
     #BackgroundInicio{
         background-size: contain;
         background-repeat: no-repeat;
