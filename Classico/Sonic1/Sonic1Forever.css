@@ -1,4 +1,5 @@
 @media only screen and (min-width: 1200px) {
+
 #BackgroundInicio {
     background-image: url("../../IMG/Sonic1/Ports/Sonic1BG3.jpg");
     background-repeat: no-repeat;
@@ -6,15 +7,17 @@
     height: 90vh;
     background-position: center ;
 }
+
+#logo-img{ 
+    width: 10vw;
+}
 .col-sm-10{
     display: none;
 }
 .col-sm-8{
     display: none;
 }
-#BackgroundResto{
-    background-color:black;
-}
+
 #logo {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -27,7 +30,8 @@
     text-decoration: none;
 }
 body
-{  background-image:url("../../IMG/Sonic1/Ports/tile2.png");}
+{  background-image:url("../../IMG/Sonic1/Ports/tile2.png");
+display: block;}
 table thead th {
     text-align: center !important;
     vertical-align: middle !important;
@@ -62,14 +66,18 @@ body a {
     background-image: url("../../IMG/Sonic1/Ports/Sonic1BG3.png");
     border-color: #C81F34;
     color: black;
-    
+
 }
-#Passo-a-passo h2{
-    padding-bottom: 1.9vh;
+
+#Passo-a-passo1{
+    position: relative;
+top:3vh ;
 }
+
 #Passo-a-passo h6{
     font-size: 1.1em;
     font-weight: bold;
+
 }
 #Menu-sticky{
     position: sticky;
@@ -90,7 +98,6 @@ body a {
     font-size: 0.9em;
 }
 
-
 #alerta2{
     padding: 2vh;
     margin-top: 5vh;
@@ -99,7 +106,8 @@ body a {
 }
 
 #tutorial-img{
-
+    margin-top: 2vh;
+    margin-bottom: 2vh;
     width: 30vw;
 }
 
@@ -110,10 +118,6 @@ padding-top: 10vh;
 }
 
 
-
-#logo-img{ 
-    width: 10vw;
-}
 }
 
 @media only screen and (max-width: 600px){
