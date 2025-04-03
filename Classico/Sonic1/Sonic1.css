@@ -71,7 +71,7 @@
       background-image: url("../../IMG/Sonic1/Sonic1BGMobile.jpg");
       background-repeat: no-repeat;
       background-size: cover;
-      height: 180vh;
+      height: auto;
       width: auto;
     }
   
