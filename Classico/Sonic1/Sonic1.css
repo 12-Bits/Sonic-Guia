@@ -70,7 +70,6 @@
     #BackgroundInicio {
       background-image: url("../../IMG/Sonic1/Sonic1BGMobile.jpg");
       background-repeat: no-repeat;
-      background-size: cover;
       height: auto;
       width: auto;
     }
