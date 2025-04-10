@@ -1,3 +1,4 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     #logo-img { 
       width: 10vw;
@@ -58,7 +59,7 @@
       padding-top: 2vh;
     }
   }
-  
+  /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
     body {
       background-color: #2F60AC;
@@ -69,8 +70,7 @@
     #BackgroundInicio {
       background-image: url("../../IMG/Sonic1/Sonic1BGMobile.jpg");
       background-repeat: no-repeat;
-      background-size: cover;
-      height: 180vh;
+      height: auto;
       width: auto;
     }
   
@@ -129,9 +129,27 @@
       width: 30vw;
       margin-left: 30vw;
   }
+  img{
+    width: 100%;
+  }
   
     #Linktopage {
       color: blue;
       text-decoration: none !important;
     }
   }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
