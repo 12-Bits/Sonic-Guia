@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @media only screen and (min-width: 1200px) {
   body {
     background-color: #2F60AC;
@@ -133,66 +132,8 @@
       color: blue;
       text-decoration: none !important;
     }
-=======
-@media only screen and (min-width: 1200px) {
-  body {
-    background-color: #2F60AC;
   }
 
-    #logo-img { 
-      width: 10vw;
-    }
-
-    #division{
-      background-image: url("../../IMG/Sonic Adventure/Border.png");
-      width: 100%;
-      height: 5vh;
-    }
-  
-    #BackgroundInicio {
-      background-image: url("../../IMG/Sonic Adventure/BGteste.png");
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 90vh;
-      min-height: 50%;
-      background-position: center;
-    }
-  
-    #BackgroundResto {
-      background-color: #2F60AC;
-    }
-  
-    #logo {
-      margin-top: 50px;
-      width: 25vw;
-      margin-left: 14.5vw;
-    }
-  
-    .col-lg-6 {
-      font-weight: bolder;
-      font-size:large;
-      text-decoration: none;
-    }
-  
-    .col-md-6 {
-      display: none;
-    }
-  
-   
-    #introdução {
-      color: black;
-      font-weight: bold;
-    }
-  
-    a {
-      text-decoration: none !important;
-    }
-  
-    #divisão {
-      padding-top: 2vh;
-    }
-  }
-  
   @media only screen and (max-width: 600px) {
     body {
       background-color: #2F60AC;
@@ -268,5 +209,4 @@
       color: blue;
       text-decoration: none !important;
     }
->>>>>>> 365874a8e8419c064efaa9a9e47ddfce7ccfdb56
   }
