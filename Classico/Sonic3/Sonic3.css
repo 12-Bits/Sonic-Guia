@@ -1,4 +1,10 @@
 @media only screen and (min-width: 1200px) {
+
+    body {
+      background-color: #2F60AC;
+      max-width: 100%;
+      overflow-x: hidden;
+    }
     #logo-img { 
       width: 10vw;
     }
@@ -12,14 +18,11 @@
       background-position: center;
     }
   
-    #BackgroundResto {
-      background-color: #2F60AC;
-    }
-  
     #logo {
-      margin-top: 50px;
+      margin-top: 9vh;
+      margin-bottom: 1vh;
       width: 25vw;
-      margin-left: 120px;
+      margin-left: 13vw;
     }
   
     .col-lg-6 {
@@ -32,22 +35,18 @@
       display: none;
     }
   
-    body {
-      background-color: #2F60AC;
-    }
-  
     table thead th {
       text-align: center !important;
       vertical-align: middle !important;
     }
   
     #introdução {
-      color: white;
+      color: black;
       text-shadow:
-        -1px -1px 0 #000,  
-         1px -1px 0 #000,
-        -1px 1px 0 #000,
-         1px 1px 0 #000;
+        -1px -1px 0 #fff,  
+         1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+         1px 1px 0 #fff;
     }
   
     a {
