@@ -31,7 +31,8 @@ height: 90vh;
     }
     #logo-img{ 
         width: 30vw;
-        margin-left: 28vw;
+        margin-left:31vw;
+        position:relative;
         
   }
     #BackgroundInicio{
