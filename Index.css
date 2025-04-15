@@ -24,6 +24,11 @@ height: 90vh;
 }
 }
 @media only screen and (max-width: 600px){
+    .navbar-brand img {
+        vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
+    }
+
+
     body {
       background-color: white;
       max-width: 100%;
