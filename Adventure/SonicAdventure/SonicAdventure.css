@@ -63,6 +63,10 @@
       max-width: 100%;
       overflow-x: hidden;
     }
+    
+    .navbar-brand img {
+      vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
+  }
   
     #BackgroundInicio {
       background-image: url("../../IMG/Sonic1/Sonic1BGMobile.jpg");
