@@ -73,7 +73,8 @@
   #BackgroundInicio {
     background-image: url("../../IMG/Sonic1/Sonic1BGMobile.jpg");
     background-repeat: no-repeat;
-    background-position-x:-18vw
+    background-position-x:-18vw;
+    width:100%
   }
 
   #introdução {
