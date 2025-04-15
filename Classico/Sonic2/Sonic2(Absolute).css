@@ -118,6 +118,9 @@ padding-top: 10vh;
 
 @media only screen and (max-width: 600px){
     body{  background-image:url("../../IMG/Sonic1/Ports/tile2.png");}
+    .navbar-brand img {
+        vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
+    }
     #logo {
         margin-top: 50px;
         width:90vw;
