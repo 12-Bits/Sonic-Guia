@@ -3,7 +3,7 @@
     background-image: url("../../IMG/Sonic2/Ports/BG.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;
+    height: 100vh;
     background-position: center ;
 }
 .col-sm-10{
@@ -52,10 +52,13 @@ body a {
     text-decoration: none !important;
   }
 
+  #division{
+    background-image: url("../../IMG/Sonic2/Ports/divisão.png");
+    width: 100%;
+    height: 2vh;
 
-  #divisão{
-    padding-top: 2vh;
   }
+
 
 #Passo-a-passo{
     border-style: solid;
