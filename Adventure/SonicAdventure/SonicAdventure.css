@@ -71,10 +71,6 @@
       padding: 5vh;
       margin: 20px;
     }
-  #BG2{
-    Background-image:url("../../IMG/Sonic Adventure/BG2.png");
-    background-repeat: repeat;
-  }
   
   @media only screen and (max-width: 600px) {
     body {
