@@ -1,6 +1,6 @@
 @media only screen and (min-width: 1200px) {
   body {
-    background-color: #2F60AC;
+  
   }
 
     #logo-img { 
@@ -11,6 +11,7 @@
       background-image: url("../../IMG/Sonic Adventure/Border.png");
       width: 100%;
       height: 5vh;
+      padding-top: 2vh;
     }
   
     #BackgroundInicio {
@@ -21,11 +22,7 @@
       min-height: 50%;
       background-position: center;
     }
-  
-    #BackgroundResto {
-      background-color: #2F60AC;
-    }
-  
+   
     #logo {
       margin-top: 50px;
       width: 25vw;
@@ -51,11 +48,29 @@
     a {
       text-decoration: none !important;
     }
-  
-    #divisão {
-      padding-top: 2vh;
+    #Aviso{
+      margin:50px;
+      font-size:2rem;
+      color:black;
+      background-color: red;
     }
-  }
+    #Tutorial{
+      padding: 5vh;
+      background-color: white;
+      margin:100px
+    }
+    #Tutorial h2 {
+      font-size: 1.5rem;
+    }
+    #Titulo{
+      text-align: center;
+      font-size: 4rem;
+    }
+    #Essenciais{
+      background-color: white;
+      padding: 5vh;
+      margin: 20px;
+    }
   
   @media only screen and (max-width: 600px) {
     body {
