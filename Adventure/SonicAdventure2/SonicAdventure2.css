@@ -1,25 +1,25 @@
 @media only screen and (min-width: 1200px) {
-  body {
-    background-color: #2F60AC;
-  }
 
+  body
     #logo-img { 
       width: 10vw;
     }
+
+    #division{
+      background-image: url("../../IMG/Sonic Adventure/Border.png");
+      width: 100%;
+      height: 5vh;
+    }
   
     #BackgroundInicio {
-      background-image: url("../../IMG/Sonic Adventure 2/BG.jpg");
+      background-image: url("../../IMG/Sonic Adventure/BGteste.png");
       background-repeat: no-repeat;
       background-size: cover;
       height: 90vh;
       min-height: 50%;
       background-position: center;
     }
-  
-    #BackgroundResto {
-      background-color: #2F60AC;
-    }
-  
+   
     #logo {
       margin-top: 50px;
       width: 25vw;
@@ -45,28 +45,71 @@
     a {
       text-decoration: none !important;
     }
-  
-    #divisão {
-      padding-top: 2vh;
+    #Aviso{
+      font-size: 1.5rem;
+      padding:1vh;
+      margin-top:5vh;
+      margin-bottom: 5vh;
+      color:black;
+      background-color: red;
+      border-style:solid;
+      border-color:black;
+      border-radius: 5vh;
+      text-align: center;
     }
-  }
-  
+    #Tutorial{
+      padding: 5vh;
+      background-color: whitesmoke;
+      border-style:solid;
+      border-color:black;
+      border-radius: 5vh;
+    }
+    #Tutorial h2 {
+      font-size: 1.3rem;
+    }
+    #Titulo{
+      text-align: center;
+      font-size: 3rem;
+    }
+    #ModList{
+      background-color: white;
+      padding: 5vh;
+      margin-top: 3vh;
+      background-color: whitesmoke;
+      border-style:solid;
+      border-color:black;
+      border-radius: 5vh;
+    }
+    #BG2{
+      background-image: url("../../IMG/Sonic Adventure/BG2.png");
+      background-repeat: repeat;
+      overflow: hidden;
+    }
+    #InicioTutorial{
+      font-size: 1.2rem;
+      text-align: center;
+      margin-top: 3vh;
+      background-color: whitesmoke;
+      border-style:solid;
+      border-color:black;
+      border-radius: 5vh;
+    }
+}
   @media only screen and (max-width: 600px) {
     body {
       background-color: #2F60AC;
       max-width: 100%;
       overflow-x: hidden;
     }
+    
     .navbar-brand img {
       vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
   }
   
     #BackgroundInicio {
-      background-image: url("../../IMG/Sonic Adventure 2/BGMobile.png");
+      background-image: url("../../IMG/Sonic Adventure/BGMobile.png");
       background-repeat: no-repeat;
-      background-size: cover;
-      height: 180vh;
-      width: auto;
+      background-size: contain;
     }
   
     #introdução {
