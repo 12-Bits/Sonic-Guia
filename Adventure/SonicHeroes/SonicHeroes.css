@@ -12,7 +12,7 @@
     }
   
     #BackgroundInicio {
-      background-image: url("../../IMG/Sonic Adventure/BGteste.png");
+      background-image: url("../../IMG/Sonic Heroes/BG.png");
       background-repeat: no-repeat;
       background-size: cover;
       height: 90vh;
@@ -40,6 +40,11 @@
     #introdução {
       color: black;
       font-weight: bold;
+    }
+    #BG2{
+      background-image: url("../../IMG/Sonic Adventure/BG2.png");
+      background-repeat: repeat;
+      overflow: hidden;
     }
   
     a {
