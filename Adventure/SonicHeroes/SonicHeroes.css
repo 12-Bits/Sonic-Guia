@@ -40,6 +40,11 @@
     #introdução {
       color: black;
       font-weight: bold;
+      text-shadow:
+      -1px -1px 0 #FFF,  
+       1px -1px 0 #FFF,
+      -1px 1px 0 #fff,
+       1px 1px 0 #FFF;
     }
     #BG2{
       background-image: url("../../IMG/Sonic Adventure/BG2.png");
