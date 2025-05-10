@@ -1,0 +1,6 @@
+- [ ] Fix SA2 backgrounds
+- [ ] Put Sonic06 in Adventure era, and change everything related to it.
+- [ ] Add Modern era to all navs
+- [ ] Create Modern era pages
+- [ ] Create Post-Modern era pages
+- [ ] Create all extras pages
