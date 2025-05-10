@@ -11,37 +11,13 @@
       height: 5vh;
     }
   
-#BackgroundInicio {
-  position: relative;
-  width: 100%;
-  height: 90vh;
-  overflow: hidden;
-}
+    #BackgroundInicio {
+      background-image: url("../../IMG/SonicUnleashed/bg2.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 85vh;
+      min-height: 50%;
 
-#BackgroundInicio::before {
-  content: "";
-  background-image: url("../../IMG/Shadow05/bg2.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 40% center; /* Aqui você controla o quanto quer deslocar */
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 0;
-}
-
-#BackgroundContent {
-  position: relative;
-  z-index: 1;
-}
-
-
-    #BG2{
-      background:rgb(61, 3, 53);
-      background-repeat: repeat;
-      overflow: hidden;
     }
    
     #logo {
@@ -62,14 +38,8 @@
   
    
     #introdução {
-
       color: black;
       font-weight: bold;
-      text-shadow:
-      -1px -1px 0 #FFF,  
-       1px -1px 0 #FFF,
-      -1px 1px 0 #fff,
-       1px 1px 0 #FFF;
     }
   
     a {
@@ -93,10 +63,8 @@
       border-style:solid;
       border-color:black;
       border-radius: 5vh;
-       margin-bottom: 5vh;
-
     }
-    #TutorialText h2 {
+    #Tutorial h2 {
       font-size: 1.3rem;
     }
     #Titulo{
@@ -112,7 +80,11 @@
       border-color:black;
       border-radius: 5vh;
     }
-
+    #BG2{
+      background-image: url("../../IMG/Sonic Adventure/BG2.png");
+      background-repeat: repeat;
+      overflow: hidden;
+    }
     #InicioTutorial{
       font-size: 1.2rem;
       text-align: center;
