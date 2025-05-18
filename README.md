@@ -11,3 +11,5 @@ TDOO List
 - [ ] Create all extras pages
 - [ ] Expand Index
 - [ ] Create a general information page
+- [ ] Credit all artists (official and fans)
+
