@@ -7,18 +7,41 @@ body{
     #logo-img { 
       width: 10vw;
     }
-  
-    #BackgroundInicio {
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 90vh;
-      min-height: 50%;
-      background-position: center;
-    }
-  
-    #BackgroundResto {
-      background-color: #2F60AC;
-    }
+#Introducao{
+background-color: #FFF; 
+text-align: center;
+background-repeat: no-repeat;
+background-image: url("../IMG/ClassicoExtras/Intro_BG.png");
+background-size: cover;
+height: 90vh;
+
+}
+
+#Introducao h1 {
+padding-top: 10vh;
+font-size: 3rem;
+font-weight: bold;
+color: white;
+text-shadow:
+  -1px -1px 0 #000, 
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+#Introducao p {
+font-size: 1.5rem;
+font-weight: bold;
+color: white;
+padding-left: 5vw;
+padding-right: 5vw;
+text-shadow:
+  -1px -1px 0 #000, 
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
     #SMS_Remake {
       
 background-image: url("../IMG/ClassicoExtras/S1_SMS_BG.png");
@@ -29,10 +52,15 @@ background-repeat: no-repeat;
 width: 100%;
 position: relative;
 z-index: 1;
+/*Font Style*/
+color: black;
 font-size: 1.2rem;
 font-weight: bold;
-
-
+text-shadow:
+  -1px -1px 0 #FFF,  
+  1px -1px 0 #FFF,
+  -1px 1px 0 #FFF,
+  1px 1px 0 #FFF;
     }
 
 
@@ -43,9 +71,12 @@ font-weight: bold;
   background-position: center;
   position: relative;
   z-index: 1;
+  /*Font Style*/
+  color: black;
   font-size: 1.2rem;
   font-weight: bold;
 }
+
 #TripleTrouble{
 background-image: url("../IMG/ClassicoExtras/STT_BG.jpg");
 background-size: cover;
@@ -53,6 +84,8 @@ height: 100vh;
 background-position: center;
 position: relative;
 z-index: 1;
+/*Font Style*/
+color: black;
 font-size: 1.2rem;
 font-weight: bold;
 
@@ -63,11 +96,13 @@ background-image: url("../IMG/ClassicoExtras/S_R_BG2.png");
 background-repeat: no-repeat;
 height: 100vh;
 background-size: cover;
+background-position: center;
+background-position-x: -1vw;
+/*Font Style*/
 color: black;
 font-size: 1.2rem;
 font-weight: bold;
-background-position: center;
-background-position-x: -1vw;
+
 
 
 }
@@ -78,8 +113,9 @@ background-repeat: no-repeat;
 background-size: cover;
 background-position-x: -15vw;
 background-position: center;
-font-weight: bold;
 height: 100vh;
+/*Font Style*/
+font-weight: bold;
 font-size: 1.2rem;
 color: black;
 }
@@ -89,12 +125,12 @@ background-image: url("../IMG/ClassicoExtras/S_F_BG.png");
 background-repeat: no-repeat;
 height: 100vh;
 background-size: cover;
+background-position-x: -20vw;
+background-position: center;
+/*Font Style*/
 color: black;
 font-size: 1.2rem;
 font-weight: bold;
-background-position-x: -20vw;
-width: 100%;
-background-position: center;
 }
 
 #Blast3D{
@@ -102,16 +138,17 @@ background-image: url("../IMG/ClassicoExtras/S_3D_BG.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-font-weight: bold;
 height: 100vh;
 background-position-x: -25vw;
+/*Font Style*/
 font-size: 1.2rem;
 color: black;
-    text-shadow:
-      -1px -1px 0 #FFF,  
-       1px -1px 0 #FFF,
-      -1px 1px 0 #FFF,
-       1px 1px 0 #FFF;
+font-weight: bold;
+text-shadow:
+  -1px -1px 0 #FFF,  
+  1px -1px 0 #FFF,
+  -1px 1px 0 #FFF,
+  1px 1px 0 #FFF;
 }
 
 #Spinball{
@@ -119,8 +156,9 @@ background-image: url("../IMG/ClassicoExtras/S_BALL_BG3.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-font-weight: bold;
 height: 100vh;
+/*Font Style*/
+font-weight: bold;
 font-size: 1.2rem;
 color: white;
 }
@@ -130,27 +168,29 @@ background-image: url("../IMG/ClassicoExtras/Dr_R_R_BG.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-font-weight: bold;
 background-position-x: -12vw;
 height: 100vh;
+/*Font Style*/
+font-weight: bold;
 font-size: 1.2rem;
 color: black;
 }
 
 #MeanBean{
-background-image: url("../IMG/ClassicoExtras/M_B_BG.png");
+background-image: url("../IMG/ClassicoExtras/M_B_BG2.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-font-weight: bold;
 height: 100vh;
+/*Font Style*/
+font-weight: bold;
 font-size: 1.2rem;
 color: black;
-    text-shadow:
-      -1px -1px 0 #FFF,  
-       1px -1px 0 #FFF,
-      -1px 1px 0 #FFF,
-       1px 1px 0 #FFF;
+text-shadow:
+  -1px -1px 0 #FFF,  
+  1px -1px 0 #FFF,
+  -1px 1px 0 #FFF,
+  1px 1px 0 #FFF;
 }
 
 
@@ -166,8 +206,6 @@ color: black;
   display: block;
 }
 
-    
-  
     #logo {
       margin-top:10vh;
       width: 25vw;
@@ -179,41 +217,11 @@ color: black;
       width: 20vw;
       margin-left: 120px;
     }
-  
-    .col-lg-6 {
-      font-weight: bold;
-      font-size: larger;
-      text-decoration: none;
-    }
-  
     .col-md-6 {
       display: none;
     }
-  
-    body {
-      background-color: #2F60AC;
-    }
-  
-    table thead th {
-      text-align: center !important;
-      vertical-align: middle !important;
-    }
-  
-    #introdução {
-      color: white;
-      text-shadow:
-        -1px -1px 0 #000,  
-         1px -1px 0 #000,
-        -1px 1px 0 #000,
-         1px 1px 0 #000;
-    }
-  
-    a {
+      a {
       text-decoration: none !important;
-    }
-  
-    #divisão {
-      padding-top: 2vh;
     }
   }
   /* Extra small devices (phones, 600px and down) */
