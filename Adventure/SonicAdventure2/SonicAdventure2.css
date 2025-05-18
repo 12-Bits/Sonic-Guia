@@ -14,12 +14,13 @@
       background-image: url("../../IMG/Sonic Adventure 2/BG.png");
       background-repeat: no-repeat;
       background-size: cover;
-      min-height: 50%;
+      height: 87.5vh;
       background-position: center;
     }
    
     #logo {
-      margin-top: 50px;
+      margin-top:8vh;
+      margin-bottom: 5vh;
       width: 25vw;
       margin-left: 14.5vw;
     }
@@ -84,8 +85,9 @@
       border-radius: 5vh;
     }
     #BG2{
-      /*background-image: url("../../IMG/Sonic Adventure 2/BG2.png");*/
+      background-image: url("../../IMG/Sonic Adventure 2/BG2.jpg");
       background-repeat: repeat;
+      background-size: cover;
       overflow: hidden;
     }
     #InicioTutorial{
