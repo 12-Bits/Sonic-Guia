@@ -40,6 +40,11 @@
     #introdução {
       color: black;
       font-weight: bold;
+      text-shadow:
+        -1px -1px 0 #FFF,  
+        1px -1px 0 #FFF,
+        -1px 1px 0 #FFF,
+        1px 1px 0 #FFF;
     }
   
     a {
@@ -60,12 +65,18 @@
     #Tutorial{
       padding: 5vh;
       background-color: whitesmoke;
+ 
       border-style:solid;
       border-color:black;
       border-radius: 5vh;
     }
     #Tutorial h2 {
+      color: black;
       font-size: 1.3rem;
+    }
+      #Tutorial h1 {
+      color: black;
+      font-size: 3rem;
     }
     #Titulo{
       text-align: center;
@@ -81,7 +92,7 @@
       border-radius: 5vh;
     }
     #BG2{
-      background-image: url("../../IMG/Sonic Adventure/BG2.png");
+      background-image: url("../../IMG/SonicColors/bg2.png");
       background-repeat: repeat;
       overflow: hidden;
     }
