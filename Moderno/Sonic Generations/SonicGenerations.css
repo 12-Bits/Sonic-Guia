@@ -21,7 +21,7 @@
     }
    
     #logo {
-      margin-top: 50px;
+      margin-top: 5vh;
       width: 25vw;
       margin-left: 14.5vw;
     }
@@ -38,6 +38,7 @@
   
    
     #introdução {
+      padding-top: 5vh;
       color: black;
       font-weight: bold;
       text-shadow:
@@ -72,10 +73,16 @@
     #Tutorial h2 {
       font-size: 1.3rem;
     }
+    #TutorialText h2{
+      color: #000;
+    }
     #Titulo{
       text-align: center;
       font-size: 3rem;
+          color: #000;
     }
+
+    
     #ModList{
       background-color: white;
       padding: 5vh;
@@ -84,6 +91,10 @@
       border-style:solid;
       border-color:black;
       border-radius: 5vh;
+    }
+
+    #ModList h2, h3, span{
+color:#000
     }
     #BG2{
       background-image: url("../../IMG/Sonic Adventure/BG2.png");
