@@ -3,13 +3,12 @@ Site dividido em 4 eras da franquia para melhor organização, cada era possui u
 
 TDOO List
 - [X] Fix SA2 backgrounds
-- [ ] Put Sonic06 in Adventure era, and change everything related to it.
 - [ ] Create general footer
 - [ ] Add Modern era to all navs
 - [ ] Create Modern era pages
 - [ ] Create Post-Modern era pages
 - [ ] Create all extras pages
 - [ ] Expand Index
-- [ ] Create a general information page
+- [ ] Ajust all pages to be responsible to phones and tablets
 - [ ] Credit all artists (official and fans)
 
