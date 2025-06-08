@@ -73,9 +73,10 @@
   #BackgroundInicio {
     background-image: url("../../IMG/Sonic1/Sonic1BGMobile.jpg");
     background-repeat: no-repeat;
-    background-position-x:-18vw;
+
     width:100%;
-    background-position: center ;
+    background-position-x: center;
+
   }
 
   #introdução {
@@ -156,4 +157,91 @@ img{
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
+}
+
+
+/*Extra small mobile  (small phones, 480px and down) */
+@media only screen and (max-width:480) {
+  body {
+    background-color: #2F60AC;
+
+    overflow-x: hidden;
+  }
+  .navbar-brand img {
+    vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
+}
+
+  #BackgroundInicio {
+    background-image: url("../../IMG/Sonic1/Sonic1BGMobile.jpg");
+    background-repeat: no-repeat;
+    width:100%;
+    background-position-x: center;
+    height: 80vh;
+
+  }
+
+  #introdução {
+    padding-top: 115vh;
+    position: relative;
+    color: white;
+    text-shadow:
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    text-align: center;
+  }
+
+  .col-md-6 {
+    display: block;
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+  }
+
+  .col-lg-6 {
+    display: none;
+  }
+
+  #logo {
+    display:none
+  }
+
+  .col-6 {
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+  }
+
+  table thead th {
+    padding-top: 0vh;
+    text-align: center !important;
+  }
+
+  #tabela {
+    margin-top: 1vh;
+  }
+
+  #tabela2 {
+    margin-top: 5vh;
+  }
+
+  a {
+    text-decoration: none;
+    color: blue;
+  }
+
+  #logo-img{ 
+    width: 30vw;
+    margin-left: 30vw;
+}
+img{
+  width: 100%;
+}
+
+  #Linktopage {
+    color: blue;
+    text-decoration: none !important;
+  }
+    
 }
