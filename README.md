@@ -5,6 +5,7 @@ TDOO List
 - [X] Fix SA2 backgrounds
 - [ ] Create general footer
 - [ ] Add Modern era to all navs
+- [ ] Find a Frontiers Bordered Logo and Better Forces BG
 - [ ] Create Modern era pages
 - [ ] Create Post-Modern era pages
 - [ ] Create all extras pages

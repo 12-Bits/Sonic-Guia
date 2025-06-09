@@ -12,17 +12,17 @@
     }
   
     #BackgroundInicio {
-      background-image: url("../../IMG/Sonic06/BG.png");
+      background-image: url("../../IMG/SonicForces/BG1.png");
       background-repeat: no-repeat;
       background-size: cover;
-      height: 90vh;
+      height: 100vh;
       min-height: 50%;
       background-position: center;
     }
    
     #logo {
-      margin-top: 10vh;
-      margin-bottom: 5vh;
+      margin-top: 3vh;
+      margin-bottom: 1vh;
       width: 25vw;
       margin-left: 14.5vw;
     }
