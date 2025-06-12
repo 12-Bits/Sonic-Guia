@@ -5,12 +5,12 @@
   }
 
   #BackgroundInicio {
-    background-image: url("../../IMG/Sonic1/Sonic1BG1.png");
+    background-image: url("../../IMG/SonicCD/BG2.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
     min-height: 50%;
-    background-position: center;
+    background-position-x:-30vw;
   }
 
   #BackgroundResto {
@@ -18,9 +18,9 @@
   }
 
   #logo {
-    margin-top: 50px;
+    margin-top: 10vh;
     width: 25vw;
-    margin-left: 120px;
+    margin-left: 15vw;
   }
 
   .col-lg-6 {
