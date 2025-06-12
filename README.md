@@ -3,11 +3,12 @@ Site dividido em 4 eras da franquia para melhor organização, cada era possui u
 
 TDOO List
 - [X] Fix SA2 backgrounds
-- [ ] Create general footer
-- [ ] Add Modern era to all navs
-- [ ] Find a Frontiers Bordered Logo and Better Forces BG
-- [ ] Create Modern era pages
+- [X] Add Modern era to all navs
+- [X] Create Modern era pages
 - [ ] Create Post-Modern era pages
+- [ ] Create Emulation and Mods page to Adventure 1/2 and Heroes 
+- [ ] Create general footer
+- [ ] Find a Frontiers Bordered Logo and Better Forces BG
 - [ ] Create all extras pages
 - [ ] Expand Index
 - [ ] Ajust all pages to be responsible to phones and tablets
