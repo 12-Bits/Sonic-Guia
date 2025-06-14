@@ -104,7 +104,6 @@
     #BG2{
       background-image: url("../../IMG/SonicColors/bg2.jpg");
       background-repeat: repeat;
-      background-size: cover;
       overflow: hidden;
     }
     #InicioTutorial{
