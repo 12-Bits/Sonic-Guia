@@ -15,13 +15,13 @@
       background-image: url("../../IMG/SonicFrontiers/BG1.png");
       background-repeat: no-repeat;
       background-size: cover;
-      height: 90vh;
+      height: 80vh;
       min-height: 50%;
 
     }
    
     #logo {
-      margin-top: 1vh;
+      margin-top: 10vh;
       margin-bottom: -5vh;
       width: 25vw;
       margin-left: 14.5vw;

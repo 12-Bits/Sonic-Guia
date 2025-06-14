@@ -19,6 +19,11 @@
       min-height: 50%;
       background-position: center;
     }
+
+     table thead th {
+    text-align: center !important;
+    vertical-align: middle !important;
+  }
    
     #logo {
       margin-top: 50px;

@@ -12,10 +12,10 @@
     }
   
     #BackgroundInicio {
-      background-image: url("../../../IMG/SonicColors/bg.png");
+      background-image: url("../../../IMG/SonicColors/Ports/BG1.jpg");
       background-repeat: no-repeat;
       background-size: cover;
-      height: 90vh;
+      height: 80vh;
       min-height: 50%;
       background-position: center;
     }
