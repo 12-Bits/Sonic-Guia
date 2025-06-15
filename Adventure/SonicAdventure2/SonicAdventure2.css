@@ -9,7 +9,12 @@
       width: 100%;
       height: 5vh;
     }
-  
+   #division2{
+      background-image: url("../../IMG/SonicAdventure2/Border.png");
+      width: 100%;
+      height: 5vh;
+      margin-bottom: 5vh;
+    }
     #BackgroundInicio {
       background-image: url("../../IMG/SonicAdventure2/BG.png");
       background-repeat: no-repeat;

@@ -1,33 +1,33 @@
 @media only screen and (min-width: 1200px) {
 
-  body
     #logo-img { 
       width: 10vw;
     }
 
     #division{
-      background-image: url("../../../IMG/SonicAdventure/Border.png");
+      background-image: url("../../../IMG/SonicAdventure2/Border.png");
       width: 100%;
       height: 5vh;
     }
-    #division2{
-      background-image: url("../../../IMG/SonicAdventure/Border.png");
+
+      #division2{
+      background-image: url("../../../IMG/SonicAdventure2/Border.png");
       width: 100%;
       height: 5vh;
       margin-bottom: 5vh;
     }
   
     #BackgroundInicio {
-      background-image: url("../../../IMG/SonicAdventure/BG.png");
+      background-image: url("../../../IMG/SonicAdventure2/BG.png");
       background-repeat: no-repeat;
       background-size: cover;
-      height: 80vh;
-      min-height: 50%;
+      height: 87.5vh;
       background-position: center;
     }
    
     #logo {
-      margin-top: 50px;
+      margin-top:8vh;
+      margin-bottom: 5vh;
       width: 25vw;
       margin-left: 14.5vw;
     }
@@ -46,6 +46,11 @@
     #introdução {
       color: black;
       font-weight: bold;
+      text-shadow:
+      -1px -1px 0 #FFF,  
+       1px -1px 0 #FFF,
+      -1px 1px 0 #fff,
+       1px 1px 0 #FFF;
     }
   
     a {
@@ -87,8 +92,9 @@
       border-radius: 5vh;
     }
     #BG2{
-      background-image: url("../../../IMG/SonicAdventure/BG2.png");
+      background-image: url("../../../IMG/SonicAdventure2/BG2.jpg");
       background-repeat: repeat;
+
       overflow: hidden;
     }
     #InicioTutorial{
@@ -116,10 +122,9 @@
   }
   
     #BackgroundInicio {
-      background-image: url("../../../IMG/SonicAdventure/BGMobile.png");
+      background-image: url("../../IMG/SonicAdventure/BGMobile.png");
       background-repeat: no-repeat;
       background-size: contain;
-      height: 100vh;
     }
   
     #introdução {
