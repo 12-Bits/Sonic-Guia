@@ -42,11 +42,11 @@ text-shadow:
   1px 1px 0 #000;
 }
 
-    #SMS_Remake {
+#Riders {
       
-background-image: url("../IMG/ExtrasClassico/S1_SMS_BG.png");
+background-image: url("../IMG/ExtrasAdventure/RidersBG1.png");
 background-size: cover;
-height: 100vh;
+height: 80vh;
 background-position: center;
 background-repeat: no-repeat;
 width: 100%;
@@ -64,8 +64,8 @@ text-shadow:
     }
 
 
-#Sonic_Chaos {
-  background-image: url("../IMG/ExtrasClassico/SC_BG2.png");
+#Chao {
+  background-image: url("../IMG/ExtrasAdventure/ChaoBG1.png");
   background-size: cover;
   height: 100vh;
   background-position: center;
@@ -77,8 +77,8 @@ text-shadow:
   font-weight: bold;
 }
 
-#TripleTrouble{
-background-image: url("../IMG/ExtrasClassico/STT_BG.jpg");
+#World{
+background-image: url("../IMG/ExtrasAdventure/WorldBG1.png");
 background-size: cover;
 height: 100vh;
 background-position: center;
@@ -91,8 +91,8 @@ font-weight: bold;
 
 
 }
-#SonicR{
-background-image: url("../IMG/ExtrasClassico/S_R_BG2.png");
+#BattleR{
+background-image: url("../IMG/ExtrasAdventure/BattleRBG1.png");
 background-repeat: no-repeat;
 height: 100vh;
 background-size: cover;

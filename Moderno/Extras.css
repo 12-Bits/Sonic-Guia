@@ -1,62 +1,227 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+
+body{
+  overflow-x: hidden;
+}
     #logo-img { 
       width: 10vw;
     }
-  
-    #BackgroundInicio {
-      background-image: url("../../IMG/Sonic1/Sonic1BG1.png");
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 90vh;
-      min-height: 50%;
-      background-position: center;
+#Introducao{
+background-color: #FFF; 
+text-align: center;
+background-repeat: no-repeat;
+background-image: url("../IMG/ExtrasClassico/Intro_BG.png");
+background-size: cover;
+height: 90vh;
+
+}
+
+#Introducao h1 {
+padding-top: 10vh;
+font-size: 3rem;
+font-weight: bold;
+color: white;
+text-shadow:
+  -1px -1px 0 #000, 
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+#Introducao p {
+font-size: 1.5rem;
+font-weight: bold;
+color: white;
+padding-left: 5vw;
+padding-right: 5vw;
+text-shadow:
+  -1px -1px 0 #000, 
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+#Riders {
+      
+background-image: url("../IMG/ExtrasAdventure/RidersBG1.png");
+background-size: cover;
+height: 100vh;
+background-position: center;
+background-repeat: no-repeat;
+width: 100%;
+position: relative;
+z-index: 1;
+/*Font Style*/
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+text-shadow:
+  -1px -1px 0 #FFF,  
+  1px -1px 0 #FFF,
+  -1px 1px 0 #FFF,
+  1px 1px 0 #FFF;
     }
-  
-    #BackgroundResto {
-      background-color: #2F60AC;
-    }
-  
+
+
+#Sonic_Chaos {
+  background-image: url("../IMG/ExtrasClassico/SC_BG2.png");
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  /*Font Style*/
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#TripleTrouble{
+background-image: url("../IMG/ExtrasClassico/STT_BG.jpg");
+background-size: cover;
+height: 100vh;
+background-position: center;
+position: relative;
+z-index: 1;
+/*Font Style*/
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+
+
+}
+#SonicR{
+background-image: url("../IMG/ExtrasClassico/S_R_BG2.png");
+background-repeat: no-repeat;
+height: 100vh;
+background-size: cover;
+background-position: center;
+background-position-x: -1vw;
+/*Font Style*/
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+
+
+
+}
+
+#TailsAdventure{
+background-image: url("../IMG/ExtrasClassico/test.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position-x: -15vw;
+background-position: center;
+height: 100vh;
+/*Font Style*/
+font-weight: bold;
+font-size: 1.2rem;
+color: black;
+}
+
+#Fighters{
+background-image: url("../IMG/ExtrasClassico/S_F_BG.png");
+background-repeat: no-repeat;
+height: 100vh;
+background-size: cover;
+background-position-x: -20vw;
+background-position: center;
+/*Font Style*/
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+}
+
+#Blast3D{
+background-image: url("../IMG/ExtrasClassico/S_3D_BG.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 100vh;
+background-position-x: -25vw;
+/*Font Style*/
+font-size: 1.2rem;
+color: black;
+font-weight: bold;
+text-shadow:
+  -1px -1px 0 #FFF,  
+  1px -1px 0 #FFF,
+  -1px 1px 0 #FFF,
+  1px 1px 0 #FFF;
+}
+
+#Spinball{
+background-image: url("../IMG/ExtrasClassico/S_BALL_BG3.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 100vh;
+/*Font Style*/
+font-weight: bold;
+font-size: 1.2rem;
+color: white;
+}
+
+#RingRacers{
+background-image: url("../IMG/ExtrasClassico/Dr_R_R_BG.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-position-x: -12vw;
+height: 100vh;
+/*Font Style*/
+font-weight: bold;
+font-size: 1.2rem;
+color: black;
+}
+
+#MeanBean{
+background-image: url("../IMG/ExtrasClassico/M_B_BG2.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 100vh;
+/*Font Style*/
+font-weight: bold;
+font-size: 1.2rem;
+color: black;
+text-shadow:
+  -1px -1px 0 #FFF,  
+  1px -1px 0 #FFF,
+  -1px 1px 0 #FFF,
+  1px 1px 0 #FFF;
+}
+
+
+.divisor {
+  position: relative;
+  z-index: 10;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+
+.divisor img {
+  width: 100%;
+  display: block;
+}
+
     #logo {
-      margin-top: 50px;
+      margin-top:10vh;
       width: 25vw;
       margin-left: 120px;
     }
-  
-    .col-lg-6 {
-      font-weight: bold;
-      font-size: larger;
-      text-decoration: none;
+    #logo2 {
+            margin-top:10vh;
+
+      width: 20vw;
+      margin-left: 120px;
     }
-  
     .col-md-6 {
       display: none;
     }
-  
-    body {
-      background-color: #2F60AC;
-    }
-  
-    table thead th {
-      text-align: center !important;
-      vertical-align: middle !important;
-    }
-  
-    #introdução {
-      color: white;
-      text-shadow:
-        -1px -1px 0 #000,  
-         1px -1px 0 #000,
-        -1px 1px 0 #000,
-         1px 1px 0 #000;
-    }
-  
-    a {
+      a {
       text-decoration: none !important;
-    }
-  
-    #divisão {
-      padding-top: 2vh;
     }
   }
   /* Extra small devices (phones, 600px and down) */
