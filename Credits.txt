@@ -1,0 +1,167 @@
+CLASSICO
+
+Sonic 1
+BG1: 
+BG2: 
+BGMobile:
+
+Sonic 2
+BG1: 
+BG2: 
+BGMobile: 
+
+Sonic CD
+BG1: 
+BG2: 
+BGMobile: 
+
+Sonic 3
+BG1: 
+BG2: 
+BGMobile:
+
+
+Extras:
+
+SMS_Remake
+BG1: 
+BGMobile:
+
+Sonic_Chaos
+BG1: 
+BGMobile: 
+
+TripleTrouble
+BG1: 
+BGMobile:
+
+MeanBean
+BG1: 
+BGMobile: 
+
+Spinball
+BG1: 
+BGMobile: 
+
+TailsAdventure
+BG1: 
+BGMobile: 
+
+Fighters
+BG1: 
+BGMobile:
+
+Blast3D
+BG1: 
+BGMobile:
+
+SonicR
+BG1: 
+BGMobile: 
+
+RingRacers
+BG1: 
+BGMobile: 
+
+ADVENTURE
+
+Sonic Adventure
+BG1: 
+BG2: 
+BGMobile: 
+
+Sonic Adventure 2
+BG1: 
+BG2: 
+BGMobile: 
+
+Sonic Heroes
+BG1: 
+BG2: 
+BGMobile: 
+
+Shadow the Hedgehog
+BG1: https://www.steamgriddb.com/hero/133850 (Edited)
+BG2: https://www.freepik.com/free-photo/red-paint-wall-background-texture_2761066.htm#fromView=keyword&page=1&position=1&uuid=bee9534b-1d96-4b2e-8a9f-cfeb138acc12&query=Dark+Red+Texture
+BGMobile: https://cdn2.steamgriddb.com/grid/88a202ed3e8edffaa7d5530011934ee2.png
+
+Extras:
+
+Riders
+BG1: 
+BGMobile:
+
+Chao
+BG1: 
+BGMobile: 
+
+World
+BG1: 
+BGMobile:
+
+BattleR
+BG1: 
+BGMobile: 
+
+MODERNO
+
+Sonic 2006
+BG1: 
+BG2: 
+BGMobile: 
+
+Sonic Unleashed
+BG1: 
+BG2: 
+BGMobile:
+
+Sonic Colors
+BG1: 
+BG2: 
+BGMobile:
+
+Sonic Generations
+BG1: 
+BG2: 
+BGMobile: 
+
+Extras:
+
+Riders
+BG1: 
+BGMobile:
+
+Chao
+BG1: 
+BGMobile: 
+
+World
+BG1: 
+BGMobile:
+
+BattleR
+BG1: 
+BGMobile: 
+
+POS-MODERNO
+
+Sonic Mania
+BG1: 
+BG2: 
+BGMobile: 
+
+Sonic Forces
+BG1: https://www.steamgriddb.com/hero/27128
+BG2: Sega
+BGMobile: 
+
+Sonic Frontiers
+BG1: 
+BG2: 
+BGMobile: 
+
+Sonic Superstars
+BG1: 
+BG2: 
+BGMobile: 
+

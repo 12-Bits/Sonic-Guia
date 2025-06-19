@@ -6,25 +6,37 @@
     }
 
     #division{
-      background-image: url("../../IMG/Sonic Adventure/Border.png");
+      background-image: url("../../IMG/SonicAdventure/Border.png");
       width: 100%;
       height: 5vh;
+      padding-top: 2vh;
     }
+
+        #division2{
+      background-image: url("../../IMG/SonicAdventure/Border.png");
+      width: 100%;
+      height: 5vh;
+      margin-bottom: 5vh;
+    }
+
   
     #BackgroundInicio {
       background-image: url("../../IMG/SonicForces/BG1.png");
       background-repeat: no-repeat;
       background-size: cover;
-      height: 100vh;
-      min-height: 50%;
+      height: 80vh;
+width: 100%;
+      min-height: 150%;
       background-position: center;
+
+
     }
    
     #logo {
       margin-top: 3vh;
       margin-bottom: 1vh;
       width: 25vw;
-      margin-left: 14.5vw;
+      margin-left: 8vw;
     }
   
     .col-lg-6 {
@@ -87,7 +99,7 @@
       border-radius: 5vh;
     }
     #BG2{
-      background-image: url("../../IMG/Sonic Adventure/BG2.png");
+      background-image: url("../../IMG/SonicForces/BG2.jpg");
       background-repeat: repeat;
       overflow: hidden;
     }

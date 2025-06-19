@@ -18,7 +18,7 @@
     }
   
     #BackgroundInicio {
-      background-image: url("../../IMG/SonicUnleashed/bg2.png");
+      background-image: url("../../IMG/SonicUnleashed/BG1.png");
       background-repeat: no-repeat;
       background-size: cover;
       height: 85vh;
@@ -93,7 +93,7 @@
       border-radius: 5vh;
     }
     #BG2{
-      background-image: url("../../IMG/SonicUnleashed/BG3.jpg");
+      background-image: url("../../IMG/SonicUnleashed/BG2.jpg");
       background-repeat: repeat;
       overflow: hidden;
       background-size: cover;
