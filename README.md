@@ -5,10 +5,10 @@ TDOO List
 - [X] Fix SA2 backgrounds
 - [X] Add Modern era to all navs
 - [X] Create Modern era pages
-- [X] Create Emulation and Mods page to Adventure 1/2 and Heroes 
+- [X] Create Emulation and Mods page to Adventure 1/2 and Heroes
+- [X] Find a Frontiers Bordered Logo, a Better Forces BG and a better Shadow BG
 - [ ] Create Post-Modern era pages
 - [ ] Create general footer
-- [ ] Find a Frontiers Bordered Logo, a Better Forces BG and a better Shadow BG
 - [ ] Create all extras pages
 - [ ] Expand Index
 - [ ] Ajust all pages to be responsible to phones and tablets
