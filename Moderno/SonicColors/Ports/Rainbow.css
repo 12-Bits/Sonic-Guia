@@ -12,7 +12,7 @@
     }
   
     #BackgroundInicio {
-      background-image: url("../../IMG/SonicColors/bg.png");
+      background-image: url("../../../IMG/SonicColors/Ports/BG1.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       height: 90vh;
@@ -92,7 +92,7 @@
       border-radius: 5vh;
     }
     #BG2{
-      background-image: url("../../IMG/SonicColors/bg2.jpg");
+      background-image: url("../../../IMG/SonicColors/BG2.jpg");
       background-repeat: repeat;
       overflow: hidden;
     }
