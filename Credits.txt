@@ -117,13 +117,18 @@ BGMobile:
 
 Sonic Colors
 BG1: 
-BG2: 
+BG2: Sega
 BGMobile:
 
 Sonic Generations
 BG1: 
-BG2: 
-BGMobile: 
+BG2: Sega
+BGMobile:  
+
+Sonic Lost World
+BG1:
+BG2: Sega
+BGMobile:
 
 Extras:
 
@@ -147,7 +152,7 @@ POS-MODERNO
 
 Sonic Mania
 BG1: 
-BG2: 
+BG2: Solid Color
 BGMobile: 
 
 Sonic Forces
@@ -157,7 +162,7 @@ BGMobile:
 
 Sonic Frontiers
 BG1: 
-BG2: 
+BG2: https://screamingbrainstudios.itch.io/seamless-sky-backgrounds (Cloudy_Sky-Blue_01-1024x512)
 BGMobile: 
 
 Sonic Superstars

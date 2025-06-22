@@ -6,9 +6,16 @@
     }
 
     #division{
-      background-image: url("../../IMG/Sonic Adventure/Border.png");
+      background-image: url("../../IMG/SonicAdventure/Border.png");
       width: 100%;
       height: 5vh;
+    }
+
+      #division2{
+      background-image: url("../../IMG/SonicAdventure/Border.png");
+      width: 100%;
+      height: 5vh;
+      margin-bottom: 5vh;
     }
   
     #BackgroundInicio {
@@ -87,7 +94,7 @@
       border-radius: 5vh;
     }
     #BG2{
-      background-image: url("../../IMG/Sonic Adventure/BG2.png");
+      background-image: url("../../IMG/SonicFrontiers/BG2.png");
       background-repeat: repeat;
       overflow: hidden;
     }
