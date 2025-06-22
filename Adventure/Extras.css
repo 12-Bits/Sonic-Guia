@@ -107,81 +107,14 @@ font-weight: bold;
 
 }
 
-#TailsAdventure{
-background-image: url("../IMG/ExtrasClassico/test.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position-x: -15vw;
-background-position: center;
-height: 100vh;
-/*Font Style*/
-font-weight: bold;
-font-size: 1.2rem;
-color: black;
-}
 
-#Fighters{
-background-image: url("../IMG/ExtrasClassico/S_F_BG.png");
-background-repeat: no-repeat;
-height: 100vh;
-background-size: cover;
-background-position-x: -20vw;
-background-position: center;
-/*Font Style*/
-color: black;
-font-size: 1.2rem;
-font-weight: bold;
-}
 
-#Blast3D{
-background-image: url("../IMG/ExtrasClassico/S_3D_BG.png");
+#GT{
+background-image: url("../IMG/ExtrasAdventure/GT_BG1.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-height: 100vh;
-background-position-x: -25vw;
-/*Font Style*/
-font-size: 1.2rem;
-color: black;
-font-weight: bold;
-text-shadow:
-  -1px -1px 0 #FFF,  
-  1px -1px 0 #FFF,
-  -1px 1px 0 #FFF,
-  1px 1px 0 #FFF;
-}
-
-#Spinball{
-background-image: url("../IMG/ExtrasClassico/S_BALL_BG3.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-height: 100vh;
-/*Font Style*/
-font-weight: bold;
-font-size: 1.2rem;
-color: white;
-}
-
-#RingRacers{
-background-image: url("../IMG/ExtrasClassico/RR_BG1.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-background-position-x: -12vw;
-height: 100vh;
-/*Font Style*/
-font-weight: bold;
-font-size: 1.2rem;
-color: black;
-}
-
-#MeanBean{
-background-image: url("../IMG/ExtrasClassico/Bean_BG1.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-height: 100vh;
+height: 95vh;
 /*Font Style*/
 font-weight: bold;
 font-size: 1.2rem;
@@ -192,7 +125,6 @@ text-shadow:
   -1px 1px 0 #FFF,
   1px 1px 0 #FFF;
 }
-
 
 .divisor {
   position: relative;
