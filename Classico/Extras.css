@@ -11,7 +11,7 @@ body{
 background-color: #FFF; 
 text-align: center;
 background-repeat: no-repeat;
-background-image: url("../IMG/ExtrasClassico/Intro_BG.png");
+background-image: url("../IMG/ExtrasClassico/Intro_BG1.png");
 background-size: cover;
 height: 90vh;
 
@@ -44,7 +44,7 @@ text-shadow:
 
     #SMS_Remake {
       
-background-image: url("../IMG/ExtrasClassico/S1_SMS_BG.png");
+background-image: url("../IMG/ExtrasClassico/S1_SMS_BG1.png");
 background-size: cover;
 height: 100vh;
 background-position: center;
@@ -65,7 +65,7 @@ text-shadow:
 
 
 #Sonic_Chaos {
-  background-image: url("../IMG/ExtrasClassico/SC_BG2.png");
+  background-image: url("../IMG/ExtrasClassico/SC_BG1.png");
   background-size: cover;
   height: 100vh;
   background-position: center;
@@ -78,7 +78,7 @@ text-shadow:
 }
 
 #TripleTrouble{
-background-image: url("../IMG/ExtrasClassico/STT_BG.jpg");
+background-image: url("../IMG/ExtrasClassico/STT_BG1.jpg");
 background-size: cover;
 height: 100vh;
 background-position: center;
@@ -92,7 +92,7 @@ font-weight: bold;
 
 }
 #SonicR{
-background-image: url("../IMG/ExtrasClassico/S_R_BG2.png");
+background-image: url("../IMG/ExtrasClassico/S_R_BG1.png");
 background-repeat: no-repeat;
 height: 100vh;
 background-size: cover;
@@ -108,7 +108,7 @@ font-weight: bold;
 }
 
 #TailsAdventure{
-background-image: url("../IMG/ExtrasClassico/test.png");
+background-image: url("../IMG/ExtrasClassico/T_A_BG1.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-position-x: -15vw;
@@ -121,7 +121,7 @@ color: black;
 }
 
 #Fighters{
-background-image: url("../IMG/ExtrasClassico/S_F_BG.png");
+background-image: url("../IMG/ExtrasClassico/S_F_BG1.png");
 background-repeat: no-repeat;
 height: 100vh;
 background-size: cover;
@@ -134,7 +134,7 @@ font-weight: bold;
 }
 
 #Blast3D{
-background-image: url("../IMG/ExtrasClassico/S_3D_BG.png");
+background-image: url("../IMG/ExtrasClassico/S_3D_BG1.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -152,7 +152,7 @@ text-shadow:
 }
 
 #Spinball{
-background-image: url("../IMG/ExtrasClassico/S_BALL_BG3.png");
+background-image: url("../IMG/ExtrasClassico/S_BALL_BG1.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -164,7 +164,7 @@ color: white;
 }
 
 #RingRacers{
-background-image: url("../IMG/ExtrasClassico/Dr_R_R_BG.png");
+background-image: url("../IMG/ExtrasClassico/RR_BG1.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -177,7 +177,7 @@ color: black;
 }
 
 #MeanBean{
-background-image: url("../IMG/ExtrasClassico/M_B_BG2.png");
+background-image: url("../IMG/ExtrasClassico/Bean_BG1.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
