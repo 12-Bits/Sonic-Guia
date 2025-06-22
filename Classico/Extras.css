@@ -168,7 +168,7 @@ background-image: url("../IMG/ExtrasClassico/RR_BG1.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-background-position-x: -12vw;
+background-position-x: -17vw;
 height: 100vh;
 /*Font Style*/
 font-weight: bold;
@@ -182,6 +182,23 @@ background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 height: 100vh;
+/*Font Style*/
+font-weight: bold;
+font-size: 1.2rem;
+color: black;
+text-shadow:
+  -1px -1px 0 #FFF,  
+  1px -1px 0 #FFF,
+  -1px 1px 0 #FFF,
+  1px 1px 0 #FFF;
+}
+
+#RoboBlast2{
+background-image: url("../IMG/ExtrasClassico/SRB2_BG1.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 95vh;
 /*Font Style*/
 font-weight: bold;
 font-size: 1.2rem;
