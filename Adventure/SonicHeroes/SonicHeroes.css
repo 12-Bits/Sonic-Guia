@@ -202,12 +202,11 @@
       background-image: url("../../IMG/SonicHeroes/BGMobile.png");
       background-repeat: no-repeat;
       background-size: cover;
-      height: 180vh;
-      width: auto;
+      width: 100%;
     }
   
     #introdução {
-      padding-top: 90%;
+      padding-top: 100vh;
       position: relative;
       color: white;
       text-shadow:
