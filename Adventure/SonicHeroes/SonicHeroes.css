@@ -205,7 +205,7 @@
     #BackgroundInicio {
       background-image: url("../../IMG/SonicHeroes/BGMobile.png");
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: contain;
     }
   
     #introdução {
