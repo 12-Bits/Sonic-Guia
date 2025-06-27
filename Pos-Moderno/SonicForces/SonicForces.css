@@ -25,7 +25,7 @@
       background-repeat: no-repeat;
       background-size: cover;
       height: 80vh;
-width: 100%;
+      width: 100%;
       min-height: 150%;
       background-position: center;
 
@@ -128,7 +128,7 @@ width: 100%;
   }
   
     #BackgroundInicio {
-      background-image: url("../../IMG/Sonic Adventure/BGMobile.png");
+      background-image: url("../../IMG/SonicForces/BGMobile.jpg");
       background-repeat: no-repeat;
       background-size: contain;
     }
