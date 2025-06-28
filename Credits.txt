@@ -78,7 +78,12 @@ ADVENTURE
 Sonic Adventure
 BG1: 
 BG2: 
-BGMobile: 
+BGMobile:
+BGMobileMD:https://www.steamgriddb.com/grid/95964
+
+Adventure 1 Ports
+
+BGMobileMD:https://www.steamgriddb.com/grid/380628
 
 Sonic Adventure 2
 BG1: 
