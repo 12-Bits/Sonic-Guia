@@ -1,35 +1,22 @@
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    
+body{ /*Default BG*/
+    background-color: #2F60AC;
 }
 
-/*Extra small mobile  (small phones, 480px and down) */
-@media only screen and (max-width:480) {
-    
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media (max-width: 575.98px) {  /* Celulares pequenos */
 
 }
-
-/* Small devices (portrait tablets and landscape phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media (min-width: 576px) and (max-width: 767.98px) {  /* Celulares grandes */
 
 }
+@media (min-width: 768px) and (max-width: 991.98px) {  /* Tablets */
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {  /* Laptops */
+
+}
+@media (min-width: 1200px) {  /* Desktops grandes */
 
 }
 
-/* Extra large devices (HD TVs) */
-@media only screen and (min-width:1080px) {
-    
-}
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-}
 
