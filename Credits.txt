@@ -6,10 +6,19 @@ BG2:
 BGMobile:
 BGMobileMD:https://www.steamgriddb.com/grid/264384
 
+Sonic 1 Forever
+
+BGMobileMD:https://www.steamgriddb.com/grid/322490
+
 Sonic 2
 BG1: 
 BG2: 
-BGMobile: 
+BGMobile:
+BGMobileMD:https://www.steamgriddb.com/grid/230030 
+
+Sonic 2 Absolute
+
+BGMobileMD: https://www.steamgriddb.com/grid/250057
 
 Sonic CD
 BG1: 

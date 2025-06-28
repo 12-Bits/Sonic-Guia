@@ -63,7 +63,7 @@
         vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
     }
       #BackgroundInicio {
-          background-image: url("../../IMG/Sonic2/BGMobileMD.png");
+          background-image: url("../../IMG/Sonic2/BGMobile.png");
           background-repeat: no-repeat;
           background-size: cover;
           height: 110vh;
@@ -138,7 +138,7 @@
         vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
     }
       #BackgroundInicio {
-          background-image: url("../../IMG/Sonic2/BGMobileMD.png");
+          background-image: url("../../IMG/Sonic2/BGMobile.png");
           background-repeat: no-repeat;
           background-size: cover;
           height: 80vh;
