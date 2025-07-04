@@ -1,22 +1,23 @@
-body{
+body {
     background-color: #2F60AC;
 }
 
 @media (max-width: 575.98px) {  /* Celulares pequenos */
-    body{ 
+    body { 
     background-image:url("../../../IMG/Sonic1/Ports/BG3.png");
     overflow-x: hidden;
-
     }
+
     .navbar-brand img {
         vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
     }
+
     #logo {
         margin-top: 50px;
         width:90vw;
- 
     }
-    #logo-img{ 
+
+    #logo-img { 
         width: 30vw;
         margin-left: 30vw;
     }
@@ -28,57 +29,61 @@ body{
     width:100%;
     height: 100vh;
     }
+
     #Passo-a-passoPC, #alertaMD, #IntroduçãoMD, #ADPC, .container mt-4, .col-lg-6, .col-lg-10{
       display: none;
     }
 
-
-    #Passo-a-passo{
+    #Passo-a-passo {
         border-style: solid;
         background-image: url("../../../IMG/Sonic1/Ports/BG2.png");
         border-color: #C81F34;
         color: black;  
          
     }
-    #tutorial-img{
+
+    #tutorial-img {
       width: 50vw;
       height: auto;
     }
-    #introdução{
+
+    #introdução {
         padding-top: 25%;
         font-size: 1em;
         color: black;
         font-weight: bold;
-
     }
 
-#alerta2{
+    #alerta2 {
     padding: 2vh;
     margin-top: 5vh;
     background-color: red;
     color: black;
-}
+    }
 }
 
 
 @media (min-width: 576px) and (max-width: 767.98px) {  /* Celulares grandes */
-    body{  background-image:url("../../../IMG/Sonic1/Ports/BG3.png");
-        overflow-x: hidden;
-        width: 100%;
-}
-    .navbar-brand img {
-        vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
+    body{
+    background-image:url("../../../IMG/Sonic1/Ports/BG3.png");
+    overflow-x: hidden;
+    width: 100%;
     }
 
-    .col-lg-2,  #Passo-a-passoPC, .col-lg-10, #introdução, #alerta, #logo, #ADPC   {
-      display: none;
+    .navbar-brand img {
+    vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
     }
-    #logo-img{ 
+
+    .col-lg-2,  #Passo-a-passoPC, .col-lg-10, #introdução, #alerta, #logo, #ADPC {
+    display: none;
+    }
+
+    #logo-img { 
         width: 30vw;
         margin-left: 30vw;
     }
     
-    #BackgroundInicio {
+    #BackgroundInicio{
     background-image: url("../../../IMG/Sonic1/Ports/BGMobileMD.png");
     background-repeat: no-repeat;
     background-size: contain;  
@@ -87,53 +92,55 @@ body{
     height: 60vh;
     }
 
-    #IntroduçãoMD{
-     margin-top: 5vh; 
+    #IntroduçãoMD {
+    margin-top: 5vh; 
     background-color:#2F60AC;
     font-size: 1.2rem;
     color:black;
     margin-bottom: 5vh;
   }
-  #alertaMD{
+  #alertaMD {
     background-color: red;
     font-size: 1.2rem;
     color:black;
-
   }
 
-    #Passo-a-passo{
-        border-style: solid;
-        background-image: url("../../../IMG/Sonic1/Ports/BG2.png");
-        border-color: #C81F34;
-        color: black;   
+  #Passo-a-passo {
+    border-style: solid;
+    background-image: url("../../../IMG/Sonic1/Ports/BG2.png");
+    border-color: #C81F34;
+    color: black;   
     }
-#tutorial-img{
- width: 30vw;
- height: auto;
-}
+
+  #tutorial-img {
+  width: 30vw;
+  height: auto;
+  }
 
 
-#alerta2{
+  #alerta2 {
     padding: 2vh;
     margin-top: 5vh;
     background-color: red;
     color: black;
-}
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {  /* Tablets */
-    body{  background-image:url("../../../IMG/Sonic1/Ports/BG3.png");
-        overflow-x: hidden;
-        width: 100%;
-}
+    body {
+      background-image:url("../../../IMG/Sonic1/Ports/BG3.png");
+      overflow-x: hidden;
+      width: 100%;
+    }
     .navbar-brand img {
         vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
     }
 
-    .col-lg-2,  #Passo-a-passoPC, .col-lg-10, #IntroduçãoMD, #AlertaMD   {
+    .col-lg-2,  #Passo-a-passoPC, .col-lg-10, #IntroduçãoMD, #AlertaMD {
       display: none;
     }
-    #logo-img{ 
+
+    #logo-img { 
         width: 30vw;
         margin-left: 30vw;
     }

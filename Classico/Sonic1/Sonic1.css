@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #2F60AC;
 }
 
@@ -10,7 +10,7 @@ body{
   }
   .navbar-brand img {
     vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
-}
+  }
 
   #BackgroundInicio {
     background-image: url("../../IMG/Sonic1/BGMobile.jpg");
@@ -18,7 +18,6 @@ body{
     background-size: cover;
     width:100%;
     background-position-x: center;
-
   }
 
   #introdução {
@@ -67,13 +66,14 @@ body{
     color: blue;
   }
 
-  #logo-img{ 
+  #logo-img { 
     width: 30vw;
     margin-left: 30vw;
-}
-img{
+  }
+
+  img {
   width: 100%;
-}
+  }
 
   #Linktopage {
     color: blue;
@@ -111,7 +111,6 @@ img{
     font-weight: bold;
   }
 
-
   .col-lg-6, #logo /*HIDING*/ {
     display: none;
   }
@@ -143,10 +142,11 @@ img{
   #logo-img{ 
     width: 30vw;
     margin-left: 30vw;
-}
-img{
+  }
+
+  img{
   width: 100%;
-}
+  }
 
   #Linktopage {
     color: blue;
@@ -154,6 +154,7 @@ img{
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {  /* Tablets */
+
   body {
     background-color: #2F60AC;
     overflow-x: hidden;
@@ -161,7 +162,6 @@ img{
   .navbar-brand img {
     vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
 }
-
 
   #BackgroundInicio {
     background-image: url("../../IMG/Sonic1/BG1.png");
@@ -171,8 +171,6 @@ img{
     background-position-x: center;
     padding-bottom: 30vh;
   }
-
-
 
   #introdução {
     padding-top: 5vh;
@@ -216,34 +214,34 @@ img{
     text-align: center !important;
   }
 
- 
-
   a {
     text-decoration: none;
     color: blue;
   }
 
-  #logo-img{ 
+  #logo-img { 
     width: 30vw;
     margin-left: 110%;
-}
-img{
-  width: 100%;
-}
+  }
 
-#nav{
+  img {
   width: 100%;
-}
+  }
+
+  #nav {
+  width: 100%;
+  }
 
   #Linktopage {
     color: blue;
     text-decoration: none !important;
-  }  
+  }
+
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {  /* Laptops */
 
-    #logo-img { 
-    width: 10vw;
+  #logo-img { 
+  width: 10vw;
   }
 
   #BackgroundInicio {
@@ -274,7 +272,6 @@ img{
   .col-md-6 {
     display: none;
   }
-
 
   table thead th {
     text-align: center !important;
