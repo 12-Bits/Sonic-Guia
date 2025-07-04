@@ -6,7 +6,6 @@ body{
 
   body {
     background-color: #2F60AC;
-
     overflow-x: hidden;
   }
   .navbar-brand img {
@@ -16,15 +15,14 @@ body{
   #BackgroundInicio {
     background-image: url("../../IMG/Sonic1/BGMobile.jpg");
     background-repeat: no-repeat;
-
+    background-size: cover;
     width:100%;
     background-position-x: center;
 
   }
 
   #introdução {
-    padding-top: 130vh;
-    position: relative;
+    padding-top: 160%;
     color: white;
     text-shadow:
       -1px -1px 0 #000,  
@@ -101,11 +99,10 @@ img{
     background-size: contain;  
     width:100%;
     background-position-x: center;
-
   }
 
   #introdução {
-    padding-top: 60vh;
+    padding-top: 70%;
     position: relative;
     color: white;
     text-shadow:
@@ -167,7 +164,6 @@ img{
 @media (min-width: 768px) and (max-width: 991.98px) {  /* Tablets */
   body {
     background-color: #2F60AC;
-
     overflow-x: hidden;
   }
   .navbar-brand img {

@@ -3,7 +3,11 @@ body{
 }
 
 @media (max-width: 575.98px) {  /* Celulares pequenos */
-    body{  background-image:url("../../../IMG/Sonic1/Ports/tile2.png");}
+    body{ 
+    background-image:url("../../../IMG/Sonic1/Ports/BG3.png");
+    overflow-x: hidden;
+
+    }
     .navbar-brand img {
         vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
     }
@@ -17,12 +21,15 @@ body{
         margin-left: 30vw;
     }
     #BackgroundInicio {
-        background-image: url("../../../IMG/Sonic1/Ports/Sonic1BG3Mobile.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 80vh;
-        min-height: 50%;
-        background-position: center ;
+    background-image: url("../../../IMG/Sonic1/Ports/BGMobile2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    width:100%;
+    height: 100vh;
+    }
+    #Passo-a-passoPC, #alertaMD, #IntroduçãoMD, #ADPC{
+      display: none;
     }
     .container mt-4{
         display: none;
@@ -31,39 +38,25 @@ body{
         display: none;
     }
 
-    #Menu-sticky{
-        display: none;
-    }
     #Passo-a-passo{
         border-style: solid;
-        background-image: url("../../../IMG/Sonic1/Ports/Sonic1BG3.png");
+        background-image: url("../../../IMG/Sonic1/Ports/BG2.png");
         border-color: #C81F34;
-        color: black;   
+        color: black;  
+         
+    }
+    #tutorial-img{
+      width: 50vw;
+      height: auto;
     }
     #introdução{
+        padding-top: 25%;
         font-size: 1em;
-        padding-top: 10vh;
         color: black;
-        text-shadow:
-         -1px -1px 0 #fff,  
-          1px -1px 0 #fff,
-          -1px 1px 0 #fff,
-           1px 1px 0 #fff;
-    }
-    #computadorMobile{
-    border-style: solid;
-    border-color: #C81F34;
-    background-image: url("../../../IMG/Sonic1/Ports/Sonic1BG3.png");
-    align-items: center;
-    margin-bottom: 5vh;
-}
+        font-weight: bold;
 
-#celularMobile{
-    border-style: solid;
-    border-color: #C81F34;
-    background-image: url("../../../IMG/Sonic1/Ports/Sonic1BG3.png");
-    align-items: center;
-}
+    }
+
 
 #alerta2{
     padding: 2vh;
@@ -73,64 +66,56 @@ body{
 }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {  /* Celulares grandes */
-    body{  background-image:url("../../../IMG/Sonic1/Ports/tile2.png");}
+    body{  background-image:url("../../../IMG/Sonic1/Ports/BG3.png");
+        overflow-x: hidden;
+        width: 100%;
+}
     .navbar-brand img {
         vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
     }
-    #logo {
-display: none;
- 
+
+    .col-lg-2,  #Passo-a-passoPC, .col-lg-10, #introdução, #alerta, #logo, #ADPC   {
+      display: none;
     }
     #logo-img{ 
         width: 30vw;
         margin-left: 30vw;
     }
+    
     #BackgroundInicio {
-        background-image: url("../../../IMG/Sonic1/Ports/BGMobileMD.png");
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position-x: center;
-    }
-    .container mt-4{
-        display: none;
-    }
-    .col-lg-6, .col-lg-10{
-        display: none;
+    background-image: url("../../../IMG/Sonic1/Ports/BGMobileMD.png");
+    background-repeat: no-repeat;
+    background-size: contain;  
+    width:100vw;
+    background-position-x: center;
+    height: 60vh;
     }
 
-    #Menu-sticky{
-        display: none;
-    }
+    #IntroduçãoMD{
+     margin-top: 5vh; 
+    background-color:#2F60AC;
+    font-size: 1.2rem;
+    color:black;
+    margin-bottom: 5vh;
+  }
+  #alertaMD{
+    background-color: red;
+    font-size: 1.2rem;
+    color:black;
+
+  }
+
     #Passo-a-passo{
         border-style: solid;
-        background-image: url("../../../IMG/Sonic1/Ports/Sonic1BG3.png");
+        background-image: url("../../../IMG/Sonic1/Ports/BG2.png");
         border-color: #C81F34;
         color: black;   
     }
-    #introdução{
-        font-size: 1em;
-        padding-top: 50vh;
-        color: black;
-        text-shadow:
-         -1px -1px 0 #fff,  
-          1px -1px 0 #fff,
-          -1px 1px 0 #fff,
-           1px 1px 0 #fff;
-    }
-    #computadorMobile{
-    border-style: solid;
-    border-color: #C81F34;
-    background-image: url("../../../IMG/Sonic1/Ports/Sonic1BG3.png");
-    align-items: center;
-    margin-bottom: 5vh;
+#tutorial-img{
+ width: 30vw;
+ height: auto;
 }
 
-#celularMobile{
-    border-style: solid;
-    border-color: #C81F34;
-    background-image: url("../../../IMG/Sonic1/Ports/Sonic1BG3.png");
-    align-items: center;
-}
 
 #alerta2{
     padding: 2vh;
@@ -141,25 +126,32 @@ display: none;
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {  /* Tablets */
-  body {
-    background-color: #2F60AC;
-
-    overflow-x: hidden;
-  }
-  .navbar-brand img {
-    vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
+    body{  background-image:url("../../../IMG/Sonic1/Ports/BG3.png");
+        overflow-x: hidden;
+        width: 100%;
 }
+    .navbar-brand img {
+        vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
+    }
+
+    .col-lg-2,  #Passo-a-passoPC, .col-lg-10, #IntroduçãoMD, #AlertaMD   {
+      display: none;
+    }
+    #logo-img{ 
+        width: 30vw;
+        margin-left: 30vw;
+    }
 
 
   #BackgroundInicio {
-    background-image: url("../../../IMG/Sonic1/Ports/Sonic1BG3.jpg");
+    background-image: url("../../../IMG/Sonic1/Ports/BG1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;
+    height: 100vh;
     background-position-x: center;
     padding-bottom: 30vh;
   }
-
 
 
   #introdução {
@@ -233,7 +225,7 @@ img{
 
 
     body{
-          background-image:url("../../../IMG/Sonic1/Ports/tile2.png");
+          background-image:url("../../../IMG/Sonic1/Ports/BG3.png");
 
   }
 
@@ -241,7 +233,7 @@ img{
     width: 10vw;
     }
   #BackgroundInicio {
-    background-image: url("../../../IMG/Sonic1/Ports/Sonic1BG3.jpg");
+    background-image: url("../../../IMG/Sonic1/Ports/BG1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
@@ -303,8 +295,17 @@ img{
 
 @media only screen and (min-width: 1200px) {
 
+    body{ 
+    background-image:url("../../../IMG/Sonic1/Ports/BG3.png");
+
+
+    }
+    .navbar-brand img {
+        vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
+    }
+
 #BackgroundInicio {
-    background-image: url("../../../IMG/Sonic1/Ports/Sonic1BG3.jpg");
+    background-image: url("../../../IMG/Sonic1/Ports/BG1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
@@ -314,7 +315,7 @@ img{
 #logo-img{ 
     width: 10vw;
 }
-.col-sm-10{
+.col-sm-10, #IntroduçãoMD, #alertaMD{
     display: none;
 }
 .col-sm-8{
@@ -333,8 +334,8 @@ img{
     text-decoration: none;
 }
 body
-{  background-image:url("../../../IMG/Sonic1/Ports/tile2.png");
-display: block;}
+{  background-image:url("../../../IMG/Sonic1/Ports/BG3.png");
+}
 table thead th {
     text-align: center !important;
     vertical-align: middle !important;
@@ -364,9 +365,9 @@ body a {
     padding-top: 2vh;
   }
 
-#Passo-a-passo{
+#Passo-a-passoPC{
     border-style: solid;
-    background-image: url("../../../IMG/Sonic1/Ports/Sonic1BG3.png");
+    background-image: url("../../../IMG/Sonic1/Ports/BG2.png");
     border-color: #C81F34;
     color: black;
 
@@ -377,24 +378,14 @@ body a {
 top:3vh ;
 }
 
+#Passo-a-passoCell, #ADCell{
+  display: none;
+}
+
 #Passo-a-passo h6{
     font-size: 1.1em;
     font-weight: bold;
 
-}
-#Menu-sticky{
-    position: sticky;
-    top:40%;
-    border-style: solid;
-    border-color: blue;
-    text-align: center;
-}
-#Menu-sticky a{
-    position: sticky;
-    top:40%;
-    border-style: solid;
-    border-color: blue;
-    text-align: center;
 }
 
 #nota{
@@ -411,7 +402,7 @@ top:3vh ;
 #tutorial-img{
     margin-top: 2vh;
     margin-bottom: 2vh;
-    width: 30vw;
+    width: 25vw;
 }
 
 
@@ -420,76 +411,4 @@ top:3vh ;
 padding-top: 10vh;
 }
 
-
-}
-
-@media only screen and (max-width: 600px){
-    body{  background-image:url("../../../IMG/Sonic1/Ports/tile2.png");}
-    .navbar-brand img {
-        vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
-    }
-    #logo {
-        margin-top: 50px;
-        width:90vw;
- 
-    }
-    #logo-img{ 
-        width: 30vw;
-        margin-left: 30vw;
-    }
-    #BackgroundInicio {
-        background-image: url("../../../IMG/Sonic1/Ports/Sonic1BG3Mobile.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 80vh;
-        min-height: 50%;
-        background-position: center ;
-    }
-    .container mt-4{
-        display: none;
-    }
-    .col-lg-6, .col-lg-10{
-        display: none;
-    }
-
-    #Menu-sticky{
-        display: none;
-    }
-    #Passo-a-passo{
-        border-style: solid;
-        background-image: url("../../../IMG/Sonic1/Ports/Sonic1BG3.png");
-        border-color: #C81F34;
-        color: black;   
-    }
-    #introdução{
-        font-size: 1em;
-        padding-top: 10vh;
-        color: black;
-        text-shadow:
-         -1px -1px 0 #fff,  
-          1px -1px 0 #fff,
-          -1px 1px 0 #fff,
-           1px 1px 0 #fff;
-    }
-    #computadorMobile{
-    border-style: solid;
-    border-color: #C81F34;
-    background-image: url("../../../IMG/Sonic1/Ports/Sonic1BG3.png");
-    align-items: center;
-    margin-bottom: 5vh;
-}
-
-#celularMobile{
-    border-style: solid;
-    border-color: #C81F34;
-    background-image: url("../../../IMG/Sonic1/Ports/Sonic1BG3.png");
-    align-items: center;
-}
-
-#alerta2{
-    padding: 2vh;
-    margin-top: 5vh;
-    background-color: red;
-    color: black;
-}
 }

@@ -10,7 +10,7 @@
     <link href="Sonic1Ports.css" rel="stylesheet">
 </head>
 <header>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav">
         <div class="container-fluid">
             <a class="navbar-brand" href="../../../index.html"><img id="logo-img" src="../../../IMG/SGD_logo.png" alt="Logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
@@ -80,6 +80,7 @@
     <div class="container-fluid" id="BackgroundInicio">
         <img src="../../../IMG/Sonic1/Ports/SonicForeverLogo.png" id="logo">
             <div class="container" id="textoinicial">
+                <div class="row">
                 <div class="col-lg-6">
                     <p id="introdução">Sonic the Hedgehog Forever é um port não oficial da versão mobile de Sonic 1, criado pela Team Forever.<br>
                     Ele inclui correções de bugs, uma grande quantidade de opções e modos extras em comparação ao jogo original — e até mesmo à versão mobile.</p>
@@ -88,26 +89,39 @@
                     <p id="push"></p>
                 </div>
                 <div class="row">
-                    <div class="col-sm-8">
-                        <p id="introdução">Sonic the Hedgehog Forever é<br> um port não oficial da versão<br> mobile de Sonic 1 criado pela Team Forever .</p>
+                    <div class="col-sm-8" id="introdução">
+                        <p>Sonic the Hedgehog Forever é<br> um port não oficial da versão<br> mobile de Sonic 1 criado pela <br> Team Forever .</p>
                         <p>Ele inclui correções de bugs,<br> uma grande quantidade de<br> opções e modos extras<br> em comparação ao jogo original<br> e até mesmo à versão mobile.</p>
                     </div>
                 </div>
+
+              
             </div>
-        </div>
+    </div>
+</div>
+<div class="container" id ="MDText">
+ <div class="row">
+    <div class="col-12" id="IntroduçãoMD">
+   
+<p>Sonic the Hedgehog Forever é um port não oficial da versão mobile de Sonic 1 criado pela  Team Forever .</p>
+<p>Ele inclui correções de bugs, uma grande quantidade de opções e modos extras em comparação ao jogo original e até mesmo à versão mobile.</p>
+</div>
+<div  class="col-12" id="alertaMD">
+<p>É importante mencionar que não é recomendado baixar esse arquivo da internet, pois ele pode estar desatualizado. Além disso, é possível obtê-lo gratuitamente extraindo os arquivos do próprio jogo.</p>
 
-    <div class="container mt-3">
+ </div>
+    </div>
+    </div>
+    
+
+<div class="container mt-3">
     <div class="row">
-        <div class="col-2">
-            <ol class="list-group" id="Menu-sticky">
-                <a href="#computador" class="list-group-item">Instalar no Computador</a>
-                <a href="#celular" class="list-group-item">Instalar no Celular</a>
-                <a href="#Alertas" class="list-group-item">Alertas</a>
-            </ol>
+        <div class="col-lg-2">
+            <div class="container" id="ADPC"><span>AD</span></div>
         </div>
 
-        <div class="col-lg-10">
-            <div class="container mt-4" id="Passo-a-passo">
+        <div class="col-lg-8" id="Passo-a-passoPC">
+            <div class="container" id="Passo-a-passo">
                 <h2 id="computador">Computador</h2>
                 <div class="row">
                     <h6><b>Passo 1</b>- Após baixar o <a href="https://pt.ldplayer.net/">LD Player</a>, instale-o.</h6>
@@ -153,21 +167,102 @@
                 <h6><b>Passo 3 </b> - Escolha um local para extrair o arquivo.</h6>
                 <h6><b>Passo 4</b> - Com o ZArchiver, encontre o APK extraído, clique nele e selecione "Extrair para ./&lt;Nome do arquivo&gt;/".</h6>
                 <h6><b>Passo 5</b> - Baixe a versão para Android do Sonic 1 Forever <a href="https://drive.google.com/file/d/1N9SmXGoXQ3eq8iQfUx9QDqiEPSEQSOMk/view?usp=drive_link">aqui</a> e extraia o arquivo ZIP.</h6>
+                <h6><b>Passos 6</b> - Abra o aplicativo uma vez para que ele crie a pasta "RSDK" no seu dispositivo.</h6>
+                <h6><b>Passo 7</b> - Copie "Data.rsdk.xmf" para a pasta "s1f", dentro da pasta "RSDK".</h6>
+                <h6><b>Passo 8</b> - Renomeie "Data.rsdk.xmf" para "Data.rsdk".</h6>
+                <h6><b>Passo 9</b> - Copie a pasta "Mods" para a pasta "s1f", dentro da pasta "RSDK".</h6>
+                <h6><b>Passo 10</b> - Pronto! Agora é só abrir o app Sonic 1 Forever para jogá-lo.</h6>
+            </div>
+    </div>
+        <div class="col-lg-2">
+            <div class="container" id="ADPC"><span>AD</span></div>
+        </div>
+    </div>
+</div>
+
+        <div class="col-lg-2">
+            <div class="container" id="ADCell"><span>AD</span></div>
+        </div>
+
+<div class="container mt-3" id="Passo-a-passoCell">
+    <div class="row">
+        <div class="col-12">
+            <div class="container" id="ADPC"><span>AD</span></div>
+        </div>
+
+        <div class="col-12" id="Passo-a-passoCell">
+
+            <div class="container mt-4" id="Passo-a-passo">
+                <h2 id="celular">Celular Android</h2>
+                <h6><b>Passo 1</b>- Baixe os aplicativos "Sonic the Hedgehog Classic", "APK Extractor - APK Manager" e "ZArchiver".</h6>
+                <h5 id="nota">Caso não encontre "APK Extractor" ou "Extrair ZIP", baixe alternativas bem avaliadas e com muitas avaliações positivas.</h5>
+                <h6><b>Passo 2 </b>- Abra o APK Extractor, procure por "Sonic" e clique nos três pontos ao lado dele. Selecione "Extract".</h6>
+                <h6><b>Passo 3 </b> - Escolha um local para extrair o arquivo.</h6>
+                <h6><b>Passo 4</b> - Com o ZArchiver, encontre o APK extraído, clique nele e selecione "Extrair para ./&lt;Nome do arquivo&gt;/".</h6>
+                <h6><b>Passo 5</b> - Baixe a versão para Android do Sonic 1 Forever <a href="https://drive.google.com/file/d/1N9SmXGoXQ3eq8iQfUx9QDqiEPSEQSOMk/view?usp=drive_link">aqui</a> e extraia o arquivo ZIP.</h6>
                 <h6><b>Passo 6</b> - Abra o aplicativo uma vez para que ele crie a pasta "RSDK" no seu dispositivo.</h6>
                 <h6><b>Passo 7</b> - Copie "Data.rsdk.xmf" para a pasta "s1f", dentro da pasta "RSDK".</h6>
                 <h6><b>Passo 8</b> - Renomeie "Data.rsdk.xmf" para "Data.rsdk".</h6>
                 <h6><b>Passo 9</b> - Copie a pasta "Mods" para a pasta "s1f", dentro da pasta "RSDK".</h6>
                 <h6><b>Passo 10</b> - Pronto! Agora é só abrir o app Sonic 1 Forever para jogá-lo.</h6>
             </div>
+        </div>
+
+   
+        <div class="col-sm-12">
+            <div class="container mt-4" id="Passo-a-passo">
+
+                <h2 id="computador">Computador</h2>
+                <div class="row">
+                    <h6><b>Passo 1</b>- Após baixar o <a href="https://pt.ldplayer.net/">LD Player</a>, instale-o.</h6>
+                    <h6><b>Passo 2 </b>- Após instalá-lo, baixe os aplicativos "Sonic the Hedgehog Classic", "APK Extractor - APK Manager" e "ZArchiver".</h6>
+                    <h5 id="nota">Sempre baixe os aplicativos na Play Store e não na loja do LD Player. Se você não encontrar os apps "APK Extractor" e "Extrair ZIP", pode baixar alternativas similares. Certifique-se de escolher uma opção bem avaliada e com um grande número de downloads.</h5>
+                    <div id="Passo-a-passo1" class="col-sm-6">
+                        <h6><b>Passo 3 </b> - Abra o APK Extractor e procure por "Sonic". Em seguida, clique nos três pontos ao lado dele e selecione "Extract".</h6>
+                    </div>
+                    <div class="col-sm-6">
+                        <img id="tutorial-img" src="../../../IMG/Sonic1/Ports/Passo1.png">
+                    </div>
+                    <h6><b>Passo 4</b> - Selecione um local para extrair o arquivo.</h6>
+                    <h6><b>Passo 5</b> - Abra o ZArchiver, encontre o arquivo APK extraído e selecione "Extrair para ./&lt;Nome do arquivo&gt;/".</h6>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img id="tutorial-img" src="../../../IMG/Sonic1/Ports/Passo2.png">
+                        </div>
+                        <div id="Passo-a-passo1" class="col-lg-6">
+                            <h6><b>Passo 6</b> - Procure o local onde você extraiu o APK, abra a pasta "assets" e selecione "Data.rsdk.xmf".</h6>
+                        </div>
+                    </div>
+
+                    <h6><b>Passo 7</b> - No gerenciador de arquivos do LD Player, clique nos três pontos, selecione o ícone de pasta e clique em "Abrir pasta do PC".</h6>
+                    <h6><b>Passo 8</b> - Baixe a versão para Windows do Sonic 1 Forever <a href="https://drive.google.com/file/d/1N9SmXGoXQ3eq8iQfUx9QDqiEPSEQSOMk/view?usp=drive_link">aqui</a> e extraia o arquivo ZIP.</h6>
+                    <div class="row">
+                        <div class="col-sm-6" id="Passo-a-passo1">
+                            <h6><b>Passo 9</b> - No menu do LD Player, clique nos três pontos, selecione o ícone de pasta e clique em "Abrir pasta do PC".</h6>
+                        </div>
+                        <div class="col-6">
+                            <img id="tutorial-img" src="../../../IMG/Sonic1/Ports/Passo3.png">
+                        </div>
+                    </div>
+                    <h6><b>Passo 10</b> - Pronto! O jogo abrirá, e você poderá alterar a resolução da tela, mudar o idioma para português e configurar outras opções no menu "Options".</h6>
+                    <h5 id="nota">Os controles padrão no teclado são: A - aceitar; B - cancelar; ENTER - iniciar.</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+            <div class="col-lg-2">
+            <div class="container" id="ADCell"><span>AD</span></div>
+        </div>
 
             <div id="Alertas">
                 <p class="container rounded" id="alerta2">
                     Não desative o Sonic 1 Forever na opção de mods! Se isso acontecer, você não conseguirá abrir o aplicativo. Para corrigir, edite o arquivo "modconfig.ini" dentro da pasta "Mods" e altere "Sonic 1 Forever=false" para "Sonic 1 Forever=true". No celular, pode ser necessário um editor de texto.
                 </p>
             </div>
-        </div>
+
     </div>
-</div>
+
 
 
 <footer>
