@@ -39,12 +39,8 @@ body{
     text-decoration: none;
   }
 
-  .col-lg-6 {
+  .col-lg-6, #logo /*HIDING*/ {
     display: none;
-  }
-
-  #logo {
-    display:none
   }
 
   .col-6 {
@@ -116,12 +112,8 @@ img{
   }
 
 
-  .col-lg-6 {
+  .col-lg-6, #logo /*HIDING*/ {
     display: none;
-  }
-
-  #logo {
-    display:none
   }
 
   .col-6 {
