@@ -13,7 +13,7 @@ BGMobileMD:https://www.steamgriddb.com/grid/322490
 Sonic 2
 BG1: 
 BG2: 
-BGMobile:
+BGMobile: https://www.steamgriddb.com/grid/125306
 BGMobileMD:https://www.steamgriddb.com/grid/230030 
 
 Sonic 2 Absolute
