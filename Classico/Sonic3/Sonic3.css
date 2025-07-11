@@ -1,16 +1,251 @@
-@media only screen and (min-width: 1200px) {
+body {
+    background-color: #2F60AC;
+}
+
+@media (max-width: 575.98px) {  /* Celulares pequenos */
 
   body {
     background-color: black;
-    max-width: 100%;
     overflow-x: hidden;
   }
-  #logo-img { 
-    width: 10vw;
+  .navbar-brand img {
+    vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
   }
 
   #BackgroundInicio {
-    background-image: url("../../IMG/Sonic3/BG.png");
+    background-image: url("../../IMG/Sonic3/BGMobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    background-position-x: center;
+  }
+
+  #introdução {
+    padding-top: 160%;
+    color: white;
+    text-shadow:
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    text-align: center;
+  }
+
+  .col-md-6 {
+    display: block;
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+  }
+
+  .col-lg-6, #logo /*HIDING*/ {
+    display: none;
+  }
+
+  .col-6 {
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+  }
+
+  table thead th {
+    padding-top: 0vh;
+    text-align: center !important;
+  }
+
+  #tabela {
+    margin-top: 1vh;
+  }
+
+  #tabela2 {
+    margin-top: 5vh;
+  }
+
+  a {
+    text-decoration: none;
+    color: blue;
+  }
+
+  #logo-img { 
+    width: 30vw;
+    margin-left: 30vw;
+  }
+
+  img {
+  width: 100%;
+  }
+
+  #Linktopage {
+    color: blue;
+    text-decoration: none !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {  /* Celulares grandes */
+    body {
+    background-color: white;
+    overflow-x: hidden;
+  }
+  .navbar-brand img {
+    vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
+}
+
+  #BackgroundInicio {
+    background-image: url("../../IMG/Sonic3/BGMobileMD.png");
+    background-repeat: no-repeat;
+    background-size: contain;  
+    width:100%;
+    background-position-x: center;
+  }
+
+  #introdução {
+    padding-top: 70%;
+    position: relative;
+    color: black;
+
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+  }
+
+  .col-lg-6, #logo /*HIDING*/ {
+    display: none;
+  }
+
+  .col-6 {
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+  }
+
+  table thead th {
+    padding-top: 0vh;
+    text-align: center !important;
+    color:#000;
+  }
+
+  #tabela {
+    margin-top: 1vh;
+  }
+
+  #tabela2 {
+    margin-top: 5vh;
+  }
+
+  a {
+    text-decoration: none;
+    color: blue;
+  }
+
+  #logo-img{ 
+    width: 30vw;
+    margin-left: 30vw;
+  }
+
+  img{
+  width: 100%;
+  }
+
+  #Linktopage {
+    color: blue;
+    text-decoration: none !important;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {  /* Tablets */
+
+  body {
+    background-color: black;
+    overflow-x: hidden;
+  }
+  .navbar-brand img {
+    vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
+}
+
+  #BackgroundInicio {
+    background-image: url("../../IMG/Sonic3/BG1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 80vh;
+    background-position-x: 55%;
+    padding-bottom: 30vh;
+  }
+
+  #introdução {
+    padding-top: 5vh;
+    position: relative;
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+    
+  }
+
+  .col-md-6 {
+    display: block;
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+
+  .col-lg-6 {
+    display: none;
+  }
+
+  #logo {
+    margin-left: 15%;
+    margin-top: 50px;
+    width: 30vw;
+  }
+
+  .col-6 {
+    font-weight: bold;
+    font-size: 1;
+    text-decoration: none;
+  }
+
+  table thead th {
+    padding-top: 0vh;
+    text-align: center !important;
+  }
+
+  a {
+    text-decoration: none;
+    color: blue;
+  }
+
+  #logo-img { 
+    width: 30vw;
+    margin-left: 110%;
+  }
+
+  img {
+  width: 100%;
+  }
+
+  #nav {
+  width: 100%;
+  }
+
+  #Linktopage {
+    color: blue;
+    text-decoration: none !important;
+  }
+
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {  /* Laptops */
+
+
+  body{
+    background-color: #000;
+  }
+  #logo-img { 
+  width: 10vw;
+  }
+
+  #BackgroundInicio {
+    background-image: url("../../IMG/Sonic3/BG1.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
@@ -18,11 +253,12 @@
     background-position: center;
   }
 
+
+
   #logo {
-    margin-top: 9vh;
-    margin-bottom: 1vh;
+    margin-top: 50px;
     width: 25vw;
-    margin-left: 13vw;
+    margin-left: 120px;
   }
 
   .col-lg-6 {
@@ -42,11 +278,7 @@
 
   #introdução {
     color: black;
-    text-shadow:
-      -1px -1px 0 #fff,  
-       1px -1px 0 #fff,
-      -1px 1px 0 #fff,
-       1px 1px 0 #fff;
+ 
   }
 
   a {
@@ -55,82 +287,71 @@
 
   #divisão {
     padding-top: 2vh;
-  }
+  }  
 }
+@media (min-width: 1200px) {  /* Desktops grandes */
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: black;
-    overflow-x: hidden;
-  }
-  .navbar-brand img {
-    vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
+body{
+  background-color: #000;
 }
-
+    
+    #logo-img{ 
+      width: 10vw;
+    }
   #BackgroundInicio {
-    background-image: url("../../IMG/Sonic3/BGMobile.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 80vh;
-    width: auto;
-  }
-
-  #introdução {
-    padding-top: 80vh;
-    position: relative;
-      color: white;
-      text-shadow:
-       -1px -1px 0 #000,  
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-         1px 1px 0 #000;
-         text-align: center;
-  }
-
-  .col-md-6 {
-    display: block;
-    font-weight: bold;
-    font-size: larger;
-    text-decoration: none;
-  }
-
-  .col-lg-6 {
-    display: none;
+      background-image: url("../../IMG/Sonic3/BG1.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 90vh;
+      min-height: 50%;
+  
+      background-position: center ;
   }
 
   #logo {
-    display:none
+      margin-top: 50px;
+      width:25vw;
+      margin-left: 13vw;
   }
-
-  .col-6 {
-    font-weight: bold;
-    font-size: larger;
-    text-decoration: none;
+  .col-lg-6{
+      font-weight: bold;
+      font-size: larger;
+      text-decoration: none;
   }
-
+  .col-md-6{
+      display: none;
+  }
+  
   table thead th {
-    padding-top: 0vh;
-    text-align: center !important;
-}
-  #tabela{
-    margin-top: 100vh;
+      text-align: center !important;
+      vertical-align: middle !important;
   }
-  #tabela2{
-    margin-top: 5vh;
+  #introdução{
+  
+    color: black;
   }
-
+  
   a {
-    text-decoration: none;
-    color: blue;
-  }
-
-  #logo-img{ 
-    width: 30vw;
-    margin-left: 30vw;
+      text-decoration: none !important;
+    }
+  
+  
+    #divisão{
+      padding-top: 2vh;
+    }
+  
 }
 
-  #Linktopage {
-    color: blue;
-    text-decoration: none !important;
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
+  
+ 

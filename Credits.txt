@@ -2,21 +2,19 @@ CLASSICO
 
 Sonic 1
 BG1: 
-BG2: 
 BGMobile:
 BGMobileMD:https://www.steamgriddb.com/grid/264384
 
-Sonic 1 Forever
+Sonic 1 Ports
 
 BGMobileMD:https://www.steamgriddb.com/grid/322490
 
 Sonic 2
 BG1: 
-BG2: 
 BGMobile: https://www.steamgriddb.com/grid/125306
 BGMobileMD:https://www.steamgriddb.com/grid/230030 
 
-Sonic 2 Absolute
+Sonic 2 Ports
 
 BGMobileMD: https://www.steamgriddb.com/grid/250057
 
@@ -26,9 +24,9 @@ BG2:
 BGMobile: 
 
 Sonic 3
-BG1: 
-BG2: 
-BGMobile:
+BG1: Edited (inspiration: https://www.steamgriddb.com/hero/68859 )
+BGMobile: https://www.steamgriddb.com/grid/124456
+BGMobileMD:https://www.steamgriddb.com/grid/228316
 
 
 Extras:
