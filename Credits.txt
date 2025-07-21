@@ -28,6 +28,11 @@ BG1: Edited (inspiration: https://www.steamgriddb.com/hero/68859 )
 BGMobile: https://www.steamgriddb.com/grid/124456
 BGMobileMD:https://www.steamgriddb.com/grid/228316
 
+Sonic 3 Ports
+
+BGMobile: https://www.steamgriddb.com/grid/425186
+BGMobileMD: https://www.steamgriddb.com/grid/513369
+
 
 Extras:
 
