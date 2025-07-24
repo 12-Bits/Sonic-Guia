@@ -222,9 +222,10 @@ body {
   #BackgroundInicio {
     background-image: url("../../IMG/SonicAdventure/BG.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     width:100%;
-    background-position-x: center;
+    height: 80vh;
+    background-position-x: 60%;
     padding-bottom: 30vh;
   }
 
