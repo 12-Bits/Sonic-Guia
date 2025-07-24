@@ -1,5 +1,6 @@
 body {
     background-color: #2F60AC;
+    
 }
 
 @media (max-width: 575.98px) {  /* Celulares pequenos */
@@ -218,7 +219,7 @@ table thead th {
     vertical-align: middle !important;
 }
 #introdução{
-
+font-size: 1.5rem;
   color:white;
   text-shadow:
    -1px -1px 0 #000,  
@@ -342,7 +343,7 @@ table thead th {
     vertical-align: middle !important;
 }
 #introdução{
-
+font-size:1.5rem;
   color:white;
   text-shadow:
    -1px -1px 0 #000,  
@@ -467,7 +468,7 @@ table thead th {
     vertical-align: middle !important;
 }
 #introdução{
-
+font-size: 1.5rem;
   color:white;
   text-shadow:
    -1px -1px 0 #000,  
@@ -539,9 +540,6 @@ body a {
     background-color: red;
     color: black;
 }
-
-
-
 
 #Passo-a-passo1{
  text-align: center;
