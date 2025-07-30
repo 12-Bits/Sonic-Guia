@@ -92,6 +92,7 @@ BGMobile:
 BGMobileMD:https://www.steamgriddb.com/grid/127228 
 
     Sonic Adventure 2 Ports
+    BG1:https://www.steamgriddb.com/hero/99650
     BGMobileMD:https://www.steamgriddb.com/grid/461297
 
 Sonic Heroes
