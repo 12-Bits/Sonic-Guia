@@ -8,6 +8,7 @@ TDOO List
 - [X] Create Emulation and Mods page to Adventure 1/2 and Heroes
 - [X] Find a Frontiers Bordered Logo, a Better Forces BG and a better Shadow BG
 - [X] Create Post-Modern era pages
+- [ ] Edit Background Images to add transitions 
 - [ ] Create general footer
 - [ ] Create all extras pages
 - [ ] Expand Index

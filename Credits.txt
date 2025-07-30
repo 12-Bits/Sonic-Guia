@@ -5,18 +5,16 @@ BG1:
 BGMobile:
 BGMobileMD:https://www.steamgriddb.com/grid/264384
 
-Sonic 1 Ports
-
-BGMobileMD:https://www.steamgriddb.com/grid/322490
+    Sonic 1 Ports
+    BGMobileMD:https://www.steamgriddb.com/grid/322490
 
 Sonic 2
 BG1: 
 BGMobile: https://www.steamgriddb.com/grid/125306
 BGMobileMD:https://www.steamgriddb.com/grid/230030 
 
-Sonic 2 Ports
-
-BGMobileMD: https://www.steamgriddb.com/grid/250057
+    Sonic 2 Ports
+    BGMobileMD: https://www.steamgriddb.com/grid/250057
 
 Sonic CD
 BG1: 
@@ -28,10 +26,10 @@ BG1: Edited (inspiration: https://www.steamgriddb.com/hero/68859 )
 BGMobile: https://www.steamgriddb.com/grid/124456
 BGMobileMD:https://www.steamgriddb.com/grid/228316
 
-Sonic 3 Ports
+    Sonic 3 Ports
 
-BGMobile: https://www.steamgriddb.com/grid/425186
-BGMobileMD: https://www.steamgriddb.com/grid/513369
+    BGMobile: https://www.steamgriddb.com/grid/425186
+    BGMobileMD: https://www.steamgriddb.com/grid/513369
 
 
 Extras:
@@ -84,9 +82,8 @@ BG2:
 BGMobile:
 BGMobileMD:https://www.steamgriddb.com/grid/95964
 
-Adventure 1 Ports
-
-BGMobileMD:https://www.steamgriddb.com/grid/380628
+    Sonic Adventure 1 Ports
+    BGMobileMD:https://www.steamgriddb.com/grid/380628
 
 Sonic Adventure 2
 BG1: (test https://www.steamgriddb.com/hero/74601)
@@ -94,13 +91,16 @@ BG2:
 BGMobile:
 BGMobileMD:https://www.steamgriddb.com/grid/127228 
 
-Sonic Adventure Ports
-BGMobileMD:https://www.steamgriddb.com/grid/461297
+    Sonic Adventure 2 Ports
+    BGMobileMD:https://www.steamgriddb.com/grid/461297
 
 Sonic Heroes
 BG1: 
 BG2: 
-BGMobile: 
+BGMobile: https://www.steamgriddb.com/grid/78140
+
+    Sonic Heroes Ports
+    BGMobileMD:https://www.steamgriddb.com/grid/185502
 
 Shadow the Hedgehog
 BG1: https://www.steamgriddb.com/hero/133850 (Edited)

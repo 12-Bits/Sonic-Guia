@@ -19,12 +19,12 @@
     }
   
     #BackgroundInicio {
-      background-image: url("../../../IMG/SonicHeroes/BG1.png");
+      background-image: url("../../../IMG/SonicHeroes/Ports/BG1.png");
       background-repeat: no-repeat;
       background-size: cover;
       height: 90vh;
       min-height: 50%;
-      background-position: center;
+      background-position-x: -25vh;
     }
    
     #logo {
@@ -123,7 +123,7 @@
   }
   
     #BackgroundInicio {
-      background-image: url("../../IMG/Sonic1/Sonic1BGMobile.jpg");
+      background-image: url("../../../IMG/SonicHeroes/Ports/");
       background-repeat: no-repeat;
       background-size: cover;
       height: 180vh;

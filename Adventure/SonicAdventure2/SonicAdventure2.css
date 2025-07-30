@@ -1,7 +1,33 @@
 body {
-    background-color: #2F60AC;
+  background-image: url("../../IMG/SonicAdventure/BG2.png");
 }
 
+    #division{
+      background-image: url("../../IMG/SonicAdventure/Border.png");
+      width: 100%;
+      height: 5vh;
+
+    }
+       #division2{
+      background-image: url("../../IMG/SonicAdventure/Border.png");
+      width: 100%;
+      height: 5vh;
+      margin-bottom: 5vh;
+
+    }
+
+
+.divisor {
+  position: relative;
+  z-index: 100;
+  padding-top: 100px;
+  margin-bottom: -50px;
+}
+
+.divisor img {
+  width: 100%;
+  display: block;
+}
 @media (max-width: 575.98px) {  /* Celulares pequenos */
 
 
@@ -14,12 +40,12 @@ body {
     vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
   }
 
-  .col-lg-6, #logo /*HIDING*/ {
+  .col-lg-6, #logo, #PropagandaPC/*HIDING*/ {
     display: none;
   }
 
-    .col-md-6 {
-    display: block;
+  .col-md-6 {
+
     font-weight: bold;
     font-size: larger;
     text-decoration: none;
@@ -38,6 +64,14 @@ body {
     color: blue;
     text-decoration: none !important;
   }
+
+  #PropagandaMobile{
+    width: 100%;
+    z-index: 5;
+    position: relative;
+    margin-bottom: 50vh;
+  }
+
   
   /*General END*/
 
@@ -52,7 +86,7 @@ body {
   }
 
   #introdução {
-    padding-top: 170%;
+    padding-top: 180%;
     color: white;
     text-shadow:
       -1px -1px 0 #000,  
@@ -62,12 +96,26 @@ body {
     text-align: center;
   }
 
+  #Explicação {
+background-color: red;
+padding: 5px;
+color: white;
+    text-shadow:
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    text-align: center;
+    margin-bottom: 5vh;
+
+  }
+
 /*Main END*/   
   
 /*Tabela START*/
 
   table thead th {
-    padding-top: 0vh;
+    padding-top: 100vh;
     text-align: center !important;
   }
 
@@ -79,7 +127,9 @@ body {
     margin-top: 5vh;
   }
 
+
 /*Tabela END*/
+
 }
 @media (min-width: 576px) and (max-width: 767.98px) {  /* Celulares grandes */
     
@@ -145,7 +195,21 @@ body {
     text-align: center;
     font-size: larger;
     font-weight: bold;
+
   }
+  #Explicação {
+background-color: red;
+padding: 5px;
+color: white;
+    text-shadow:
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    text-align: center;
+    margin-bottom: 5vh;
+  }
+  
 
 /*Main END*/
 
@@ -192,7 +256,7 @@ body {
     text-decoration: none !important;
   }
 
-  .col-lg-6 {
+  .col-lg-6, #PropagandaMobile {
     display: none;
   }
 
@@ -220,16 +284,17 @@ body {
 
 /*Main START*/
   #BackgroundInicio {
-    background-image: url("../../IMG/SonicAdventure2/bg2.png");
+    background-image: url("../../IMG/SonicAdventure2/BG.png");
     background-repeat: no-repeat;
-   background-size: cover;
+    background-size: cover;
     width:100%;
-    height: 90vh;
-    background-position-x: 40%;
+    height: 80vh;
+    background-position-x: 60%;
     padding-bottom: 30vh;
   }
 
   #introdução {
+    
     padding-top: 5vh;
     position: relative;
     color: white;
@@ -239,7 +304,21 @@ body {
       -1px 1px 0 #000,
        1px 1px 0 #000;
     text-align: center;
-    font-size: large;
+    font-size: 1rem;
+        padding-left: -50px;
+  }
+
+  #Explicação {
+background-color: red;
+padding: 5px;
+color: white;
+    text-shadow:
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    text-align: center;
+    margin-bottom: 5vh;
   }
 
 /*Main END*/
@@ -286,7 +365,7 @@ body {
     text-decoration: none;
   }
 
-  .col-md-6 {
+  .col-md-6,#PropagandaMobile,#AvisoMobile {
     display: none;
   } 
 
@@ -315,6 +394,19 @@ body {
        1px -1px 0 #000,
       -1px 1px 0 #000,
        1px 1px 0 #000;
+  }
+
+    #Explicação {
+background-color: red;
+padding: 5px;
+color: white;
+    text-shadow:
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    text-align: center;
+    margin-bottom: 5vh;
   }
 /*Main END*/
 
@@ -358,10 +450,10 @@ body {
     font-size: larger;
     text-decoration: none;
   }
-
-  .col-md-6 {
+  
+  .col-md-6,#PropagandaMobile,#AvisoMobile {
     display: none;
-  }
+  } 
 
   a {
     text-decoration: none !important;
@@ -392,7 +484,18 @@ body {
       -1px 1px 0 #000,
        1px 1px 0 #000;
   }
-
+  #Explicação {
+background-color: red;
+padding: 5px;
+color: white;
+    text-shadow:
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    text-align: center;
+    margin-bottom: 5vh;
+  }
 /*Main END*/
 
 /*Tabela START*/
