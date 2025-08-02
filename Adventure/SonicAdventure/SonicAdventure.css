@@ -40,7 +40,7 @@ body {
     vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
   }
 
-  .col-lg-6, #logo /*HIDING*/ {
+  .col-lg-6, #logo, #ContinuaçãoTablet /*HIDING*/ {
     display: none;
   }
 
@@ -82,6 +82,17 @@ body {
 
   #introdução {
     padding-top: 180%;
+    color: white;
+    text-shadow:
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    text-align: center;
+  }
+
+   #ContinuaçãoMD{
+    padding-top: 0%;
     color: white;
     text-shadow:
       -1px -1px 0 #000,  
@@ -134,7 +145,7 @@ color: white;
     vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
   }
 
-  .col-lg-6, #logo /*HIDING*/ {
+  .col-lg-6, #logo, #ContinuaçãoTablet /*HIDING*/ {
     display: none;
   }
 
@@ -177,6 +188,20 @@ color: white;
 
   #introdução {
     padding-top: 70%;
+    position: relative;
+    color: white;
+    text-shadow:
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+  }
+
+    #ContinuaçãoMD {
+    padding-top: 0%;
     position: relative;
     color: white;
     text-shadow:
@@ -247,7 +272,7 @@ color: white;
     text-decoration: none !important;
   }
 
-  .col-lg-6, #PropagandaMobile {
+  .col-lg-6, #PropagandaMobile, #ContinuaçãoMD {
     display: none;
   }
 
@@ -261,7 +286,7 @@ color: white;
 
   #logo {
     margin-left: 15%;
-    margin-top: 50px;
+    margin-top: 15px;
     width: 30vw;
   }
 
@@ -280,12 +305,28 @@ color: white;
     background-size: cover;
     width:100%;
     height: 80vh;
-    background-position-x: 60%;
-    padding-bottom: 30vh;
+    background-position-x:10%;
+    padding-bottom: 35vh;
   }
 
   #introdução {
-    
+    width: 140%;
+    padding-right: 5vw;
+    padding-top: 1vh;
+    position: relative;
+    color: white;
+    text-shadow:
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    text-align: center;
+    font-size: 1rem;
+        padding-bottom: 5vh;
+  }
+
+  #ContinuaçãoTablet {
+    font-weight: bold;
     padding-top: 5vh;
     position: relative;
     color: white;
@@ -344,7 +385,7 @@ color: white;
   }
 
   #logo {
-    margin-top: 50px;
+    margin-top: 25px;
     width: 25vw;
     margin-left: 120px;
   }
@@ -355,7 +396,7 @@ color: white;
     text-decoration: none;
   }
 
-  .col-md-6,#PropagandaMobile {
+  .col-md-6, #PropagandaMobile, #ContinuaçãoMD {
     display: none;
   } 
 
@@ -365,6 +406,7 @@ color: white;
   #divisão {
     padding-top: 2vh;
   }   
+  
 /*General END*/
 
 /*Main START*/
@@ -374,7 +416,8 @@ color: white;
     background-size: cover;
     height: 90vh;
     min-height: 50%;
-    background-position: center;
+    background-position-x:0%;
+
   }
 
   #introdução {
@@ -384,6 +427,22 @@ color: white;
        1px -1px 0 #000,
       -1px 1px 0 #000,
        1px 1px 0 #000;
+    padding-top: -2vh;
+    width: 120%;
+  }
+
+    #ContinuaçãoTablet {
+        font-weight: bold;
+    padding-top: 5vh;
+    position: relative;
+    color: white;
+    text-shadow:
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    text-align: center;
+    font-size: 1rem;
   }
 
     #Explicação {
@@ -430,7 +489,7 @@ color: white;
   }
 
   #logo {
-    margin-top: 50px;
+    margin-top: 25px;
     width: 25vw;
     margin-left: 120px;
   }
@@ -441,7 +500,7 @@ color: white;
     text-decoration: none;
   }
 
-  .col-md-6, #PropagandaMobile {
+  .col-md-6, #PropagandaMobile,#ContinuaçãoMD {
     display: none;
   }
 
