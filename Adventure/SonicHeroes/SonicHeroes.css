@@ -260,8 +260,8 @@ color: white;
   }
 
   #logo {
-    margin-left: 15%;
-    margin-top: 50px;
+    margin-left: 22%;
+    margin-top: 25px;
     width: 30vw;
   }
 
@@ -296,6 +296,7 @@ color: white;
        1px 1px 0 #000;
     text-align: center;
     font-size: 1rem;
+    width: 130%;
   }
 
   #Explicação {
