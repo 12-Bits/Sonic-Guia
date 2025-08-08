@@ -107,7 +107,9 @@ Shadow the Hedgehog
 BG1: https://www.steamgriddb.com/hero/133850 (Edited)
 BG2: https://www.freepik.com/free-photo/red-paint-wall-background-texture_2761066.htm#fromView=keyword&page=1&position=1&uuid=bee9534b-1d96-4b2e-8a9f-cfeb138acc12&query=Dark+Red+Texture
 BGMobile: https://cdn2.steamgriddb.com/grid/88a202ed3e8edffaa7d5530011934ee2.png
+BGMobileMD: https://www.steamgriddb.com/grid/564780
 
+    
 Extras:
 
 Riders
