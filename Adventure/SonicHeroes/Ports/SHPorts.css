@@ -40,7 +40,7 @@ font-size: 1rem;
 
 #ModList{
   background-color: white;
-  margin: 5vh;
+
   border-style: solid;
   border-radius: 25px;
   border-width: 5px;
@@ -53,7 +53,7 @@ font-size: 1rem;
 
   /*General START*/
     body {
-      background-color: white !important;
+      background-image: url("../../../IMG/SonicAdventure/BG2.png");
       max-width: 100%;
       overflow-x: hidden;
     }
@@ -98,13 +98,13 @@ font-size: 1rem;
       background-repeat: no-repeat;
       background-size: cover;
       height: 120vh;
-      max-height: 900px;
+
       width: 100%;
       background-position: center;
     }
   
     #introdução {
-      padding-top: 180%;
+      padding-top: 125vh;
       position: relative;
       color: white;
       text-shadow:

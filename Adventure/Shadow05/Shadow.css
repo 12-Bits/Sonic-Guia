@@ -101,7 +101,7 @@ font-size: 1rem;
     }
   
     #introdução {
-      padding-top: 180%;
+      padding-top: 130vh;
       position: relative;
       color: white;
       text-shadow:
@@ -119,7 +119,7 @@ color: white;
 font-weight: bold;
 text-align: center;
 margin-bottom: 5vh;
-margin-top: 100%;
+margin-top: vh;
 font-size: 1rem;
   }
 
@@ -292,8 +292,8 @@ font-size: 1rem;
   }
 
   #logo {
-    margin-left: 15%;
-    margin-top: 50px;
+    margin-left: 15vw;
+    margin-top: 15px;
     width: 30vw;
   }
 
@@ -312,7 +312,7 @@ font-size: 1rem;
     background-size: cover;
     width:100%;
     height: 90vh;
-    background-position-x: 60%;
+    background-position-x: 80%;
     padding-bottom: 30vh;
   }
 
@@ -328,6 +328,7 @@ font-size: 1rem;
        1px 1px 0 #000;
     text-align: center;
     font-size: 1rem;
+    width: 120%;
   }
 
   #Explicação {
@@ -428,6 +429,7 @@ font-size: 1rem;
     height: 90vh;
     min-height: 50%;
     background-position: center;
+    background-position-x: 80%;
   }
 
   #introdução {
@@ -437,6 +439,7 @@ font-size: 1rem;
        1px -1px 0 #000,
       -1px 1px 0 #000,
        1px 1px 0 #000;
+       width: 120%;
   }
 
     #Explicação {
@@ -471,6 +474,7 @@ font-size: 1rem;
   border-radius: 25px;
   border-width: 5px;
   padding: 1vh;
+  margin-bottom: 5vh;
 
 }
 
@@ -560,6 +564,7 @@ font-size: 1rem;
   border-radius: 25px;
   border-width: 5px;
   padding: 1vh;
+    margin-bottom: 5vh;
 
 }
 

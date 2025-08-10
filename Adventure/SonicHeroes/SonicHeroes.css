@@ -282,6 +282,7 @@ color: white;
     height: 80vh;
     background-position-x: 60%;
     padding-bottom: 30vh;
+    min-height: 50vh;
   }
 
   #introdução {
