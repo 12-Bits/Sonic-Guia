@@ -19,7 +19,8 @@ BGMobileMD:https://www.steamgriddb.com/grid/230030
 Sonic CD
 BG1: 
 BG2: 
-BGMobile: 
+BGMobile:
+BGMobileMD:https://www.steamgriddb.com/grid/288054
 
 Sonic 3
 BG1: Edited (inspiration: https://www.steamgriddb.com/hero/68859 )
@@ -153,13 +154,15 @@ Sonic Colors Ports
 BG1:
 BG2:
 BGMobile:
-BGMobile2:https://www.steamgriddb.com/grid/9698
+BGMobileMD:https://www.steamgriddb.com/grid/9698
 
 
 Sonic Generations
 BG1: 
 BG2: Sega
 BGMobile:  
+BGMobileMD: https://www.steamgriddb.com/grid/85952
+
 
 Sonic Lost World
 BG1:
@@ -190,19 +193,23 @@ Sonic Mania
 BG1: 
 BG2: Solid Color
 BGMobile: 
+BGMobileMD:https://www.steamgriddb.com/grid/103388
 
 Sonic Forces
 BG1: https://www.steamgriddb.com/hero/27128
 BG2: Sega
 BGMobile: 
+BGMobileMD:https://www.steamgriddb.com/grid/305233
 
 Sonic Frontiers
 BG1: 
 BG2: https://screamingbrainstudios.itch.io/seamless-sky-backgrounds (Cloudy_Sky-Blue_01-1024x512)
 BGMobile: 
+BGMobileMD:https://www.steamgriddb.com/grid/272987
 
 Sonic Superstars
 BG1: 
 BG2: 
 BGMobile: 
+BGMobileMD:https://www.steamgriddb.com/grid/502173
 
