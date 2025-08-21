@@ -308,7 +308,7 @@ body {
       background-size: cover;
       height: 90vh;
       min-height: 50%;
-  
+      z-index: 9;
       background-position: center ;
   }
   #BackgroundResto{
