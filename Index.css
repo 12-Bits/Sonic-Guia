@@ -51,100 +51,34 @@
   @media (max-width: 575.98px) {  /* Celulares pequenos */
   
   
-    /*General START*/
-      body {
-    background-color: #FDDB00;
-        max-width: 100%;
-        overflow-x: hidden;
-      }
     .navbar-brand img {
-      vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
+        vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
     }
-  
-    .col-lg-6, #logo,#division, #division2 /*HIDING*/ {
-      display: none;
+
+
+    body {
+      background-color: white;
+      max-width: 100%;
+      overflow-x: hidden;
     }
-  
-      .col-md-6 {
-      display: block;
-      font-weight: bold;
-      font-size: larger;
-      text-decoration: none;
-    }
-  
-      #logo-img { 
-      width: 30vw;
-      margin-left: 30vw;
-    }
-  
-    img {
-    width: 100%;
-    }
-  
-    #Linktopage {
-      color: blue;
-      text-decoration: none !important;
-    }
-  
-  
-  
-    
-    /*General END*/
-  
-    /*Main START*/
-  
-       #BackgroundInicio {
-        background-image: url("../../IMG/SonicMania/BGMobile.jpg");
+    #logo-img{ 
+        width: 30vw;
+        margin-left:31vw;
+        position:relative;
+        
+  }
+    #BackgroundInicio{
+        background-size: contain;
         background-repeat: no-repeat;
-        background-size: cover;
-        height: 120vh;
-      }
-    
-      #introdução {
-        padding-top: 130vh;
-        position: relative;
-        color: white;
-        text-shadow:
-          -1px -1px 0 #000,  
-           1px -1px 0 #000,
-          -1px 1px 0 #000,
-           1px 1px 0 #000;
+        background-position: center;
+        background-image: url(IMG/Index-bgMobile.png);
+        height: 90vh;
+        }
+    #inicio{
         text-align: center;
-      }
-  
-  #Aviso {
-  background-color: red;
-  padding: 5px;
-  color: white;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 5vh;
-  margin-top: vh;
-  font-size: 1rem;
     }
-  
-  /*Main END*/   
-    
-  /*Tutorial START*/
-  
-  #Tutorial{
-    background-color: white;
-    margin: 5vh;
-    border-style: solid;
-    border-radius: 25px;
-    border-width: 5px;
-    padding: 1vh;
-    font-size: 1rem;
-  
-  }
-  #Titulo{
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-align: center;
   }
   
-  /*Tutorial END*/
-  }
   @media (min-width: 576px) and (max-width: 767.98px) {  /* Celulares grandes */
       .navbar-brand img {
           vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
@@ -177,235 +111,63 @@
   
   @media (min-width: 768px) and (max-width: 991.98px) {  /* Tablets */
   
-  /*General START*/
-    body {
-    background-color: #FDDB00;
-      overflow-x: hidden;
-    }
-    .navbar-brand img {
-      vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
-  }
   
-    #logo-img { 
-      width: 30vw;
-      margin-left: 110%;
-    }
-  
-    img {
-    width: 100%;
-    }
-  
-    #Linktopage {
-      color: blue;
-      text-decoration: none !important;
-    }
-  
-    .col-lg-6, #PropagandaMobile {
-      display: none;
-    }
-  
-    .col-md-6 {
-      display: block;
-      font-weight: bold;
-      font-size: larger;
-      text-decoration: none;
-      font-size: 1rem;
-    }
-  
-    #logo {
-      margin-left: 15vw;
-      margin-top: 15px;
-      width: 30vw;
-    }
-  
-    .col-6 {
-      font-weight: bold;
-      font-size: 1;
-      text-decoration: none;
-    }
-  
-  /*General END*/
-  
-  /*Main START*/
-    #BackgroundInicio {
-      background-image: url("../../IMG/SonicMania/BG1.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      width:100%;
-      height: 90vh;
-      background-position-x: 60%;
-      padding-bottom: 30vh;
-    }
-  
-    #introdução {
-      
-      padding-top: 5vh;
-      position: relative;
-      color: white;
-      text-shadow:
-        -1px -1px 0 #000,  
-         1px -1px 0 #000,
-        -1px 1px 0 #000,
-         1px 1px 0 #000;
-      text-align: center;
-      font-size: 1rem;
-      width: 120%;
-    }
-  
-    #Explicação {
-  background-color: red;
-  padding: 5px;
-  color: white;
-      text-shadow:
-        -1px -1px 0 #000,  
-         1px -1px 0 #000,
-        -1px 1px 0 #000,
-         1px 1px 0 #000;
-      text-align: center;
-      margin-bottom: 5vh;
-    }
-  
-    #Aviso {
-  background-color: red;
-  padding: 5px;
-  color: white;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 5vh;
-  margin-top: 5%;
-  font-size: 1rem;
-    }
-  
-  /*Main END*/
-  
-  /*Tutorial START*/
-  #Tutorial{
-    background-color: white;
-    margin: 5vh;
-    border-style: solid;
-    border-radius: 25px;
-    border-width: 5px;
-    padding: 1vh;
-  }
-  
-  #Titulo{
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-align: center;
-  }
+    #BackgroundInicio{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: url("IMG/Index-bg.png");
+        height: 90vh;
+        }
+        
+        #logo-img{ 
+            width: 10vw;
+        }
+        
+        #subtitulo{
+            text-align: center;
+            font-size: 2vw;
+            color: black;
+        }
+        
+        #explicação{
+            text-align: center;
+            font-size: 1.5vw;
+            color: black;
+        }
+      }
   
   
-  /*Tutorial END*/
+ 
   
-  }
+  
   @media (min-width: 992px) and (max-width: 1199.98px) {  /* Laptops */
-  
-  /*General START*/
-  
-    body {
-  background-color: #FDDB00;
-    overflow-x: hidden;
+
+    #BackgroundInicio{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("IMG/Index-bg.png");
+    height: 90vh;
     }
-  
-    #logo-img { 
-    width: 10vw;
+    
+    #logo-img{ 
+        width: 10vw;
     }
-  
-    #logo {
-      margin-top: 25px;
-      width: 25vw;
-      margin-left: 190px;
+    
+    #subtitulo{
+        text-align: center;
+        font-size: 2vw;
+        color: black;
     }
-  
-    .col-lg-6 {
-      font-weight: bold;
-      font-size: larger;
-      text-decoration: none;
+    
+    #explicação{
+        text-align: center;
+        font-size: 1.5vw;
+        color: black;
     }
-  
-      .col-lg-8 {
-      font-weight: bold;
-      font-size: larger;
-      text-decoration: none;
-      width: 90vw;
-    }
-  
-    .col-md-6,#PropagandaMobile {
-      display: none;
-    } 
-  
-    a {
-      text-decoration: none !important;
-    }
-    #divisão {
-      padding-top: 2vh;
-    }   
-  /*General END*/
-  
-  /*Main START*/
-    #BackgroundInicio {
-      background-image: url("../../IMG/SonicMania/BG1.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 90vh;
-      min-height: 50%;
-      background-position: center;
-  
-    }
-  
-    #introdução {
-      color: white;
-      text-shadow:
-        -1px -1px 0 #000,  
-         1px -1px 0 #000,
-        -1px 1px 0 #000,
-         1px 1px 0 #000;
-         width: 120%;
-    }
-  
-      #Explicação {
-  background-color: red;
-  padding: 5px;
-  color: white;
-      text-shadow:
-        -1px -1px 0 #000,  
-         1px -1px 0 #000,
-        -1px 1px 0 #000,
-         1px 1px 0 #000;
-      text-align: center;
-      margin-bottom: 5vh;
-    }
-  
-  #Aviso {
-  background-color: red;
-  padding: 5px;
-  color: white;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 5vh;
-  margin-top: 10%;
-  font-size: 1rem;
-    }
-  /*Main END*/
-  
-  /*Tutorial START*/
-  #Tutorial{
-    background-color: white;
-    border-style: solid;
-    border-radius: 25px;
-    border-width: 5px;
-    padding: 1vh;
-    margin-bottom: 5vh;
-  
   }
-  
-  #Titulo{
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-align: center;
-  }
-  /*Tutorial END*/
-  }
+
   @media (min-width: 1200px) {  /* Desktops grandes */
   
   #BackgroundInicio{
