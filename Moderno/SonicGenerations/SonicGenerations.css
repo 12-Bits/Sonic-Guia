@@ -96,7 +96,7 @@ font-size: 1rem;
      #BackgroundInicio {
       background-image: url("../../IMG/SonicGenerations/BGMobile.png");
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: contain;
       height: 120vh;
     }
   
