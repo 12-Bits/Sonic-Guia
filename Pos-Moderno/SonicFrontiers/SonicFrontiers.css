@@ -97,7 +97,7 @@ font-size: 1rem;
       background-image: url("../../IMG/SonicFrontiers/BGMobile.png");
       background-repeat: no-repeat;
       background-size: contain;
-      height: 90%;
+      height: 90vh;
     }
   
     #introdução {
@@ -254,6 +254,116 @@ font-size: 1rem;
 }
 /*Tutorial END*/
 }
+
+@media (min-width: 576px) and (max-width: 767.98px) {  /* Celulares grandes */
+    
+    /*General START*/
+  body {
+  background-image: url("../../IMG/SonicFrontiers/BG2.png");
+    overflow-x: hidden;
+  }
+  .navbar-brand img {
+    vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
+  }
+
+  .col-lg-6, #logo /*HIDING*/ {
+    display: none;
+  }
+
+  .col-6 {
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+  }
+
+   a {
+    text-decoration: none;
+    color: blue;
+  }
+
+  #logo-img{ 
+    width: 30vw;
+    margin-left: 30vw;
+  }
+
+  img{
+  width: 100%;
+  }
+
+  #Linktopage {
+    color: blue;
+    text-decoration: none !important;
+  }
+
+  /*General END*/
+
+  /*Main START*/
+
+  #BackgroundInicio {
+      background-image: url("../../IMG/SonicFrontiers/BGMobileMD.png");
+    background-repeat: no-repeat;
+    background-size: contain;  
+    width:100%;
+    background-position-x: center;
+  }
+
+  #introdução {
+    padding-top: 70%;
+    position: relative;
+    color: white;
+    text-shadow:
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+  }
+  #Explicação {
+background-color: red;
+padding: 5px;
+color: white;
+    text-shadow:
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    text-align: center;
+    margin-bottom: 5vh;
+  }
+  #Aviso {
+background-color: red;
+padding: 5px;
+color: white;
+font-weight: bold;
+text-align: center;
+margin-bottom: 5vh;
+margin-top: 0%;
+font-size: 1rem;
+  }
+
+/*Main END*/
+
+/*Tutorial START*/
+
+#Tutorial{
+  background-color: white;
+  margin: 5vh;
+  border-style: solid;
+  border-radius: 25px;
+  border-width: 5px;
+  padding: 1vh;
+}
+
+#Titulo{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+/*Tutorial END*/
+}
+
 
 @media (min-width: 768px) and (max-width: 991.98px) {  /* Tablets */
 

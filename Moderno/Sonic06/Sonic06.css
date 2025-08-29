@@ -97,11 +97,11 @@ font-size: 1rem;
       background-image: url("../../IMG/Sonic06/BGMobile.png");
       background-repeat: no-repeat;
       background-size: contain;
-      height: 120vh;
+      height: 100vh;
     }
   
     #introdução {
-      padding-top: 130vh;
+      padding-top: 90vh;
       position: relative;
       color: white;
       text-shadow:
