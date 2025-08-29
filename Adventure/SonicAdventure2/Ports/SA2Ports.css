@@ -96,8 +96,8 @@ font-size: 1rem;
      #BackgroundInicio {
       background-image: url("../../../IMG/SonicAdventure2/Mods/BGMobile.png");
       background-repeat: no-repeat;
-      background-size: cover;
-      height: 120vh;
+      background-size: contain;
+      height: 90vh;
       max-height: 900px;
       width: 100%;
       background-position: center;

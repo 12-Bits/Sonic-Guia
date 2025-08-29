@@ -94,10 +94,10 @@ font-size: 1rem;
   /*Main START*/
 
      #BackgroundInicio {
-      background-image: url("../../../IMG/SonicColors/BGMobile.png");
+      background-image: url("../../../IMG/SonicColors/Ports/BGMobile.png");
       background-repeat: no-repeat;
       background-size: contain;
-      height: 120vh;
+      height: 90vh;
     }
   
     #introdução {
@@ -191,7 +191,7 @@ font-size: 1rem;
   /*Main START*/
 
   #BackgroundInicio {
-      background-image: url("../../../IMG/SonicColors/BGMobileMD.png");
+      background-image: url("../../../IMG/SonicColors/Ports/BGMobileMD.png");
     background-repeat: no-repeat;
     background-size: contain;  
     width:100%;
@@ -308,7 +308,7 @@ font-size: 1rem;
 
 /*Main START*/
   #BackgroundInicio {
-    background-image: url("../../../IMG/SonicColors/BG1.png");
+    background-image: url("../../../IMG/SonicColors/Ports/BG1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;
@@ -424,7 +424,7 @@ font-size: 1rem;
 
 /*Main START*/
   #BackgroundInicio {
-      background-image: url("../../../IMG/SonicColors/BG1.png");
+      background-image: url("../../../IMG/SonicColors/Ports/BG1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
@@ -528,7 +528,7 @@ font-size: 1rem;
 /*Main START*/
 
   #BackgroundInicio {
-      background-image: url("../../../IMG/SonicColors/Ports/BG1.jpg");
+    background-image: url("../../../IMG/SonicColors/Ports/BG1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
