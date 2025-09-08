@@ -78,6 +78,60 @@ text-shadow:
   1px 1px 0 #FFF;
     }
 
+#Advance {
+      
+background-image: url("../IMG/ExtrasAdventure/SA1_BG.png");
+background-size: cover;
+height: 95vh;
+background-position-x: 40%;
+background-repeat: no-repeat;
+width: 100%;
+position: relative;
+z-index: 1;
+/*Font Style*/
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+text-shadow:
+  -1px -1px 0 #FFF,  
+  1px -1px 0 #FFF,
+  -1px 1px 0 #FFF,
+  1px 1px 0 #FFF;
+    }
+
+#logoSA1 {
+      margin-top:10vh;
+      width: 25vw;
+      margin-left: 7.5vw;
+    }
+
+#Advance2 {
+      
+background-image: url("../IMG/ExtrasAdventure/SA2_BG.png");
+background-size: cover;
+height: 95vh;
+background-position-x: 50%;
+background-repeat: no-repeat;
+width: 100%;
+position: relative;
+z-index: 1;
+/*Font Style*/
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+text-shadow:
+  -1px -1px 0 #FFF,  
+  1px -1px 0 #FFF,
+  -1px 1px 0 #FFF,
+  1px 1px 0 #FFF;
+    }
+
+#logoSA1 {
+      margin-top:10vh;
+      width: 25vw;
+      margin-left: 7.5vw;
+    }
+
 
 #Chao {
   background-image: url("../IMG/ExtrasAdventure/Chao_BG.png");
