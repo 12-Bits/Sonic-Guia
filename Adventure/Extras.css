@@ -92,11 +92,8 @@ z-index: 1;
 color: black;
 font-size: 1.2rem;
 font-weight: bold;
-text-shadow:
-  -1px -1px 0 #FFF,  
-  1px -1px 0 #FFF,
-  -1px 1px 0 #FFF,
-  1px 1px 0 #FFF;
+color: white;
+
     }
 
 #logoSA1 {
@@ -157,6 +154,8 @@ z-index: 1;
 color: black;
 font-size: 1.2rem;
 font-weight: bold;
+color: white;
+
 
 
 }
@@ -165,12 +164,12 @@ background-image: url("../IMG/ExtrasAdventure/BattleR_BG.png");
 background-repeat: no-repeat;
 height: 100vh;
 background-size: cover;
-background-position: center;
-background-position-x: -1vw;
+background-position-x: -50vw;
 /*Font Style*/
 color: black;
 font-size: 1.2rem;
 font-weight: bold;
+color: white;
 
 
 

@@ -117,6 +117,9 @@ Riders
 BG1: 
 BGMobile:
 
+Advance1
+BG1:https://www.steamgriddb.com/hero/86533
+BGMobile:
 Chao
 BG1: 
 BGMobile: 
