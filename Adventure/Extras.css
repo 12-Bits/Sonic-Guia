@@ -1,5 +1,20 @@
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+body{ /*Default BG*/
+    background-color: #2F60AC;
+}
+
+@media (max-width: 575.98px) {  /* Celulares pequenos */
+
+}
+@media (min-width: 576px) and (max-width: 767.98px) {  /* Celulares grandes */
+
+}
+@media (min-width: 768px) and (max-width: 991.98px) {  /* Tablets */
+
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {  /* Laptops */
+
+}
+@media (min-width: 1200px) {  /* Desktops grandes */
 
 body{
   overflow-x: hidden;
@@ -11,7 +26,7 @@ body{
 background-color: #FFF; 
 text-align: center;
 background-repeat: no-repeat;
-background-image: url("../IMG/ExtrasClassico/Intro_BG.png");
+background-image: url("../IMG/ExtrasClassico/Intro_BG1.png");
 background-size: cover;
 height: 90vh;
 
@@ -44,7 +59,7 @@ text-shadow:
 
 #Riders {
       
-background-image: url("../IMG/ExtrasAdventure/RidersBG1.png");
+background-image: url("../IMG/ExtrasAdventure/RidersDX_BG.png");
 background-size: cover;
 height: 100vh;
 background-position: center;
@@ -65,12 +80,12 @@ text-shadow:
 
 
 #Chao {
-  background-image: url("../IMG/ExtrasAdventure/ChaoBG1.png");
+  background-image: url("../IMG/ExtrasAdventure/Chao_BG.png");
   background-size: cover;
-  height: 100vh;
-  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  background-position-X:50%;
   position: relative;
-  z-index: 1;
   /*Font Style*/
   color: black;
   font-size: 1.2rem;
@@ -78,7 +93,7 @@ text-shadow:
 }
 
 #World{
-background-image: url("../IMG/ExtrasAdventure/WorldBG1.png");
+background-image: url("../IMG/ExtrasAdventure/World_BG.png");
 background-size: cover;
 height: 100vh;
 background-position: center;
@@ -92,7 +107,7 @@ font-weight: bold;
 
 }
 #BattleR{
-background-image: url("../IMG/ExtrasAdventure/BattleRBG1.png");
+background-image: url("../IMG/ExtrasAdventure/BattleR_BG.png");
 background-repeat: no-repeat;
 height: 100vh;
 background-size: cover;
@@ -110,7 +125,7 @@ font-weight: bold;
 
 
 #GT{
-background-image: url("../IMG/ExtrasAdventure/GT_BG1.png");
+background-image: url("../IMG/ExtrasAdventure/GT_BG.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -155,102 +170,5 @@ text-shadow:
       a {
       text-decoration: none !important;
     }
-  }
-  /* Extra small devices (phones, 600px and down) */
-  @media only screen and (max-width: 600px) {
-    body {
-      background-color: #2F60AC;
-  
-      overflow-x: hidden;
-    }
-    .navbar-brand img {
-      vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
-  }
-  
-    #BackgroundInicio {
-      background-image: url("../../IMG/Sonic1/Sonic1BGMobile.jpg");
-      background-repeat: no-repeat;
-      background-position-x:-18vw;
-      width:100%
-    }
-  
-    #introdução {
-      padding-top: 115vh;
-      position: relative;
-      color: white;
-      text-shadow:
-        -1px -1px 0 #000,  
-         1px -1px 0 #000,
-        -1px 1px 0 #000,
-         1px 1px 0 #000;
-      text-align: center;
-    }
-  
-    .col-md-6 {
-      display: block;
-      font-weight: bold;
-      font-size: larger;
-      text-decoration: none;
-    }
-  
-    .col-lg-6 {
-      display: none;
-    }
-  
-    #logo {
-      display:none
-    }
-  
-    .col-6 {
-      font-weight: bold;
-      font-size: larger;
-      text-decoration: none;
-    }
-  
-    table thead th {
-      padding-top: 0vh;
-      text-align: center !important;
-    }
-  
-    #tabela {
-      margin-top: 1vh;
-    }
-  
-    #tabela2 {
-      margin-top: 5vh;
-    }
-  
-    a {
-      text-decoration: none;
-      color: blue;
-    }
-  
-    #logo-img{ 
-      width: 30vw;
-      margin-left: 30vw;
-  }
-  img{
-    width: 100%;
-  }
-  
-    #Linktopage {
-      color: blue;
-      text-decoration: none !important;
-    }
-  }
-  
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-  
-  }
-  
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-  
-  }
-  
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-  
-  }
-  
+
+}

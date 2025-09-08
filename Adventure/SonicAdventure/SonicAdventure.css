@@ -247,7 +247,123 @@ color: white;
 /*Tabela END*/
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) {  /* Tablets */
+@media screen and (min-width: 768px ) and (max-width: 991.98px) and (orientation:landscape) {  /* Celular deitado */
+
+    
+    /*General START*/
+  body {
+    background-color: #2F60AC;
+    overflow-x: hidden;
+  }
+  .navbar-brand img {
+    vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
+  }
+
+  .col-lg-6, #logo, #ContinuaçãoTablet /*HIDING*/ {
+    display: none;
+  }
+
+  .col-6 {
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+  }
+
+   a {
+    text-decoration: none;
+    color: blue;
+  }
+
+  #logo-img{ 
+    width: 30vw;
+    margin-left: 30vw;
+  }
+
+  img{
+  width: 100%;
+  }
+
+  #Linktopage {
+    color: blue;
+    text-decoration: none !important;
+  }
+
+  /*General END*/
+
+  /*Main START*/
+
+  #BackgroundInicio {
+    background-image: url("../../IMG/SonicAdventure/BGMobileMD.png");
+    background-repeat: no-repeat;
+    background-size: contain;  
+    width:100%;
+    background-position-x: center;
+  }
+
+  #introdução {
+    padding-top: 70%;
+    position: relative;
+    color: white;
+    text-shadow:
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+  }
+
+    #ContinuaçãoMD {
+    padding-top: 0%;
+    position: relative;
+    color: white;
+    text-shadow:
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+  }
+  #Explicação {
+background-color: red;
+padding: 5px;
+color: white;
+    text-shadow:
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    text-align: center;
+    margin-bottom: 5vh;
+  }
+  
+
+/*Main END*/
+
+/*Tabela START*/
+
+  table thead th {
+    padding-top: 0vh;
+    text-align: center !important;
+  }
+
+  #tabela {
+    margin-top: 1vh;
+  }
+
+  #tabela2 {
+    margin-top: 5vh;
+  }
+
+/*Tabela END*/
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {  /* Tablets  */
 
 /*General START*/
   body {
@@ -304,7 +420,7 @@ color: white;
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;
-    height: 80vh;
+    height: 90vh;
     background-position-x:10%;
     padding-bottom: 35vh;
   }
