@@ -282,7 +282,7 @@ color: white;
     height: 80vh;
     background-position-x: 60%;
     padding-bottom: 30vh;
-    min-height: 50vh;
+    min-height: 500px;
   }
 
   #introdução {
@@ -297,7 +297,7 @@ color: white;
        1px 1px 0 #000;
     text-align: center;
     font-size: 1rem;
-    width: 130%;
+    width: 120%;
   }
 
   #Explicação {
@@ -375,8 +375,9 @@ color: white;
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
-    min-height: 50%;
+    min-height: 550px;
     background-position: center;
+
   }
 
   #introdução {
@@ -464,7 +465,7 @@ color: white;
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
-    min-height: 50%;
+    min-height: 550px;
     background-position: center;
   }
 
