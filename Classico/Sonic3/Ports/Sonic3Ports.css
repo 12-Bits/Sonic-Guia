@@ -24,11 +24,6 @@ body {
         width:90vw;
   }
 
-  #logo-img { 
-        width: 30vw;
-        margin-left: 30vw;
-  }
-
   #tutorial-img {
       width: 50vw;
       height: auto;
@@ -168,12 +163,6 @@ body {
     color: black;
     }
 
-
-  #logo-img{ 
-    width: 30vw;
-    margin-left: 30vw;
-  }
-
   img{
   width: 100%;
   }
@@ -304,9 +293,6 @@ padding-top: 10vh;
     display: none;
 }
 
-#logo-img{ 
-    width: 10vw;
-}
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {  /* Laptops */
 #BackgroundInicio {
@@ -428,9 +414,7 @@ padding-top: 10vh;
     display: none;
 }
 
-#logo-img{ 
-    width: 10vw;
-}  
+
 }
 @media (min-width: 1200px) {  /* Desktops grandes */
 
@@ -550,9 +534,6 @@ padding-top: 10vh;
     display: none;
 }
 
-#logo-img{ 
-    width: 10vw;
-}
 }
 
 

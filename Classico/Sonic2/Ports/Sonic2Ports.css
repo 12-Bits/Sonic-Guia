@@ -17,10 +17,7 @@ body {
         width:90vw;
     }
 
-    #logo-img { 
-        width: 30vw;
-        margin-left: 30vw;
-    }
+
       #Passo-a-passoPC, #alertaMD, #Introdução, #IntroduçãoMD, #ADPC,#logo, .container mt-4, .col-lg-6, .col-lg-10{
       display: none;
     }
@@ -88,11 +85,6 @@ body {
   a {
     text-decoration: none;
     color: blue;
-  }
-
-  #logo-img { 
-    width: 30vw;
-    margin-left: 30vw;
   }
 
   img {
@@ -185,12 +177,6 @@ body {
     background-color: red;
     color: black;
     }
-
-
-  #logo-img{ 
-    width: 30vw;
-    margin-left: 30vw;
-  }
 
   img{
   width: 100%;
@@ -322,9 +308,6 @@ padding-top: 10vh;
     display: none;
 }
 
-#logo-img{ 
-    width: 10vw;
-}
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {  /* Laptops */
 #BackgroundInicio {
@@ -446,9 +429,6 @@ padding-top: 10vh;
     display: none;
 }
 
-#logo-img{ 
-    width: 10vw;
-}  
 }
 @media (min-width: 1200px) {  /* Desktops grandes */
 
@@ -571,9 +551,7 @@ padding-top: 10vh;
     display: none;
 }
 
-#logo-img{ 
-    width: 10vw;
-}
+
 }
 
 

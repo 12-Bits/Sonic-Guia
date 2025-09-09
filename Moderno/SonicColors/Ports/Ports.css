@@ -72,11 +72,6 @@ font-size: 1rem;
     text-decoration: none;
   }
 
-    #logo-img { 
-    width: 30vw;
-    margin-left: 30vw;
-  }
-
   img {
   width: 100%;
   }
@@ -172,11 +167,6 @@ font-size: 1rem;
     color: blue;
   }
 
-  #logo-img{ 
-    width: 30vw;
-    margin-left: 30vw;
-  }
-
   img{
   width: 100%;
   }
@@ -266,12 +256,7 @@ font-size: 1rem;
     vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
 }
 
-  #logo-img { 
-    width: 30vw;
-    margin-left: 110%;
-  }
-
-  img {
+img {
   width: 100%;
   }
 
@@ -389,10 +374,6 @@ font-size: 1rem;
   overflow-x: hidden;
   }
 
-  #logo-img { 
-  width: 10vw;
-  }
-
   #logo {
     margin-top: 25px;
     width: 25vw;
@@ -496,9 +477,6 @@ font-size: 1rem;
   body {
   background-image: url("../../../IMG/SonicColors/BG2.jpg");
     overflow-x: hidden;
-  }
-    #logo-img { 
-    width: 10vw;
   }
 
   #logo {

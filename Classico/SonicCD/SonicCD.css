@@ -1,8 +1,6 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  #logo-img { 
-    width: 10vw;
-  }
+
 
   #BackgroundInicio {
     background-image: url("../../IMG/SonicCD/BG2.png");
@@ -129,10 +127,7 @@
     color: blue;
   }
 
-  #logo-img{ 
-    width: 30vw;
-    margin-left: 30vw;
-}
+
 img{
   width: 100%;
 }
@@ -230,10 +225,7 @@ img{
     color: blue;
   }
 
-  #logo-img{ 
-    width: 30vw;
-    margin-left: 30vw;
-}
+
 img{
   width: 100%;
 }

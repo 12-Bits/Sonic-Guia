@@ -66,10 +66,7 @@ body {
     color: blue;
   }
 
-  #logo-img { 
-    width: 30vw;
-    margin-left: 30vw;
-  }
+
 
   img {
   width: 100%;
@@ -139,10 +136,7 @@ body {
     color: blue;
   }
 
-  #logo-img{ 
-    width: 30vw;
-    margin-left: 30vw;
-  }
+
 
   img{
   width: 100%;
@@ -219,11 +213,6 @@ body {
     color: blue;
   }
 
-  #logo-img { 
-    width: 30vw;
-    margin-left: 110%;
-  }
-
   img {
   width: 100%;
   }
@@ -240,9 +229,7 @@ body {
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {  /* Laptops */
 
-  #logo-img { 
-  width: 10vw;
-  }
+
 
   #BackgroundInicio {
     background-image: url("../../IMG/Sonic2/BG1.png");
@@ -297,11 +284,6 @@ body {
 }
 @media (min-width: 1200px) {  /* Desktops grandes */
 
-
-    
-    #logo-img{ 
-      width: 10vw;
-    }
   #BackgroundInicio {
       background-image: url("../../IMG/Sonic2/BG1.png");
       background-repeat: no-repeat;
