@@ -98,10 +98,11 @@ font-size: 1rem;
       background-repeat: no-repeat;
       background-size: contain;
       height: 90vh;
+      min-height: 900px;
     }
   
     #introdução {
-      padding-top: 130vh;
+      padding-top: 180%;
       position: relative;
       color: white;
       text-shadow:
@@ -109,19 +110,9 @@ font-size: 1rem;
          1px -1px 0 #000,
         -1px 1px 0 #000,
          1px 1px 0 #000;
-      text-align: center;
+      text-align: justify;
     }
 
-#Aviso {
-background-color: red;
-padding: 5px;
-color: white;
-font-weight: bold;
-text-align: center;
-margin-bottom: 5vh;
-margin-top: vh;
-font-size: 1rem;
-  }
 
 /*Main END*/   
   
@@ -134,8 +125,9 @@ font-size: 1rem;
   border-radius: 25px;
   border-width: 5px;
   padding: 1vh;
+  position: relative;
   font-size: 1rem;
-  margin-top: 50vh;
+  margin-top: 30%;
 
 }
 #Titulo{
@@ -281,11 +273,6 @@ font-size: 1rem;
     color: blue;
   }
 
-  #logo-img{ 
-    width: 30vw;
-    margin-left: 30vw;
-  }
-
   img{
   width: 100%;
   }
@@ -300,7 +287,7 @@ font-size: 1rem;
   /*Main START*/
 
   #BackgroundInicio {
-      background-image: url("../../IMG/SonicFrontiers/BGMobileMD.png");
+    background-image: url("../../IMG/SonicFrontiers/BGMobileMD.png");
     background-repeat: no-repeat;
     background-size: contain;  
     width:100%;
@@ -320,6 +307,7 @@ font-size: 1rem;
     font-size: larger;
     font-weight: bold;
   }
+
   #Explicação {
 background-color: red;
 padding: 5px;
@@ -332,6 +320,7 @@ color: white;
     text-align: center;
     margin-bottom: 5vh;
   }
+
   #Aviso {
 background-color: red;
 padding: 5px;
@@ -376,11 +365,6 @@ font-size: 1rem;
     vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
 }
 
-  #logo-img { 
-    width: 30vw;
-    margin-left: 110%;
-  }
-
   img {
   width: 100%;
   }
@@ -423,7 +407,8 @@ font-size: 1rem;
     background-size: cover;
     width:100%;
     height: 90vh;
-    background-position-x: 60%;
+    min-height: 500px;
+    background-position-x: 40%;
     padding-bottom: 30vh;
   }
 
@@ -437,9 +422,9 @@ font-size: 1rem;
        1px -1px 0 #000,
       -1px 1px 0 #000,
        1px 1px 0 #000;
-    text-align: center;
+    text-align: justify;
     font-size: 1rem;
-    width: 120%;
+    width: 100%;
   }
 
   #Explicação {
@@ -497,9 +482,6 @@ font-size: 1rem;
   overflow-x: hidden;
   }
 
-  #logo-img { 
-  width: 10vw;
-  }
 
   #logo {
     margin-top: 25px;
@@ -534,12 +516,16 @@ font-size: 1rem;
 
 /*Main START*/
   #BackgroundInicio {
-      background-image: url("../../IMG/SonicFrontiers/BG1.png");
+    background-image: url("../../IMG/SonicFrontiers/BG1.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
-    min-height: 50%;
+    min-height: 500px;
+
     background-position: center;
+
+      background-position-x: 30%;
+
 
   }
 
@@ -550,7 +536,7 @@ font-size: 1rem;
        1px -1px 0 #000,
       -1px 1px 0 #000,
        1px 1px 0 #000;
-       width: 120%;
+       width: 100%;
   }
 
     #Explicação {
@@ -605,9 +591,6 @@ font-size: 1rem;
   background-image: url("../../IMG/SonicFrontiers/BG2.png");
     overflow-x: hidden;
   }
-    #logo-img { 
-    width: 10vw;
-  }
 
   #logo {
     margin-top: 50px;
@@ -642,7 +625,7 @@ font-size: 1rem;
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
-    min-height: 50%;
+    min-height: 500px;
   }
 
   #introdução {
@@ -652,8 +635,8 @@ font-size: 1rem;
        1px -1px 0 #000,
       -1px 1px 0 #000,
        1px 1px 0 #000;
-    font-size: 1.5rem;
-    width: 120%;
+    font-size: 1rem;
+    width: 100%;
   }
 
 

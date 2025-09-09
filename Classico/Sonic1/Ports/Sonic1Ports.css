@@ -17,10 +17,6 @@ body {
         width:90vw;
     }
 
-    #logo-img { 
-        width: 30vw;
-        margin-left: 30vw;
-    }
     #BackgroundInicio {
     background-image: url("../../../IMG/Sonic1/Ports/BGMobile2.jpg");
     background-repeat: no-repeat;
@@ -80,10 +76,7 @@ body {
     display: none;
     }
 
-    #logo-img { 
-        width: 30vw;
-        margin-left: 30vw;
-    }
+
     
     #BackgroundInicio{
     background-image: url("../../../IMG/Sonic1/Ports/BGMobileMD.png");
@@ -141,12 +134,6 @@ body {
     .col-lg-2,  #Passo-a-passoPC, .col-lg-10, #IntroduçãoMD {
       display: none;
     }
-
-    #logo-img { 
-        width: 30vw;
-        margin-left: 30vw;
-    }
-
 
   #alerta2 {
     padding: 2vh;
@@ -228,10 +215,7 @@ body {
     color: blue;
   }
 
-  #logo-img{ 
-    width: 30vw;
-    margin-left: 110%;
-}
+
 img{
   width: 100%;
 }
@@ -261,9 +245,7 @@ img{
 
   }
 
-    #logo-img { 
-    width: 10vw;
-    }
+
   #BackgroundInicio {
     background-image: url("../../../IMG/Sonic1/Ports/BG1.jpg");
     background-repeat: no-repeat;
@@ -381,9 +363,7 @@ padding-top: 10vh;
     background-position: center ;
 }
 
-#logo-img{ 
-    width: 10vw;
-}
+
 .col-sm-10, #IntroduçãoMD, #alertaMD, .col-sm-8, #Passo-a-passoCell, #ADCell{
     display: none;
 }

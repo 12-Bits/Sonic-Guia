@@ -66,11 +66,6 @@ body {
     color: blue;
   }
 
-  #logo-img { 
-    width: 30vw;
-    margin-left: 30vw;
-  }
-
   img {
   width: 100%;
   }
@@ -134,11 +129,6 @@ body {
   a {
     text-decoration: none;
     color: blue;
-  }
-
-  #logo-img{ 
-    width: 30vw;
-    margin-left: 30vw;
   }
 
   img{
@@ -215,11 +205,6 @@ body {
     color: blue;
   }
 
-  #logo-img { 
-    width: 30vw;
-    margin-left: 110%;
-  }
-
   img {
   width: 100%;
   }
@@ -239,9 +224,6 @@ body {
 
   body{
     background-color: #000;
-  }
-  #logo-img { 
-  width: 10vw;
   }
 
   #BackgroundInicio {
@@ -295,9 +277,7 @@ body{
   background-color: #000;
 }
     
-    #logo-img{ 
-      width: 10vw;
-    }
+
   #BackgroundInicio {
       background-image: url("../../IMG/Sonic3/BG1.png");
       background-repeat: no-repeat;

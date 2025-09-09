@@ -72,11 +72,6 @@ font-size: 1rem;
     text-decoration: none;
   }
 
-    #logo-img { 
-    width: 30vw;
-    margin-left: 30vw;
-  }
-
   img {
   width: 100%;
   }
@@ -171,11 +166,6 @@ font-size: 1rem;
     color: blue;
   }
 
-  #logo-img{ 
-    width: 30vw;
-    margin-left: 30vw;
-  }
-
   img{
   width: 100%;
   }
@@ -265,11 +255,6 @@ font-size: 1rem;
     vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
 }
 
-  #logo-img { 
-    width: 30vw;
-    margin-left: 110%;
-  }
-
   img {
   width: 100%;
   }
@@ -312,6 +297,7 @@ font-size: 1rem;
     background-size: cover;
     width:100%;
     height: 90vh;
+    min-height: 500px;
     background-position-x: 60%;
     padding-bottom: 30vh;
   }
@@ -386,10 +372,6 @@ font-size: 1rem;
   overflow-x: hidden;
   }
 
-  #logo-img { 
-  width: 10vw;
-  }
-
   #logo {
     margin-top: 25px;
     width: 25vw;
@@ -427,7 +409,7 @@ font-size: 1rem;
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
-    min-height: 50%;
+    min-height: 500px;
     background-position: center;
 
   }
@@ -494,9 +476,6 @@ font-size: 1rem;
   background-image: url("../../IMG/SonicAdventure/BG2.png");
     overflow-x: hidden;
   }
-    #logo-img { 
-    width: 10vw;
-  }
 
   #logo {
     margin-top: 50px;
@@ -531,7 +510,7 @@ font-size: 1rem;
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
-    min-height: 50%;
+    min-height: 500px;
     background-position: center;
   }
 

@@ -25,10 +25,7 @@ body {
     text-decoration: none;
   }
 
-    #logo-img { 
-    width: 30vw;
-    margin-left: 30vw;
-  }
+
 
   img {
   width: 100%;
@@ -107,10 +104,6 @@ body {
     color: blue;
   }
 
-  #logo-img{ 
-    width: 30vw;
-    margin-left: 30vw;
-  }
 
   img{
   width: 100%;
@@ -177,11 +170,6 @@ body {
   .navbar-brand img {
     vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
 }
-
-  #logo-img { 
-    width: 30vw;
-    margin-left: 110%;
-  }
 
   img {
   width: 100%;
@@ -269,9 +257,6 @@ body {
   overflow-x: hidden;
   }
 
-  #logo-img { 
-  width: 10vw;
-  }
 
   #logo {
     margin-top: 50px;
@@ -341,9 +326,6 @@ body {
   body {
     background-color: #2F60AC;
     overflow-x: hidden;
-  }
-    #logo-img { 
-    width: 10vw;
   }
 
   #logo {
