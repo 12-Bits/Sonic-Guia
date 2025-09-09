@@ -19,9 +19,7 @@ body{ /*Default BG*/
 body{
   overflow-x: hidden;
 }
-    #logo-img { 
-      width: 10vw;
-    }
+
 #Introducao{
 background-color: #FFF; 
 text-align: center;
@@ -224,5 +222,6 @@ text-shadow:
       a {
       text-decoration: none !important;
     }
+
 
 }
