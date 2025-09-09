@@ -97,11 +97,12 @@ font-size: 1rem;
       background-image: url("../../IMG/Shadow05/BGMobile.png");
       background-repeat: no-repeat;
       background-size: contain;
-      height: 120vh;
+      min-height: 900px;
+      width: 100%;
     }
   
     #introdução {
-      padding-top: 130vh;
+      padding-top: 180%;
       position: relative;
       color: white;
       text-shadow:
@@ -120,7 +121,7 @@ font-weight: bold;
 text-align: center;
 margin-top: 50vh;
 margin-bottom: 5vh;
-margin-top: 80vh;
+margin-top: 0vh;
 font-size: 1rem;
   }
 
@@ -315,6 +316,7 @@ font-size: 1rem;
     height: 90vh;
     background-position-x: 80%;
     padding-bottom: 30vh;
+    min-height: 500px;
   }
 
   #introdução {
@@ -428,7 +430,7 @@ font-size: 1rem;
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
-    min-height: 50%;
+    min-height: 500px;
     background-position: center;
     background-position-x: 80%;
   }
@@ -500,7 +502,7 @@ font-size: 1rem;
   }
 
   #logo {
-    margin-top: 50px;
+    margin-top: 25px;
     width: 25vw;
     margin-left: 120px;
   }
@@ -532,7 +534,7 @@ font-size: 1rem;
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
-    min-height: 50%;
+    min-height: 500px;
     background-position: center;
   }
 
