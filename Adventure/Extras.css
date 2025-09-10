@@ -59,12 +59,13 @@ text-shadow:
       
 background-image: url("../IMG/ExtrasAdventure/RidersDX_BG.png");
 background-size: cover;
-height: 100vh;
-background-position: center;
+height: 110vh;
 background-repeat: no-repeat;
 width: 100%;
 position: relative;
 z-index: 1;
+background-position-x: 40%;
+
 /*Font Style*/
 color: black;
 font-size: 1.2rem;
@@ -76,6 +77,19 @@ text-shadow:
   1px 1px 0 #FFF;
     }
 
+#RidersText {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 20px;
+  border-radius: 10px;
+  font-size: large;
+}
+
+#LogoRiders {
+      margin-top:6vh;
+      width: 20vw;
+      margin-left: 7.5vw;
+    }
 #Advance {
       
 background-image: url("../IMG/ExtrasAdventure/SA1_BG.png");
@@ -121,11 +135,20 @@ text-shadow:
   1px 1px 0 #FFF;
     }
 
-#logoSA1 {
+#logoSA2 {
       margin-top:10vh;
       width: 25vw;
       margin-left: 7.5vw;
     }
+
+#SA2Text {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 100%;
+}
 
 
 #Chao {
@@ -133,12 +156,21 @@ text-shadow:
   background-size: cover;
   background-repeat: no-repeat;
   height: 80vh;
-  background-position-X:50%;
+  background-position-X:60%;
   position: relative;
   /*Font Style*/
   color: black;
   font-size: 1.2rem;
   font-weight: bold;
+}
+
+#ChaoText {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 100%;
 }
 
 #World{
@@ -153,10 +185,24 @@ color: black;
 font-size: 1.2rem;
 font-weight: bold;
 color: white;
-
-
-
 }
+
+#WorldText {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 80%;
+}
+
+#logoWorld {
+      margin-top:10vh;
+      width: 18vw;
+      margin-left: 25%;
+    }
+
+
 #BattleR{
 background-image: url("../IMG/ExtrasAdventure/BattleR_BG.png");
 background-repeat: no-repeat;
@@ -182,7 +228,16 @@ background-size: cover;
 background-position: center;
 height: 95vh;
 /*Font Style*/
-font-weight: bold;
+}
+
+#GTText {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 100%;
+  font-weight: bold;
 font-size: 1.2rem;
 color: black;
 text-shadow:
@@ -190,6 +245,7 @@ text-shadow:
   1px -1px 0 #FFF,
   -1px 1px 0 #FFF,
   1px 1px 0 #FFF;
+
 }
 
 .divisor {
