@@ -1,17 +1,30 @@
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+body{ /*Default BG*/
+    background-color: #2F60AC;
+}
+
+@media (max-width: 575.98px) {  /* Celulares pequenos */
+
+}
+@media (min-width: 576px) and (max-width: 767.98px) {  /* Celulares grandes */
+
+}
+@media (min-width: 768px) and (max-width: 991.98px) {  /* Tablets */
+
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {  /* Laptops */
+
+}
+@media (min-width: 1200px) {  /* Desktops grandes */
 
 body{
   overflow-x: hidden;
 }
-    #logo-img { 
-      width: 10vw;
-    }
+
 #Introducao{
 background-color: #FFF; 
 text-align: center;
 background-repeat: no-repeat;
-background-image: url("../IMG/ExtrasClassico/Intro_BG.png");
+background-image: url("../IMG/ExtrasClassico/Intro_BG1.png");
 background-size: cover;
 height: 90vh;
 
@@ -42,12 +55,81 @@ text-shadow:
   1px 1px 0 #000;
 }
 
-#Riders {
+#Secret {
       
-background-image: url("../IMG/ExtrasAdventure/RidersBG1.png");
+background-image: url("../IMG/ExtrasModerno/Secret_BG.png");
 background-size: cover;
-height: 100vh;
-background-position: center;
+height: 90vh;
+background-repeat: no-repeat;
+width: 100%;
+position: relative;
+z-index: 1;
+background-position-x: 40%;
+
+/*Font Style*/
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+text-shadow:
+  -1px -1px 0 #FFF,  
+  1px -1px 0 #FFF,
+  -1px 1px 0 #FFF,
+  1px 1px 0 #FFF;
+    }
+
+#SecretText {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 20px;
+  border-radius: 10px;
+  font-size: large;
+}
+
+#LogoSecret {
+      margin-top:5vh;
+      width: 20vw;
+      margin-left: 7.5vw;
+    }
+    
+#Knight {
+      
+background-image: url("../IMG/ExtrasModerno/Knight_BG.png");
+background-size: cover;
+height: 95vh;
+background-position-x: 40%;
+background-repeat: no-repeat;
+width: 100%;
+position: relative;
+z-index: 1;
+/*Font Style*/
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+color: white;
+
+    }
+
+#logoKnight {
+      margin-top:10vh;
+      width: 25vw;
+      margin-left: 7.5vw;
+    }
+
+#textKnight {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 100%;
+}
+
+#Dimensions {
+      
+background-image: url("../IMG/ExtrasModerno/Dimentions_BG.png");
+background-size: cover;
+height: 95vh;
+background-position-x: 50%;
 background-repeat: no-repeat;
 width: 100%;
 position: relative;
@@ -63,22 +145,46 @@ text-shadow:
   1px 1px 0 #FFF;
     }
 
+#logoDimensions {
+      margin-top:10vh;
+      width: 25vw;
+      margin-left: 7.5vw;
+    }
 
-#Sonic_Chaos {
-  background-image: url("../IMG/ExtrasClassico/SC_BG2.png");
+#DimensionsText {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 100%;
+}
+
+
+#Chao {
+  background-image: url("../IMG/ExtrasAdventure/Chao_BG.png");
   background-size: cover;
-  height: 100vh;
-  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  background-position-X:60%;
   position: relative;
-  z-index: 1;
   /*Font Style*/
   color: black;
   font-size: 1.2rem;
   font-weight: bold;
 }
 
-#TripleTrouble{
-background-image: url("../IMG/ExtrasClassico/STT_BG.jpg");
+#ChaoText {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 100%;
+}
+
+#Rivals{
+background-image: url("../IMG/ExtrasModerno/Rivals_BG.png");
 background-size: cover;
 height: 100vh;
 background-position: center;
@@ -88,102 +194,91 @@ z-index: 1;
 color: black;
 font-size: 1.2rem;
 font-weight: bold;
-
-
-}
-#SonicR{
-background-image: url("../IMG/ExtrasClassico/S_R_BG2.png");
-background-repeat: no-repeat;
-height: 100vh;
-background-size: cover;
-background-position: center;
-background-position-x: -1vw;
-/*Font Style*/
-color: black;
-font-size: 1.2rem;
-font-weight: bold;
-
-
-
-}
-
-#TailsAdventure{
-background-image: url("../IMG/ExtrasClassico/test.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position-x: -15vw;
-background-position: center;
-height: 100vh;
-/*Font Style*/
-font-weight: bold;
-font-size: 1.2rem;
-color: black;
-}
-
-#Fighters{
-background-image: url("../IMG/ExtrasClassico/S_F_BG.png");
-background-repeat: no-repeat;
-height: 100vh;
-background-size: cover;
-background-position-x: -20vw;
-background-position: center;
-/*Font Style*/
-color: black;
-font-size: 1.2rem;
-font-weight: bold;
-}
-
-#Blast3D{
-background-image: url("../IMG/ExtrasClassico/S_3D_BG.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-height: 100vh;
-background-position-x: -25vw;
-/*Font Style*/
-font-size: 1.2rem;
-color: black;
-font-weight: bold;
-text-shadow:
-  -1px -1px 0 #FFF,  
-  1px -1px 0 #FFF,
-  -1px 1px 0 #FFF,
-  1px 1px 0 #FFF;
-}
-
-#Spinball{
-background-image: url("../IMG/ExtrasClassico/S_BALL_BG3.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-height: 100vh;
-/*Font Style*/
-font-weight: bold;
-font-size: 1.2rem;
 color: white;
 }
 
-#RingRacers{
-background-image: url("../IMG/ExtrasClassico/RR_BG1.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-background-position-x: -12vw;
-height: 100vh;
-/*Font Style*/
-font-weight: bold;
-font-size: 1.2rem;
-color: black;
+#RivalsText {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 80%;
 }
 
-#MeanBean{
-background-image: url("../IMG/ExtrasClassico/Bean_BG1.png");
+#logoRivals {
+      margin-top:10vh;
+      width: 18vw;
+      margin-left: 25%;
+    }
+
+#ZeroG{
+background-image: url("../IMG/ExtrasModerno/ZeroG_BG1.png");
+background-size: cover;
+height: 100vh;
+background-position: center;
+position: relative;
+z-index: 1;
+/*Font Style*/
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+color: white;
+}
+
+#ZeroGText {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 80%;
+}
+
+#logoZeroG {
+      margin-top:10vh;
+      width: 18vw;
+      margin-left: 25%;
+    }
+
+
+
+
+#BattleR{
+background-image: url("../IMG/ExtrasAdventure/BattleR_BG.png");
+background-repeat: no-repeat;
+height: 100vh;
+background-size: cover;
+background-position-x: -50vw;
+/*Font Style*/
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+color: white;
+
+
+
+}
+
+
+
+#GT{
+background-image: url("../IMG/ExtrasAdventure/GT_BG.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-height: 100vh;
+height: 95vh;
 /*Font Style*/
-font-weight: bold;
+}
+
+#GTText {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 100%;
+  font-weight: bold;
 font-size: 1.2rem;
 color: black;
 text-shadow:
@@ -191,8 +286,8 @@ text-shadow:
   1px -1px 0 #FFF,
   -1px 1px 0 #FFF,
   1px 1px 0 #FFF;
-}
 
+}
 
 .divisor {
   position: relative;
@@ -223,102 +318,6 @@ text-shadow:
       a {
       text-decoration: none !important;
     }
-  }
-  /* Extra small devices (phones, 600px and down) */
-  @media only screen and (max-width: 600px) {
-    body {
-      background-color: #2F60AC;
-  
-      overflow-x: hidden;
-    }
-    .navbar-brand img {
-      vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
-  }
-  
-    #BackgroundInicio {
-      background-image: url("../../IMG/Sonic1/Sonic1BGMobile.jpg");
-      background-repeat: no-repeat;
-      background-position-x:-18vw;
-      width:100%
-    }
-  
-    #introdução {
-      padding-top: 115vh;
-      position: relative;
-      color: white;
-      text-shadow:
-        -1px -1px 0 #000,  
-         1px -1px 0 #000,
-        -1px 1px 0 #000,
-         1px 1px 0 #000;
-      text-align: center;
-    }
-  
-    .col-md-6 {
-      display: block;
-      font-weight: bold;
-      font-size: larger;
-      text-decoration: none;
-    }
-  
-    .col-lg-6 {
-      display: none;
-    }
-  
-    #logo {
-      display:none
-    }
-  
-    .col-6 {
-      font-weight: bold;
-      font-size: larger;
-      text-decoration: none;
-    }
-  
-    table thead th {
-      padding-top: 0vh;
-      text-align: center !important;
-    }
-  
-    #tabela {
-      margin-top: 1vh;
-    }
-  
-    #tabela2 {
-      margin-top: 5vh;
-    }
-  
-    a {
-      text-decoration: none;
-      color: blue;
-    }
-  
-    #logo-img{ 
-      width: 30vw;
-      margin-left: 30vw;
-  }
-  img{
-    width: 100%;
-  }
-  
-    #Linktopage {
-      color: blue;
-      text-decoration: none !important;
-    }
-  }
-  
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-  
-  }
-  
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-  
-  }
-  
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-  
-  }
-  
+
+
+}

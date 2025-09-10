@@ -174,17 +174,23 @@ BGMobile:
 
 Extras:
 
-Riders
-BG1: 
-BGMobile:
+Secret Rings
+BG1: https://www.steamgriddb.com/hero/124784
+BGMobile: https://www.steamgriddb.com/grid/518236
+BGMobileMD: https://www.steamgriddb.com/grid/622886
+Logo: https://www.steamgriddb.com/logo/4463
 
-Chao
-BG1: 
-BGMobile: 
+Black Knight
+BG1: https://www.steamgriddb.com/hero/124821
+BGMobile: https://www.steamgriddb.com/grid/359219
+BGMobileMD: https://www.steamgriddb.com/grid/81062
+Logo: https://www.steamgriddb.com/logo/4462
 
-World
-BG1: 
-BGMobile:
+Rivals
+BG1: https://www.steamgriddb.com/hero/14418
+BGMobile: https://www.steamgriddb.com/grid/111497
+BGMobileMD: https://www.steamgriddb.com/grid/34780
+Logo: https://www.steamgriddb.com/logo/24813
 
 BattleR
 BG1: 
@@ -216,3 +222,10 @@ BG2:
 BGMobile: 
 BGMobileMD:https://www.steamgriddb.com/grid/502173
 
+
+Extras
+
+Smackdown
+BG1:https://www.steamgriddb.com/hero/9763
+BGMobile:https://www.steamgriddb.com/grid/103101
+BGMobileMD:https://www.steamgriddb.com/grid/75907
