@@ -54,7 +54,7 @@ font-size: 1rem;
   /*General START*/
     body {
   background-image: url("../../../IMG/SonicColors/BG2.jpg");
-      max-width: 100%;
+  width: 100%;
       overflow-x: hidden;
     }
   .navbar-brand img {
@@ -93,10 +93,11 @@ font-size: 1rem;
       background-repeat: no-repeat;
       background-size: contain;
       height: 90vh;
+      min-height: 900px;
     }
   
     #introdução {
-      padding-top: 130vh;
+      padding-top: 180%;
       position: relative;
       color: white;
       text-shadow:
@@ -114,7 +115,7 @@ color: white;
 font-weight: bold;
 text-align: center;
 margin-bottom: 5vh;
-margin-top: 50vh;
+margin-top: 25%;
 font-size: 1rem;
   }
 

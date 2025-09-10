@@ -55,7 +55,7 @@ font-size: 1rem;
   /*General START*/
     body {
   background-color: #FDDB00;
-      max-width: 100%;
+  width: 100%;
       overflow-x: hidden;
     }
   .navbar-brand img {
