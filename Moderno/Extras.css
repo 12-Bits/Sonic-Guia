@@ -90,6 +90,10 @@ text-shadow:
       width: 20vw;
       margin-left: 7.5vw;
     }
+
+#SecretIMG2 {
+margin-top: 50px;
+}
     
 #Knight {
       
@@ -300,6 +304,11 @@ text-shadow:
   width: 100%;
   display: block;
 }
+
+
+
+
+
 
     #logo {
       margin-top:10vh;

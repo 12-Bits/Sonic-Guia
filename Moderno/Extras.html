@@ -2,12 +2,60 @@
 
 <!DOCTYPE html>
 <html lang="pt-BR">
+
+<style>
+#panel1, .flip1 {
+  padding: 10px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+  border: solid 1px #a6d8a8;
+  margin: auto;
+  cursor:pointer;
+}
+
+#panel1 {
+  display: none;
+}
+
+#panel2, .flip2 {
+  padding: 10px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+  border: solid 1px #a6d8a8;
+  margin: auto;
+  cursor:pointer;
+}
+
+#panel2 {
+  display: none;
+}
+</style>
 <head>
 <!--
     See Sonic Momentum
     Sonic Free Riders
     
 -->
+<script>
+function PainelSecret() {
+    if (document.getElementById("panel1").style.display === "block") {
+        document.getElementById("panel1").style.display = "none";
+        return;
+    }
+  document.getElementById("panel1").style.display = "block";
+}
+
+function PainelKnight() {
+    if (document.getElementById("panel2").style.display === "block") {
+        document.getElementById("panel2").style.display = "none";
+        return;
+    }
+  document.getElementById("panel2").style.display = "block";
+}
+</script>
+
     <title>Sonic Guia Definitivo Moderno Extras</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -99,65 +147,60 @@
             <div class="row">
                 <div class="col-6">
                     <img src="../IMG/ExtrasModerno/Secret_Logo.png" id="LogoSecret"> </img>
-                        <p id="SecretText">Sonic Riders DX é um mod para Sonic Riders de Gamecube que rebalancia o jogo e adiciona novos personagens. É necessário ter uma cópia da versão de Gamecube do jogo com o formato ".iso" <br>
-                        <a href="https://www.exgearlabs.org/downloads/sonic-riders-dx">Página do jogo</a><br>
-                        Instruções de instalação:<br>
-1.) Executar "Sewer56.Patcher.Riders.exe".<br>
-2.) Clique em "Elevate our Experience!" e depois em "OK".<br>
-3.) Selecione o arquivo ".iso" do Sonic Riders que você possui.<br>
-4.) Seperar até o programa criar o arquivo modificado.
-
-                    </p>
+                        <p id="SecretText">No Dolphin, vá em Controles e clique em no botão "Configurar" ao lado do "Wii Remote Emulado",
+                             clique em "limpar" e selecione o dispositivo que você quer usar para jogar. 
+                             Clique nos retangulos cinzas e digite a tecla no seu teclado ou clique no botão de seu controle para selecionar a ação de seu dispositivo. 
+                             Em baixo há imagens mostrando o que os botões fazem no jogo. Exemplo, se você quer que a tecla "A" pule no jogo, clique no retangulo ao lado do "1" e digite a tecla "A".  <br>
+                        </p>
                         
                 </div>
             </div>
         </div>
-<div class="divisor">
-  <img src="../IMG/ExtrasClassico/Border.png" alt="Divisor decorativo">
-</div>
+        <p class="flip1" id="SecretShow" onclick="PainelSecret()">Clique para ver as imagens</p>
+
+        <div id="panel1">
+
+            <img id="SecretIMG1" src="../IMG/ExtrasModerno/Secret_Tutorial1.png" alt="Configuração do controle 1"> <br>
+            <img id="SecretIMG2" src="../IMG/ExtrasModerno/Secret_Tutorial2.png" alt="Configuração do controle 1"> <br>
+        </div>
+
+
+
         <div class="container-fluid" id="Knight">
             <div class="row">
                 <div class="col-6">
                     <img src="../IMG/ExtrasModerno/Knight_Logo.png" id="logoKnight"> </img>
-                    <div id="KnightText">
-                        <p>Chao Garden Island é um jogo "2.5D" focado no Chao Garden, com diversas frutas, minigames, personagens e Chaos! <p>
-                        <p><a href="https://nefault1st.wordpress.com/downloads/chao-resort-island/">Página do jogo</a></p>
+
+                        <p id="KnightText">No Dolphin, vá em Controles e clique em no botão "Configurar" ao lado do "Wii Remote Emulado",
+                             clique em "limpar" e selecione o dispositivo que você quer usar para jogar. 
+                             Clique nos retangulos cinzas e digite a tecla no seu teclado ou clique no botão de seu controle para selecionar a ação de seu dispositivo. 
+                             Em baixo há imagens mostrando o que os botões fazem no jogo. Exemplo, se você quer que a tecla "A" pule no jogo, clique no retangulo ao lado do "1" e digite a tecla "A".  <br>
+                        </p>
                     </div>
                 </div>
             </div>
+          
+        </div>
+          <p class="flip2" id="SecretShow" onclick="PainelKnight()">Clique para ver as imagens</p>
+
+        <div id="panel2">
+
+            <img id="SecretIMG1" src="../IMG/ExtrasModerno/Secret_Tutorial1.png" alt="Configuração do controle 1"> <br>
+            <img id="SecretIMG2" src="../IMG/ExtrasModerno/Secret_Tutorial2.png" alt="Configuração do controle 1"> <br>
         </div>
 
-<div class="divisor"> 
 
-  <img src="../IMG/ExtrasClassico/Border.png" alt="Divisor decorativo">
-</div>
-        <div class="container-fluid" id="Dimensions">
-            <div class="row">
-                <div class="col-5">
-                    <img src="../IMG/ExtrasModerno/Dimentions_Logo.png" id="logoDimensions"> </img>
-                    <div id="DimensionsText">
-                        <p>Uma hack que altera o posicionamento de inimigos e altera os níveis para diminuir situações onde o jogador não tem tempo para reagir.<p>
-                        <p>Descompacte o zip. Para aplicar o patch vá a página <a id="Linktopage" href="https://www.marcrobledo.com/RomPatcher.js/">Rom Patcher JS</a>, clique em "ROM file:" e selecione o arquivo do jogo, logo após clique em "Patch file:" e selecione o arquivo IPS que você baixou. Depois disso, clique em "Apply patch" para baixar o arquivo final e rode-o em um emulador de sua escolha </p>
 
-                        <p><a href="https://shc.zone/entries/contest2024/997">Página do jogo</a></p>
-                        </div>
-                       
-                </div>
-            </div>
-        </div>
-<div class="divisor">
-  <img src="../IMG/ExtrasClassico/Border.png" alt="Divisor decorativo">
-</div>
 
         <div class="container-fluid" id="Rivals"> 
             <div class="row">
                 <div class="col-5">
                     <img src="../IMG/ExtrasModerno/Rivals_Logo.png" id="logoRivals"> </img>
                         <div id="RivalsText">
-                            <p>Versão americana https://gamebanana.com/mods/491825 altera os níveis para diminuir situações onde o jogador não tem tempo para reagir, além de diminuir a quantidade de medalhas para entrar no Special Stage.<p>
+                            <p>Tradução para português do jogo. É necessário aplicar o patch a versão americana do jogo. <p>
                             <p>Descompacte o zip. Para aplicar o patch vá a página <a id="Linktopage" href="https://www.marcrobledo.com/RomPatcher.js/">Rom Patcher JS</a>, clique em "ROM file:" e selecione o arquivo do jogo, logo após clique em "Patch file:" e selecione o arquivo IPS que você baixou. Depois disso, clique em "Apply patch" para baixar o arquivo final e rode-o em um emulador de sua escolha </p>
 
-                            <p><a href="https://www.romhacking.net/hacks/8001/">Página do jogo</a></p>
+                            <p><a href="https://gamebanana.com/mods/491825">Página do jogo</a></p>
                         </div>
                 </div>
             </div>
@@ -185,7 +228,22 @@
             </div>
         </div>
 
+<div class="divisor"> 
+  <img src="../IMG/ExtrasClassico/Border.png" alt="Divisor decorativo">
+</div>
 
+        <div class="container-fluid" id="Dimensions">
+            <div class="row">
+                <div class="col-5">
+                    <img src="../IMG/ExtrasModerno/Dimentions_Logo.png" id="logoDimensions"> </img>
+                    <div id="DimensionsText">
+                        <p>Um jogo 2D com uma jogabilidade similar a Sonic Rush, com o Sonic e Shadow jogáveis, o jogo ainda está em desenvolvimento, mas uma demo está disponível.</p>
+                        <p><a href="https://www.deviantart.com/phantom-radea/art/Sonic-Dimensions-5-1-1-In-Development-5-1-0-DEMO-963814256">Página do jogo</a></p>
+                        </div>
+                       
+                </div>
+            </div>
+        </div>
     
 
 </body>
