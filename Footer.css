@@ -1,0 +1,57 @@
+@media (max-width: 575.98px) {
+    
+    #logo-img{ 
+        width: 30vw;
+        margin-left:100%;
+        position:relative;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    #logo-img{ 
+        width: 30vw;
+        margin-left:110%;
+        position:relative;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {  /* Tablets */
+    #logo-img{ 
+        width: 30vw;
+        margin-left:110%;
+        position:relative;
+    }
+
+
+  }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {  /* Laptops */
+        #logo-img{ 
+            width: 10vw;
+            margin-left:0%;
+            position:relative;
+        }
+    }
+
+@media (min-width: 1200px) {  /* Desktops grandes */
+
+    #footer-div{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #161414;
+        width: 100%;
+    }
+        #footer-logo{ 
+        width: 13vw;
+        margin-left:0%;
+        position:relative;
+        padding-left: 50px;
+    }
+    #footer-text{
+        padding-left: 25vw;
+        font-size: 1.2vw;
+    }
+  }
