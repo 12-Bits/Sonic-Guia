@@ -1,187 +1,563 @@
-@media only screen and (min-width: 1200px) {
 
-#BackgroundInicio {
-    background-image: url("../../IMG/Sonic1/Ports/Sonic1BG3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 90vh;
-    background-position: center ;
+
+    #division{
+      background-image: url("../../IMG/SonicAdventure/Border.png");
+      width: 100%;
+      height: 5vh;
+
+    }
+       #division2{
+      background-image: url("../../IMG/SonicAdventure/Border.png");
+      width: 100%;
+      height: 5vh;
+      margin-bottom: 5vh;
+
+    }
+
+
+.divisor {
+  position: relative;
+  z-index: 100;
+  padding-top: 100px;
+  margin-bottom: -50px;
 }
 
+.divisor img {
+  width: 100%;
+  display: block;
+}
 
-.col-sm-10{
+  #Aviso2 {
+background-color: red;
+padding: 5px;
+color: white;
+font-weight: bold;
+text-align: center;
+margin-bottom: 5vh;
+margin-top: 10%;
+font-size: 1rem;
+  }
+
+#ModList{
+  background-color: white;
+  margin: 5vh;
+  border-style: solid;
+  border-radius: 25px;
+  border-width: 5px;
+  padding: 1vh;
+  font-size: 1rem;
+
+}
+@media (max-width: 575.98px) {  /* Celulares pequenos */
+
+
+  /*General START*/
+    body {
+   background-color: black;
+    width: 100%;
+      overflow-x: hidden;
+    }
+  .navbar-brand img {
+    vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
+  }
+
+  .col-lg-6, #logo,#division, #division2 /*HIDING*/ {
     display: none;
-}
-.col-sm-8{
-    display: none;
-}
+  }
 
-#logo {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width:30vw;
-    margin-left: 120px;
-}
-.col-lg-6{
+    .col-md-6 {
+    display: block;
     font-weight: bold;
     font-size: larger;
     text-decoration: none;
-}
-body
-{  background-image:url("../../IMG/Sonic1/Ports/tile2.png");
-display: block;}
-table thead th {
-    text-align: center !important;
-    vertical-align: middle !important;
-}
-#introdução{
+  }
 
-  color: black;
-  text-shadow:
-   -1px -1px 0 #fff,  
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-     1px 1px 0 #fff;
-}
+  img {
+  width: 100%;
+  }
 
-#alerta{
-    font-size: 0.8em;
-    padding: 2vh;
-    background-color: red;
-    color: black;
-}
-body a {
+  #Linktopage {
+    color: blue;
     text-decoration: none !important;
   }
 
 
-  #divisão{
+
+  
+  /*General END*/
+
+  /*Main START*/
+
+     #BackgroundInicio {
+      background-image: url("../../../IMG/SonicCD/BGMobile.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 90vh;
+      min-height: 900px;
+      width: 100%;
+    }
+  
+    #introdução {
+      padding-top: 180%;
+      position: relative;
+      color: white;
+      text-shadow:
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px 1px 0 #000,
+         1px 1px 0 #000;
+      text-align: center;
+      
+    }
+
+#Aviso {
+background-color: red;
+padding: 5px;
+color: white;
+font-weight: bold;
+text-align: center;
+margin-bottom: 5vh;
+margin-top: 80vh;
+font-size: 1rem;
+  }
+
+/*Main END*/   
+  
+/*Tutorial START*/
+
+#Tutorial{
+  background-color: white;
+  margin: 5vh;
+  border-style: solid;
+  border-radius: 25px;
+  border-width: 5px;
+  padding: 1vh;
+  margin-top: 25vw;
+  font-size: 1rem;
+
+}
+#Titulo{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*Tutorial END*/
+}
+@media (min-width: 576px) and (max-width: 767.98px) {  /* Celulares grandes */
+    
+    /*General START*/
+  body {
+background-color: white;    overflow-x: hidden;
+  }
+  .navbar-brand img {
+    vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
+  }
+
+  .col-lg-6, #logo /*HIDING*/ {
+    display: none;
+  }
+
+  .col-6 {
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+  }
+
+   a {
+    text-decoration: none;
+    color: blue;
+  }
+
+  img{
+  width: 100%;
+  }
+
+  #Linktopage {
+    color: blue;
+    text-decoration: none !important;
+  }
+
+  /*General END*/
+
+  /*Main START*/
+
+  #BackgroundInicio {
+    background-image: url("../../../IMG/SonicCD/Ports/BGMobileMD.png");
+    background-repeat: no-repeat;
+    background-size: contain;  
+    width:100%;
+    background-position-x: center;
+  }
+
+  #introdução {
+    padding-top: 70%;
+    position: relative;
+    color: black;
+    font-weight: bold;
+
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+  }
+  #Explicação {
+background-color: red;
+padding: 5px;
+color: white;
+    text-shadow:
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    text-align: center;
+    margin-bottom: 5vh;
+  }
+  #Aviso {
+background-color: red;
+padding: 5px;
+color: white;
+font-weight: bold;
+text-align: center;
+margin-bottom: 5vh;
+margin-top: 0%;
+font-size: 1rem;
+  }
+
+/*Main END*/
+
+/*Tutorial START*/
+
+#Tutorial{
+  background-color: white;
+  margin: 5vh;
+  border-style: solid;
+  border-radius: 25px;
+  border-width: 5px;
+  padding: 1vh;
+}
+
+#Titulo{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+/*Tutorial END*/
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {  /* Tablets */
+
+/*General START*/
+  body {
+background-color: #FFF
+;    overflow-x: hidden;
+  }
+  .navbar-brand img {
+    vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
+  }
+
+  img {
+  width: 100%;
+  }
+
+  #Linktopage {
+    color: blue;
+    text-decoration: none !important;
+  }
+
+  .col-lg-6, #PropagandaMobile {
+    display: none;
+  }
+
+  .col-md-6 {
+    display: block;
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+
+  #logo {
+    margin-left: 4vw;
+    margin-top: 15px;
+    width: 30vw;
+  }
+
+  .col-6 {
+    font-weight: bold;
+    font-size: 1;
+    text-decoration: none;
+  }
+
+/*General END*/
+
+/*Main START*/
+  #BackgroundInicio {
+    background-image: url("../../../IMG/SonicCD/Ports/BG1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    min-height: 400px;
+    background-position-x: right;
+  }
+
+  #introdução {
+    
+    color: black;
+font-weight: bold;
+    text-shadow:
+      -1px -1px 0 #fff,  
+       1px -1px 0 #fff,
+      -1px 1px 0 #fff,
+       1px 1px 0 #fff;
+    font-size: 1.2rem;
+width: 65%;
+margin-left: 0vw;
+  }
+
+  #Explicação {
+background-color: red;
+padding: 5px;
+color: white;
+    text-shadow:
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    text-align: center;
+    margin-bottom: 5vh;
+  }
+
+  #Aviso {
+background-color: red;
+padding: 5px;
+color: white;
+font-weight: bold;
+text-align: center;
+margin-bottom: 5vh;
+margin-top: 5%;
+font-size: 1rem;
+  }
+
+/*Main END*/
+
+/*Tutorial START*/
+#Tutorial{
+  background-color: white;
+  margin: 5vh;
+  border-style: solid;
+  border-radius: 25px;
+  border-width: 5px;
+  padding: 1vh;
+}
+
+#Titulo{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+/*Tutorial END*/
+
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {  /* Laptops */
+
+/*General START*/
+
+  body {
+   background-image: url("../../IMG/SonicUnleashed/BG2.jpg");
+  overflow-x: hidden;
+  }
+
+  #logo {
+    margin-top: 25px;
+    width: 25vw;
+    margin-left: 7vw;
+  }
+
+  .col-lg-6 {
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+  }
+
+    .col-lg-8 {
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+    width: 90vw;
+  }
+
+  .col-md-6,#PropagandaMobile {
+    display: none;
+  } 
+
+  a {
+    text-decoration: none !important;
+  }
+  #divisão {
+    padding-top: 2vh;
+  }   
+/*General END*/
+
+/*Main START*/
+  #BackgroundInicio {
+    background-image: url("../../../IMG/SonicCD/Ports/BG1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    min-height: 450px;
+    background-position-x: right;
+
+  }
+
+  #introdução {
+    color: black;
+font-weight: bold;
+    text-shadow:
+      -1px -1px 0 #fff,  
+       1px -1px 0 #fff,
+      -1px 1px 0 #fff,
+       1px 1px 0 #fff;
+    font-size: 1.2rem;
+width: 65%;
+       
+  }
+
+    #Explicação {
+background-color: red;
+padding: 5px;
+color: white;
+    text-shadow:
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    text-align: center;
+    margin-bottom: 5vh;
+  }
+
+#Aviso {
+background-color: red;
+padding: 5px;
+color: white;
+font-weight: bold;
+text-align: center;
+margin-bottom: 5vh;
+margin-top: 10%;
+font-size: 1rem;
+  }
+/*Main END*/
+
+/*Tutorial START*/
+#Tutorial{
+  background-color: white;
+  border-style: solid;
+  border-radius: 25px;
+  border-width: 5px;
+  padding: 1vh;
+  margin-bottom: 5vh;
+
+}
+
+#Titulo{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+/*Tutorial END*/
+}
+@media (min-width: 1200px) {  /* Desktops grandes */
+
+
+/*General START*/
+
+  body {
+background-color: white; 
+   overflow-x: hidden;
+  }
+
+  #logo {
+    margin-top: 50px;
+    width: 25vw;
+    margin-left: 120px;
+  }
+
+  .col-lg-6 {
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+  }
+
+  .col-md-6, #PropagandaMobile {
+    display: none;
+  }
+
+  a {
+    text-decoration: none !important;
+  }
+
+  #divisão {
     padding-top: 2vh;
   }
 
-#Passo-a-passo{
-    border-style: solid;
-    background-image: url("../../IMG/Sonic1/Ports/Sonic1BG3.png");
-    border-color: #C81F34;
+/*General END*/
+
+/*Main START*/
+
+  #BackgroundInicio {
+    background-image: url("../../../IMG/SonicCD/Ports/BG1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    min-height: 600px;
+    background-position-x: right;
+
+  }
+
+  #introdução {
     color: black;
-
-}
-
-#Passo-a-passo1{
-    position: relative;
-top:3vh ;
-}
-
-#Passo-a-passo h6{
-    font-size: 1.1em;
-    font-weight: bold;
-
-}
-#Menu-sticky{
-    position: sticky;
-    top:40%;
-    border-style: solid;
-    border-color: blue;
-    text-align: center;
-}
-#Menu-sticky a{
-    position: sticky;
-    top:40%;
-    border-style: solid;
-    border-color: blue;
-    text-align: center;
-}
-
-#nota{
-    font-size: 0.9em;
-}
-
-#alerta2{
-    padding: 2vh;
-    margin-top: 5vh;
-    background-color: red;
-    color: black;
-}
-
-#tutorial-img{
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    width: 30vw;
-}
+font-weight: bold;
+    text-shadow:
+      -1px -1px 0 #fff,  
+       1px -1px 0 #fff,
+      -1px 1px 0 #fff,
+       1px 1px 0 #fff;
+    font-size: 1.2rem;
+width: 65%;
+  }
 
 
-#Passo-a-passo1{
- text-align: center;
-padding-top: 10vh;
-}
+#Aviso {
+background-color: red;
+padding: 5px;
+color: white;
+font-weight: bold;
+text-align: center;
+margin-bottom: 5vh;
+margin-top: 5%;
+font-size: 1rem;
+  }
+/*Main END*/
 
-
-}
-
-@media only screen and (max-width: 600px){
-    body{  background-image:url("../../IMG/Sonic1/Ports/tile2.png");}
-    .navbar-brand img {
-        vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
-    }
-    #logo {
-        margin-top: 50px;
-        width:90vw;
- 
-    }
-
-    #BackgroundInicio {
-        background-image: url("../../IMG/Sonic1/Ports/Sonic1BG3Mobile.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 80vh;
-        min-height: 50%;
-        background-position: center ;
-    }
-    .container mt-4{
-        display: none;
-    }
-    .col-lg-6, .col-lg-10{
-        display: none;
-    }
-
-    #Menu-sticky{
-        display: none;
-    }
-    #Passo-a-passo{
-        border-style: solid;
-        background-image: url("../../IMG/Sonic1/Ports/Sonic1BG3.png");
-        border-color: #C81F34;
-        color: black;   
-    }
-    #introdução{
-        font-size: 1em;
-        padding-top: 10vh;
-        color: black;
-        text-shadow:
-         -1px -1px 0 #fff,  
-          1px -1px 0 #fff,
-          -1px 1px 0 #fff,
-           1px 1px 0 #fff;
-    }
-    #computadorMobile{
-    border-style: solid;
-    border-color: #C81F34;
-    background-image: url("../../IMG/Sonic1/Ports/Sonic1BG3.png");
-    align-items: center;
+/*Tutorial START*/
+#Tutorial{
+  background-color: white;
+  border-style: solid;
+  border-radius: 25px;
+  border-width: 5px;
+  padding: 1vh;
     margin-bottom: 5vh;
+
 }
 
-#celularMobile{
-    border-style: solid;
-    border-color: #C81F34;
-    background-image: url("../../IMG/Sonic1/Ports/Sonic1BG3.png");
-    align-items: center;
+#Titulo{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+/*Tutorial END*/
 }
 
-#alerta2{
-    padding: 2vh;
-    margin-top: 5vh;
-    background-color: red;
-    color: black;
-}
-}
+
+

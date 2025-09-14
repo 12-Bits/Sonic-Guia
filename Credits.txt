@@ -26,6 +26,13 @@ BG2:
 BGMobile:
 BGMobileMD:https://www.steamgriddb.com/grid/288054
 
+    Sonic CD Ports
+    BG1:https://www.steamgriddb.com/hero/69049
+    BGMobile:https://www.steamgriddb.com/grid/54823
+    BGMobileMD:https://www.steamgriddb.com/grid/288054
+    LogoUltra:https://www.steamgriddb.com/logo/122058
+
+
 Sonic 3
 BG1: Edited (inspiration: https://www.steamgriddb.com/hero/68859 )
 BGMobile: https://www.steamgriddb.com/grid/124456
