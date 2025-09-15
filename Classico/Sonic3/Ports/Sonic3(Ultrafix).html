@@ -2,20 +2,19 @@
 <html lang="pt-BR">
 
 <head>
-    <title>SGD Sonic CD (Ultrafix)</title>
+    <title>SGD Sonic 3 (Ultrafix)</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link href="SonicCDPorts.css" rel="stylesheet">
+    <link href="Sonic3Ports.css" rel="stylesheet">
     <link href="../../../Header.css" rel="stylesheet">
     <link href="../../../Footer.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/vaakash/socializer@f794acd/css/socializer.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.7.2/css/all.css">
-
 </head>
 <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav">
         <div class="container-fluid">
             <a class="navbar-brand" href="../../../index.html"><img id="logo-img" src="../../../IMG/SGD_logo.png" alt="Logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
@@ -26,13 +25,12 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Clássico (1991-1997)</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="../../Sonic1/Sonic1Inicio.html">Sonic the Hedgehog</a></li>
-                            <li><a class="dropdown-item" href="../Sonic2Inicio.html">Sonic the Hedgehog 2</a></li>
+                            <li><a class="dropdown-item" href="../Sonic1Inicio.html">Sonic the Hedgehog</a></li>
+                            <li><a class="dropdown-item" href="../../Sonic2/Sonic2Inicio.html">Sonic the Hedgehog 2</a></li>
                             <li><a class="dropdown-item" href="../../SonicCD/SonicCD(Inicio).html">Sonic CD</a></li>
                             <li><a class="dropdown-item" href="../../Sonic3/Sonic3Inicio.html">Sonic 3 & Knuckles</a></li>
                             <div class="dropdown-divider"></div>
                             <li><a class="dropdown-item"  href="../../Extras.html">Extras</a></li>
-
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -49,12 +47,12 @@
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Moderno(2006-2014)</a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../../../Moderno/Sonic06/Sonic06.html">Sonic the Hedgehog (2006)</a></li>
-                        <li><a class="dropdown-item" href="../../../Moderno/SonicUnleashed/SonicUnleashed.html">Sonic Unleashed</a></li>
-                        <li><a class="dropdown-item" href="../../../Moderno/SonicColors/SonicColors.html">Sonic Colors</a></li>
-                        <li><a class="dropdown-item" href="../../../Moderno/SonicGenerations/SonicGenerations.html">Sonic Generations</a></li>
-                        <li><a class="dropdown-item" href="../../../Moderno/SonicLostWorld/SonicLostWorld.html">Sonic Lost World</a></li>
-                        <div class="dropdown-divider"></div>
+                          <li><a class="dropdown-item" href="../../../Moderno/Sonic06/Sonic06.html">Sonic the Hedgehog (2006)</a></li>
+                          <li><a class="dropdown-item" href="../../../Moderno/SonicUnleashed/SonicUnleashed.html">Sonic Unleashed</a></li>
+                          <li><a class="dropdown-item" href="../../../Moderno/SonicColors/SonicColors.html">Sonic Colors</a></li>
+                          <li><a class="dropdown-item" href="../../../Moderno/SonicGenerations/SonicGenerations.html">Sonic Generations</a></li>
+                          <li><a class="dropdown-item" href="../../../Moderno/SonicLostWorld/SonicLostWorld.html">Sonic Lost World</a></li>
+                          <div class="dropdown-divider"></div>
                         <li><a class="dropdown-item"  href="../../../Moderno/Extras.html">Extras</a></li>
 
 
@@ -64,10 +62,10 @@
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Pós-Moderno(2017-Atualidade)</a>
                     <ul class="dropdown-menu">
                       
-                        <li><a class="dropdown-item" href="../../../Pos-Moderno/Sonic Mania/SonicMania.html">Sonic Mania</a></li>
-                        <li><a class="dropdown-item" href="../../../Pos-Moderno/Sonic Forces/SonicForces.html">Sonic Forces</a></li>
-                        <li><a class="dropdown-item" href="../../../Pos-Moderno/Sonic Frontiers/SonicFrontiers.html">Sonic Frontiers</a></li>
-                        <li><a class="dropdown-item" href="../../../Pos-Moderno/Sonic Superstars/SonicSuperstars.html">Sonic Superstars </a></li>
+                        <li><a class="dropdown-item" href="../../../Pos-Moderno/SonicMania/SonicMania.html">Sonic Mania</a></li>
+                        <li><a class="dropdown-item" href="../../../Pos-Moderno/SonicForces/SonicForces.html">Sonic Forces</a></li>
+                        <li><a class="dropdown-item" href="../../../Pos-Moderno/SonicFrontiers/SonicFrontiers.html">Sonic Frontiers</a></li>
+                        <li><a class="dropdown-item" href="../../../Pos-Moderno/SonicSuperstars/SonicSuperstars.html">Sonic Superstars </a></li>
                         <div class="dropdown-divider"></div>
                         <li><a class="dropdown-item"  href="../../../Pos-Moderno/Extras.html">Extras</a></li>  
                     </ul>
@@ -83,10 +81,9 @@
 </header>
 
 <body>
-       <div class="container-fluid" id="BackgroundInicio">
-       
+    <div class="container-fluid" id="BackgroundInicio">
         <img src="../../../IMG/SonicCD/Ports/Logo.png" id="logo">
-        <div class="container" id="textoinicial">
+<div class="container" id="textoinicial">
         <div class="row">
             <div class="col-lg-6">
                 <p id="introdução">Sonic Origins Ultrafix é um mod para Sonic Origins e Sonic Origins Plus que adiciona 900 mudanças no jogo para transformá-lo na melhor forma de jogar os jogos clássicos.<br> Ele é compativel somente com a versão da Steam do jogo. </p>
@@ -94,79 +91,83 @@
         </div>
 <div class="row">
             <div class="col-md-6">
-                                <p id="introdução">Sonic Origins Ultrafix é um mod para Sonic Origins e Sonic Origins Plus que adiciona 900 mudanças no jogo para transforma-lo na melhor forma de jogar os jogos clássicos.</p>
+                                <p>Sonic Origins Ultrafix é um mod para Sonic Origins e Sonic Origins Plus que adiciona 900 mudanças no jogo para transforma-lo na melhor forma de jogar os jogos clássicos.</p>
 
                 </div>
             </div>
         </div>
-            
+</div>
+<div class="container" id ="MDText">
+ <div class="row">
+    <div class="col-12" id="IntroduçãoMD">
+   
+                <p >Sonic Origins Ultrafix é um mod para Sonic Origins e Sonic Origins Plus que adiciona 900 mudanças no jogo para transformá-lo na melhor forma de jogar os jogos clássicos.<br> Ele é compativel somente com a versão da Steam do jogo. </p>
+</div>
+
     </div>
+</div>
+    
 
-      
-
- <div class="container mt-3">
+<div class="container mt-3">
     <div class="row">
-
-
-<div id="BG2">
-  <div id="division2"></div>   
-   <div class="row">
-
-
-         <div class="col-lg-2">
-            <div class="container" id=""><span>AD</span></div>
+        <div class="col-lg-2">
+            <div class="container" id="ADPC"><span>AD</span></div>
         </div>
 
+        <div class="col-lg-8" id="Passo-a-passoPC">
+            <div class="container" id="Passo-a-passo">
+                <h2 id="computador">Computador</h2>
 
-<div class="col-lg-8">
-<div class="container mx-auto" id="Tutorial">
-
-
-    
-<div id="TutorialText">
-    <h1 id="Titulo">Tutorial de Instalação</h1>
+                 <h1 id="Titulo"></h1>
     <h2><b>Passo 1</b> - Baixe o <a href="https://gamebanana.com/tools/6311" target="_blank">HedgeModManager</a> e suas dependências e depois inicie o programa.</a></h2>
     <h2><b>Passo 2</b> - Há dois modos de baixar mods. Baixar manualmente o mod e clicar no botão adicionar mod, selecionar "instalar de um arquivo" e selecionar o zip do mod (se ele não aparecer, mude o tipo de arquivo para 7z ou rar), ou na página do mod clicar em "HedgeModManager 1-CLICK INSTALL" que se você permitir acesso à página, baixará o mod automaticamente no diretório certo.</h2>
     <h2><b>Passo 3</b> - Baixe o <a href="https://gamebanana.com/mods/388187" target="_blank">OriginsPlayerPatcher</a>, instale-o e deixe ele em cima da lista no HedgeModManager, ele é necessário para que o Ultrafix funcione.</h2>
     <h2><b>Passo 4</b> - Baixe o <a href="https://gamebanana.com/mods/452036" target="_blank">Sonic Origins Ultrafix</a>, instale-o e deixe ele embaixo do OriginsPlayerPatcher, clique nas caixa ao lado dele no HedgeModManager e clique em Salvar e jogar para iniciar o jogo com o mod</h2>
-  
-</div>
-</div>
-    </div>
-        <div class="col-lg-2">
-            <div class="container" id=""><span>AD</span></div>
-        </div>
-
-
-
-        <div class="col-lg-2">
-            <div class="container" id=""><span>AD</span></div>
-        </div>
-<div class="col-lg-8">
-    <div class="container mx-auto" id="BackgroundResto">
-        <div id="ModList">
-            <h1 id="Titulo">Lista de Mods</h1>
-            <h2 id="Subtitulo">Mods Recomendados</h2>
-        <div id="Essenciais">
-            <h3><a id="Linktopage" href="https://gamebanana.com/mods/580894">Modelos Melhorados</a><span id="Autor"> por Matt Crafts e ZEROES_07</span></h3><span>Melhora os modelos 3D do Sonic normal, Werehog, Super Sonic e Chip (Werehog tem duas opções de modelo) </span>
-            <h3><a id="Linktopage" href="https://gamebanana.com/mods/579428">Melhorias Gerais</a><span id="Autor"> por 4EveryoneHD e Sous-Titre</span></h3><span>Adiciona diversas melhorias como aumento da renderização de objetos distantes, aumento de EXP como o Warehog, menor número necessário de medalhas para desbloquear fases, etc. Todas as melhorias podem ser desativadas individualmente. </span>  
-            <h3><a id="Linktopage" href="https://gamebanana.com/mods/581699">Texturas HD</a><span id="Autor"> por StarlightDX</span></h3><span>Melhora as texturas das fases do jogo.</span>
-            <h3><a id="Linktopage" href="https://gamebanana.com/mods/579090">Pequenas Melhorias</a><span id="Autor"> por archxe</span></h3><span>Conserta pequenos erros do jogo original</span>       
-        </div>
-
-</div>
-</div>
-</div>
-        <div class="col-lg-2">
-            <div class="container" id=""><span>AD</span></div>
-        </div>
-</div>
-
- </div>
+            </div>
 
     </div>
- </div>
- 
+        <div class="col-lg-2">
+            <div class="container" id="ADPC"><span>AD</span></div>
+        </div>
+    </div>
+</div>
+
+        <div class="col-lg-2">
+            <div class="container" id="ADCell"><span>AD</span></div>
+        </div>
+
+<div class="container mt-3" id="Passo-a-passoCell">
+    <div class="row">
+        <div class="col-12">
+            <div class="container" id="ADPC"><span>AD</span></div>
+        </div>
+
+        <div class="col-12" id="Passo-a-passoCell">
+
+            <div class="container mt-4" id="Passo-a-passo">
+                 <h1 id="Titulo">Tutorial de Instalação</h1>
+    <h2><b>Passo 1</b> - Baixe o <a href="https://gamebanana.com/tools/6311" target="_blank">HedgeModManager</a> e suas dependências e depois inicie o programa.</a></h2>
+    <h2><b>Passo 2</b> - Há dois modos de baixar mods. Baixar manualmente o mod e clicar no botão adicionar mod, selecionar "instalar de um arquivo" e selecionar o zip do mod (se ele não aparecer, mude o tipo de arquivo para 7z ou rar), ou na página do mod clicar em "HedgeModManager 1-CLICK INSTALL" que se você permitir acesso à página, baixará o mod automaticamente no diretório certo.</h2>
+    <h2><b>Passo 3</b> - Baixe o <a href="https://gamebanana.com/mods/388187" target="_blank">OriginsPlayerPatcher</a>, instale-o e deixe ele em cima da lista no HedgeModManager, ele é necessário para que o Ultrafix funcione.</h2>
+    <h2><b>Passo 4</b> - Baixe o <a href="https://gamebanana.com/mods/452036" target="_blank">Sonic Origins Ultrafix</a>, instale-o e deixe ele embaixo do OriginsPlayerPatcher, clique nas caixa ao lado dele no HedgeModManager e clique em Salvar e jogar para iniciar o jogo com o mod</h2>
+            </div>
+        </div>
+
+   
+
+            <div class="col-lg-2">
+            <div class="container" id="ADCell"><span>AD</span></div>
+        </div>
+
+            <div id="Alertas">
+                <p class="container rounded" id="alerta2">
+                    Não desative o Sonic 1 Forever na opção de mods! Se isso acontecer, você não conseguirá abrir o aplicativo. Para corrigir, edite o arquivo "modconfig.ini" dentro da pasta "Mods" e altere "Sonic 1 Forever=false" para "Sonic 1 Forever=true". No celular, pode ser necessário um editor de texto.
+                </p>
+            </div>
+            
+    </div>
+</div>
+
 <div class="footer-basic">
         <footer>
             <div id="Icons" class="d-flex justify-content-center" id="Icons">
@@ -180,12 +181,11 @@
 
             </ul>
             <p class="copyright">Sonic Guia Definitivo © 2025</p>
+            <span><a href="https:www.deviantart.com/sjunyo/art/Sonic-the-Hedgehog-Box-Art-714917596">sonicmechaomega999</a></span>
         </footer>
 </div>
 
-    
 </body>
+
 </html>
-
-
 
