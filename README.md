@@ -10,6 +10,7 @@ TDOO List
 - [X] Create Post-Modern era pages
 - [X] Create general footer
 - [ ] Create all extras pages (Only Post-Modern left)
+- [ ] Add detailed instructions to extras (if needed)
 - [ ] Expand Index
 - [ ] Ajust all pages to be responsible to phones and tablets (Only CD and Extras left)
 - [ ] Credit all artists (official and fans)
