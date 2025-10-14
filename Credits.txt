@@ -64,27 +64,31 @@ BGMobile:
 
 Spinball
 BG1: 
-BGMobile: 
+BGMobile: https://www.steamgriddb.com/grid/181936
 
 TailsAdventure
 BG1: 
-BGMobile: 
+BGMobile: https://www.steamgriddb.com/grid/561073
 
 Fighters
 BG1: 
-BGMobile:
+BGMobile: https://www.steamgriddb.com/grid/156144
 
 Blast3D
 BG1: 
-BGMobile:
+BGMobile:https://www.steamgriddb.com/grid/338050
 
 SonicR
 BG1: 
-BGMobile: 
+BGMobile: https://www.steamgriddb.com/grid/179824
+
+RoboBlast2
+BG1:
+BGMobile: https://www.steamgriddb.com/grid/111120
 
 RingRacers
 BG1: 
-BGMobile: 
+BGMobile: https://www.steamgriddb.com/grid/437613
 
 ADVENTURE
 

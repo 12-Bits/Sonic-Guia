@@ -318,7 +318,7 @@ font-size: 1rem;
     text-align: center;
     font-size: 1rem;
     width: 120%;
-      background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
   padding: 20px;
   border-radius: 10px;
   }

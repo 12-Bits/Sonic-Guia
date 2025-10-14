@@ -48,7 +48,7 @@ text-shadow:
   1px 1px 0 #000;
 }
 
-    #SMS_Remake {
+#SMS_Remake {
       
 background-image: url("../IMG/ExtrasClassico/SMS_REMAKE_Mobile.jpg");
 background-size: cover;
@@ -59,18 +59,24 @@ width: 100%;
 position: relative;
 z-index: 1;
 /*Font Style*/
-color: black;
+color: white;
 font-size: 1.2rem;
 font-weight: bold;
-text-shadow:
-  -1px -1px 0 #FFF,  
-  1px -1px 0 #FFF,
-  -1px 1px 0 #FFF,
-  1px 1px 0 #FFF;
+
     }
 
-    #SMS_Remake p {
-      padding-top: 30vh;
+    #SMS_Remake #Text {
+  background-color: rgba(0, 0, 0, 0.7); /* Aumentei a opacidade para 0.7 para melhor contraste */
+  padding: 20px;
+  border-radius: 10px;
+
+  /* ADICIONE UMA MARGEM SUPERIOR PARA AFASTAR O BLOCO DO TOPO */
+  margin-top: 35vh; /* Ajuste este valor (vh, %, rem, ou px) para a posição visualmente correta. */
+
+  /* Se quiser que o texto fique centralizado na horizontal */
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
     }
 
 
@@ -82,18 +88,27 @@ text-shadow:
   position: relative;
   z-index: 1;
   /*Font Style*/
-  color: black;
+  color: white;
   font-size: 1.2rem;
   font-weight: bold;
 }
 
-#Sonic_Chaos p {
-  padding-top: 80vw;
-  
-}
-#Sonic_Chaos img{
-  display: none;
-}
+
+
+  #Sonic_Chaos #Text{
+  background-color: rgba(0, 0, 0, 0.7); /* Aumentei a opacidade para 0.7 para melhor contraste */
+  padding: 20px;
+  border-radius: 10px;
+
+  /* ADICIONE UMA MARGEM SUPERIOR PARA AFASTAR O BLOCO DO TOPO */
+  margin-top: 55vh; /* Ajuste este valor (vh, %, rem, ou px) para a posição visualmente correta. */
+
+  /* Se quiser que o texto fique centralizado na horizontal */
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
 #TripleTrouble{
 background-image: url("../IMG/ExtrasClassico/STT_Mobile.jpg");
 background-size: cover;
@@ -101,21 +116,27 @@ height: 120vh;
 background-position: center;
 position: relative;
 z-index: 1;
+background-position-y: 2vh;
 /*Font Style*/
-color: black;
+color: white;
 font-size: 1.2rem;
 font-weight: bold;
 }
 
-#TripleTrouble p {
-  padding-top: 30vh;
-}
-#TripleTrouble #P2 {
-  padding-top: 2vh;
-}
 
-#TripleTrouble #P3 {
-  padding-top: 2vh;
+
+#TripleTrouble #Text{
+  background-color: rgba(0, 0, 0, 0.7); /* Aumentei a opacidade para 0.7 para melhor contraste */
+  padding: 10px;
+  border-radius: 10px;
+
+  /* ADICIONE UMA MARGEM SUPERIOR PARA AFASTAR O BLOCO DO TOPO */
+  margin-top: 35vh; /* Ajuste este valor (vh, %, rem, ou px) para a posição visualmente correta. */
+
+  /* Se quiser que o texto fique centralizado na horizontal */
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -124,90 +145,175 @@ background-image: url("../IMG/ExtrasClassico/Bean_Mobile.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-height: 100vh;
+height: 130vh;
 /*Font Style*/
 font-weight: bold;
 font-size: 1.2rem;
-color: black;
-text-shadow:
-  -1px -1px 0 #FFF,  
-  1px -1px 0 #FFF,
-  -1px 1px 0 #FFF,
-  1px 1px 0 #FFF;
+color: white;
+
 }
 
 
-#TailsAdventure{
-background-image: url("../IMG/ExtrasClassico/T_A_BG1.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position-x: -15vw;
-background-position: center;
-height: 100vh;
-/*Font Style*/
-font-weight: bold;
-font-size: 1.2rem;
-color: black;
-}
+#MeanBean #Text{
+  background-color: rgba(0, 0, 0, 0.7); /* Aumentei a opacidade para 0.7 para melhor contraste */
+  padding: 5px;
+  border-radius: 10px;
 
-#Fighters{
-background-image: url("../IMG/ExtrasClassico/S_F_BG1.png");
-background-repeat: no-repeat;
-height: 100vh;
-background-size: cover;
-background-position-x: -20vw;
-background-position: center;
-/*Font Style*/
-color: black;
-font-size: 1.2rem;
-font-weight: bold;
-}
+  /* ADICIONE UMA MARGEM SUPERIOR PARA AFASTAR O BLOCO DO TOPO */
+  margin-top: 45vh; /* Ajuste este valor (vh, %, rem, ou px) para a posição visualmente correta. */
 
-#Blast3D{
-background-image: url("../IMG/ExtrasClassico/S_3D_BG1.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-height: 100vh;
-background-position-x: -25vw;
-/*Font Style*/
-font-size: 1.2rem;
-color: black;
-font-weight: bold;
-text-shadow:
-  -1px -1px 0 #FFF,  
-  1px -1px 0 #FFF,
-  -1px 1px 0 #FFF,
-  1px 1px 0 #FFF;
+  /* Se quiser que o texto fique centralizado na horizontal */
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #Spinball{
-background-image: url("../IMG/ExtrasClassico/S_BALL_BG1.png");
+background-image: url("../IMG/ExtrasClassico/S_BALL_Mobile.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-height: 100vh;
+height: 110vh;
+/*Font Style*/
+font-weight: bold;
+font-size: 1.2rem;
+color: white;
+background-position-y: 2vh;
+}
+
+
+  #Spinball #Text{
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+    padding: 10px;
+    border-radius: 10px;
+  
+    /* ADICIONE UMA MARGEM SUPERIOR PARA AFASTAR O BLOCO DO TOPO */
+    margin-top: 25vh; /* Ajuste este valor (vh, %, rem, ou px) para a posição visualmente correta. */
+  
+    /* Se quiser que o texto fique centralizado na horizontal */
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+#TailsAdventure{
+background-image: url("../IMG/ExtrasClassico/T_A_Mobile.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-position-y: 1vw;
+height: 120vh;
 /*Font Style*/
 font-weight: bold;
 font-size: 1.2rem;
 color: white;
 }
 
-#RingRacers{
-background-image: url("../IMG/ExtrasClassico/RR_BG1.png");
+
+  #TailsAdventure #Text{
+    background-color: rgba(0, 0, 0, 0.7); /* Aumentei a opacidade para 0.7 para melhor contraste */
+    padding: 10px;
+    border-radius: 10px;
+  
+    /* ADICIONE UMA MARGEM SUPERIOR PARA AFASTAR O BLOCO DO TOPO */
+    margin-top: 55vh; /* Ajuste este valor (vh, %, rem, ou px) para a posição visualmente correta. */
+  
+    /* Se quiser que o texto fique centralizado na horizontal */
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+#Fighters{
+background-image: url("../IMG/ExtrasClassico/S_F_Mobile.png");
+background-repeat: no-repeat;
+height: 120vh;
+background-size: cover;
+background-position: center;
+/*Font Style*/
+color: white;
+font-size: 1.2rem;
+font-weight: bold;
+}
+
+
+
+  #Fighters #Text{
+    background-color: rgba(0, 0, 0, 0.7); /* Aumentei a opacidade para 0.7 para melhor contraste */
+    padding: 10px;
+    border-radius: 10px;
+  
+    /* ADICIONE UMA MARGEM SUPERIOR PARA AFASTAR O BLOCO DO TOPO */
+    margin-top: 40vh; /* Ajuste este valor (vh, %, rem, ou px) para a posição visualmente correta. */
+  
+    /* Se quiser que o texto fique centralizado na horizontal */
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#Blast3D{
+background-image: url("../IMG/ExtrasClassico/S_3D_Mobile.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-background-position-x: -17vw;
-height: 100vh;
+height: 120vh;
+background-position-Y:2vh ;
 /*Font Style*/
-font-weight: bold;
 font-size: 1.2rem;
-color: black;
+color: white;
+font-weight: bold;
+
 }
 
-#MeanBean{
-background-image: url("../IMG/ExtrasClassico/Bean_BG1.png");
+
+#Blast3D #Text{
+  background-color: rgba(0, 0, 0, 0.7); /* Aumentei a opacidade para 0.7 para melhor contraste */
+  padding: 10px;
+  border-radius: 10px;
+
+  /* ADICIONE UMA MARGEM SUPERIOR PARA AFASTAR O BLOCO DO TOPO */
+  margin-top: 40vh; /* Ajuste este valor (vh, %, rem, ou px) para a posição visualmente correta. */
+
+  /* Se quiser que o texto fique centralizado na horizontal */
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#SonicR{
+background-image: url("../IMG/ExtrasClassico/S_R_Mobile.png");
+background-repeat: no-repeat;
+height: 120vh;
+background-size: cover;
+background-position: center;
+background-position-x: -1vw;
+/*Font Style*/
+color: white;
+font-size: 1.2rem;
+font-weight: bold;
+background-position-y: 2vh;
+
+}
+
+#SonicR #Text{
+  background-color: rgba(0, 0, 0, 0.7); /* Aumentei a opacidade para 0.7 para melhor contraste */
+  padding: 10px;
+  border-radius: 10px;
+
+  /* ADICIONE UMA MARGEM SUPERIOR PARA AFASTAR O BLOCO DO TOPO */
+  margin-top: 45vh; /* Ajuste este valor (vh, %, rem, ou px) para a posição visualmente correta. */
+
+  /* Se quiser que o texto fique centralizado na horizontal */
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#RoboBlast2{
+background-image: url("../IMG/ExtrasClassico/SRB2_Mobile.png  ");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -223,48 +329,57 @@ text-shadow:
   1px 1px 0 #FFF;
 }
 
+#RoboBlast2 #Text{
+  background-color: rgba(0, 0, 0, 0.7); /* Aumentei a opacidade para 0.7 para melhor contraste */
+  padding: 10px;
+  border-radius: 10px;
 
+  /* ADICIONE UMA MARGEM SUPERIOR PARA AFASTAR O BLOCO DO TOPO */
+  margin-top: 30vh; /* Ajuste este valor (vh, %, rem, ou px) para a posição visualmente correta. */
 
-#MeanBean p {
-  padding-top: 45vh;
+  /* Se quiser que o texto fique centralizado na horizontal */
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
-#MeanBean #P2 {
-padding-top: 2vh;
-}
 
-#MeanBean #P3 {
-padding-top: 5vh;
-}
-
-#SonicR{
-background-image: url("../IMG/ExtrasClassico/S_R_BG1.png");
+#RingRacers{
+background-image: url("../IMG/ExtrasClassico/RR_Mobile.png");
 background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
 height: 100vh;
-background-size: cover;
-background-position: center;
-background-position-x: -1vw;
+background-position-y: 2vh;
 /*Font Style*/
-color: black;
-font-size: 1.2rem;
 font-weight: bold;
+font-size: 1.2rem;
+color: white;
 }
 
-#RoboBlast2{
-background-image: url("../IMG/ExtrasClassico/SRB2_BG1.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-height: 95vh;
-/*Font Style*/
-font-weight: bold;
-font-size: 1.2rem;
-color: black;
-text-shadow:
-  -1px -1px 0 #FFF,  
-  1px -1px 0 #FFF,
-  -1px 1px 0 #FFF,
-  1px 1px 0 #FFF;
+#RingRacers #Text{
+  background-color: rgba(0, 0, 0, 0.7); /* Aumentei a opacidade para 0.7 para melhor contraste */
+  padding: 10px;
+  border-radius: 10px;
+
+  /* ADICIONE UMA MARGEM SUPERIOR PARA AFASTAR O BLOCO DO TOPO */
+  margin-top: 35vh; /* Ajuste este valor (vh, %, rem, ou px) para a posição visualmente correta. */
+
+  /* Se quiser que o texto fique centralizado na horizontal */
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -342,6 +457,252 @@ text-shadow:
 
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {  /* Laptops */
+
+ody{
+  overflow-x: hidden;
+}
+.col-12{
+  display: none;
+}
+
+#Introducao{
+background-color: #FFF; 
+text-align: center;
+background-repeat: no-repeat;
+background-image: url("../IMG/ExtrasClassico/Intro_BG1.png");
+background-size: cover;
+height: 90vh;
+
+}
+
+#Introducao h1 {
+padding-top: 10vh;
+font-size: 3rem;
+font-weight: bold;
+color: white;
+text-shadow:
+  -1px -1px 0 #000, 
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+#Introducao p {
+font-size: 1.5rem;
+font-weight: bold;
+color: white;
+padding-left: 5vw;
+padding-right: 5vw;
+text-shadow:
+  -1px -1px 0 #000, 
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+    #SMS_Remake {
+      
+background-image: url("../IMG/ExtrasClassico/S1_SMS_BG1.png");
+background-size: cover;
+height: 100vh;
+background-position: center;
+background-repeat: no-repeat;
+width: 100%;
+position: relative;
+z-index: 1;
+/*Font Style*/
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+text-shadow:
+  -1px -1px 0 #FFF,  
+  1px -1px 0 #FFF,
+  -1px 1px 0 #FFF,
+  1px 1px 0 #FFF;
+    }
+
+
+#Sonic_Chaos {
+  background-image: url("../IMG/ExtrasClassico/SC_BG1.png");
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  /*Font Style*/
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#TripleTrouble{
+background-image: url("../IMG/ExtrasClassico/STT_BG1.jpg");
+background-size: cover;
+height: 100vh;
+background-position: center;
+position: relative;
+z-index: 1;
+/*Font Style*/
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+
+
+}
+#SonicR{
+background-image: url("../IMG/ExtrasClassico/S_R_BG1.png");
+background-repeat: no-repeat;
+height: 100vh;
+background-size: cover;
+background-position: center;
+background-position-x: -1vw;
+/*Font Style*/
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+
+
+
+}
+
+#TailsAdventure{
+background-image: url("../IMG/ExtrasClassico/T_A_BG1.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-position-x: -425px;
+
+height: 100vh;
+/*Font Style*/
+font-weight: bold;
+font-size: 1.2rem;
+color: black;
+}
+
+#Fighters{
+background-image: url("../IMG/ExtrasClassico/S_F_BG1.png");
+background-repeat: no-repeat;
+height: 100vh;
+background-size: cover;
+background-position: center;
+background-position-x: -550px;
+
+/*Font Style*/
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+}
+
+#Blast3D{
+background-image: url("../IMG/ExtrasClassico/S_3D_BG1.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 100vh;
+background-position-x: -25vw;
+/*Font Style*/
+font-size: 1.2rem;
+color: black;
+font-weight: bold;
+text-shadow:
+  -1px -1px 0 #FFF,  
+  1px -1px 0 #FFF,
+  -1px 1px 0 #FFF,
+  1px 1px 0 #FFF;
+}
+
+#Spinball{
+background-image: url("../IMG/ExtrasClassico/S_BALL_BG1.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 100vh;
+/*Font Style*/
+font-weight: bold;
+font-size: 1.2rem;
+color: white;
+}
+
+#RingRacers{
+background-image: url("../IMG/ExtrasClassico/RR_BG1.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-position-x: -17vw;
+height: 100vh;
+/*Font Style*/
+font-weight: bold;
+font-size: 1.2rem;
+color: black;
+}
+
+#MeanBean{
+background-image: url("../IMG/ExtrasClassico/Bean_BG1.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 100vh;
+/*Font Style*/
+font-weight: bold;
+font-size: 1.2rem;
+color: black;
+text-shadow:
+  -1px -1px 0 #FFF,  
+  1px -1px 0 #FFF,
+  -1px 1px 0 #FFF,
+  1px 1px 0 #FFF;
+}
+
+#RoboBlast2{
+background-image: url("../IMG/ExtrasClassico/SRB2_BG1.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 95vh;
+/*Font Style*/
+font-weight: bold;
+font-size: 1.2rem;
+color: black;
+text-shadow:
+  -1px -1px 0 #FFF,  
+  1px -1px 0 #FFF,
+  -1px 1px 0 #FFF,
+  1px 1px 0 #FFF;
+}
+
+
+
+
+.divisor {
+  position: relative;
+  z-index: 10;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+
+.divisor img {
+  width: 100%;
+  display: block;
+}
+
+    #logo {
+      margin-top:10vh;
+      width: 25vw;
+      margin-left: 120px;
+    }
+    #logo2 {
+            margin-top:10vh;
+
+      width: 20vw;
+      margin-left: 120px;
+    }
+    .col-md-6 {
+      display: none;
+    }
+      a {
+      text-decoration: none !important;
+    }
+
 
 }
 @media (min-width: 1200px) {  /* Desktops grandes */
