@@ -128,9 +128,18 @@ BGMobileMD: https://www.steamgriddb.com/grid/564780
     
 Extras:
 
+Intro:
+BG1:
+BGMobile:https://www.instagram.com/p/DJb2TZQRgM_/
+
+
 Riders
 BG1: 
-BGMobile:
+BGMobile: https://www.steamgriddb.com/grid/153423
+
+Chao
+BG1:
+BGMobile: https://www.steamgriddb.com/grid/78314
 
 Advance1
 BG1:https://www.steamgriddb.com/hero/86533

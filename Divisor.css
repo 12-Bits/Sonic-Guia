@@ -1,0 +1,48 @@
+.divisor {
+  position: relative;
+  z-index: 10;
+  margin-top: -40px; 
+  margin-bottom: -70px;
+  overflow: hidden;
+  height: 100px; 
+}
+
+.divisor img {
+  display: block;
+  width: 100%; 
+  height: auto;
+  transform: scale(2); /* Mantém o aumento de altura de 50% */
+  transform-origin: top;
+}
+
+.divisor2 {
+  position: relative;
+  z-index: 10;
+  margin-top: -100px; 
+  margin-bottom: -80px;
+  overflow: hidden;
+  height: 100px; 
+}
+.divisor2 img {
+  display: block;
+  width: 100%; 
+  height: auto;
+  transform: scale(2); /* Mantém o aumento de altura de 50% */
+  transform-origin: top;
+}
+
+.divisor3 {
+  position: relative;
+  z-index: 10;
+  margin-top: -25px; 
+  margin-bottom: -70px;
+  overflow: hidden;
+  height: 100px; 
+}
+.divisor3 img {
+  display: block;
+  width: 100%; 
+  height: auto;
+  transform: scale(2); /* Mantém o aumento de altura de 50% */
+  transform-origin: top;
+}

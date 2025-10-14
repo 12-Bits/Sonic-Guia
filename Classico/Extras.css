@@ -259,7 +259,6 @@ body{
   height: 120vh;
   background-size: cover;
   background-position: center;
-  background-position-x: -1vw;
   /*Font Style*/
   color: white;
   font-size: 1.2rem;
@@ -329,54 +328,7 @@ body{
 }
 
 
-.divisor {
-  position: relative;
-  z-index: 10;
-  margin-top: -45px; 
-  margin-bottom: -55px;
-  overflow: hidden;
-  height: 90px; 
-}
 
-.divisor img {
-  display: block;
-  width: 100%; 
-  height: auto;
-  transform: scale(2); /* Mantém o aumento de altura de 50% */
-  transform-origin: top;
-}
-
-.divisor2 {
-  position: relative;
-  z-index: 10;
-  margin-top: -110px; 
-  margin-bottom: -70px;
-  overflow: hidden;
-  height: 90px; 
-}
-.divisor2 img {
-  display: block;
-  width: 100%; 
-  height: auto;
-  transform: scale(2); /* Mantém o aumento de altura de 50% */
-  transform-origin: top;
-}
-
-.divisor3 {
-  position: relative;
-  z-index: 10;
-  margin-top: -25px; 
-  margin-bottom: -70px;
-  overflow: hidden;
-  height: 90px; 
-}
-.divisor3 img {
-  display: block;
-  width: 100%; 
-  height: auto;
-  transform: scale(2); /* Mantém o aumento de altura de 50% */
-  transform-origin: top;
-}
 #logo {
   position: absolute;
   top:0;

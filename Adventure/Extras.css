@@ -4,6 +4,347 @@ body{ /*Default BG*/
 
 @media (max-width: 575.98px) {  /* Celulares pequenos */
 
+body{
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.col-6, .col-4{
+  display: none;
+}
+
+#Introducao{
+  background-color: #FFF; 
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image: url("../IMG/ExtrasAdventure/Intro_BGMobile.jpg");
+  background-size: cover;
+  height: 130vh;
+
+}
+
+#Introducao h1 {
+  padding-top: 5vh;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000, 
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#Introducao p {
+  padding-top: 5vh;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  text-shadow:
+    -1px -1px 0 #000, 
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#Riders {
+      
+  background-image: url("../IMG/ExtrasAdventure/RidersDX_BGMobile.png");
+  background-size: cover;
+  height: 120vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  /*Font Style*/
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+
+    }
+
+  #Riders #Text {
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 40vh; 
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+#Chao {
+  background-image: url("../IMG/ExtrasAdventure/Chao_BGMobile.png");
+  background-size: cover;
+  height: 120vh;
+  min-height: 750px;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  /*Font Style*/
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+
+  #Chao #Text{
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 40vh; 
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#TripleTrouble{
+  background-image: url("../IMG/ExtrasClassico/STT_Mobile.jpg");
+  background-size: cover;
+  height: 120vh;
+  min-height: 750px;
+  max-height: 750px;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  background-position-y: 2vh;
+  /*Font Style*/
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+
+#TripleTrouble #Text{
+  background-color: rgba(0, 0, 0, 0.7); 
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 40vh; 
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#MeanBean{
+  background-image: url("../IMG/ExtrasClassico/Bean_Mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 140vh;
+  /*Font Style*/
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+
+}
+
+
+#MeanBean #Text{
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 48vh; 
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Spinball{
+  background-image: url("../IMG/ExtrasClassico/S_BALL_Mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
+  min-height: 400px;
+  /*Font Style*/
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+  background-position-y: 2vh;
+}
+
+
+  #Spinball #Text{
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30vh; 
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#TailsAdventure{
+  background-image: url("../IMG/ExtrasClassico/T_A_Mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-position-y: 1vw;
+  height: 120vh;
+  /*Font Style*/
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+}
+
+
+  #TailsAdventure #Text{
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 55vh; 
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+#Fighters{
+  background-image: url("../IMG/ExtrasClassico/S_F_Mobile.png");
+  background-repeat: no-repeat;
+  height: 120vh;
+  background-size: cover;
+  background-position: center;
+  /*Font Style*/
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+
+  #Fighters #Text{
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 40vh; 
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#Blast3D{
+  background-image: url("../IMG/ExtrasClassico/S_3D_Mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 130vh;
+  /*Font Style*/
+  font-size: 1.2rem;
+  color: white;
+  font-weight: bold;
+}
+
+
+#Blast3D #Text{
+  background-color: rgba(0, 0, 0, 0.7); 
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 40vh; 
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#SonicR{
+  background-image: url("../IMG/ExtrasClassico/S_R_Mobile.png");
+  background-repeat: no-repeat;
+  height: 120vh;
+  background-size: cover;
+  background-position: center;
+  /*Font Style*/
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-position-y: 2vh;
+}
+
+#SonicR #Text{
+  background-color: rgba(0, 0, 0, 0.7); 
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 45vh; 
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#RoboBlast2{
+  background-image: url("../IMG/ExtrasClassico/SRB2_Mobile.png  ");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
+  /*Font Style*/
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: black;
+  text-shadow:
+    -1px -1px 0 #FFF,  
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+    1px 1px 0 #FFF;
+}
+
+#RoboBlast2 #Text{
+  background-color: rgba(0, 0, 0, 0.7); 
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 30vh; 
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#RingRacers{
+  background-image: url("../IMG/ExtrasClassico/RR_Mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-position-y: 2vh;
+  /*Font Style*/
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+}
+
+#RingRacers #Text{
+  background-color: rgba(0, 0, 0, 0.7); 
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 35vh; 
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+#logo {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top:10vh;
+  width: 50vw;
+    }
+
+
+a {
+  text-decoration: none !important;
+}
+
 }
 @media (min-width: 576px) and (max-width: 767.98px) {  /* Celulares grandes */
 
@@ -24,7 +365,7 @@ body{
 background-color: #FFF; 
 text-align: center;
 background-repeat: no-repeat;
-background-image: url("../IMG/ExtrasClassico/Intro_BG1.png");
+background-image: url("../IMG/ExtrasAdventure/Intro_BG.jpg");
 background-size: cover;
 height: 90vh;
 
