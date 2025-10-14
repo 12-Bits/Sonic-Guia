@@ -81,6 +81,7 @@ body{
   background-image: url("../IMG/ExtrasClassico/SC_Mobile.png");
   background-size: cover;
   height: 120vh;
+  min-height: 750px;
   background-position: center;
   position: relative;
   z-index: 1;
@@ -96,7 +97,7 @@ body{
     background-color: rgba(0, 0, 0, 0.7); 
     padding: 10px;
     border-radius: 10px;
-    margin-top: 55vh; 
+    margin-top: 60vh; 
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -106,6 +107,8 @@ body{
   background-image: url("../IMG/ExtrasClassico/STT_Mobile.jpg");
   background-size: cover;
   height: 120vh;
+  min-height: 750px;
+  max-height: 750px;
   background-position: center;
   position: relative;
   z-index: 1;
@@ -122,7 +125,7 @@ body{
   background-color: rgba(0, 0, 0, 0.7); 
   padding: 10px;
   border-radius: 10px;
-  margin-top: 35vh; 
+  margin-top: 40vh; 
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -134,7 +137,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 130vh;
+  height: 140vh;
   /*Font Style*/
   font-weight: bold;
   font-size: 1.2rem;
@@ -147,8 +150,8 @@ body{
     background-color: rgba(0, 0, 0, 0.7); 
     padding: 5px;
     border-radius: 10px;
-    margin-top: 45vh; 
-    max-width: 90%;
+    margin-top: 48vh; 
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -158,7 +161,8 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 110vh;
+  height: 120vh;
+  min-height: 400px;
   /*Font Style*/
   font-weight: bold;
   font-size: 1.2rem;
@@ -171,7 +175,7 @@ body{
     background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
     padding: 10px;
     border-radius: 10px;
-    margin-top: 25vh; 
+    margin-top: 30vh; 
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -231,8 +235,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 120vh;
-  background-position-Y:2vh ;
+  height: 130vh;
   /*Font Style*/
   font-size: 1.2rem;
   color: white;
@@ -329,24 +332,50 @@ body{
 .divisor {
   position: relative;
   z-index: 10;
-  margin-top: -80px;
-  margin-bottom: -80px;
+  margin-top: -45px; 
+  margin-bottom: -55px;
   overflow: hidden;
+  height: 90px; 
 }
 
 .divisor img {
   display: block;
-  width: 100%;
+  width: 100%; 
   height: auto;
-  transition: scale(1.5);
-  transform-origin: center;
+  transform: scale(2); /* Mantém o aumento de altura de 50% */
+  transform-origin: top;
 }
 
-#divisor2 {
+.divisor2 {
   position: relative;
   z-index: 10;
-  padding-top: -500px;
-  margin-top: -50px;
+  margin-top: -110px; 
+  margin-bottom: -70px;
+  overflow: hidden;
+  height: 90px; 
+}
+.divisor2 img {
+  display: block;
+  width: 100%; 
+  height: auto;
+  transform: scale(2); /* Mantém o aumento de altura de 50% */
+  transform-origin: top;
+}
+
+.divisor3 {
+  position: relative;
+  z-index: 10;
+  margin-top: -25px; 
+  margin-bottom: -70px;
+  overflow: hidden;
+  height: 90px; 
+}
+.divisor3 img {
+  display: block;
+  width: 100%; 
+  height: auto;
+  transform: scale(2); /* Mantém o aumento de altura de 50% */
+  transform-origin: top;
 }
 #logo {
   position: absolute;
