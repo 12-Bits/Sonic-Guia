@@ -413,34 +413,7 @@ color: white;
       margin-top:10vh;
       width: 50vw;
     }
-    #logo2 {
-      margin-top:10vh;
 
-      width: 50vw;
-      margin-left: 120px;
-    }
-    #logo4 {
-    position: absolute;
-    margin-top:450vh;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-      width: 50vw;
-
-
-    }
-
-    #logo {
-    position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-      margin-top:10vh;
-      width: 50vw;
-    }
     .col-md-6 {
       display: none;
     }
