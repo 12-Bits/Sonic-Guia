@@ -334,8 +334,10 @@ body{
 }
 
 .divisor img {
-  width: 300%;
+
+
   display: block;
+  width: 300vw;
 }
 
 #divisor2 {
@@ -370,7 +372,7 @@ a {
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {  /* Laptops */
 
-ody{
+body{
   overflow-x: hidden;
 }
 .col-12{
