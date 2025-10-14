@@ -338,7 +338,8 @@ body{
 
 
   display: block;
-  width: 300vw;
+  width: 100vw;
+  height: 200ww;
 }
 
 #divisor2 {
