@@ -6,6 +6,7 @@ body{ /*Default BG*/
 
 body{
   overflow-x: hidden;
+  width: 100%;
 }
 
 .col-6, .col-4{
