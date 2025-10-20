@@ -9,7 +9,7 @@ body{
   width: 100%;
 }
 
-.col-6, .col-4{
+.col-6, .col-4,.col-5{
   display: none;
 }
 
@@ -103,16 +103,14 @@ body{
     margin-right: auto;
   }
 
-#TripleTrouble{
-  background-image: url("../IMG/ExtrasClassico/STT_Mobile.jpg");
+#Advance{
+  background-image: url("../IMG/ExtrasAdventure/SA1_BGMobile.png");
   background-size: cover;
   height: 120vh;
   min-height: 750px;
-  max-height: 750px;
   background-position: center;
   position: relative;
   z-index: 1;
-  background-position-y: 2vh;
   /*Font Style*/
   color: white;
   font-size: 1.2rem;
@@ -121,7 +119,7 @@ body{
 
 
 
-#TripleTrouble #Text{
+#Advance #Text{
   background-color: rgba(0, 0, 0, 0.7); 
   padding: 10px;
   border-radius: 10px;
@@ -132,8 +130,8 @@ body{
 }
 
 
-#MeanBean{
-  background-image: url("../IMG/ExtrasClassico/Bean_Mobile.png");
+#Advance2{
+  background-image: url("../IMG/ExtrasAdventure/SA2_BGMobile.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -146,7 +144,7 @@ body{
 }
 
 
-#MeanBean #Text{
+#Advance2 #Text{
     background-color: rgba(0, 0, 0, 0.7); 
     padding: 5px;
     border-radius: 10px;
@@ -156,8 +154,8 @@ body{
     margin-right: auto;
 }
 
-#Spinball{
-  background-image: url("../IMG/ExtrasClassico/S_BALL_Mobile.png");
+#World{
+  background-image: url("../IMG/ExtrasAdventure/World_BGMobile.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -171,7 +169,7 @@ body{
 }
 
 
-  #Spinball #Text{
+  #World #Text{
     background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
     padding: 10px;
     border-radius: 10px;
@@ -181,8 +179,8 @@ body{
     margin-right: auto;
   }
 
-#TailsAdventure{
-  background-image: url("../IMG/ExtrasClassico/T_A_Mobile.png");
+#BattleR{
+  background-image: url("../IMG/ExtrasAdventure/BattleR_BGMobile.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -195,7 +193,7 @@ body{
 }
 
 
-  #TailsAdventure #Text{
+  #BattleR #Text{
     background-color: rgba(0, 0, 0, 0.7); 
     padding: 10px;
     border-radius: 10px;
@@ -206,8 +204,8 @@ body{
   }
 
   
-#Fighters{
-  background-image: url("../IMG/ExtrasClassico/S_F_Mobile.png");
+#GT{
+  background-image: url("../IMG/ExtrasAdventure/GT_BGMobile.png");
   background-repeat: no-repeat;
   height: 120vh;
   background-size: cover;
@@ -220,7 +218,7 @@ body{
 
 
 
-  #Fighters #Text{
+  #GT #Text{
     background-color: rgba(0, 0, 0, 0.7); 
     padding: 10px;
     border-radius: 10px;
@@ -282,7 +280,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 120vh;
+  height: 100vh;
   /*Font Style*/
   font-weight: bold;
   font-size: 1.2rem;
@@ -359,6 +357,10 @@ a {
 
 body{
   overflow-x: hidden;
+}
+
+.col-12, .col-4 {
+  display: none;
 }
 
 #Introducao{

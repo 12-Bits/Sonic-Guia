@@ -1,4 +1,5 @@
-.divisor {
+@media (max-width: 575.98px) {
+  .divisor {
   position: relative;
   z-index: 10;
   margin-top: -40px; 
@@ -45,4 +46,175 @@
   height: auto;
   transform: scale(2); /* Mantém o aumento de altura de 50% */
   transform-origin: top;
+}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {  /* Celulares grandes */
+
+  .divisor {
+  position: relative;
+  z-index: 10;
+  margin-top: -40px; 
+  margin-bottom: -60px;
+  overflow: hidden;
+  height: 100px; 
+}
+
+.divisor img {
+  display: block;
+  width: 100%; 
+  height: auto;
+  transform: scale(2); /* Mantém o aumento de altura de 50% */
+  transform-origin: top;
+}
+
+.divisor2 {
+  position: relative;
+  z-index: 10;
+  margin-top: -100px; 
+  margin-bottom: -60px;
+  overflow: hidden;
+  height: 100px; 
+}
+.divisor2 img {
+  display: block;
+  width: 100%; 
+  height: auto;
+  transform: scale(2); /* Mantém o aumento de altura de 50% */
+  transform-origin: top;
+}
+
+.divisor3 {
+  position: relative;
+  z-index: 10;
+  margin-top: -35px; 
+  margin-bottom: -70px;
+  overflow: hidden;
+  height: 100px; 
+}
+.divisor3 img {
+  display: block;
+  width: 100%; 
+  height: auto;
+  transform: scale(2); /* Mantém o aumento de altura de 50% */
+  transform-origin: top;
+}
+
+}
+@media (min-width: 768px) and (max-width: 991.98px) {  /* Tablets */
+  .divisor {
+  position: relative;
+  z-index: 10;
+  margin-top: -50px;
+  margin-bottom: -20px;
+}
+
+.divisor img {
+  width: 100%;
+  display: block;
+}
+
+  .divisor2 {
+  position: relative;
+  z-index: 10;
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+.divisor2 img {
+  width: 100%;
+  display: block;
+}
+
+  .divisor3 {
+  position: relative;
+  z-index: 10;
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+.divisor3 img {
+  width: 100%;
+  display: block;
+}
+
+}
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+
+    .divisor {
+  position: relative;
+  z-index: 10;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+
+.divisor img {
+  width: 100%;
+  display: block;
+}
+
+  .divisor2 {
+  position: relative;
+  z-index: 10;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+
+.divisor2 img {
+  width: 100%;
+  display: block;
+}
+
+  .divisor3 {
+  position: relative;
+  z-index: 10;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+
+.divisor3 img {
+  width: 100%;
+  display: block;
+}
+}
+
+@media (min-width: 1200px) { 
+
+  .divisor {
+  position: relative;
+  z-index: 10;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+
+.divisor img {
+  width: 100%;
+  display: block;
+}
+
+  .divisor2 {
+  position: relative;
+  z-index: 10;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+
+.divisor2 img {
+  width: 100%;
+  display: block;
+}
+
+  .divisor3 {
+  position: relative;
+  z-index: 10;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+
+.divisor3 img {
+  width: 100%;
+  display: block;
+}
+
 }

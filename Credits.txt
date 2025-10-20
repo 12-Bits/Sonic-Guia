@@ -143,7 +143,8 @@ BGMobile: https://www.steamgriddb.com/grid/78314
 
 Advance1
 BG1:https://www.steamgriddb.com/hero/86533
-BGMobile:
+BGMobile: https://www.steamgriddb.com/grid/261795
+
 Chao
 BG1: 
 BGMobile: 
