@@ -20,43 +20,42 @@ body{
   background-image: url("../IMG/ExtrasAdventure/Intro_BGMobile.jpg");
   background-size: cover;
   height: 130vh;
-    min-height: 850px;
+  min-height: 850px;
 
 
 }
 
-#Introducao h1 {
-  padding-top: 5vh;
-  font-size: 3rem;
-  font-weight: bold;
-  color: white;
-  text-shadow:
-    -1px -1px 0 #000, 
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-}
+  #Introducao h1 {
+    padding-top: 5vh;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-shadow:
+      -1px -1px 0 #000, 
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
 
-#Introducao p {
-  padding-top: 5vh;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: white;
-  padding-left: 5vw;
-  padding-right: 5vw;
-  text-shadow:
-    -1px -1px 0 #000, 
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-}
+  #Introducao p {
+    padding-top: 5vh;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    text-shadow:
+      -1px -1px 0 #000, 
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
 
-#Riders {
-      
+#Riders {      
   background-image: url("../IMG/ExtrasAdventure/RidersDX_BGMobile.png");
   background-size: cover;
   height: 120vh;
-    min-height: 850px;
+  min-height: 850px;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
@@ -147,16 +146,15 @@ body{
 
 }
 
-
-#Advance2 #Text{
-    background-color: rgba(0, 0, 0, 0.7); 
-    padding: 5px;
-    border-radius: 10px;
-    margin-top: 48vh; 
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
+  #Advance2 #Text{
+      background-color: rgba(0, 0, 0, 0.7); 
+      padding: 5px;
+      border-radius: 10px;
+      margin-top: 48vh; 
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
 
 #World{
   background-image: url("../IMG/ExtrasAdventure/World_BGMobile.png");
@@ -165,11 +163,6 @@ body{
   background-position: center;
   height: 120vh;
   min-height: 850px;
-
-  /*Font Style*/
-  font-weight: bold;
-  font-size: 1.2rem;
-  color: white;
   background-position-y: 2vh;
 }
 
@@ -182,6 +175,9 @@ body{
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
   }
 
 #BattleR{
@@ -192,12 +188,7 @@ body{
   background-position-y: 1vw;
   height: 120vh;
   min-height: 800px;
-  /*Font Style*/
-  font-weight: bold;
-  font-size: 1.2rem;
-  color: white;
 }
-
 
   #BattleR #Text{
     background-color: rgba(0, 0, 0, 0.7); 
@@ -207,6 +198,9 @@ body{
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
   }
 
   
@@ -217,10 +211,7 @@ body{
   min-height: 850px;
   background-size: cover;
   background-position: center;
-  /*Font Style*/
-  color: white;
-  font-size: 1.2rem;
-  font-weight: bold;
+
 }
 
 
@@ -233,6 +224,9 @@ body{
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
   }
 
 #logo {
