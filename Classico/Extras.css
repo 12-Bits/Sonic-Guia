@@ -139,7 +139,7 @@ body{
   background-size: cover;
   background-position: center;
   height: 140vh;
-  min-height: 900px;
+  min-height: 800px;
   /*Font Style*/
   font-weight: bold;
   font-size: 1.2rem;
@@ -163,8 +163,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 120vh;
-  min-height: 800px;
+  min-height: 650px;
   /*Font Style*/
   font-weight: bold;
   font-size: 1.2rem;
@@ -202,8 +201,8 @@ body{
     background-color: rgba(0, 0, 0, 0.7); 
     padding: 10px;
     border-radius: 10px;
-    margin-top: 80vh; 
-    max-width: 90%;
+    margin-top: 50vh; 
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -228,7 +227,7 @@ body{
     background-color: rgba(0, 0, 0, 0.7); 
     padding: 10px;
     border-radius: 10px;
-    margin-top: 70vh; 
+    margin-top: 50vh; 
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -240,7 +239,7 @@ body{
   background-size: cover;
   background-position: center;
   height: 130vh;
-  min-height: 900px;
+  min-height: 650px;
   /*Font Style*/
   font-size: 1.2rem;
   color: white;
@@ -262,7 +261,7 @@ body{
   background-image: url("../IMG/ExtrasClassico/S_R_Mobile.png");
   background-repeat: no-repeat;
   height: 120vh;
-  min-height: 900px;
+  min-height: 650px;
   background-size: cover;
   background-position: center;
   /*Font Style*/
@@ -276,7 +275,7 @@ body{
   background-color: rgba(0, 0, 0, 0.7); 
   padding: 10px;
   border-radius: 10px;
-  margin-top: 80vh; 
+  margin-top: 40vh; 
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -289,7 +288,7 @@ body{
   background-size: cover;
   background-position: center;
   height: 120vh;
-  min-height: 900px;
+  min-height: 750px;
   /*Font Style*/
   font-weight: bold;
 
@@ -300,7 +299,7 @@ body{
   background-color: rgba(0, 0, 0, 0.7); 
   padding: 10px;
   border-radius: 10px;
-  margin-top: 80vh; 
+  margin-top: 50vh; 
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -314,7 +313,7 @@ body{
   background-size: cover;
   background-position: center;
   height: 100vh;
-  min-height: 900px;
+  min-height: 850px;
   background-position-y: 2vh;
   /*Font Style*/
   font-weight: bold;
@@ -326,7 +325,7 @@ body{
   background-color: rgba(0, 0, 0, 0.7); 
   padding: 10px;
   border-radius: 10px;
-  margin-top: 80vh; 
+  margin-top: 50vh; 
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
