@@ -70,7 +70,7 @@ body{
     background-color: rgba(0, 0, 0, 0.7); 
     padding: 10px;
     border-radius: 10px;
-    margin-top: 35vh; 
+    margin-top: 400px; 
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -96,7 +96,7 @@ body{
     background-color: rgba(0, 0, 0, 0.7); 
     padding: 10px;
     border-radius: 10px;
-    margin-top: 60vh; 
+    margin-top: 400px; 
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -122,7 +122,7 @@ body{
   background-color: rgba(0, 0, 0, 0.7); 
   padding: 10px;
   border-radius: 10px;
-  margin-top: 50vh; 
+  margin-top: 300px; 
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -147,7 +147,7 @@ body{
     background-color: rgba(0, 0, 0, 0.7); 
     padding: 5px;
     border-radius: 10px;
-    margin-top: 70vh; 
+    margin-top: 300px; 
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -171,7 +171,7 @@ body{
     background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
     padding: 10px;
     border-radius: 10px;
-    margin-top: 60vh; 
+    margin-top: 200px; 
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -195,7 +195,7 @@ body{
     background-color: rgba(0, 0, 0, 0.7); 
     padding: 10px;
     border-radius: 10px;
-    margin-top: 50vh; 
+    margin-top: 400px; 
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -220,7 +220,7 @@ body{
     background-color: rgba(0, 0, 0, 0.7); 
     padding: 10px;
     border-radius: 10px;
-    margin-top: 50vh; 
+    margin-top: 350px; 
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -231,7 +231,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 650px;
+  min-height: 750px;
   /*Font Style*/
   font-size: 1.2rem;
   color: white;
@@ -240,19 +240,21 @@ body{
 
 
 #Blast3D #Text{
-  background-color: rgba(0, 0, 0, 0.7); 
-  padding: 10px;
-  border-radius: 10px;
-  margin-top: 70vh; 
-  max-width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 250px; 
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+
 }
 
 #SonicR{
   background-image: url("../IMG/ExtrasClassico/S_R_Mobile.png");
   background-repeat: no-repeat;
-  min-height: 650px;
+  min-height: 750px;
   background-size: cover;
   background-position: center;
   /*Font Style*/
@@ -266,7 +268,7 @@ body{
   background-color: rgba(0, 0, 0, 0.7); 
   padding: 10px;
   border-radius: 10px;
-  margin-top: 40vh; 
+  margin-top: 300px; 
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -289,7 +291,7 @@ body{
   background-color: rgba(0, 0, 0, 0.7); 
   padding: 10px;
   border-radius: 10px;
-  margin-top: 50vh; 
+  margin-top: 250px; 
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -314,7 +316,7 @@ body{
   background-color: rgba(0, 0, 0, 0.7); 
   padding: 10px;
   border-radius: 10px;
-  margin-top: 50vh; 
+  margin-top: 250px; 
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
