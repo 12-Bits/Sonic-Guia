@@ -3,14 +3,14 @@
   position: relative;
   z-index: 10;
   margin-top: -40px; 
-  margin-bottom: -60px;
+  margin-bottom: -80px;
   overflow: hidden;
   height: 100px; 
 }
 
 .divisor img {
   display: block;
-  width: 100%; 
+  width: 150%; 
   height: auto;
   transform: scale(2); /* Mantém o aumento de altura de 50% */
   transform-origin: top;
@@ -26,7 +26,7 @@
 }
 .divisor2 img {
   display: block;
-  width: 100%; 
+  width: 150%; 
   height: auto;
   transform: scale(2); /* Mantém o aumento de altura de 50% */
   transform-origin: top;
@@ -42,7 +42,7 @@
 }
 .divisor3 img {
   display: block;
-  width: 100%; 
+  width: 150%; 
   height: auto;
   transform: scale(2); /* Mantém o aumento de altura de 50% */
   transform-origin: top;
