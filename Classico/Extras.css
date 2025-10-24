@@ -53,7 +53,6 @@ body{
       
   background-image: url("../IMG/ExtrasClassico/SMS_REMAKE_Mobile.jpg");
   background-size: cover;
-  height: 120vh;
   min-height: 720px;
   background-position: center;
   background-repeat: no-repeat;
@@ -81,7 +80,6 @@ body{
 #Sonic_Chaos {
   background-image: url("../IMG/ExtrasClassico/SC_Mobile.png");
   background-size: cover;
-  height: 120vh;
   min-height: 750px;
   background-position: center;
   position: relative;
@@ -107,9 +105,7 @@ body{
 #TripleTrouble{
   background-image: url("../IMG/ExtrasClassico/STT_Mobile.jpg");
   background-size: cover;
-  height: 120vh;
   min-height: 750px;
-
   background-position: center;
   position: relative;
   z-index: 1;
@@ -138,7 +134,6 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 140vh;
   min-height: 800px;
   /*Font Style*/
   font-weight: bold;
@@ -188,7 +183,6 @@ body{
   background-size: cover;
   background-position: center;
   background-position-y: 1vw;
-  height: 120vh;
   min-height: 900px;
   /*Font Style*/
   font-weight: bold;
@@ -211,7 +205,6 @@ body{
 #Fighters{
   background-image: url("../IMG/ExtrasClassico/S_F_Mobile.png");
   background-repeat: no-repeat;
-  height: 120vh;
   min-height: 900px;
   background-size: cover;
   background-position: center;
@@ -238,7 +231,6 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 130vh;
   min-height: 650px;
   /*Font Style*/
   font-size: 1.2rem;
@@ -260,7 +252,6 @@ body{
 #SonicR{
   background-image: url("../IMG/ExtrasClassico/S_R_Mobile.png");
   background-repeat: no-repeat;
-  height: 120vh;
   min-height: 650px;
   background-size: cover;
   background-position: center;
@@ -287,7 +278,6 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 120vh;
   min-height: 750px;
   /*Font Style*/
   font-weight: bold;
@@ -312,7 +302,6 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
   min-height: 850px;
   background-position-y: 2vh;
   /*Font Style*/
