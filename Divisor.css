@@ -5,12 +5,12 @@
   margin-top: -40px; 
   margin-bottom: -80px;
   overflow: hidden;
-  height: 100px; 
+  height: 120px; 
 }
 
 .divisor img {
   display: block;
-  width: 150%; 
+  width: 120%; 
   height: auto;
   transform: scale(2); /* Mantém o aumento de altura de 50% */
   transform-origin: top;
@@ -22,7 +22,7 @@
   margin-top: -100px; 
   margin-bottom: -80px;
   overflow: hidden;
-  height: 100px; 
+  height: 120px; 
 }
 .divisor2 img {
   display: block;
@@ -35,8 +35,8 @@
 .divisor3 {
   position: relative;
   z-index: 10;
-  margin-top: -25px; 
-  margin-bottom: -70px;
+  margin-top: -35px; 
+  margin-bottom: -60px;
   overflow: hidden;
   height: 100px; 
 }
@@ -54,15 +54,15 @@
   .divisor {
   position: relative;
   z-index: 10;
-  margin-top: -40px; 
-  margin-bottom: -60px;
+  margin-top: -50px; 
+  margin-bottom: -80px;
   overflow: hidden;
-  height: 100px; 
+  height: 150px; 
 }
 
 .divisor img {
   display: block;
-  width: 100%; 
+  width: 150%; 
   height: auto;
   transform: scale(2); /* Mantém o aumento de altura de 50% */
   transform-origin: top;
@@ -71,14 +71,14 @@
 .divisor2 {
   position: relative;
   z-index: 10;
-  margin-top: -100px; 
-  margin-bottom: -60px;
+  margin-top: -50px; 
+  margin-bottom: -100px;
   overflow: hidden;
-  height: 100px; 
+  height: 150px; 
 }
 .divisor2 img {
   display: block;
-  width: 100%; 
+  width: 150%; 
   height: auto;
   transform: scale(2); /* Mantém o aumento de altura de 50% */
   transform-origin: top;
@@ -87,14 +87,14 @@
 .divisor3 {
   position: relative;
   z-index: 10;
-  margin-top: -35px; 
-  margin-bottom: -70px;
+  margin-top: -55px; 
+  margin-bottom: -60px;
   overflow: hidden;
-  height: 100px; 
+  height: 150px; 
 }
 .divisor3 img {
   display: block;
-  width: 100%; 
+  width: 150%; 
   height: auto;
   transform: scale(2); /* Mantém o aumento de altura de 50% */
   transform-origin: top;
@@ -102,80 +102,103 @@
 
 }
 @media (min-width: 768px) and (max-width: 991.98px) {  /* Tablets */
-  .divisor {
+   .divisor {
   position: relative;
   z-index: 10;
-  margin-top: -50px;
-  margin-bottom: -30px;
+  margin-top: -50px; 
+  margin-bottom: -80px;
+  overflow: hidden;
+  height: 150px; 
 }
 
 .divisor img {
-  width: 150%;
   display: block;
+  width: 150%; 
+  height: auto;
+  transform: scale(1.5); /* Mantém o aumento de altura de 50% */
+  transform-origin: top;
 }
 
-  .divisor2 {
+.divisor2 {
   position: relative;
   z-index: 10;
-  margin-top: -20px;
-  margin-bottom: -20px;
+  margin-top: -50px; 
+  margin-bottom: -100px;
+  overflow: hidden;
+  height: 150px; 
 }
-
 .divisor2 img {
-  width: 150%;
   display: block;
+  width: 150%; 
+  height: auto;
+  transform: scale(1.5); /* Mantém o aumento de altura de 50% */
+  transform-origin: top;
 }
 
-  .divisor3 {
+.divisor3 {
   position: relative;
   z-index: 10;
-  margin-top: -20px;
-  margin-bottom: -20px;
+  margin-top: -55px; 
+  margin-bottom: -60px;
+  overflow: hidden;
+  height: 150px; 
 }
-
 .divisor3 img {
-  width: 150%;
   display: block;
+  width: 150%; 
+  height: auto;
+  transform: scale(1.5); /* Mantém o aumento de altura de 50% */
+  transform-origin: top;
 }
 
 }
 @media (min-width: 992px) and (max-width: 1199.98px) { 
 
 
-    .divisor {
+  .divisor {
   position: relative;
   z-index: 10;
-  margin-top: -50px;
-  margin-bottom: -40px;
+  margin-top: -50px; 
+  margin-bottom: -80px;
+  overflow: hidden;
+  height: 150px; 
 }
 
 .divisor img {
-  width: 150%;
   display: block;
+  width: 150%; 
+  height: auto;
+  transform-origin: top;
 }
 
-  .divisor2 {
+.divisor2 {
   position: relative;
   z-index: 10;
-  margin-top: -60px;
-  margin-bottom: -40px;
+  margin-top: -50px; 
+  margin-bottom: -100px;
+  overflow: hidden;
+  height: 150px; 
 }
-
 .divisor2 img {
-  width: 150%;
   display: block;
+  width: 150%; 
+  height: auto;
+  transform-origin: top;
 }
 
-  .divisor3 {
+.divisor3 {
   position: relative;
   z-index: 10;
-  margin-top: -40px;
-  margin-bottom: -60px;
+  margin-top: -55px; 
+  margin-bottom: -80px;
+  overflow: hidden;
+  height: 150px; 
 }
-
 .divisor3 img {
-  width: 150%;
   display: block;
+  width: 150%; 
+  height: auto;
+  transform-origin: top;
 }
 }
 
