@@ -4,22 +4,437 @@ body{ /*Default BG*/
 
 @media (max-width: 575.98px) {  /* Celulares pequenos */
 
+body{
+  overflow-x: hidden;
 }
+.col-6{
+  display: none;
+}
+
+#Introducao{
+background-color: #FFF; 
+text-align: center;
+background-repeat: no-repeat;
+background-image: url("../IMG/ExtrasClassico/Intro_BG1.png");
+background-size: cover;
+height: 130vh;
+
+}
+
+#Introducao h1 {
+padding-top: 5vh;
+font-size: 3rem;
+font-weight: bold;
+color: white;
+text-shadow:
+  -1px -1px 0 #000, 
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+#Introducao p {
+padding-top:5vh;
+font-size: 1.5rem;
+font-weight: bold;
+color: white;
+padding-left: 5vw;
+padding-right: 5vw;
+text-shadow:
+  -1px -1px 0 #000, 
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+#Smackdown {
+      
+background-image: url("../IMG/ExtrasPosModerno/Smackdown_BGMobile.png");
+background-size: cover;
+min-height:900px;
+background-position:center;
+background-repeat: no-repeat;
+width: 100%;
+position: relative;
+z-index: 1;
+    }
+
+#SmackdownText {
+  margin-right: 7.5vw;
+  margin-top: 500px;
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 20px;
+  border-radius: 10px;
+  font-size: large;
+  width:100%;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-shadow:
+    -1px -1px 0 #FFF,  
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+    1px 1px 0 #FFF;
+}
+
+#LogoSmackdown {
+      margin-top:5vh;
+      width: 20vw;
+      margin-left: 7.5vw;
+    }
+    
+#UltiSmack {
+      
+background-image: url("../IMG/ExtrasPosModerno/UltiSmack_BGMobile.jpg");
+background-size: cover;
+height:auto;
+background-position:center;
+position: relative;
+background-repeat: no-repeat;
+width: 100%;
+z-index: 1;
+    }
+
+
+#UltiSmackText {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  margin-top: 400px;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 100%;
+}
+
+.divisor {
+  position: relative;
+  z-index: 10;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+
+.divisor img {
+  width: 100%;
+  display: block;
+}
+
+    #logo {
+      margin-top:10vh;
+      width: 25vw;
+      margin-left: 120px;
+    }
+    #logo2 {
+            margin-top:10vh;
+
+      width: 20vw;
+      margin-left: 120px;
+    }
+    .col-md-6 {
+      display: none;
+    }
+      a {
+      text-decoration: none !important;
+    }
+
+  }
+
+
+
+
 @media (min-width: 576px) and (max-width: 767.98px) {  /* Celulares grandes */
-
-}
-@media (min-width: 768px) and (max-width: 991.98px) {  /* Tablets */
-
-}
-@media (min-width: 992px) and (max-width: 1199.98px) {  /* Laptops */
-
-}
-@media (min-width: 1200px) {  /* Desktops grandes */
 
 body{
   overflow-x: hidden;
 }
+.col-6{
+  display: none;
+}
 
+#Introducao{
+background-color: #FFF; 
+text-align: center;
+background-repeat: no-repeat;
+background-image: url("../IMG/ExtrasClassico/Intro_BG1.png");
+background-size: cover;
+height: 130vh;
+
+}
+
+#Introducao h1 {
+padding-top: 5vh;
+font-size: 3rem;
+font-weight: bold;
+color: white;
+text-shadow:
+  -1px -1px 0 #000, 
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+#Introducao p {
+padding-top:5vh;
+font-size: 1.5rem;
+font-weight: bold;
+color: white;
+padding-left: 5vw;
+padding-right: 5vw;
+text-shadow:
+  -1px -1px 0 #000, 
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+#Smackdown {
+      
+background-image: url("../IMG/ExtrasPosModerno/Smackdown_BGMobile.png");
+background-size: cover;
+min-height:1200px;
+background-position:center;
+background-repeat: no-repeat;
+background-position-y: -1%;
+width: 100%;
+position: relative;
+z-index: 1;
+    }
+
+#SmackdownText {
+  margin-right: 7.5vw;
+  margin-top: 500px;
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 20px;
+  border-radius: 10px;
+  font-size: large;
+  width:100%;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-shadow:
+    -1px -1px 0 #FFF,  
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+    1px 1px 0 #FFF;
+}
+
+#LogoSmackdown {
+      margin-top:5vh;
+      width: 20vw;
+      margin-left: 7.5vw;
+    }
+    
+#UltiSmack {
+      
+background-image: url("../IMG/ExtrasPosModerno/UltiSmack_BGMobile.jpg");
+background-size: cover;
+min-height:1200px;
+background-position:center;
+position: relative;
+background-position-y:-1%;
+background-repeat: no-repeat;
+width: 100%;
+z-index: 1;
+    }
+
+
+#UltiSmackText {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  margin-top: 600px;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 100%;
+}
+
+.divisor {
+  position: relative;
+  z-index: 10;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+
+.divisor img {
+  width: 100%;
+  display: block;
+}
+
+    #logo {
+      margin-top:10vh;
+      width: 25vw;
+      margin-left: 120px;
+    }
+    #logo2 {
+            margin-top:10vh;
+
+      width: 20vw;
+      margin-left: 120px;
+    }
+    .col-md-6 {
+      display: none;
+    }
+      a {
+      text-decoration: none !important;
+    }
+
+
+}
+@media (min-width: 768px) and (max-width: 991.98px) {  /* Tablets */
+
+body{
+  overflow-x: hidden;
+}
+.col-6{
+  display: none;
+}
+
+#Introducao{
+background-color: #FFF; 
+text-align: center;
+background-repeat: no-repeat;
+background-image: url("../IMG/ExtrasClassico/Intro_BG1.png");
+background-size: cover;
+height: 130vh;
+
+}
+
+#Introducao h1 {
+padding-top: 5vh;
+font-size: 3rem;
+font-weight: bold;
+color: white;
+text-shadow:
+  -1px -1px 0 #000, 
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+#Introducao p {
+padding-top:5vh;
+font-size: 1.5rem;
+font-weight: bold;
+color: white;
+padding-left: 5vw;
+padding-right: 5vw;
+text-shadow:
+  -1px -1px 0 #000, 
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+#Smackdown {
+      
+background-image: url("../IMG/ExtrasPosModerno/Smackdown_BGMobile.png");
+background-size: cover;
+min-height:1200px;
+background-position:center;
+background-repeat: no-repeat;
+background-position-y: -1%;
+width: 100%;
+position: relative;
+z-index: 1;
+    }
+
+#SmackdownText {
+  margin-right: 7.5vw;
+  margin-top: 500px;
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 20px;
+  border-radius: 10px;
+  font-size: large;
+  width:100%;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-shadow:
+    -1px -1px 0 #FFF,  
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+    1px 1px 0 #FFF;
+}
+
+#LogoSmackdown {
+      margin-top:5vh;
+      width: 20vw;
+      margin-left: 7.5vw;
+    }
+    
+#UltiSmack {
+      
+background-image: url("../IMG/ExtrasPosModerno/UltiSmack_BGMobile.jpg");
+background-size: cover;
+min-height:1200px;
+background-position:center;
+position: relative;
+background-position-y:-1%;
+background-repeat: no-repeat;
+width: 100%;
+z-index: 1;
+    }
+
+
+#UltiSmackText {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  margin-top: 600px;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 100%;
+}
+
+.divisor {
+  position: relative;
+  z-index: 10;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+
+.divisor img {
+  width: 100%;
+  display: block;
+}
+
+    #logo {
+      margin-top:10vh;
+      width: 25vw;
+      margin-left: 120px;
+    }
+    #logo2 {
+            margin-top:10vh;
+
+      width: 20vw;
+      margin-left: 120px;
+    }
+    .col-md-6 {
+      display: none;
+    }
+      a {
+      text-decoration: none !important;
+    }
+
+
+
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {  /* Laptops */
+body{
+  overflow-x: hidden;
+}
+
+.col-12{
+  display: none;
+}
 #Introducao{
 background-color: #FFF; 
 text-align: center;
@@ -64,17 +479,7 @@ background-repeat: no-repeat;
 width: 100%;
 position: relative;
 z-index: 1;
-
-/*Font Style*/
-color: black;
-font-size: 1.2rem;
-font-weight: bold;
-text-shadow:
-  -1px -1px 0 #FFF,  
-  1px -1px 0 #FFF,
-  -1px 1px 0 #FFF,
-  1px 1px 0 #FFF;
-    }
+}
 
 #SmackdownText {
   margin-right: 7.5vw;
@@ -82,39 +487,44 @@ text-shadow:
   padding: 20px;
   border-radius: 10px;
   font-size: large;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-shadow:
+    -1px -1px 0 #FFF,  
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+    1px 1px 0 #FFF;
 }
 
 #LogoSmackdown {
-      margin-top:5vh;
-      width: 20vw;
+      margin-top:8vh;
+      width: 25vw;
       margin-left: 7.5vw;
     }
     
-#Knight {
-      
-background-image: url("../IMG/ExtrasModerno/Knight_BG.png");
+#UltiSmack {
+background-image: url("../IMG/ExtrasPosModerno/UltiSmack_BG.png");
 background-size: cover;
-height: 95vh;
+height: 100vh;
 background-position-x: 40%;
 background-repeat: no-repeat;
 width: 100%;
 position: relative;
 z-index: 1;
-/*Font Style*/
-color: black;
-font-size: 1.2rem;
-font-weight: bold;
-color: white;
+}
 
-    }
-
-#logoKnight {
-      margin-top:10vh;
+#LogoUltiSmack {
+      margin-top:5vh;
       width: 25vw;
       margin-left: 7.5vw;
     }
 
-#textKnight {
+#UltiSmackText {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
   margin-right: 7.5vw;
   background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
   padding: 10px;
@@ -123,57 +533,137 @@ color: white;
   width: 100%;
 }
 
-#Dimensions {
-      
-background-image: url("../IMG/ExtrasModerno/Dimentions_BG.png");
+
+
+.divisor {
+  position: relative;
+  z-index: 10;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+
+.divisor img {
+  width: 100%;
+  display: block;
+}
+
+    #logo {
+      margin-top:10vh;
+      width: 25vw;
+      margin-left: 120px;
+    }
+    #logo2 {
+            margin-top:10vh;
+
+      width: 20vw;
+      margin-left: 120px;
+    }
+    .col-md-6 {
+      display: none;
+    }
+      a {
+      text-decoration: none !important;
+    }
+}
+@media (min-width: 1200px) {  /* Desktops grandes */
+
+body{
+  overflow-x: hidden;
+}
+
+.col-12{
+  display: none;
+}
+#Introducao{
+background-color: #FFF; 
+text-align: center;
+background-repeat: no-repeat;
+background-image: url("../IMG/ExtrasClassico/Intro_BG1.png");
 background-size: cover;
-height: 95vh;
-background-position-x: 50%;
+height: 90vh;
+
+}
+
+#Introducao h1 {
+padding-top: 10vh;
+font-size: 3rem;
+font-weight: bold;
+color: white;
+text-shadow:
+  -1px -1px 0 #000, 
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+#Introducao p {
+font-size: 1.5rem;
+font-weight: bold;
+color: white;
+padding-left: 5vw;
+padding-right: 5vw;
+text-shadow:
+  -1px -1px 0 #000, 
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+#Smackdown {
+      
+background-image: url("../IMG/ExtrasPosModerno/Smackdown_BG.png");
+background-size: cover;
+height: 90vh;
 background-repeat: no-repeat;
 width: 100%;
 position: relative;
 z-index: 1;
-/*Font Style*/
-color: black;
-font-size: 1.2rem;
-font-weight: bold;
-text-shadow:
-  -1px -1px 0 #FFF,  
-  1px -1px 0 #FFF,
-  -1px 1px 0 #FFF,
-  1px 1px 0 #FFF;
-    }
+}
 
-#logoDimensions {
-      margin-top:10vh;
+#SmackdownText {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 20px;
+  border-radius: 10px;
+  font-size: large;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-shadow:
+    -1px -1px 0 #FFF,  
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+    1px 1px 0 #FFF;
+}
+
+#LogoSmackdown {
+      margin-top:8vh;
+      width: 25vw;
+      margin-left: 7.5vw;
+    }
+    
+#UltiSmack {
+background-image: url("../IMG/ExtrasPosModerno/UltiSmack_BG.png");
+background-size: cover;
+height: 100vh;
+background-position-x: 40%;
+background-repeat: no-repeat;
+width: 100%;
+position: relative;
+z-index: 1;
+}
+
+#LogoUltiSmack {
+      margin-top:5vh;
       width: 25vw;
       margin-left: 7.5vw;
     }
 
-#DimensionsText {
-  margin-right: 7.5vw;
-  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
-  padding: 10px;
-  border-radius: 10px;
-  font-size: large;
-  width: 100%;
-}
-
-
-#Chao {
-  background-image: url("../IMG/ExtrasAdventure/Chao_BG.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 80vh;
-  background-position-X:60%;
-  position: relative;
-  /*Font Style*/
+#UltiSmackText {
   color: black;
   font-size: 1.2rem;
   font-weight: bold;
-}
-
-#ChaoText {
+  color: white;
   margin-right: 7.5vw;
   background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
   padding: 10px;
@@ -182,111 +672,7 @@ text-shadow:
   width: 100%;
 }
 
-#Rivals{
-background-image: url("../IMG/ExtrasModerno/Rivals_BG.png");
-background-size: cover;
-height: 100vh;
-background-position: center;
-position: relative;
-z-index: 1;
-/*Font Style*/
-color: black;
-font-size: 1.2rem;
-font-weight: bold;
-color: white;
-}
 
-#RivalsText {
-  margin-right: 7.5vw;
-  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
-  padding: 10px;
-  border-radius: 10px;
-  font-size: large;
-  width: 80%;
-}
-
-#logoRivals {
-      margin-top:10vh;
-      width: 18vw;
-      margin-left: 25%;
-    }
-
-#ZeroG{
-background-image: url("../IMG/ExtrasModerno/ZeroG_BG1.png");
-background-size: cover;
-height: 100vh;
-background-position: center;
-position: relative;
-z-index: 1;
-/*Font Style*/
-color: black;
-font-size: 1.2rem;
-font-weight: bold;
-color: white;
-}
-
-#ZeroGText {
-  margin-right: 7.5vw;
-  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
-  padding: 10px;
-  border-radius: 10px;
-  font-size: large;
-  width: 80%;
-}
-
-#logoZeroG {
-      margin-top:10vh;
-      width: 18vw;
-      margin-left: 25%;
-    }
-
-
-
-
-#BattleR{
-background-image: url("../IMG/ExtrasAdventure/BattleR_BG.png");
-background-repeat: no-repeat;
-height: 100vh;
-background-size: cover;
-background-position-x: -50vw;
-/*Font Style*/
-color: black;
-font-size: 1.2rem;
-font-weight: bold;
-color: white;
-
-
-
-}
-
-
-
-#GT{
-background-image: url("../IMG/ExtrasAdventure/GT_BG.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-height: 95vh;
-/*Font Style*/
-}
-
-#GTText {
-  margin-right: 7.5vw;
-  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
-  padding: 10px;
-  border-radius: 10px;
-  font-size: large;
-  width: 100%;
-  font-weight: bold;
-font-size: 1.2rem;
-color: black;
-text-shadow:
-  -1px -1px 0 #FFF,  
-  1px -1px 0 #FFF,
-  -1px 1px 0 #FFF,
-  1px 1px 0 #FFF;
-
-}
 
 .divisor {
   position: relative;
@@ -320,3 +706,4 @@ text-shadow:
 
 
 }
+
