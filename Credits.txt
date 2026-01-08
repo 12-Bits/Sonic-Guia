@@ -214,7 +214,7 @@ Logo: https://www.steamgriddb.com/logo/4462
 
 Rivals
 BG1: https://www.steamgriddb.com/hero/14418
-BGMobile: https://www.steamgriddb.com/grid/111497
+BGMobile: https://www.steamgriddb.com/grid/178934
 BGMobileMD: https://www.steamgriddb.com/grid/34780
 Logo: https://www.steamgriddb.com/logo/24813
 
