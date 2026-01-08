@@ -5,7 +5,7 @@ body {
 @media (max-width: 575.98px) {  /* Celulares pequenos */
 
   body {
-    background-color: black;
+    background-color: #f6f4f8;
     overflow-x: hidden;
   }
   .navbar-brand img {

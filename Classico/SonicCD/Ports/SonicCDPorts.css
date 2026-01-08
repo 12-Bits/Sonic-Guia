@@ -148,7 +148,8 @@ font-size: 1rem;
     
     /*General START*/
   body {
-background-color: white;    overflow-x: hidden;
+  background-color:#f6f4f8;  
+  overflow-x: hidden;
   }
   .navbar-brand img {
     vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
