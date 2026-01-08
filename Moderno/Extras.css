@@ -147,12 +147,19 @@ margin:0
     background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
     padding: 10px;
     border-radius: 10px;
-    margin-top: 100px; 
+    margin-top: 50px; 
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
 
+  #ZeroGLogo{
+    width: 70vw;
+      display: block;
+      margin: auto;
+    margin-top: 50px;
+
+  }
 #Dimensions{
   background-image: url("../IMG/ExtrasModerno/Dimentions_BGMobile.png");
   background-repeat: no-repeat;
@@ -331,10 +338,17 @@ body{
     background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
     padding: 10px;
     border-radius: 10px;
-    margin-top: 200px; 
-    max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 100%;
+margin-top: 5px;
+
+  }
+
+    #ZeroGLogo{
+    width: 70vw;
+      display: block;
+      margin: auto;
+    margin-top: 80px;
+
   }
 
 #Dimensions{
@@ -377,198 +391,7 @@ a {
   text-decoration: none !important;
 }
 
-body{
-  overflow-x: hidden;
-  width: 100%;
-}
 
-.col-6, .col-4, .col-5, #Fullscreen{
-  display: none;
-}
-
-#Introducao{
-  background-color: #FFF; 
-  text-align: center;
-  background-repeat: no-repeat;
-  background-image: url("../IMG/ExtrasClassico/Intro_BG1.png");
-  background-size: cover;
-  height: 130vh;
-
-}
-
-#Introducao h1 {
-  padding-top: 5vh;
-  font-size: 3rem;
-  font-weight: bold;
-  color: white;
-  text-shadow:
-    -1px -1px 0 #000, 
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-}
-
-#Introducao p {
-  padding-top: 5vh;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: white;
-  padding-left: 5vw;
-  padding-right: 5vw;
-  text-shadow:
-    -1px -1px 0 #000, 
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-}
-
-#Secret {
-      
-  background-image: url("../IMG/ExtrasModerno/Secret_BGMobile.png");
-  background-size: cover;
-  min-height: 720px;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  position: relative;
-  z-index: 1;
-  /*Font Style*/
-  color: white;
-  font-size: 1.2rem;
-  font-weight: bold;
-
-    }
-
-  #SecretText {
-    background-color: rgba(0, 0, 0, 0.7); 
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 400px; 
-    max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-#SecretIMG1 {
-width: 95vw;
-height: auto;
-margin:0
-}
-#SecretIMG2 {
-  width: 95vw;
-  height: auto;
-}
-
-#Knight {
-  background-image: url("../IMG/ExtrasModerno/Knight_BGMobile.png");
-  background-size: cover;
-  min-height: 750px;
-  background-position: center;
-  position: relative;
-  z-index: 1;
-  /*Font Style*/
-  color: white;
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
-  #KnightText{
-    background-color: rgba(0, 0, 0, 0.7); 
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 400px; 
-    max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-#Rivals{
-  background-image: url("../IMG/ExtrasModerno/Rivals_BGMobile.png");
-  background-size: cover;
-  min-height: 750px;
-  background-position: center;
-  position: relative;
-  background-repeat: no-repeat;
-
-  z-index: 1;
-  /*Font Style*/
-  color: white;
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
-
-
-#RivalsText{
-  background-color: rgba(0, 0, 0, 0.7); 
-  padding: 10px;
-  border-radius: 10px;
-  margin-top: 300px; 
-  max-width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#ZeroG{
-  background-image: url("../IMG/ExtrasModerno/ZeroG_BGMobile.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  min-height: 750px;
-  /*Font Style*/
-  font-weight: bold;
-  font-size: 1.2rem;
-  color: white;
-}
-
-  #ZeroGText{
-    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 200px; 
-    max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-#Dimensions{
-  background-image: url("../IMG/ExtrasModerno/Dimentions_BGMobile.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  min-height: 800px;
-  /*Font Style*/
-  font-weight: bold;
-  font-size: 1.2rem;
-  color: white;
-
-}
-
-#DimensionsText{
-    background-color: rgba(0, 0, 0, 0.7); 
-    padding: 5px;
-    border-radius: 10px;
-    margin-top: 300px; 
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#logo {
-  position: absolute;
-  top:0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  margin-top:10vh;
-  width: 50vw;
-    }
-
-
-a {
-  text-decoration: none !important;
-}
 
 }
 @media (min-width: 768px) and (max-width: 991.98px) {  /* Tablets */
@@ -578,7 +401,7 @@ body{
   width: 100%;
 }
 
-.col-6, .col-4, .col-5, #Fullscreen{
+.col-6, .col-4, .col-5, #Fullscreen, #ZeroGLogo{
   display: none;
 }
 
@@ -690,7 +513,7 @@ body{
 }
 
 #ZeroG {
-  background-image: url("../IMG/ExtrasModerno/ZeroG_BGMobile.png"); 
+  background-image: url("../IMG/ExtrasModerno/ZeroG_BGMobileMD.png"); 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -771,7 +594,7 @@ body{
 body{
   overflow-x: hidden;
 }
-.col-12, #Mobile{
+.col-12, #Mobile, #ZeroGLogo{
   display: none;
 }
 
@@ -1026,7 +849,7 @@ color: white;
 body{
   overflow-x: hidden;
 }
-.col-12, #Mobile{
+.col-12, #Mobile,#ZeroGLogo{
   display: none;
 }
 
@@ -1340,6 +1163,7 @@ text-shadow:
   padding: 20px;
   border-radius: 10px;
   font-size: large;
+  width: 120%;
 }
 
 #LogoSecret {
@@ -1363,10 +1187,7 @@ width: 100%;
 position: relative;
 z-index: 1;
 /*Font Style*/
-color: black;
-font-size: 1.2rem;
-font-weight: bold;
-color: white;
+
 
     }
 
@@ -1376,13 +1197,17 @@ color: white;
       margin-left: 7.5vw;
     }
 
-#TextKnight {
+#KnightText {
+  color: black;
+font-size: 1.2rem;
+font-weight: bold;
+color: white;
   margin-right: 7.5vw;
   background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
-  padding: 10px;
+  padding: 20px;
   border-radius: 10px;
   font-size: large;
-  width: 100%;
+  width: 120%;
 }
 
 #Dimensions {
@@ -1422,28 +1247,6 @@ text-shadow:
 }
 
 
-#Chao {
-  background-image: url("../IMG/ExtrasAdventure/Chao_BG.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 80vh;
-  background-position-X:60%;
-  position: relative;
-  /*Font Style*/
-  color: black;
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
-#ChaoText {
-  margin-right: 7.5vw;
-  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
-  padding: 10px;
-  border-radius: 10px;
-  font-size: large;
-  width: 100%;
-}
-
 #Rivals{
 background-image: url("../IMG/ExtrasModerno/Rivals_BG.png");
 background-size: cover;
@@ -1461,7 +1264,7 @@ z-index: 1;
   padding: 10px;
   border-radius: 10px;
   font-size: large;
-  width: 80%;
+  width: 100%;
   color: black;
 font-size: 1.2rem;
 font-weight: bold;
@@ -1494,7 +1297,7 @@ color: white;
   padding: 10px;
   border-radius: 10px;
   font-size: large;
-  width: 80%;
+  width: 100%;
 }
 
 #logoZeroG {

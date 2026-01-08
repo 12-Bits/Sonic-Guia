@@ -5,7 +5,7 @@ body {
 @media (max-width: 575.98px) {  /* Celulares pequenos */
 
   body {
-    background-color: #f6f4f8;
+    background-color: black;
     overflow-x: hidden;
   }
   .navbar-brand img {
@@ -77,7 +77,7 @@ body {
 }
 @media (min-width: 576px) and (max-width: 767.98px) {  /* Celulares grandes */
     body {
-    background-color: white;
+    background-color: #f6f4f8;
     overflow-x: hidden;
   }
   .navbar-brand img {
