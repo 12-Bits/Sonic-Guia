@@ -690,7 +690,7 @@ body{
 }
 
 #ZeroG {
-  background-image: url("../IMG/ExtrasModerno/ZeroG_BGMobileMD.png"); 
+  background-image: url("../IMG/ExtrasModerno/ZeroG_BGMobile.png"); 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1178,9 +1178,6 @@ text-shadow:
   font-size: large;
   width: 100%;
 }
-
-
-
 
 #Rivals{
 background-image: url("../IMG/ExtrasModerno/Rivals_BG.png");
