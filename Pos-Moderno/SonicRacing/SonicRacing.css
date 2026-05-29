@@ -38,7 +38,7 @@ margin-top: 10%;
 font-size: 1rem;
   }
 
-#ModList{
+#ModList, #Alternativos{
   background-color: white;
   margin: 5vh;
   border-style: solid;
@@ -53,8 +53,8 @@ font-size: 1rem;
 
   /*General START*/
     body {
-   background-color: black;
-    width: 100%;
+      background-image: url("../../IMG/SonicSuperstars/BG2.png");
+      width: 100%;
       overflow-x: hidden;
     }
   .navbar-brand img {
@@ -81,17 +81,19 @@ font-size: 1rem;
     text-decoration: none !important;
   }
 
+
+
+  
   /*General END*/
 
   /*Main START*/
 
      #BackgroundInicio {
-      background-image: url("../../../IMG/SonicCD/BGMobile.png");
+      background-image: url("../../IMG/SonicRacing/BGMobile.jpg");
       background-repeat: no-repeat;
       background-size: contain;
       height: 90vh;
-      min-height: 900px;
-      width: 100%;
+      min-height: 930px;
     }
   
     #introdução {
@@ -104,19 +106,9 @@ font-size: 1rem;
         -1px 1px 0 #000,
          1px 1px 0 #000;
       text-align: center;
-      
     }
 
-#Aviso {
-background-color: red;
-padding: 5px;
-color: white;
-font-weight: bold;
-text-align: center;
-margin-bottom: 5vh;
-margin-top: 80vh;
-font-size: 1rem;
-  }
+
 
 /*Main END*/   
   
@@ -129,8 +121,8 @@ font-size: 1rem;
   border-radius: 25px;
   border-width: 5px;
   padding: 1vh;
-  margin-top: 25vw;
   font-size: 1rem;
+  margin-top: 25%;
 
 }
 #Titulo{
@@ -145,8 +137,8 @@ font-size: 1rem;
     
     /*General START*/
   body {
-  background-color:#f6f4f8;  
-  overflow-x: hidden;
+      background-image: url("../../IMG/SonicSuperstars/BG2.png");
+    overflow-x: hidden;
   }
   .navbar-brand img {
     vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
@@ -181,7 +173,7 @@ font-size: 1rem;
   /*Main START*/
 
   #BackgroundInicio {
-    background-image: url("../../../IMG/SonicCD/Ports/BGMobileMD.png");
+      background-image: url("../../IMG/SonicRacing/BGMobileMD.jpg");
     background-repeat: no-repeat;
     background-size: contain;  
     width:100%;
@@ -191,9 +183,12 @@ font-size: 1rem;
   #introdução {
     padding-top: 70%;
     position: relative;
-    color: black;
-    font-weight: bold;
-
+    color: white;
+    text-shadow:
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
     text-align: center;
     font-size: larger;
     font-weight: bold;
@@ -246,12 +241,12 @@ font-size: 1rem;
 
 /*General START*/
   body {
-background-color: #FFF
-;    overflow-x: hidden;
+    background-image: url("../../IMG/SonicSuperstars/BG2.png");
+    overflow-x: hidden;
   }
   .navbar-brand img {
     vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
-  }
+}
 
   img {
   width: 100%;
@@ -275,7 +270,7 @@ background-color: #FFF
   }
 
   #logo {
-    margin-left: 4vw;
+    margin-left: 15vw;
     margin-top: 15px;
     width: 30vw;
   }
@@ -290,26 +285,29 @@ background-color: #FFF
 
 /*Main START*/
   #BackgroundInicio {
-    background-image: url("../../../IMG/SonicCD/Ports/BG1.png");
+    background-image: url("../../IMG/SonicRacing/BG1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    width:100%;
+    height: 90vh;
     min-height: 400px;
-    background-position-x: right;
+    background-position-x: 60%;
+    padding-bottom: 30vh;
   }
 
   #introdução {
     
-    color: black;
-font-weight: bold;
+    padding-top: 5vh;
+    position: relative;
+    color: white;
     text-shadow:
-      -1px -1px 0 #fff,  
-       1px -1px 0 #fff,
-      -1px 1px 0 #fff,
-       1px 1px 0 #fff;
-    font-size: 1.2rem;
-width: 65%;
-margin-left: 0vw;
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    text-align: center;
+    font-size: 1rem;
+    width: 100%;
   }
 
   #Explicação {
@@ -363,14 +361,14 @@ font-size: 1rem;
 /*General START*/
 
   body {
-   background-image: url("../../IMG/SonicUnleashed/BG2.jpg");
+      background-image: url("../../IMG/SonicSuperstars/BG2.png");
   overflow-x: hidden;
   }
 
   #logo {
     margin-top: 25px;
     width: 25vw;
-    margin-left: 7vw;
+    margin-left: 190px;
   }
 
   .col-lg-6 {
@@ -400,26 +398,23 @@ font-size: 1rem;
 
 /*Main START*/
   #BackgroundInicio {
-    background-image: url("../../../IMG/SonicCD/Ports/BG1.png");
+      background-image: url("../../IMG/SonicRacing/BG1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 90vh;
     min-height: 450px;
-    background-position-x: right;
+    background-position: center;
 
   }
 
   #introdução {
-    color: black;
-font-weight: bold;
+    color: white;
     text-shadow:
-      -1px -1px 0 #fff,  
-       1px -1px 0 #fff,
-      -1px 1px 0 #fff,
-       1px 1px 0 #fff;
-    font-size: 1.2rem;
-width: 65%;
-       
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+       width: 100%;
   }
 
     #Explicação {
@@ -471,8 +466,8 @@ font-size: 1rem;
 /*General START*/
 
   body {
-background-color: white; 
-   overflow-x: hidden;
+      background-image: url("../../IMG/SonicSuperstars/BG2.png");
+    overflow-x: hidden;
   }
 
   #logo {
@@ -504,38 +499,26 @@ background-color: white;
 /*Main START*/
 
   #BackgroundInicio {
-    background-image: url("../../../IMG/SonicCD/Ports/BG1.png");
+    background-image: url("../../IMG/SonicRacing/BG1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
-    min-height: 600px;
-    background-position-x: right;
-
+    min-height: 450px;
   }
 
   #introdução {
-    color: black;
-font-weight: bold;
+    color: white;
     text-shadow:
-      -1px -1px 0 #fff,  
-       1px -1px 0 #fff,
-      -1px 1px 0 #fff,
-       1px 1px 0 #fff;
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
     font-size: 1.2rem;
-width: 65%;
+    width: 100%;
   }
 
 
-#Aviso {
-background-color: red;
-padding: 5px;
-color: white;
-font-weight: bold;
-text-align: center;
-margin-bottom: 5vh;
-margin-top: 5%;
-font-size: 1rem;
-  }
+
 /*Main END*/
 
 /*Tutorial START*/

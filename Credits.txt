@@ -248,6 +248,11 @@ BG2:
 BGMobile: 
 BGMobileMD:https://www.steamgriddb.com/grid/502173
 
+ShadowGens
+BG1: Twins1105
+BGMobile: Twins1105
+BGMobileMD: playerplays
+Logo: TheGershon
 
 Extras
 
