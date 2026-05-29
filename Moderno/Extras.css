@@ -1,17 +1,608 @@
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+body{ /*Default BG*/
+    background-color: #2F60AC;
+}
+
+@media (max-width: 575.98px) {  /* Celulares pequenos */
+
+body{
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.col-6, .col-4, .col-5, #Fullscreen, #logoDimensions{
+  display: none;
+}
+
+#Introducao{
+  background-color: #FFF; 
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image: url("../IMG/ExtrasClassico/Intro_BG1.png");
+  background-size: cover;
+  height: 130vh;
+
+}
+
+#Introducao h1 {
+  padding-top: 5vh;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000, 
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#Introducao p {
+  padding-top: 5vh;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  text-shadow:
+    -1px -1px 0 #000, 
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#Secret {
+      
+  background-image: url("../IMG/ExtrasModerno/Secret_BGMobile.png");
+  background-size: cover;
+  min-height: 720px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  /*Font Style*/
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+
+    }
+
+  #SecretText {
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 400px; 
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#SecretIMG1 {
+width: 95vw;
+height: auto;
+margin:0
+}
+#SecretIMG2 {
+  width: 95vw;
+  height: auto;
+}
+
+#Knight {
+  background-image: url("../IMG/ExtrasModerno/Knight_BGMobile.png");
+  background-size: cover;
+  min-height: 750px;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  /*Font Style*/
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+  #KnightText{
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 400px; 
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#Rivals{
+  background-image: url("../IMG/ExtrasModerno/Rivals_BGMobile.png");
+  background-size: cover;
+  height: 750px;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+#RivalsText{
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.7); 
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 150px; 
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ZeroG{
+  background-image: url("../IMG/ExtrasModerno/ZeroG_BGMobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 750px;
+}
+
+  #ZeroGText{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 50px; 
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #ZeroGLogo{
+    width: 70vw;
+      display: block;
+      margin: auto;
+    margin-top: 50px;
+
+  }
+#Dimensions{
+  background-image: url("../IMG/ExtrasModerno/Dimentions_BGMobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 800px;
+  /*Font Style*/
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+
+}
+
+#DimensionsText{
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 300px; 
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top:10vh;
+  width: 50vw;
+    }
+
+
+a {
+  text-decoration: none !important;
+}
+
+}
+@media (min-width: 576px) and (max-width: 767.98px) {  /* Celulares grandes */
+
+body{
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.col-6, .col-4, .col-5, #Fullscreen,#logoDimensions{
+  display: none;
+}
+
+#Introducao{
+  background-color: #FFF; 
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image: url("../IMG/ExtrasClassico/Intro_BG1.png");
+  background-size: cover;
+  height: 130vh;
+
+}
+
+#Introducao h1 {
+  padding-top: 5vh;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000, 
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#Introducao p {
+  padding-top: 5vh;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  text-shadow:
+    -1px -1px 0 #000, 
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#Secret {
+      
+  background-image: url("../IMG/ExtrasModerno/Secret_BGMobile.png");
+  background-size: cover;
+  min-height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  /*Font Style*/
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+
+    }
+
+  #SecretText {
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 400px; 
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+#Knight {
+  background-image: url("../IMG/ExtrasModerno/Knight_BGMobile.png");
+  background-size: cover;
+  min-height: 900px;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  /*Font Style*/
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+  #KnightText{
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 400px; 
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#Rivals{
+  background-image: url("../IMG/ExtrasModerno/Rivals_BGMobile.png");
+  background-size: cover;
+  min-height: 900px;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  z-index: 1;
+  /*Font Style*/
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#RivalsText{
+  background-color: rgba(0, 0, 0, 0.7); 
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 300px; 
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ZeroG{
+  background-image: url("../IMG/ExtrasModerno/ZeroG_BGMobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 900px;
+  /*Font Style*/
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+}
+
+  #ZeroGText{
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 100%;
+margin-top: 5px;
+
+  }
+
+    #ZeroGLogo{
+    width: 70vw;
+      display: block;
+      margin: auto;
+    margin-top: 80px;
+
+  }
+
+#Dimensions{
+  background-image: url("../IMG/ExtrasModerno/Dimentions_BGMobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 900px;
+  /*Font Style*/
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+
+}
+
+
+#DimensionsText{
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 300px; 
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top:10vh;
+  width: 50vw;
+    }
+
+
+a {
+  text-decoration: none !important;
+}
+
+
+
+}
+@media (min-width: 768px) and (max-width: 991.98px) {  /* Tablets */
+
+body{
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.col-6, .col-4, .col-5, #Fullscreen, #ZeroGLogo{
+  display: none;
+}
+
+#Introducao{
+  background-color: #FFF; 
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image: url("../IMG/ExtrasClassico/Intro_BG1.png");
+  background-size: cover;
+  height: 130vh;
+
+}
+
+#Introducao h1 {
+  padding-top: 5vh;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000, 
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#Introducao p {
+  padding-top: 5vh;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  text-shadow:
+    -1px -1px 0 #000, 
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#Secret {
+      
+  background-image: url("../IMG/ExtrasModerno/Secret_BGMobileMD.png");
+  background-size: cover;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+    }
+
+  #SecretText {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 100%;
+    margin-top: 200px; 
+  }
+
+
+#Knight {
+  background-image: url("../IMG/ExtrasModerno/Knight_BGMobileMD.png");
+  background-size: cover;
+  height: 400px;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  /*Font Style*/
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+  #KnightText{
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px; 
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#Rivals {
+  background-image: url("../IMG/ExtrasModerno/Rivals_BGMobileMD.png");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px; 
+  position: relative;
+  z-index: 1;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#RivalsText {
+  background-color: rgba(0, 0, 0, 0.7); 
+  padding: 10px;
+  border-radius: 10px;
+  /* 3. Adjusted margin to center the text better over the image */
+  margin-top: 50px; 
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ZeroG {
+  background-image: url("../IMG/ExtrasModerno/ZeroG_BGMobileMD.png"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 425px;
+  z-index: 1;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#ZeroGText {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 50px; /* Reduced margin so text stays inside the smaller box */
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Dimensions{
+  background-image: url("../IMG/ExtrasModerno/Dimentions_BG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  /*Font Style*/
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+
+}
+
+
+#DimensionsText{
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 50px; 
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top:10vh;
+  width: 50vw;
+    }
+#logoDimensions {
+      margin-top:100px;
+      width: 30vw;
+      margin-left: 120px;
+    }
+    
+
+a {
+  text-decoration: none !important;
+}
+
+body{
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.col-6, .col-4, .col-5, #Fullscreen{
+  display: none;
+}
+
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {  /* Laptops */
 
 body{
   overflow-x: hidden;
 }
-    #logo-img { 
-      width: 10vw;
-    }
+.col-12, #Mobile, #ZeroGLogo{
+  display: none;
+}
+
 #Introducao{
 background-color: #FFF; 
 text-align: center;
 background-repeat: no-repeat;
-background-image: url("../IMG/ExtrasClassico/Intro_BG.png");
+background-image: url("../IMG/ExtrasClassico/Intro_BG1.png");
 background-size: cover;
 height: 90vh;
 
@@ -42,12 +633,92 @@ text-shadow:
   1px 1px 0 #000;
 }
 
-#Riders {
+#Secret {
       
-background-image: url("../IMG/ExtrasAdventure/RidersBG1.png");
+background-image: url("../IMG/ExtrasModerno/Secret_BG.png");
 background-size: cover;
-height: 100vh;
-background-position: center;
+height: 90vh;
+background-repeat: no-repeat;
+width: 100%;
+position: relative;
+z-index: 1;
+background-position-x: 40%;
+
+/*Font Style*/
+
+    }
+
+#SecretText {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 20px;
+  border-radius: 10px;
+  font-size: large;
+  color: black;
+font-size: 1.2rem;
+font-weight: bold;
+text-shadow:
+  -1px -1px 0 #FFF,  
+  1px -1px 0 #FFF,
+  -1px 1px 0 #FFF,
+  1px 1px 0 #FFF;
+  width: 120%;
+}
+
+#LogoSecret {
+      margin-top:5vh;
+      width: 20vw;
+      margin-left: 7.5vw;
+    }
+
+
+#Knight {
+      
+background-image: url("../IMG/ExtrasModerno/Knight_BG.png");
+background-size: cover;
+height: 95vh;
+background-position-x: 40%;
+background-repeat: no-repeat;
+width: 100%;
+position: relative;
+z-index: 1;
+/*Font Style*/
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+color: white;
+
+    }
+
+#logoKnight {
+      margin-top:10vh;
+      width: 25vw;
+      margin-left: 7.5vw;
+    }
+
+#KnightText {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 20px;
+  border-radius: 10px;
+  font-size: large;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-shadow:
+    -1px -1px 0 #FFF,  
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+    1px 1px 0 #FFF;
+  width: 120%;
+}
+
+#Dimensions {
+      
+background-image: url("../IMG/ExtrasModerno/Dimentions_BG.png");
+background-size: cover;
+height: 95vh;
+background-position-x: 50%;
 background-repeat: no-repeat;
 width: 100%;
 position: relative;
@@ -63,22 +734,276 @@ text-shadow:
   1px 1px 0 #FFF;
     }
 
+#logoDimensions {
+      margin-top:10vh;
+      width: 25vw;
+      margin-left: 7.5vw;
+    }
 
-#Sonic_Chaos {
-  background-image: url("../IMG/ExtrasClassico/SC_BG2.png");
-  background-size: cover;
-  height: 100vh;
-  background-position: center;
-  position: relative;
-  z-index: 1;
-  /*Font Style*/
+#DimensionsText {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 100%;
+}
+
+#Rivals{
+background-image: url("../IMG/ExtrasModerno/Rivals_BG.png");
+background-size: cover;
+height: 100vh;
+background-position: center;
+position: relative;
+z-index: 1;
+}
+
+#RivalsText {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+
   color: black;
   font-size: 1.2rem;
   font-weight: bold;
+  margin-right: 7.5vw;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 120%;
+    font-weight: bold;
+  text-shadow:
+    -1px -1px 0 #FFF,  
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+    1px 1px 0 #FFF;
 }
 
-#TripleTrouble{
-background-image: url("../IMG/ExtrasClassico/STT_BG.jpg");
+#logoRivals {
+      margin-top:10vh;
+      width: 18vw;
+      margin-left: 25%;
+    }
+
+#ZeroG{
+background-image: url("../IMG/ExtrasModerno/ZeroG_BG1.png");
+background-size: cover;
+height: 110vh;
+background-position: center;
+position: relative;
+z-index: 1;
+/*Font Style*/
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+color: white;
+}
+
+#ZeroGText {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 110%;
+}
+
+#logoZeroG {
+      margin-top:10vh;
+      width: 18vw;
+      margin-left: 25%;
+    }
+
+.divisor {
+  position: relative;
+  z-index: 10;
+  margin-top: -60px;
+  margin-bottom: -60px;
+}
+
+.divisor img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+    #logo {
+      margin-top:10vh;
+      width: 25vw;
+      margin-left: 120px;
+    }
+    #logo2 {
+            margin-top:10vh;
+
+      width: 20vw;
+      margin-left: 120px;
+    }
+    .col-md-6 {
+      display: none;
+    }
+      a {
+      text-decoration: none !important;
+    }
+
+}
+@media (min-width: 1200px) {  /* Desktops grandes */
+
+body{
+  overflow-x: hidden;
+}
+.col-12, #Mobile,#ZeroGLogo{
+  display: none;
+}
+
+#Introducao{
+background-color: #FFF; 
+text-align: center;
+background-repeat: no-repeat;
+background-image: url("../IMG/ExtrasClassico/Intro_BG1.png");
+background-size: cover;
+height: 90vh;
+
+}
+
+#Introducao h1 {
+padding-top: 10vh;
+font-size: 3rem;
+font-weight: bold;
+color: white;
+text-shadow:
+  -1px -1px 0 #000, 
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+#Introducao p {
+font-size: 1.5rem;
+font-weight: bold;
+color: white;
+padding-left: 5vw;
+padding-right: 5vw;
+text-shadow:
+  -1px -1px 0 #000, 
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+#Secret {
+      
+background-image: url("../IMG/ExtrasModerno/Secret_BG.png");
+background-size: cover;
+height: 90vh;
+background-repeat: no-repeat;
+width: 100%;
+position: relative;
+z-index: 1;
+background-position-x: 40%;
+
+/*Font Style*/
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+text-shadow:
+  -1px -1px 0 #FFF,  
+  1px -1px 0 #FFF,
+  -1px 1px 0 #FFF,
+  1px 1px 0 #FFF;
+    }
+
+#SecretText {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 20px;
+  border-radius: 10px;
+  font-size: large;
+}
+
+#LogoSecret {
+      margin-top:5vh;
+      width: 20vw;
+      margin-left: 7.5vw;
+    }
+
+
+#Knight {
+      
+background-image: url("../IMG/ExtrasModerno/Knight_BG.png");
+background-size: cover;
+height: 95vh;
+background-position-x: 40%;
+background-repeat: no-repeat;
+width: 100%;
+position: relative;
+z-index: 1;
+/*Font Style*/
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+color: white;
+
+    }
+
+#logoKnight {
+      margin-top:10vh;
+      width: 25vw;
+      margin-left: 7.5vw;
+    }
+
+#TextKnight {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 20px;
+  border-radius: 10px;
+  font-size: large;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-shadow:
+    -1px -1px 0 #FFF,  
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+    1px 1px 0 #FFF;
+  width: 120%;
+}
+
+#Dimensions {
+      
+background-image: url("../IMG/ExtrasModerno/Dimentions_BG.png");
+background-size: cover;
+height: 95vh;
+background-position-x: 50%;
+background-repeat: no-repeat;
+width: 100%;
+position: relative;
+z-index: 1;
+/*Font Style*/
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+text-shadow:
+  -1px -1px 0 #FFF,  
+  1px -1px 0 #FFF,
+  -1px 1px 0 #FFF,
+  1px 1px 0 #FFF;
+    }
+
+#logoDimensions {
+      margin-top:10vh;
+      width: 25vw;
+      margin-left: 7.5vw;
+    }
+
+#DimensionsText {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 100%;
+}
+
+#Rivals{
+background-image: url("../IMG/ExtrasModerno/Rivals_BG.png");
 background-size: cover;
 height: 100vh;
 background-position: center;
@@ -88,111 +1013,52 @@ z-index: 1;
 color: black;
 font-size: 1.2rem;
 font-weight: bold;
-
-
-}
-#SonicR{
-background-image: url("../IMG/ExtrasClassico/S_R_BG2.png");
-background-repeat: no-repeat;
-height: 100vh;
-background-size: cover;
-background-position: center;
-background-position-x: -1vw;
-/*Font Style*/
-color: black;
-font-size: 1.2rem;
-font-weight: bold;
-
-
-
-}
-
-#TailsAdventure{
-background-image: url("../IMG/ExtrasClassico/test.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position-x: -15vw;
-background-position: center;
-height: 100vh;
-/*Font Style*/
-font-weight: bold;
-font-size: 1.2rem;
-color: black;
-}
-
-#Fighters{
-background-image: url("../IMG/ExtrasClassico/S_F_BG.png");
-background-repeat: no-repeat;
-height: 100vh;
-background-size: cover;
-background-position-x: -20vw;
-background-position: center;
-/*Font Style*/
-color: black;
-font-size: 1.2rem;
-font-weight: bold;
-}
-
-#Blast3D{
-background-image: url("../IMG/ExtrasClassico/S_3D_BG.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-height: 100vh;
-background-position-x: -25vw;
-/*Font Style*/
-font-size: 1.2rem;
-color: black;
-font-weight: bold;
-text-shadow:
-  -1px -1px 0 #FFF,  
-  1px -1px 0 #FFF,
-  -1px 1px 0 #FFF,
-  1px 1px 0 #FFF;
-}
-
-#Spinball{
-background-image: url("../IMG/ExtrasClassico/S_BALL_BG3.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-height: 100vh;
-/*Font Style*/
-font-weight: bold;
-font-size: 1.2rem;
 color: white;
 }
 
-#RingRacers{
-background-image: url("../IMG/ExtrasClassico/RR_BG1.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-background-position-x: -12vw;
-height: 100vh;
-/*Font Style*/
-font-weight: bold;
-font-size: 1.2rem;
-color: black;
+#RivalsText {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 120%;
 }
 
-#MeanBean{
-background-image: url("../IMG/ExtrasClassico/Bean_BG1.png");
-background-repeat: no-repeat;
+#logoRivals {
+      margin-top:10vh;
+      width: 18vw;
+      margin-left: 25%;
+    }
+
+#ZeroG{
+background-image: url("../IMG/ExtrasModerno/ZeroG_BG1.png");
 background-size: cover;
-background-position: center;
 height: 100vh;
+background-position: center;
+position: relative;
+z-index: 1;
 /*Font Style*/
-font-weight: bold;
-font-size: 1.2rem;
 color: black;
-text-shadow:
-  -1px -1px 0 #FFF,  
-  1px -1px 0 #FFF,
-  -1px 1px 0 #FFF,
-  1px 1px 0 #FFF;
+font-size: 1.2rem;
+font-weight: bold;
+color: white;
 }
 
+#ZeroGText {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 80%;
+}
+
+#logoZeroG {
+      margin-top:10vh;
+      width: 18vw;
+      margin-left: 25%;
+    }
 
 .divisor {
   position: relative;
@@ -223,102 +1089,250 @@ text-shadow:
       a {
       text-decoration: none !important;
     }
-  }
-  /* Extra small devices (phones, 600px and down) */
-  @media only screen and (max-width: 600px) {
-    body {
-      background-color: #2F60AC;
-  
-      overflow-x: hidden;
+
+}
+@media (min-width: 1200px) {  /* Desktops grandes */
+
+body{
+  overflow-x: hidden;
+}
+.col-12, #Mobile{
+  display: none;
+}
+
+#Introducao{
+background-color: #FFF; 
+text-align: center;
+background-repeat: no-repeat;
+background-image: url("../IMG/ExtrasClassico/Intro_BG1.png");
+background-size: cover;
+height: 90vh;
+
+}
+
+#Introducao h1 {
+padding-top: 10vh;
+font-size: 3rem;
+font-weight: bold;
+color: white;
+text-shadow:
+  -1px -1px 0 #000, 
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+#Introducao p {
+font-size: 1.5rem;
+font-weight: bold;
+color: white;
+padding-left: 5vw;
+padding-right: 5vw;
+text-shadow:
+  -1px -1px 0 #000, 
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+#Secret {
+      
+background-image: url("../IMG/ExtrasModerno/Secret_BG.png");
+background-size: cover;
+height: 90vh;
+background-repeat: no-repeat;
+width: 100%;
+position: relative;
+z-index: 1;
+background-position-x: 40%;
+
+/*Font Style*/
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+text-shadow:
+  -1px -1px 0 #FFF,  
+  1px -1px 0 #FFF,
+  -1px 1px 0 #FFF,
+  1px 1px 0 #FFF;
     }
-    .navbar-brand img {
-      vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
-  }
-  
-    #BackgroundInicio {
-      background-image: url("../../IMG/Sonic1/Sonic1BGMobile.jpg");
-      background-repeat: no-repeat;
-      background-position-x:-18vw;
-      width:100%
+
+#SecretText {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 20px;
+  border-radius: 10px;
+  font-size: large;
+  width: 120%;
+}
+
+#LogoSecret {
+      margin-top:5vh;
+      width: 20vw;
+      margin-left: 7.5vw;
     }
-  
-    #introdução {
-      padding-top: 115vh;
-      position: relative;
-      color: white;
-      text-shadow:
-        -1px -1px 0 #000,  
-         1px -1px 0 #000,
-        -1px 1px 0 #000,
-         1px 1px 0 #000;
-      text-align: center;
+
+#SecretIMG2 {
+margin-top: 50px;
+}
+    
+#Knight {
+      
+background-image: url("../IMG/ExtrasModerno/Knight_BG.png");
+background-size: cover;
+height: 95vh;
+background-position-x: 40%;
+background-repeat: no-repeat;
+width: 100%;
+position: relative;
+z-index: 1;
+/*Font Style*/
+
+
     }
-  
+
+#logoKnight {
+      margin-top:10vh;
+      width: 25vw;
+      margin-left: 7.5vw;
+    }
+
+#KnightText {
+  color: black;
+font-size: 1.2rem;
+font-weight: bold;
+color: white;
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 20px;
+  border-radius: 10px;
+  font-size: large;
+  width: 120%;
+}
+
+#Dimensions {
+      
+background-image: url("../IMG/ExtrasModerno/Dimentions_BG.png");
+background-size: cover;
+height: 95vh;
+background-position-x: 50%;
+background-repeat: no-repeat;
+width: 100%;
+position: relative;
+z-index: 1;
+/*Font Style*/
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+text-shadow:
+  -1px -1px 0 #FFF,  
+  1px -1px 0 #FFF,
+  -1px 1px 0 #FFF,
+  1px 1px 0 #FFF;
+    }
+
+#logoDimensions {
+      margin-top:10vh;
+      width: 25vw;
+      margin-left: 7.5vw;
+    }
+
+#DimensionsText {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 100%;
+}
+
+
+#Rivals{
+background-image: url("../IMG/ExtrasModerno/Rivals_BG.png");
+background-size: cover;
+height: 100vh;
+background-position: center;
+position: relative;
+z-index: 1;
+/*Font Style*/
+
+}
+
+#RivalsText {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 100%;
+  color: black;
+font-size: 1.2rem;
+font-weight: bold;
+color: white;
+}
+
+#logoRivals {
+      margin-top:10vh;
+      width: 18vw;
+      margin-left: 25%;
+    }
+
+#ZeroG{
+background-image: url("../IMG/ExtrasModerno/ZeroG_BG1.png");
+background-size: cover;
+height: 100vh;
+background-position: center;
+position: relative;
+z-index: 1;
+/*Font Style*/
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+color: white;
+}
+
+#ZeroGText {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 100%;
+}
+
+#logoZeroG {
+      margin-top:10vh;
+      width: 18vw;
+      margin-left: 25%;
+    }
+
+.divisor {
+  position: relative;
+  z-index: 10;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+
+.divisor img {
+  width: 100%;
+  display: block;
+}
+
+    #logo {
+      margin-top:10vh;
+      width: 25vw;
+      margin-left: 120px;
+    }
+    #logo2 {
+            margin-top:10vh;
+
+      width: 20vw;
+      margin-left: 120px;
+    }
     .col-md-6 {
-      display: block;
-      font-weight: bold;
-      font-size: larger;
-      text-decoration: none;
-    }
-  
-    .col-lg-6 {
       display: none;
     }
-  
-    #logo {
-      display:none
-    }
-  
-    .col-6 {
-      font-weight: bold;
-      font-size: larger;
-      text-decoration: none;
-    }
-  
-    table thead th {
-      padding-top: 0vh;
-      text-align: center !important;
-    }
-  
-    #tabela {
-      margin-top: 1vh;
-    }
-  
-    #tabela2 {
-      margin-top: 5vh;
-    }
-  
-    a {
-      text-decoration: none;
-      color: blue;
-    }
-  
-    #logo-img{ 
-      width: 30vw;
-      margin-left: 30vw;
-  }
-  img{
-    width: 100%;
-  }
-  
-    #Linktopage {
-      color: blue;
+      a {
       text-decoration: none !important;
     }
-  }
-  
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-  
-  }
-  
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-  
-  }
-  
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-  
-  }
-  
+}
