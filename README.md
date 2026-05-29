@@ -9,9 +9,10 @@ TDOO List
 - [X] Find a Frontiers Bordered Logo, a Better Forces BG and a better Shadow BG
 - [X] Create Post-Modern era pages
 - [X] Create general footer
-- [ ] Create all extras pages (Only Post-Modern left)
+- [X] Create all extras pages (Only Post-Modern left)
+- [ ] Fix SA1 logo not showingnin Mobile
 - [ ] Add detailed instructions to extras (if needed)
 - [ ] Expand Index
-- [ ] Adjust all pages to be responsive to phones and tablets (Only CD and Extras left)
+- [ ] Adjust all pages to be responsive to phones and tablets
 - [ ] Credit all artists (official and fans)
 
