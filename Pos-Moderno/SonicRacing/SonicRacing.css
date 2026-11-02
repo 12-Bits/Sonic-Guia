@@ -112,6 +112,20 @@ font-size: 1rem;
 
 /*Main END*/   
   
+  #Explicação {
+background-color: red;
+padding: 5px;
+color: white;
+    text-shadow:
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    text-align: center;
+    margin-bottom: 5vh;
+  }
+
+
 /*Tutorial START*/
 
 #Tutorial{
@@ -217,6 +231,19 @@ font-size: 1rem;
   }
 
 /*Main END*/
+
+  #Explicação {
+background-color: red;
+padding: 5px;
+color: white;
+    text-shadow:
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    text-align: center;
+    margin-bottom: 5vh;
+  }
 
 /*Tutorial START*/
 
@@ -335,6 +362,19 @@ font-size: 1rem;
   }
 
 /*Main END*/
+ #Explicação {
+background-color: red;
+padding: 5px;
+color: white;
+    text-shadow:
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    text-align: center;
+    margin-bottom: 5vh;
+  }
+
 
 /*Tutorial START*/
 #Tutorial{
@@ -441,6 +481,18 @@ margin-top: 10%;
 font-size: 1rem;
   }
 /*Main END*/
+    #Explicação {
+background-color: red;
+padding: 5px;
+color: white;
+    text-shadow:
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    text-align: center;
+    margin-bottom: 5vh;
+  }
 
 /*Tutorial START*/
 #Tutorial{
@@ -521,6 +573,18 @@ font-size: 1rem;
 
 /*Main END*/
 
+  #Explicação {
+background-color: red;
+padding: 5px;
+color: white;
+    text-shadow:
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    text-align: center;
+    margin-bottom: 5vh;
+  }
 /*Tutorial START*/
 #Tutorial{
   background-color: white;
@@ -537,6 +601,8 @@ font-size: 1rem;
   font-weight: bold;
   text-align: center;
 }
+
+
 /*Tutorial END*/
 }
 
