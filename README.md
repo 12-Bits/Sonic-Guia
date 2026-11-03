@@ -10,7 +10,7 @@ TDOO List
 - [X] Create Post-Modern era pages
 - [X] Create general footer
 - [X] Create all extras pages (Only Post-Modern left)
-- [ ] Fix SA1 logo not showingnin Mobile
+- [ ] Fix SA1 logo not showing in Mobile
 - [ ] Add detailed instructions to extras (if needed)
 - [ ] Expand Index
 - [ ] Adjust all pages to be responsive to phones and tablets
