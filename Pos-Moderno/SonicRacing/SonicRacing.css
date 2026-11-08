@@ -1,4 +1,169 @@
 
+.character-grid {
+    display: grid;
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    gap: 10px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.character-icon {
+    aspect-ratio: 1 / 1;
+    padding: 0;
+    border: 3px solid transparent;
+    background: #d9e5f5;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.character-icon img {
+    width: 100px;
+    height:100px;
+    object-fit: contain;
+}
+
+.character-icon:hover {
+    border-color: #00aaff;
+    transform: scale(1.05);
+}
+
+.appearance-description, .original-description{
+    max-width: 300px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+/* Main two-column layout */
+.character-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 220px;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 30px auto;
+    align-items: start;}
+
+/* Left column */
+.character-main {
+    min-width: 0;
+}
+
+/* Original and alternative images */
+.character-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    text-align: center;
+}
+
+.character-images > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.character-images img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Reference image */
+.appearance-description-image {
+    width: 100%;
+    max-width: 600px;
+    height: 250px;
+    margin: 15px auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.appearance-description-image img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Right column */
+.character-sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    padding-top: 250px;
+}
+
+.appearance-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.appearance-button {
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.back-button {
+    align-self: center;
+    margin-top: 10px;
+}
+
+.appearance-description {
+    width: 300px;
+    height: 100px;
+    overflow-y: auto;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.appearance-link {
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    .character-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .character-sidebar {
+        width: 100%;
+        max-width: 300px;
+        margin: auto;
+    }
+
+    .character-images img {
+        width: 250px;
+    }
+        .character-grid {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+}
+
+
+@media (max-width: 480px) {
+    .character-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
 
     #division{
       background-image: url("../../IMG/SonicAdventure/Border.png");

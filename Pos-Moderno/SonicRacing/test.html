@@ -1,0 +1,962 @@
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+    const characterSelect = document.getElementById("character-select");
+    const characterIcons = document.querySelectorAll(".character-icon");
+    const characterSections = document.querySelectorAll(".character-section");
+    const backButtons = document.querySelectorAll(".back-button");
+
+
+const appearanceButtons = document.querySelectorAll(".appearance-button");
+
+appearanceButtons.forEach(button => {
+    button.addEventListener("click", () => {
+
+        const characterSection = button.closest(".character-section");
+
+        const characterImage = characterSection.querySelector(".changeable-image");
+        const description = characterSection.querySelector(".appearance-description");
+        const linkContainer = characterSection.querySelector(".appearance-link");
+        const imageContainer = characterSection.querySelector(".appearance-description-image");
+
+        // Change character image
+        characterImage.src = button.dataset.image;
+
+        // Change description
+        description.textContent = button.dataset.description || "";
+
+        // Create external link
+        linkContainer.replaceChildren();
+
+        if (button.dataset.link) {
+            const link = document.createElement("a");
+
+            link.href = button.dataset.link;
+            link.textContent = button.dataset.linkText || "Visit website";
+            link.target = "_blank";
+            link.rel = "noopener noreferrer";
+
+            linkContainer.appendChild(link);
+        }
+
+        // Change description image
+        imageContainer.replaceChildren();
+
+        if (button.dataset.descriptionImage) {
+            const image = document.createElement("img");
+
+            image.src = button.dataset.descriptionImage;
+            image.alt = button.dataset.descriptionImageAlt || "Appearance reference";
+
+            imageContainer.appendChild(image);
+        }
+    });
+});
+
+    // Clicking a character
+characterIcons.forEach(icon => {
+    icon.addEventListener("click", () => {
+        const target = document.getElementById(icon.dataset.target);
+
+        if (!target) {
+            console.error("Character section not found:", icon.dataset.target);
+            return;
+        }
+
+        characterSections.forEach(section => {
+            section.hidden = true;
+        });
+
+        target.hidden = false;
+
+        target.scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        });
+    });
+});
+
+    // Return to character selection
+    backButtons.forEach(button => {
+
+        button.addEventListener("click", () => {
+
+            characterSections.forEach(section => {
+                section.hidden = true;
+            });
+
+            characterSelect.hidden = false;
+        });
+    });
+
+});
+</script>
+<main>
+
+    <link href="test.css" rel="stylesheet">
+
+
+    <!-- Character selection -->
+    <section id="character-select">
+
+        <div class="character-grid">
+
+            <button class="character-icon" data-target="sonic-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/1 - Sonic.png" alt="Sonic">
+            </button>
+
+            <button class="character-icon" data-target="tails-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/2 - Tails.png" alt="Tails">
+            </button>
+
+            <button class="character-icon" data-target="knuckles-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/3 - Knuckles.png" alt="Knuckles">
+            </button>
+
+            <button class="character-icon" data-target="amy-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/4 - Amy.png" alt="Amy">
+            </button>
+
+            <button class="character-icon" data-target="cream-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/5 - Cream.png" alt="Cream">
+            </button>
+
+            <button class="character-icon" data-target="big-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/6 - Big.png" alt="Big">
+            </button>
+            
+            <button class="character-icon" data-target="silver-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/7 - Silver.png" alt="Silver">
+            </button>
+
+            <button class="character-icon" data-target="blaze-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/8 - Blaze.png" alt="Blaze">
+            </button>
+
+            <button class="character-icon" data-target="shadow-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/9 - Shadow.png" alt="Shadow">
+            </button>
+
+            <button class="character-icon" data-target="rouge-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/10 - Rouge.png" alt="Rouge">
+            </button>
+
+            <button class="character-icon" data-target="omega-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/11 - Omega.png" alt="Omega">
+            </button>
+
+            <button class="character-icon" data-target="vector-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/12 - Vector.png" alt="Vector">
+            </button>
+
+            <button class="character-icon" data-target="espio-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/13 - Espio.png" alt="Espio">
+            </button>
+
+            <button class="character-icon" data-target="charmy-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/14 - Charmy.png" alt="Charmy">
+            </button>
+
+            <button class="character-icon" data-target="zavok-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/15 - Zavok.png" alt="Zavok">
+            </button>
+
+            <button class="character-icon" data-target="zazz-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/16 - Zazz.png" alt="Zazz">
+            </button>
+
+            <button class="character-icon" data-target="eggman-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/17 - Eggman.png" alt="Eggman">
+            </button>
+
+            <button class="character-icon" data-target="metalsonic-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/18 - Metal Sonic.png" alt="Metal Sonic">
+            </button>
+
+            <button class="character-icon" data-target="eggpawn-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/19 - EggPawn.png" alt="EggPawn">
+            </button>
+
+            <button class="character-icon" data-target="sage-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/20 - Sage.png" alt="Sage">
+            </button>
+
+            <button class="character-icon" data-target="jet-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/21 - Jet.png" alt="Jet">
+            </button>
+
+            <button class="character-icon" data-target="wave-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/22 - Wave.png" alt="Wave">
+            </button>
+
+            <button class="character-icon" data-target="storm-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/23 - Storm.png" alt="Storm">
+            </button>
+
+            <button class="character-icon" data-target="nine-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/24 - Nine.png" alt="Nine">
+            </button>
+
+            <button class="character-icon" data-target="dreads-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/25 - Dreads.png" alt="Dreads">
+            </button>
+
+            <button class="character-icon" data-target="rose-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/26 - Rose.png" alt="Rose">
+            </button>
+
+            <button class="character-icon" data-target="tangle-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/27 - Tangle.png" alt="Tangle">
+            </button>
+
+            <button class="character-icon" data-target="whisper-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/28 - Whisper.png" alt="Whisper">
+            </button>
+
+            <button class="character-icon" data-target="classico-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/29 - Classico.png" alt="Classico">
+            </button>
+
+            <button class="character-icon" data-target="nights-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/30 - Nights.png" alt="NiGHTS">
+            </button>
+
+            <button class="character-icon" data-target="curinga-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/31 - Curinga.png" alt="Curinga">
+            </button>
+
+            <button class="character-icon" data-target="ichiban-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/32 - Ichiban.png" alt="Ichiban">
+            </button>
+
+            <button class="character-icon" data-target="majima-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/33 - Majima.png" alt="Majima">
+            </button>
+
+            <button class="character-icon" data-target="aiai-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/34 - AiAi.png" alt="AiAi">
+            </button>
+
+            <button class="character-icon" data-target="arle-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/35 - Arle.png" alt="Arle">
+            </button>
+
+            <button class="character-icon" data-target="axel-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/36 - Axel.png" alt="Axel">
+            </button>
+
+            <button class="character-icon" data-target="amigo-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/37 - Amigo.png" alt="Amigo">
+            </button>
+
+            <button class="character-icon" data-target="red-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/38  - Red.png" alt="Red">
+            </button>
+
+            <button class="character-icon" data-target="miku-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/39 - Miku.png" alt="Miku">
+            </button>
+
+            <button class="character-icon" data-target="steve-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/40 - Steve.png" alt="Steve">
+            </button>
+
+            <button class="character-icon" data-target="alex-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/41 - Alex.png" alt="Alex">
+            </button>
+
+            <button class="character-icon" data-target="creeper-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/42 - Creeper.png" alt="Creeper">
+            </button>
+
+            <button class="character-icon" data-target="bobesponja-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/43 - Bob Esponja.png" alt="Bob Esponja">
+            </button>
+
+            <button class="character-icon" data-target="patrick-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/44 - Patrick.png" alt="Patrick">
+            </button>
+
+            <button class="character-icon" data-target="pacman-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/45 - Pac-Man.png" alt="Pac-Man">
+            </button>
+
+            <button class="character-icon" data-target="ghosts-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/46 - Ghosts.png" alt="Ghosts">
+            </button>
+
+            <button class="character-icon" data-target="megaman-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/47 - Mega Man.png" alt="Mega Man">
+            </button>
+
+            <button class="character-icon" data-target="protoman-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/48 - Proto Man.png" alt="Proto Man">
+            </button>
+
+            <button class="character-icon" data-target="leonardo-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/49 - Leonardo.png" alt="Leonardo">
+            </button>
+
+            <button class="character-icon" data-target="raphael-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/50 - Raphael.png" alt="Raphael">
+            </button>
+
+            <button class="character-icon" data-target="donatello-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/51 - Donatello.png" alt="Donatello">
+            </button>
+
+            <button class="character-icon" data-target="michalangelo-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/52 - Michelangelo.png" alt="Michalangelo">
+            </button>
+
+            <button class="character-icon" data-target="aang-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/53 - Aang.png" alt="Aang">
+            </button>
+
+            <button class="character-icon" data-target="katara-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/54 - Katara.png" alt="Katara">
+            </button>
+
+            <!--<button class="character-icon" data-target="-section">
+                <img src="../../IMG/SonicRacing/Characters/Renders/" alt="">
+            </button> -->
+
+            
+
+        </div>
+
+    </section>
+
+    <!-- Hidden character sections -->
+<section id="sonic-section" class="character-section" hidden>
+
+    <h1>Sonic</h1>
+
+    <div class="character-layout">
+
+        <!-- Left column -->
+        <div class="character-main">
+
+            <div class="character-images">
+
+                <div>
+                    <h2>Original</h2>
+                    <img src="../../IMG/SonicRacing/Characters/Base/1 - Sonic.png"
+                         alt="Original Sonic" class="original-image">
+                    <p class="original-description">Versão original.</p>
+                </div>
+
+                <div>
+                    <h2>Alternative</h2>
+                    <img src="../../IMG/SonicRacing/Characters/Base/1 - Sonic.png"
+                         alt="Alternative Sonic" class="changeable-image">
+
+                    <p class="appearance-description">
+                        Clique em um botão para mudar a aparição do personagem.
+                    </p>
+
+                    <div class="appearance-link"></div>
+                </div>
+
+            </div>
+
+            <div class="appearance-description-image"></div>
+
+        </div>
+
+        <!-- Right column -->
+        <div class="character-sidebar">
+
+            <div class="appearance-buttons">
+                <button class="appearance-button" 
+                data-image="../../IMG/SonicRacing/Characters/Riders/1a - Sonic (Vanilla Riders).png"
+                data-description="Versão padrão da aparição do personagem em Sonic Riders. Se você já baixou o mod 'Pacote Sonic Riders', você não precisa baixá-lo novamente."
+                data-link="https://gamebanana.com/mods/622707"
+                data-link-text="Baixe aqui."
+                data-description-image="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders1.png">
+            Riders Vanilla [X] IA [ ]
+        </button>
+
+      <button class="appearance-button"
+                data-image="../../IMG/SonicRacing/Characters/Riders/1b - Sonic (HE1).png"
+                data-description="Versão da aparição do personagem em Sonic Riders com o modelo da Hedgehog Engine 1. Se você já baixou o mod 'Pacote Sonic Riders', você não precisa baixá-lo novamente."
+                data-link="https://gamebanana.com/mods/622707"
+                data-link-text="Baixe aqui."
+                data-description-image="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders2.png">
+            Riders HE1 [X] IA [ ]
+        </button>
+
+        <button class="appearance-button"
+                data-image="../../IMG/SonicRacing/Characters/Riders/1c - Sonic (Riders Proportions - Francisco).png"
+                data-description="Versão da aparição do personagem em Sonic Riders com as proporção do jogo original criador por Francisco Adonis. Se você já baixou o mod 'Pacote Sonic Riders', você não precisa baixá-lo novamente. "
+                data-link="https://gamebanana.com/mods/622707"
+                data-link-text="Baixe aqui."
+                data-description-image="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders2.png">
+            Proporção Riders (Francisco) <br> [X] IA [ ]
+        </button>
+
+        <button class="appearance-button"
+                data-image="../../IMG/SonicRacing/Characters/Riders/1d - Sonic (Riders Proportions - Nutra).png"
+                data-description="ersão da aparição do personagem em Sonic Riders com as proporção do jogo original criador por Sonikku. Se você já baixou o mod 'Pacote Sonic Riders', você não precisa baixá-lo novamente."
+                data-link="https://gamebanana.com/mods/622707"
+                data-link-text="Baixe aqui."
+                data-description-image="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders2.png">
+            Proporção Riders (Nutra) <br> [X] IA [ ]
+        </button>
+            </div>
+
+            <button class="back-button">Back</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="tails-section" class="character-section" hidden>
+
+    <h1>Tails</h1>
+
+    <div class="character-layout">
+
+        <!-- Left column -->
+        <div class="character-main">
+
+            <div class="character-images">
+
+                <div>
+                    <h2>Original</h2>
+                    <img
+                        src="../../IMG/SonicRacing/Characters/Base/2 - Tails.png"
+                        alt="Original Tails"
+                        class="original-image"
+                    >
+                    <p class="original-description">
+                        Versão original.
+                    </p>
+                </div>
+
+                <div>
+                    <h2>Alternative</h2>
+                    <img
+                        src="../../IMG/SonicRacing/Characters/Base/2 - Tails.png"
+                        alt="Alternative Tails"
+                        class="changeable-image"
+                    >
+                    <p class="appearance-description">
+                        Clique em um botão para mudar a aparição do personagem.
+                    </p>
+
+                    <div class="appearance-link"></div>
+                </div>
+
+            </div>
+
+            <div class="appearance-description-image"></div>
+
+        </div>
+
+        <!-- Right column -->
+        <div class="character-sidebar">
+
+            <div class="appearance-buttons">
+
+                <button class="appearance-button"
+                    data-image="../../IMG/SonicRacing/Characters/Riders/2a - Tails (Vanilla Riders).png"
+                    data-description="Versão padrão da aparição do personagem em Sonic Riders. Se você já baixou o mod 'Pacote Sonic Riders', você não precisa baixá-lo novamente."
+                    data-link="https://gamebanana.com/mods/622707"
+                    data-link-text="Baixe aqui."
+                    data-description-image="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders1.png">
+                    Riders Vanilla [X] IA [ ]
+                </button>
+
+                <button class="appearance-button"
+                    data-image="../../IMG/SonicRacing/Characters/Riders/2b - Tails (Riders Proportion).png"
+                    data-description="Versão da aparição do personagem em Sonic Riders com as proporções do jogo original. Se você já baixou o mod 'Pacote Sonic Riders', você não precisa baixá-lo novamente."
+                    data-link="https://gamebanana.com/mods/622707"
+                    data-link-text="Baixe aqui."
+                    data-description-image="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders2.png">
+                    Proporção Riders [X] IA [ ]
+                </button>
+
+            </div>
+
+            <button class="back-button">Back</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="knuckles-section" class="character-section" hidden>
+
+    <h1>Knuckles</h1>
+
+    <div class="character-layout">
+
+        <!-- Left column -->
+        <div class="character-main">
+
+            <div class="character-images">
+
+                <div>
+                    <h2>Original</h2>
+                    <img
+                        src="../../IMG/SonicRacing/Characters/Base/3 - Knuckles.png"
+                        alt="Original Knuckles"
+                        class="original-image"
+                    >
+                    <p class="original-description">
+                        Versão original.
+                    </p>
+                </div>
+
+                <div>
+                    <h2>Alternative</h2>
+                    <img
+                        src="../../IMG/SonicRacing/Characters/Base/3 - Knuckles.png"
+                        alt="Alternative Knuckles"
+                        class="changeable-image"
+                    >
+                    <p class="appearance-description">
+                        Clique em um botão para mudar a aparição do personagem.
+                    </p>
+
+                    <div class="appearance-link"></div>
+                </div>
+
+            </div>
+
+            <div class="appearance-description-image"></div>
+
+        </div>
+
+        <!-- Right column -->
+        <div class="character-sidebar">
+
+            <div class="appearance-buttons">
+
+                <button class="appearance-button"
+                    data-image="../../IMG/SonicRacing/Characters/Riders/3a - Knuckles (Vanilla Riders).png"
+                    data-description="Versão padrão da aparição do personagem em Sonic Riders. Se você já baixou o mod 'Pacote Sonic Riders', você não precisa baixá-lo novamente."
+                    data-link="https://gamebanana.com/mods/622707"
+                    data-link-text="Baixe aqui."
+                    data-description-image="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders1.png">
+                    Riders Vanilla [X] IA [ ]
+                </button>
+
+                <button class="appearance-button"
+                    data-image="../../IMG/SonicRacing/Characters/Riders/3b- Knuckles (Riders Proportion).png"
+                    data-description="Versão da aparição do personagem em Sonic Riders com as proporções do jogo original. Se você já baixou o mod 'Pacote Sonic Riders', você não precisa baixá-lo novamente."
+                    data-link="https://gamebanana.com/mods/622707"
+                    data-link-text="Baixe aqui."
+                    data-description-image="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders2.png">
+                    Proporção Riders [X] IA [ ]
+                </button>
+
+            </div>
+
+            <button class="back-button">Back</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="amy-section" class="character-section" hidden>
+
+    <h1>Amy</h1>
+
+    <div class="character-layout">
+
+        <!-- Left column -->
+        <div class="character-main">
+
+            <div class="character-images">
+
+                <div>
+                    <h2>Original</h2>
+                    <img
+                        src="../../IMG/SonicRacing/Characters/Base/4 - Amy.png"
+                        alt="Original Amy"
+                        class="original-image"
+                    >
+                    <p class="original-description">
+                        Versão original.
+                    </p>
+                </div>
+
+                <div>
+                    <h2>Alternative</h2>
+                    <img
+                        src="../../IMG/SonicRacing/Characters/Base/4 - Amy.png"
+                        alt="Alternative Amy"
+                        class="changeable-image"
+                    >
+                    <p class="appearance-description">
+                        Clique em um botão para mudar a aparição do personagem.
+                    </p>
+
+                    <div class="appearance-link"></div>
+                </div>
+
+            </div>
+
+            <div class="appearance-description-image"></div>
+
+        </div>
+
+        <!-- Right column -->
+        <div class="character-sidebar">
+
+            <div class="appearance-buttons">
+
+                <button class="appearance-button"
+                    data-image="../../IMG/SonicRacing/Characters/Riders/4a - Amy (Vanilla Riders).png"
+                    data-description="Versão padrão da aparição do personagem em Sonic Riders. Se você já baixou o mod 'Pacote Sonic Riders', você não precisa baixá-lo novamente."
+                    data-link="https://gamebanana.com/mods/622707"
+                    data-link-text="Baixe aqui."
+                    data-description-image="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders1.png">
+                    Riders Vanilla [X] IA [ ]
+                </button>
+
+                <button class="appearance-button"
+                    data-image="../../IMG/SonicRacing/Characters/Riders/4b - Amy (Riders Nutra).png"
+                    data-description="Versão criada pelo modder Nutra2392. Se você já baixou o mod 'Pacote Sonic Riders', você não precisa baixá-lo novamente."
+                    data-link="https://gamebanana.com/mods/622707"
+                    data-link-text="Baixe aqui."
+                    data-description-image="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders2.png">
+                    Riders Nutra2392 [X] IA [ ]
+                </button>
+
+                <button class="appearance-button"
+                    data-image="../../IMG/SonicRacing/Characters/Riders/4c - Amy (Riders Nutra Glasses).png"
+                    data-description="Versão criada pelo modder Nutra2392 com óculos. Se você já baixou o mod 'Pacote Sonic Riders', você não precisa baixá-lo novamente."
+                    data-link="https://gamebanana.com/mods/622707"
+                    data-link-text="Baixe aqui."
+                    data-description-image="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders2.png">
+                    Riders Nutra2392 (óculos) <br> [X] IA [ ]
+                </button>
+
+            </div>
+
+            <button class="back-button">Back</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="cream-section" class="character-section" hidden>
+
+    <h1>Cream e Cheese</h1>
+
+    <div class="character-layout">
+
+
+        <div class="character-main">
+
+            <div class="character-images">
+
+                <div>
+                    <h2>Original</h2>
+                    <img
+                        src="../../IMG/SonicRacing/Characters/Base/5 - Cream.png"
+                        alt="Original Cream e Cheese"
+                        class="original-image"
+                    >
+                    <p class="original-description">
+                        Versão original.
+                    </p>
+                </div>
+
+                <div>
+                    <h2>Alternative</h2>
+                    <img
+                        src="../../IMG/SonicRacing/Characters/Base/5 - Cream.png"
+                        alt="Alternative Cream e Cheese"
+                        class="changeable-image"
+                    >
+                    <p class="appearance-description">
+                        Clique em um botão para mudar a aparição do personagem.
+                    </p>
+
+                    <div class="appearance-link"></div>
+                </div>
+
+            </div>
+
+            <div class="appearance-description-image"></div>
+
+        </div>
+
+
+        <div class="character-sidebar">
+
+            <div class="appearance-buttons">
+
+                <button class="appearance-button"
+                    data-image="../../IMG/SonicRacing/Characters/Riders/5 - Cream.png"
+                    data-description="Versão padrão da aparição do personagem em Sonic Riders. Se você já baixou o mod 'Pacote Sonic Riders', você não precisa baixá-lo novamente."
+                    data-link="https://gamebanana.com/mods/622707"
+                    data-link-text="Baixe aqui."
+                    data-description-image="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders1.png">
+                    Riders Vanilla [X] IA [ ]
+                </button>
+
+            </div>
+
+            <button class="back-button">Back</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="big-section" class="character-section" hidden>
+
+    <h1>Big</h1>
+
+    <div class="character-layout">
+
+
+        <div class="character-main">
+
+            <div class="character-images">
+
+                <div>
+                    <h2>Original</h2>
+                    <img
+                        src="../../IMG/SonicRacing/Characters/Base/6 - Big.png"
+                        alt="Original Big"
+                        class="original-image"
+                    >
+                    <p class="original-description">
+                        Versão original.
+                    </p>
+                </div>
+
+                <div>
+                    <h2>Alternative</h2>
+                    <img
+                        src="../../IMG/SonicRacing/Characters/Base/6 - Big.png"
+                        alt="Alternative Big"
+                        class="changeable-image"
+                    >
+                    <p class="appearance-description">
+                        Clique em um botão para mudar a aparição do personagem.
+                    </p>
+
+                    <div class="appearance-link"></div>
+                </div>
+
+            </div>
+
+            <div class="appearance-description-image"></div>
+
+        </div>
+
+
+        <div class="character-sidebar">
+
+            <div class="appearance-buttons">
+
+                <button class="appearance-button"
+                    data-image="../../IMG/SonicRacing/Characters/Riders/6 - Big.png"
+                    data-description="Versão padrão da aparição do personagem em Sonic Riders. Se você já baixou o mod 'Pacote Sonic Riders', você não precisa baixá-lo novamente."
+                    data-link="https://gamebanana.com/mods/622707"
+                    data-link-text="Baixe aqui."
+                    data-description-image="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders1.png">
+                    Riders Vanilla [X] IA [ ]
+                </button>
+
+            </div>
+
+            <button class="back-button">Back</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="silver-section" class="character-section" hidden>
+
+    <h1>Silver</h1>
+
+    <div class="character-layout">
+
+
+        <div class="character-main">
+
+            <div class="character-images">
+
+                <div>
+                    <h2>Original</h2>
+                    <img
+                        src="../../IMG/SonicRacing/Characters/Base/7 - Silver.png"
+                        alt="Original Silver"
+                        class="original-image"
+                    >
+                    <p class="original-description">
+                        Versão original.
+                    </p>
+                </div>
+
+                <div>
+                    <h2>Alternative</h2>
+                    <img
+                        src="../../IMG/SonicRacing/Characters/Base/7 - Silver.png"
+                        alt="Alternative Silver"
+                        class="changeable-image"
+                    >
+                    <p class="appearance-description">
+                        Clique em um botão para mudar a aparição do personagem.
+                    </p>
+
+                    <div class="appearance-link"></div>
+                </div>
+
+            </div>
+
+            <div class="appearance-description-image"></div>
+
+        </div>
+
+
+        <div class="character-sidebar">
+
+            <div class="appearance-buttons">
+
+                <button class="appearance-button"
+                    data-image="../../IMG/SonicRacing/Characters/Riders/7a - Silver (Vanilla Riders - FR).png"
+                    data-description="Versão padrão da aparição do personagem em Sonic Free Riders. Se você já baixou o mod 'Pacote Sonic Riders', você não precisa baixá-lo novamente."
+                    data-link="https://gamebanana.com/mods/622707"
+                    data-link-text="Baixe aqui."
+                    data-description-image="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders1.png">
+                    Free Riders Vanilla [X] IA [ ]
+                </button>
+
+                <button class="appearance-button"
+                    data-image="../../IMG/SonicRacing/Characters/Riders/7b - Silver (Vanilla Riders - TE).png"
+                    data-description="Versão padrão da aparição do personagem em Sonic Riders Tournament Edition. Se você já baixou o mod 'Pacote Sonic Riders', você não precisa baixá-lo novamente."
+                    data-link="https://gamebanana.com/mods/622707"
+                    data-link-text="Baixe aqui."
+                    data-description-image="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders1.png">
+                    Riders Tournament Edition <br> [X] IA [ ]
+                </button>
+
+                <button class="appearance-button"
+                    data-image="../../IMG/SonicRacing/Characters/Riders/7c - Silver (Riders Proportions - ZG).png"
+                    data-description="Versão padrão da aparição do personagem em Sonic Riders Tournament Edition. Se você já baixou o mod 'Pacote Sonic Riders', você não precisa baixá-lo novamente."
+                    data-link="https://gamebanana.com/mods/622707"
+                    data-link-text="Baixe aqui."
+                    data-description-image="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders1.png">
+                    Proporção Riders Zero Gravity  <br>[X] IA [ ]
+                </button>
+
+                <button class="appearance-button"
+                    data-image="../../IMG/SonicRacing/Characters/Riders/7d - Silver (Riders Proportions - TE).png"
+                    data-description="Versão padrão da aparição do personagem em Sonic Riders Tournament Edition. Se você já baixou o mod 'Pacote Sonic Riders', você não precisa baixá-lo novamente."
+                    data-link="https://gamebanana.com/mods/622707"
+                    data-link-text="Baixe aqui."
+                    data-description-image="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders1.png">
+                    Proporção Riders Tornament Edition <br> [X] IA [ ]
+                </button>
+            </div>
+
+            <button class="back-button">Back</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="blaze-section" class="character-section" hidden>
+
+    <h1>Blaze</h1>
+
+    <div class="character-layout">
+
+
+        <div class="character-main">
+
+            <div class="character-images">
+
+                <div>
+                    <h2>Original</h2>
+                    <img
+                        src="../../IMG/SonicRacing/Characters/Base/8 - Blaze.png"
+                        alt="Original Blaze"
+                        class="original-image"
+                    >
+                    <p class="original-description">
+                        Versão original.
+                    </p>
+                </div>
+
+                <div>
+                    <h2>Alternative</h2>
+                    <img
+                        src="../../IMG/SonicRacing/Characters/Base/8 - Blaze.png"
+                        alt="Alternative Blaze"
+                        class="changeable-image"
+                    >
+                    <p class="appearance-description">
+                        Clique em um botão para mudar a aparição do personagem.
+                    </p>
+
+                    <div class="appearance-link"></div>
+                </div>
+
+            </div>
+
+            <div class="appearance-description-image"></div>
+
+        </div>
+
+
+        <div class="character-sidebar">
+
+            <div class="appearance-buttons">
+
+                <button class="appearance-button"
+                    data-image="../../IMG/SonicRacing/Characters/Riders/8a - Blaze (Vanilla Riders).png"
+                    data-description="Versão padrão da aparição do personagem em Sonic Riders. Se você já baixou o mod 'Pacote Sonic Riders', você não precisa baixá-lo novamente."
+                    data-link="https://gamebanana.com/mods/622707"
+                    data-link-text="Baixe aqui."
+                    data-description-image="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders1.png">
+                    Riders Vanilla [X] IA [ ]
+                </button>
+
+                <button class="appearance-button"
+                    data-image="../../IMG/SonicRacing/Characters/Riders/8b- Blaze (Future Riders Sonikku).png"
+                    data-description="Design do modder Sonikku. Se você já baixou o mod 'Pacote Sonic Riders', você não precisa baixá-lo novamente."
+                    data-link="https://gamebanana.com/mods/622707"
+                    data-link-text="Baixe aqui."
+                    data-description-image="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders1.png">
+                    Riders Vanilla [X] IA [ ]
+                </button>
+
+            </div>
+
+            <button class="back-button">Back</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+</main>
+
