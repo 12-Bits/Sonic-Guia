@@ -28,7 +28,7 @@ body {
     font-weight: bold;
     }
 
-    #Passo-a-passoPC, #alertaMD, #IntroduçãoMD, #ADPC, .container mt-4, .col-lg-6, .col-lg-10{
+    #Passo-a-passoPC, #alertaMD, #IntroduçãoMD, #ADPC, .container mt-4, .col-md-6, .col-lg-10{
       display: none;
     }
 
@@ -46,18 +46,16 @@ body {
     }
 
     #introdução {
-        padding-top: 25%;
+        padding-top: 10%;
         font-size: 1em;
         color: black;
         font-weight: bold;
+        width: 50%;
     }
 
-    #alerta2 {
-    padding: 2vh;
-    margin-top: 5vh;
-    background-color: red;
-    color: black;
-    }
+
+
+    
 }
 
 
@@ -72,7 +70,7 @@ body {
     vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
     }
 
-    .col-lg-2,  #Passo-a-passoPC, .col-lg-10, #introdução, #alerta, #logo, #ADPC {
+    .col-lg-2, .col-md-6,  #Passo-a-passoPC, .col-lg-10, #introdução, #alerta, #logo, #ADPC {
     display: none;
     }
 
@@ -83,8 +81,8 @@ body {
     background-repeat: no-repeat;
     background-size: contain;  
     width:100vw;
-    background-position-x: center;
-    height: 60vh;
+    min-height: 430px;
+
     }
 
     #IntroduçãoMD {
@@ -93,11 +91,6 @@ body {
     font-size: 1.2rem;
     color:black;
     margin-bottom: 5vh;
-  }
-  #alertaMD {
-    background-color: red;
-    font-size: 1.2rem;
-    color:black;
   }
 
   #Passo-a-passo {
@@ -147,13 +140,14 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;
-    height: 100vh;
+    height: 60vh;
+    min-height: 450px;
     background-position-x: center;
     padding-bottom: 30vh;
   }
 
 
-  #introdução {
+    .col-md-6 {
     padding-top: 5vh;
     position: relative;
     color:black;
@@ -163,8 +157,9 @@ body {
       -1px 1px 0 #fff,
        1px 1px 0 #fff;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 500px;
   }
+
 
     #alertaMD {
     margin-top: 5vh;
@@ -279,7 +274,7 @@ img{
 }
   
 
-.col-sm-8{
+.col-sm-8, .col-md-6{
     display: none;
   }
 
@@ -364,7 +359,7 @@ padding-top: 10vh;
 }
 
 
-.col-sm-10, #IntroduçãoMD, #alertaMD, .col-sm-8, #Passo-a-passoCell, #ADCell{
+.col-sm-10, .col-md-6, #IntroduçãoMD, #alertaMD, .col-sm-8, #Passo-a-passoCell, #ADCell{
     display: none;
 }
 

@@ -1,6 +1,5 @@
 body {
   background-image: url("../../IMG/SonicColors/BG2.jpg");
-
 }
 
 @media (max-width: 575.98px) {  /* Celulares pequenos */
@@ -8,8 +7,8 @@ body {
 
   /*General START*/
   body {
-  background-image: url("../../IMG/SonicColors/BG2.jpg");
-  overflow-x: hidden;
+    background-image: url("../../IMG/SonicColors/BG2.jpg");
+    overflow-x: hidden;
   }
   .navbar-brand img {
     vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
@@ -81,10 +80,10 @@ body {
     
     /*General START*/
   body {
-  background-image: url("../../IMG/SonicColors/BG2.jpg");
-
+    background-image: url("../../IMG/SonicColors/BG2.jpg");
     overflow-x: hidden;
   }
+
   .navbar-brand img {
     vertical-align: middle; /* Garante que a imagem do logo fique centralizada verticalmente */
   }
@@ -163,8 +162,7 @@ body {
 
 /*General START*/
   body {
-  background-image: url("../../IMG/SonicColors/BG2.jpg");
-
+    background-image: url("../../IMG/SonicColors/BG2.jpg");
     overflow-x: hidden;
   }
   .navbar-brand img {
@@ -256,9 +254,8 @@ body {
 /*General START*/
 
   body {
-background-image: url("../../IMG/SonicColors/BG2.jpg");
-
-  overflow-x: hidden;
+    background-image: url("../../IMG/SonicColors/BG2.jpg");
+    overflow-x: hidden;
   }
 
   #logo {

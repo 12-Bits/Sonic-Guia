@@ -1,3 +1,7 @@
+Meta
+https://www.aakashweb.com/apps/social-buttons-generator/ Footer Icons
+https://web-eau.net/en/blog/10-best-footer-html-css-snippets Footer Template
+
 CLASSICO
 
 Sonic 1
@@ -21,6 +25,13 @@ BG1:
 BG2: 
 BGMobile:
 BGMobileMD:https://www.steamgriddb.com/grid/288054
+
+    Sonic CD Ports
+    BG1:https://www.steamgriddb.com/hero/69049
+    BGMobile:https://www.steamgriddb.com/grid/54823
+    BGMobileMD:https://www.steamgriddb.com/grid/288054
+    LogoUltra:https://www.steamgriddb.com/logo/122058
+
 
 Sonic 3
 BG1: Edited (inspiration: https://www.steamgriddb.com/hero/68859 )
@@ -53,27 +64,31 @@ BGMobile:
 
 Spinball
 BG1: 
-BGMobile: 
+BGMobile: https://www.steamgriddb.com/grid/181936
 
 TailsAdventure
 BG1: 
-BGMobile: 
+BGMobile: https://www.steamgriddb.com/grid/561073
 
 Fighters
 BG1: 
-BGMobile:
+BGMobile: https://www.steamgriddb.com/grid/156144
 
 Blast3D
 BG1: 
-BGMobile:
+BGMobile:https://www.steamgriddb.com/grid/338050
 
 SonicR
 BG1: 
-BGMobile: 
+BGMobile: https://www.steamgriddb.com/grid/179824
+
+RoboBlast2
+BG1:
+BGMobile: https://www.steamgriddb.com/grid/111120
 
 RingRacers
 BG1: 
-BGMobile: 
+BGMobile: https://www.steamgriddb.com/grid/437613
 
 ADVENTURE
 
@@ -113,9 +128,23 @@ BGMobileMD: https://www.steamgriddb.com/grid/564780
     
 Extras:
 
+Intro:
+BG1:
+BGMobile:https://www.instagram.com/p/DJb2TZQRgM_/
+
+
 Riders
 BG1: 
-BGMobile:
+BGMobile: https://www.steamgriddb.com/grid/153423
+
+Chao
+BG1:
+BGMobile: https://www.steamgriddb.com/grid/78314
+
+Advance1
+BG1:https://www.steamgriddb.com/hero/86533
+BGMobile: https://www.steamgriddb.com/grid/261795
+BGMobileMD: https://www.steamgriddb.com/grid/118945
 
 Chao
 BG1: 
@@ -171,17 +200,23 @@ BGMobile:
 
 Extras:
 
-Riders
-BG1: 
-BGMobile:
+Secret Rings
+BG1: https://www.steamgriddb.com/hero/124784
+BGMobile: https://www.steamgriddb.com/grid/518236
+BGMobileMD: https://www.steamgriddb.com/grid/622886
+Logo: https://www.steamgriddb.com/logo/4463
 
-Chao
-BG1: 
-BGMobile: 
+Black Knight
+BG1: https://www.steamgriddb.com/hero/124821
+BGMobile: https://www.steamgriddb.com/grid/359219
+BGMobileMD: https://www.steamgriddb.com/grid/81062
+Logo: https://www.steamgriddb.com/logo/4462
 
-World
-BG1: 
-BGMobile:
+Rivals
+BG1: https://www.steamgriddb.com/hero/14418
+BGMobile: https://www.steamgriddb.com/grid/178934
+BGMobileMD: https://www.steamgriddb.com/grid/34780
+Logo: https://www.steamgriddb.com/logo/24813
 
 BattleR
 BG1: 
@@ -213,3 +248,15 @@ BG2:
 BGMobile: 
 BGMobileMD:https://www.steamgriddb.com/grid/502173
 
+ShadowGens
+BG1: Twins1105
+BGMobile: Twins1105
+BGMobileMD: playerplays
+Logo: TheGershon
+
+Extras
+
+Smackdown
+BG1:https://www.steamgriddb.com/hero/9763
+BGMobile:https://www.steamgriddb.com/grid/103101
+BGMobileMD:https://www.steamgriddb.com/grid/75907

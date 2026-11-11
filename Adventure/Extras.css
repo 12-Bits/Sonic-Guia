@@ -4,29 +4,502 @@ body{ /*Default BG*/
 
 @media (max-width: 575.98px) {  /* Celulares pequenos */
 
+body{
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.col-6, .col-4,.col-5{
+  display: none;
+}
+
+#Introducao{
+  background-color: #FFF; 
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image: url("../IMG/ExtrasAdventure/Intro_BGMobile.jpg");
+  background-size: cover;
+  height: 130vh;
+  min-height: 850px;
+
+
+}
+
+  #Introducao h1 {
+    padding-top: 5vh;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-shadow:
+      -1px -1px 0 #000, 
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+
+  #Introducao p {
+    padding-top: 5vh;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    text-shadow:
+      -1px -1px 0 #000, 
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+
+#Riders {      
+  background-image: url("../IMG/ExtrasAdventure/RidersDX_BGMobile.png");
+  background-size: cover;
+  height: 120vh;
+  min-height: 750px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  /*Font Style*/
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+
+    }
+
+  #Riders #Text {
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 300px; 
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+#Chao {
+  background-image: url("../IMG/ExtrasAdventure/Chao_BGMobile.png");
+  background-size: cover;
+  height: 120vh;
+  min-height: 700px;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  /*Font Style*/
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+
+  #Chao #Text{
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 400px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#Advance{
+  background-image: url("../IMG/ExtrasAdventure/SA1_BGMobile.png");
+  background-size: cover;
+  height: 120vh;
+  min-height: 800px;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  /*Font Style*/
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+
+
+#Advance #Text{
+  background-color: rgba(0, 0, 0, 0.7); 
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 55vh; 
+  max-width: 110%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#Advance2{
+  background-image: url("../IMG/ExtrasAdventure/SA2_BGMobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
+  min-height: 800px;
+  /*Font Style*/
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+}
+
+  #Advance2 #Text{
+      background-color: rgba(0, 0, 0, 0.7); 
+      padding: 5px;
+      border-radius: 10px;
+      margin-top: 200px; 
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+#World{
+  background-image: url("../IMG/ExtrasAdventure/World_BGMobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
+  min-height: 850px;
+  background-position-y: 2vh;
+}
+
+
+  #World #Text{
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 400px; 
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+  }
+
+#BattleR{
+  background-image: url("../IMG/ExtrasAdventure/BattleR_BGMobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-position-y: 1vw;
+  height: 120vh;
+  min-height: 800px;
+}
+
+  #BattleR #Text{
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 100px; 
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+  }
+
+  
+#GT{
+  background-image: url("../IMG/ExtrasAdventure/GT_BGMobile.png");
+  background-repeat: no-repeat;
+  height: 120vh;
+  min-height: 700px;
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+
+  #GT #Text{
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 40vh; 
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+#logo {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top:10vh;
+  width: 50vw;
+    }
+
+
+a {
+  text-decoration: none !important;
+}
+
 }
 @media (min-width: 576px) and (max-width: 767.98px) {  /* Celulares grandes */
+
+body{
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.col-6, .col-4,.col-5{
+  display: none;
+}
+
+#Introducao{
+  background-color: #FFF; 
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image: url("../IMG/ExtrasAdventure/Intro_BGMobile.jpg");
+  background-size: cover;
+  height: 130vh;
+    min-height: 850px;
+
+
+}
+
+#Introducao h1 {
+  padding-top: 5vh;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000, 
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#Introducao p {
+  padding-top: 5vh;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  text-shadow:
+    -1px -1px 0 #000, 
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#Riders {
+  background-image: url("../IMG/ExtrasAdventure/RidersDX_BGMobile.png");
+  background-size: cover;
+  min-height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  background-position-y:10px ;
+    }
+
+  #Riders #Text {
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 250px; 
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+#Chao {
+  background-image: url("../IMG/ExtrasAdventure/Chao_BGMobile.png");
+  background-size: cover;
+  height: 120vh;
+  min-height: 900px;
+  background-position: center;
+  position: relative;
+  z-index: 9;
+  /*Font Style*/
+  color: white;
+  font-size: 1.2rem;
+  background-position-y: -20px;
+  font-weight: bold;
+}
+
+  #Chao #Text{
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 70vh; 
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#Advance{
+  background-image: url("../IMG/ExtrasAdventure/SA1_BGMobile.png");
+  background-size: cover;
+  height: 120vh;
+  min-height: 900px;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  background-position-y: -0px;
+  /*Font Style*/
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+  #Advance #Text{
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 60vh; 
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+#Advance2{
+  background-image: url("../IMG/ExtrasAdventure/SA2_BGMobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 130vh;
+  min-height: 800px;
+  background-position-y: 10px;
+  /*Font Style*/
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+
+}
+
+  #Advance2 #Text{
+      background-color: rgba(0, 0, 0, 0.7); 
+      padding: 5px;
+      border-radius: 10px;
+      margin-top: 48vh; 
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+#World{
+  background-image: url("../IMG/ExtrasAdventure/World_BGMobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
+  min-height: 900px;
+}
+
+  #World #Text{
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 90vh; 
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+    background-position-y: 2vh;
+  }
+
+#BattleR{
+  background-image: url("../IMG/ExtrasAdventure/BattleR_BGMobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
+  min-height: 900px;
+}
+
+  #BattleR #Text{
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 55vh; 
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+  }
+
+  
+#GT{
+  background-image: url("../IMG/ExtrasAdventure/GT_BGMobile.png");
+  background-repeat: no-repeat;
+  height: 120vh;
+  min-height: 1000px;
+  background-size: cover;
+  background-position: center;
+
+}
+
+  #GT #Text{
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 40vh; 
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-position-y: -50px;
+  }
+
+#logo {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top:10vh;
+  width: 50vw;
+    }
+
+
+a {
+  text-decoration: none !important;
+}
 
 }
 @media (min-width: 768px) and (max-width: 991.98px) {  /* Tablets */
 
-}
-@media (min-width: 992px) and (max-width: 1199.98px) {  /* Laptops */
-
-}
-@media (min-width: 1200px) {  /* Desktops grandes */
-
 body{
   overflow-x: hidden;
+}
+
+.col-12, .col-4 {
+  display: none;
 }
 
 #Introducao{
 background-color: #FFF; 
 text-align: center;
 background-repeat: no-repeat;
-background-image: url("../IMG/ExtrasClassico/Intro_BG1.png");
+background-image: url("../IMG/ExtrasAdventure/Intro_BG.jpg");
 background-size: cover;
 height: 90vh;
+min-height: 500px;
 
 }
 
@@ -60,11 +533,13 @@ text-shadow:
 background-image: url("../IMG/ExtrasAdventure/RidersDX_BG.png");
 background-size: cover;
 height: 100vh;
-background-position: center;
 background-repeat: no-repeat;
 width: 100%;
+min-height: 500px;
 position: relative;
 z-index: 1;
+background-position-x: 70%;
+
 /*Font Style*/
 color: black;
 font-size: 1.2rem;
@@ -76,11 +551,342 @@ text-shadow:
   1px 1px 0 #FFF;
     }
 
+#RidersText {
+  margin-top: 10vh;
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 20px;
+  border-radius: 10px;
+  font-size: large;
+  width: 200%;
+}
+
+#LogoRiders {
+      margin-top:6vh;
+      width: 20vw;
+      margin-left: 7.5vw;
+    }
 #Advance {
       
 background-image: url("../IMG/ExtrasAdventure/SA1_BG.png");
 background-size: cover;
-height: 95vh;
+height: 100vh;
+min-height: 500px;
+background-position-x: 10%;
+background-repeat: no-repeat;
+width: 100%;
+position: relative;
+z-index: 1;
+/*Font Style*/
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+color: white;
+
+
+    }
+
+#SA1Text {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 220%;
+  margin-top: 40vh;
+}
+
+#logoSA1 {
+display: none;
+    }
+
+#Advance2 {
+      
+background-image: url("../IMG/ExtrasAdventure/SA2_BG.png");
+background-size: cover;
+height: 100vh;
+min-height: 500px;
+background-position-x: 71%;
+background-repeat: no-repeat;
+width: 100%;
+position: relative;
+z-index: 1;
+/*Font Style*/
+
+    }
+
+#SA2Text {
+
+  color:white;
+  font-weight: bold;
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  margin-top: 0vh;
+}
+
+#logoSA2 {
+      margin-top:5vh;
+      width: 25vw;
+      margin-left: 7.5vw;
+      margin-bottom: 5vh;
+    }
+
+#SA2Text {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 180%;
+}
+
+
+#Chao {
+  background-image: url("../IMG/ExtrasAdventure/Chao_BG.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  min-height: 500px;
+  background-position-X:100%;
+  position: relative;
+  /*Font Style*/
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#ChaoText {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 100%;
+  color: white;
+}
+
+#World{
+background-image: url("../IMG/ExtrasAdventure/World_BG.png");
+background-size: cover;
+height: 100vh;
+min-height: 500px;
+background-position: center;
+position: relative;
+z-index: 1;
+/*Font Style*/
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+color: white;
+}
+
+#WorldText {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 150%;
+}
+
+#logoWorld {
+      margin-top:10vh;
+      width: 18vw;
+      margin-left: 25%;
+    }
+
+
+#BattleR{
+background-image: url("../IMG/ExtrasAdventure/BattleR_BG.png");
+background-repeat: no-repeat;
+height: 100vh;
+min-height: 600px;
+background-size: cover;
+background-position-x: -900px;
+/*Font Style*/
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+color: white;
+}
+
+#GT{
+  background-image: url("../IMG/ExtrasAdventure/GT_BG.png");
+  background-size: cover;
+  height: 100vh;
+  min-height: 500px;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  /*Font Style*/
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  }
+  
+  #GTText {
+    margin-right: 7.5vw;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+    padding: 10px;
+    border-radius: 10px;
+    font-size: large;
+    width: 120%;
+  }
+  
+  #logoGT {
+        margin-top:10vh;
+        width: 18vw;
+        margin-left: 25%;
+      }
+
+
+.divisor {
+  position: relative;
+  z-index: 10;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+
+.divisor img {
+  width: 100%;
+  display: block;
+}
+
+    #logo {
+      margin-top:10vh;
+      width: 25vw;
+      margin-left: 120px;
+    }
+    #logo2 {
+            margin-top:10vh;
+
+      width: 20vw;
+      margin-left: 120px;
+    }
+    .col-md-6 {
+      display: none;
+    }
+      a {
+      text-decoration: none !important;
+  
+      }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {  /* Laptops */
+
+body{
+  overflow-x: hidden;
+}
+
+.col-12, .col-4 {
+  display: none;
+}
+
+#Introducao{
+background-color: #FFF; 
+text-align: center;
+background-repeat: no-repeat;
+background-image: url("../IMG/ExtrasAdventure/Intro_BG.jpg");
+background-size: cover;
+height: 90vh;
+min-height: 600px;
+
+}
+
+#Introducao h1 {
+padding-top: 10vh;
+font-size: 3rem;
+font-weight: bold;
+color: white;
+text-shadow:
+  -1px -1px 0 #000, 
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+#Introducao p {
+font-size: 1.5rem;
+font-weight: bold;
+color: white;
+padding-left: 5vw;
+padding-right: 5vw;
+text-shadow:
+  -1px -1px 0 #000, 
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+#Riders {
+      
+background-image: url("../IMG/ExtrasAdventure/RidersDX_BG.png");
+background-size: cover;
+height: 110vh;
+min-height: 650px;
+background-repeat: no-repeat;
+width: 100%;
+position: relative;
+z-index: 1;
+background-position-x: 40%;
+/*Font Style*/
+
+    }
+
+  #RidersText {
+
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-shadow:
+      -1px -1px 0 #FFF,  
+      1px -1px 0 #FFF,
+      -1px 1px 0 #FFF,
+      1px 1px 0 #FFF;
+    margin-right: 7.5vw;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+    padding: 20px;
+    border-radius: 10px;
+    font-size: large;
+  }
+
+  #LogoRiders {
+        margin-top:6vh;
+        width: 20vw;
+        margin-left: 7.5vw;
+  }
+
+#Chao {
+  background-image: url("../IMG/ExtrasAdventure/Chao_BG.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  min-height: 600px;
+  background-position-X:100%;
+  position: relative;
+  }
+  
+  #ChaoText {
+    margin-right: 7.5vw;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+    padding: 10px;
+    border-radius: 10px;
+    font-size: large;
+    width: 100%;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+#Advance {
+      
+background-image: url("../IMG/ExtrasAdventure/SA1_BG.png");
+background-size: cover;
+height: 100vh;
+min-height: 600px;
 background-position-x: 40%;
 background-repeat: no-repeat;
 width: 100%;
@@ -90,11 +896,8 @@ z-index: 1;
 color: black;
 font-size: 1.2rem;
 font-weight: bold;
-text-shadow:
-  -1px -1px 0 #FFF,  
-  1px -1px 0 #FFF,
-  -1px 1px 0 #FFF,
-  1px 1px 0 #FFF;
+color: white;
+
     }
 
 #logoSA1 {
@@ -108,6 +911,288 @@ text-shadow:
 background-image: url("../IMG/ExtrasAdventure/SA2_BG.png");
 background-size: cover;
 height: 95vh;
+min-height: 600px;
+background-position-x: 60%;
+background-repeat: no-repeat;
+width: 100%;
+position: relative;
+z-index: 1;
+/*Font Style*/
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+text-shadow:
+  -1px -1px 0 #FFF,  
+  1px -1px 0 #FFF,
+  -1px 1px 0 #FFF,
+  1px 1px 0 #FFF;
+    }
+
+#logoSA2 {
+      margin-top:10vh;
+      width: 25vw;
+      margin-left: 7.5vw;
+    }
+
+#SA2Text {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 100%;
+}
+
+
+#World{
+background-image: url("../IMG/ExtrasAdventure/World_BG.png");
+background-size: cover;
+height: 100vh;
+min-height: 600px;
+background-position: center;
+background-position-x: 70%;
+
+position: relative;
+z-index: 1;
+/*Font Style*/
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+color: white;
+}
+
+#WorldText {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 80%;
+}
+
+#logoWorld {
+      margin-top:10vh;
+      width: 18vw;
+      margin-left: 25%;
+    }
+
+
+#BattleR{
+background-image: url("../IMG/ExtrasAdventure/BattleR_BG.png");
+background-repeat: no-repeat;
+height: 100vh;
+background-size: cover;
+min-height: 600px;
+background-position-x: -650px;
+/*Font Style*/
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+color: white;
+}
+
+#GT{
+  background-image: url("../IMG/ExtrasAdventure/GT_BG.png");
+  background-size: cover;
+  height: 100vh;
+  min-height: 600px;
+  background-position: center;
+  background-position-x: 70%;
+  
+  position: relative;
+  z-index: 1;
+  /*Font Style*/
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  }
+  
+  #GTText{
+    margin-right: 7.5vw;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+    padding: 10px;
+    border-radius: 10px;
+    font-size: large;
+    width: 80%;
+  }
+  
+  #logoGT {
+        margin-top:10vh;
+        width: 18vw;
+        margin-left: 25%;
+      }
+
+
+.divisor {
+  position: relative;
+  z-index: 10;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+
+.divisor img {
+  width: 100%;
+  display: block;
+}
+
+    #logo {
+      margin-top:10vh;
+      width: 25vw;
+      margin-left: 120px;
+    }
+    #logo2 {
+            margin-top:10vh;
+
+      width: 20vw;
+      margin-left: 120px;
+    }
+    .col-md-6 {
+      display: none;
+    }
+      a {
+      text-decoration: none !important;
+    }
+
+
+}
+@media (min-width: 1200px) {  /* Desktops grandes */
+
+body{
+  overflow-x: hidden;
+}
+
+.col-12, .col-4 {
+  display: none;
+}
+
+#Introducao{
+background-color: #FFF; 
+text-align: center;
+background-repeat: no-repeat;
+background-image: url("../IMG/ExtrasAdventure/Intro_BG.jpg");
+background-size: cover;
+height: 90vh;
+min-height: 800px;
+
+}
+
+#Introducao h1 {
+padding-top: 10vh;
+font-size: 3rem;
+font-weight: bold;
+color: white;
+text-shadow:
+  -1px -1px 0 #000, 
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+#Introducao p {
+font-size: 1.5rem;
+font-weight: bold;
+color: white;
+padding-left: 5vw;
+padding-right: 5vw;
+text-shadow:
+  -1px -1px 0 #000, 
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+#Riders {
+      
+background-image: url("../IMG/ExtrasAdventure/RidersDX_BG.png");
+background-size: cover;
+height: 110vh;
+min-height: 700px;
+background-repeat: no-repeat;
+width: 100%;
+position: relative;
+z-index: 1;
+background-position-x: 40%;
+
+/*Font Style*/
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+text-shadow:
+  -1px -1px 0 #FFF,  
+  1px -1px 0 #FFF,
+  -1px 1px 0 #FFF,
+  1px 1px 0 #FFF;
+    }
+
+#RidersText {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 20px;
+  border-radius: 10px;
+  font-size: large;
+}
+
+#LogoRiders {
+      margin-top:6vh;
+      width: 20vw;
+      margin-left: 7.5vw;
+    }
+
+#Chao {
+      background-image: url("../IMG/ExtrasAdventure/Chao_BG.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 80vh;
+      min-height: 700px;
+      background-position-X:100%;
+      position: relative;
+      /*Font Style*/
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    
+  #ChaoText {
+      margin-right: 7.5vw;
+      background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+      padding: 10px;
+      border-radius: 10px;
+      font-size: large;
+      width: 100%;
+      color: white;
+    }
+
+#Advance {
+      
+background-image: url("../IMG/ExtrasAdventure/SA1_BG.png");
+background-size: cover;
+height: 95vh;
+min-height: 700px;
+background-position-x: 40%;
+background-repeat: no-repeat;
+width: 100%;
+position: relative;
+z-index: 1;
+/*Font Style*/
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+color: white;
+
+    }
+
+#logoSA1 {
+      margin-top:10vh;
+      width: 25vw;
+      margin-left: 7.5vw;
+    }
+
+#Advance2 {
+      
+background-image: url("../IMG/ExtrasAdventure/SA2_BG.png");
+background-size: cover;
+height: 95vh;
+min-height: 600px;
 background-position-x: 50%;
 background-repeat: no-repeat;
 width: 100%;
@@ -124,30 +1209,26 @@ text-shadow:
   1px 1px 0 #FFF;
     }
 
-#logoSA1 {
+#logoSA2 {
       margin-top:10vh;
       width: 25vw;
       margin-left: 7.5vw;
     }
 
-
-#Chao {
-  background-image: url("../IMG/ExtrasAdventure/Chao_BG.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 80vh;
-  background-position-X:50%;
-  position: relative;
-  /*Font Style*/
-  color: black;
-  font-size: 1.2rem;
-  font-weight: bold;
+#SA2Text {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 100%;
 }
 
 #World{
 background-image: url("../IMG/ExtrasAdventure/World_BG.png");
 background-size: cover;
 height: 100vh;
+min-height: 600px;
 background-position: center;
 position: relative;
 z-index: 1;
@@ -155,20 +1236,37 @@ z-index: 1;
 color: black;
 font-size: 1.2rem;
 font-weight: bold;
-
-
+color: white;
 }
+
+#WorldText {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 80%;
+}
+
+#logoWorld {
+      margin-top:10vh;
+      width: 18vw;
+      margin-left: 25%;
+    }
+
+
 #BattleR{
 background-image: url("../IMG/ExtrasAdventure/BattleR_BG.png");
 background-repeat: no-repeat;
 height: 100vh;
+min-height: 600px;
 background-size: cover;
-background-position: center;
-background-position-x: -1vw;
+background-position-x: -35vw;
 /*Font Style*/
 color: black;
 font-size: 1.2rem;
 font-weight: bold;
+color: white;
 
 
 
@@ -182,8 +1280,18 @@ background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 height: 95vh;
+min-height: 600px;
 /*Font Style*/
-font-weight: bold;
+}
+
+#GTText {
+  margin-right: 7.5vw;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar a legibilidade */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 100%;
+  font-weight: bold;
 font-size: 1.2rem;
 color: black;
 text-shadow:
@@ -191,6 +1299,7 @@ text-shadow:
   1px -1px 0 #FFF,
   -1px 1px 0 #FFF,
   1px 1px 0 #FFF;
+
 }
 
 .divisor {
