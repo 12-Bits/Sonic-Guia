@@ -46,6 +46,12 @@ appearanceButtons.forEach(button => {
             imageContainer.appendChild(image);
         });
 
+        // Reserve space only if there are reference images
+        imageContainer.classList.toggle(
+            "has-images",
+            referenceImages.length > 0
+        );
+
         // Add download links
         const downloads = details.querySelectorAll(".download-links a");
 
@@ -953,7 +959,7 @@ characterIcons.forEach(icon => {
                 <div class="appearance-option">
                     <button class="appearance-button" 
                         data-image="../../IMG/SonicRacing/Characters/Riders/3b - Knuckles (Riders Proportion).png"
-                        data-description='Versão da aparição do personagem em Sonic Riders com as proporções do jogo original (criado por Nutra). Se você já baixou o mod 'Pacote Sonic Riders', você não precisa baixá-lo novamente.'>
+                        data-description="Versão da aparição do personagem em Sonic Riders com as proporções do jogo original (criado por Nutra). Se você já baixou o mod 'Pacote Sonic Riders', você não precisa baixá-lo novamente.">
                         Riders Vanilla (Nutra)<br>Base [X] IA [ ]
                     </button>
                     <div class="appearance-details" hidden>
@@ -1102,7 +1108,7 @@ characterIcons.forEach(icon => {
                 <div class="appearance-option">
                     <button class="appearance-button" 
                         data-image="../../IMG/SonicRacing/Characters/Riders/4a - Amy (Vanilla Riders).png"
-                        data-description="Versão padrão da aparição do personagem em Sonic Riders. Se você já baixou o mod 'Pacote Sonic Riders', você não precisa baixá-lo novamente."></button>
+                        data-description="Versão padrão da aparição do personagem em Sonic Riders. Se você já baixou o mod 'Pacote Sonic Riders', você não precisa baixá-lo novamente.">
                         Riders Vanilla<br>Base [X] IA [ ]
                     </button>
                     <div class="appearance-details" hidden>
@@ -1133,7 +1139,7 @@ characterIcons.forEach(icon => {
                 <div class="appearance-option">
                     <button class="appearance-button" 
                         data-image="../../IMG/SonicRacing/Characters/Riders/4b - Amy (Riders Nutra).png"
-                        data-description="Versão criada pelo modder Nutra2392. Se você já baixou o mod 'Pacote Sonic Riders', você não precisa baixá-lo novamente."></button>
+                        data-description="Versão criada pelo modder Nutra2392. Se você já baixou o mod 'Pacote Sonic Riders', você não precisa baixá-lo novamente.">
                         Riders Nutra2392<br>Base [X] IA [ ]
                     </button>
                     <div class="appearance-details" hidden>
@@ -1164,7 +1170,7 @@ characterIcons.forEach(icon => {
                 <div class="appearance-option">
                     <button class="appearance-button" 
                         data-image="../../IMG/SonicRacing/Characters/Riders/4c - Amy (Riders Nutra Glasses).png"
-                        data-description="Versão criada pelo modder Nutra2392 com óculos. Se você já baixou o mod 'Pacote Sonic Riders', você não precisa baixá-lo novamente."></button>
+                        data-description="Versão criada pelo modder Nutra2392 com óculos. Se você já baixou o mod 'Pacote Sonic Riders', você não precisa baixá-lo novamente.">
                         Riders Nutra2392 (óculos)<br>Base [X] IA [ ]
                     </button>
                     <div class="appearance-details" hidden>
@@ -1195,7 +1201,7 @@ characterIcons.forEach(icon => {
                 <div class="appearance-option">
                     <button class="appearance-button" 
                         data-image="../../IMG/SonicRacing/Characters/Misc/4a - Amy (SA).png"
-                        data-description="Adiciona o acessório do Sonic Adventure 1."></button>
+                        data-description="Adiciona o acessório do Sonic Adventure 1.">
                         Acessório SA1<br>Base [X] IA [ ]
                     </button>
                     <div class="appearance-details" hidden>
@@ -1372,7 +1378,7 @@ characterIcons.forEach(icon => {
 
                 <div class="appearance-option">
                     <button class="appearance-button" 
-                        data-image="../../IMG/SonicRacing/Characters/Riders/5 - Big.png"
+                        data-image="../../IMG/SonicRacing/Characters/Riders/6 - Big.png"
                         data-description="Versão padrão da aparição do personagem em Sonic Riders. Se você já baixou o mod 'Pacote Sonic Riders', você não precisa baixá-lo novamente.">
                         Riders Vanilla<br>Base [X] IA [ ]
 
@@ -1401,7 +1407,7 @@ characterIcons.forEach(icon => {
                 <div class="appearance-option">
                     <button class="appearance-button" 
                         data-image="../../IMG/SonicRacing/Characters/Misc/6a - Big (SA1).png"
-                        data-description="Adiciona o acessório do Sonic Adventure 1."></button>
+                        data-description="Adiciona o acessório do Sonic Adventure 1.">
                         Acessório SA1<br>Base [X] IA [ ]
 
                     </button>
@@ -2662,6 +2668,7 @@ characterIcons.forEach(icon => {
 
                         </div>
                 </div>
+            <button class="back-button">Back</button>
 
             </div>
 
@@ -3567,7 +3574,7 @@ characterIcons.forEach(icon => {
 
                             <!-- Credits -->
                             <div class="appearance-credits">
-                                <p>Creditos: <a href="https://gamebanana.com/studios/38634">Extreme Gear Team</a></p>
+                                <p>Creditos: <a href="https://gamebanana.com/members/2011304">BROHONKY</a></p>
 
                             </div>
 
@@ -3852,6 +3859,7 @@ characterIcons.forEach(icon => {
 
                         </div>
                 </div>
+            <button class="back-button">Back</button>
 
             </div>
 
@@ -3949,12 +3957,12 @@ characterIcons.forEach(icon => {
 
                         </div>
                 </div>
-
-            </div>
-
-            </div>
-
             <button class="back-button">Back</button>
+
+            </div>
+
+            </div>
+
 
         </div>
 
@@ -4275,6 +4283,33 @@ characterIcons.forEach(icon => {
                         Riders Vanilla<br>Base [X]
                     </button>
 
+                    <div class="appearance-details" hidden>
+                    <!-- Reference images -->
+                    <div class="reference-images">
+                        <img src="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders2.png"
+                            alt="Sonic Riders configuration">
+                    </div>
+                            <!-- Download links -->
+                            <div class="download-links">
+                                <a href="https://gamebanana.com/mods/656090"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                    Baixe aqui
+                                </a>
+
+                            </div>
+
+                            <!-- Credits -->
+                            <div class="appearance-credits">
+                                <p>Creditos: <a href="https://gamebanana.com/members/1781250">SlayerXYZ</a></p>
+
+                            </div>
+
+                        </div>
+                </div>
+            
+
+                <div class="appearance-option">
                     <button class="appearance-button" 
                         data-image="../../IMG/SonicRacing/Characters/Riders/29b - Whisper (Riders Acessorio).png"
                         data-description="Versão de fã baseada em Sonic Riders com um acessório. Se você já baixou o mod 'Pacote Sonic Riders', você não precisa baixá-lo novamente.">
@@ -4306,9 +4341,11 @@ characterIcons.forEach(icon => {
                         </div>
                 </div>
 
+                </div>
+            <button class="back-button">Back</button>
+
             </div>
 
-            <button class="back-button">Back</button>
 
         </div>
 
@@ -4592,6 +4629,162 @@ characterIcons.forEach(icon => {
 
                         </div>
                 </div>
+                <div class="appearance-option">
+                    <button class="appearance-button" 
+                        data-image="../../IMG/SonicRacing/Characters/Misc/31c - Curinga (Snake MGS2).png"
+                        data-description="Troca o personagem pelo Solid Snake de Metal Gear Solid 2.
+                        Adiciona vozes, musicas, ilustrações e texto que devem ser ativadas manualmente.">
+                        Solid Snake (MGS2)<br>Base [X]
+                    </button>
+
+                    <div class="appearance-details" hidden>
+                    <!-- Reference images -->
+                    <div class="reference-images">
+                        <img src="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders2.png"
+                            alt="Sonic Riders configuration">
+                    </div>
+                            <!-- Download links -->
+                            <div class="download-links">
+                                <a href="https://gamebanana.com/mods/694288"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                    Baixe aqui
+                                </a>
+                            </div>
+
+                            <!-- Credits -->
+                            <div class="appearance-credits">
+                                <p>Creditos: <a href="https://gamebanana.com/members/3653908">Flolfy~</a></p>
+                            </div>
+
+                        </div>
+                </div>
+
+                <div class="appearance-option">
+                    <button class="appearance-button" 
+                        data-image="../../IMG/SonicRacing/Characters/Misc/31d - Curinga (Snake Smash 3C).png"
+                        data-description="Troca o personagem pelo Solid Snake pelo design criado pelo time Smash 3C.
+                        Adiciona vozes, musicas, ilustrações e texto que devem ser ativadas manualmente.">
+                        Solid Snake (Smash 3C)<br>Base [X]
+                    </button>
+
+                    <div class="appearance-details" hidden>
+                    <!-- Reference images -->
+                    <div class="reference-images">
+                        <img src="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders2.png"
+                            alt="Sonic Riders configuration">
+                    </div>
+                            <!-- Download links -->
+                            <div class="download-links">
+                                <a href="https://gamebanana.com/mods/694288"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                    Baixe aqui
+                                </a>
+                            </div>
+
+                            <!-- Credits -->
+                            <div class="appearance-credits">
+                                <p>Creditos: <a href="https://gamebanana.com/members/3653908">Flolfy~</a></p>
+                                <p>Creditos (Smash 3C): <a href="https://gamebanana.com/members/1636520">Layell</a></p>
+                            </div>
+
+                        </div>
+                </div>
+
+                <div class="appearance-option">
+                    <button class="appearance-button" 
+                        data-image="../../IMG/SonicRacing/Characters/Misc/31e - Curinga (Snake Legacy).png"
+                        data-description="Troca o personagem pelo Solid Snake baseado em uma ilustração de Metal Gear Solid: The Legacy Collection.
+                        Adiciona vozes, musicas, ilustrações e texto que devem ser ativadas manualmente.">
+                        Solid Snake (Legacy)<br>Base [X]
+                    </button>
+
+                    <div class="appearance-details" hidden>
+                    <!-- Reference images -->
+                    <div class="reference-images">
+                        <img src="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders2.png"
+                            alt="Sonic Riders configuration">
+                    </div>
+                            <!-- Download links -->
+                            <div class="download-links">
+                                <a href="https://gamebanana.com/mods/694288"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                    Baixe aqui
+                                </a>
+                            </div>
+
+                            <!-- Credits -->
+                            <div class="appearance-credits">
+                                <p>Creditos: <a href="https://gamebanana.com/members/3653908">Flolfy~</a></p>
+                            </div>
+
+                        </div>
+                </div>
+
+                <div class="appearance-option">
+                    <button class="appearance-button" 
+                        data-image="../../IMG/SonicRacing/Characters/Misc/31f - Curinga (Snake R6Siege).png"
+                        data-description="Troca o personagem pelo Solid Snake com o modelo do Rainbow 6 Siege.
+                        Adiciona vozes, musicas, ilustrações e texto que devem ser ativadas manualmente.">
+
+                        Solid Snake (R6Siege)<br>Base [X]
+                    </button>
+
+                    <div class="appearance-details" hidden>
+                    <!-- Reference images -->
+                    <div class="reference-images">
+                        <img src="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders2.png"
+                            alt="Sonic Riders configuration">
+                    </div>
+                            <!-- Download links -->
+                            <div class="download-links">
+                                <a href="https://gamebanana.com/mods/694288"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                    Baixe aqui
+                                </a>
+                            </div>
+
+                            <!-- Credits -->
+                            <div class="appearance-credits">
+                                <p>Creditos: <a href="https://gamebanana.com/members/3653908">Flolfy~</a></p>
+                            </div>
+
+                        </div>
+                </div>
+
+                <div class="appearance-option">
+                    <button class="appearance-button" 
+                        data-image="../../IMG/SonicRacing/Characters/Misc/31g - Curinga (Snake R6Siege Legacy).png"
+                        data-description="Troca o personagem pelo Solid Snake com o modelo do Rainbow 6 Siege com cores baseadas em uma ilustração de Metal Gear Solid: The Legacy Collection.
+                        Adiciona vozes, musicas, ilustrações e texto que devem ser ativadas manualmente.">
+                        Solid Snake (R6Siege)<br>Base [X]
+                    </button>
+
+                    <div class="appearance-details" hidden>
+                    <!-- Reference images -->
+                    <div class="reference-images">
+                        <img src="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders2.png"
+                            alt="Sonic Riders configuration">
+                    </div>
+                            <!-- Download links -->
+                            <div class="download-links">
+                                <a href="https://gamebanana.com/mods/694288"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                    Baixe aqui
+                                </a>
+                            </div>
+
+                            <!-- Credits -->
+                            <div class="appearance-credits">
+                                <p>Creditos: <a href="https://gamebanana.com/members/3653908">Flolfy~</a></p>
+                            </div>
+
+                        </div>
+                </div>
 
             </div>
 
@@ -4603,8 +4796,1010 @@ characterIcons.forEach(icon => {
 </section>
 
 
+<section id="ichiban-section" class="character-section" hidden>
+
+    <h1>Ichiban</h1>
+
+    <div class="character-layout">
 
 
+        <div class="character-main">
+
+            <div class="character-images">
+
+                <div>
+                    <h2>Original</h2>
+                    <img
+                        src="../../IMG/SonicRacing/Characters/Base/32 - Ichiban.png"
+                        alt="Original Ichiban"
+                        class="original-image"
+                    >
+                    <p class="original-description">
+                        Versão original.
+                    </p>
+                </div>
+
+                <div>
+                    <h2>Alternativo</h2>
+                    <img
+                        src="../../IMG/SonicRacing/Characters/Base/32 - Ichiban.png"
+                        alt="Alternativo Ichiban"
+                        class="changeable-image"
+                    >
+                    <p class="appearance-description">
+                        Clique em um botão para mudar a aparição do personagem.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="appearance-description-image"></div>
+
+            <div class="appearance-link"></div>
+
+            <div class="appearance-credits-display"></div>
+
+        </div>
+
+
+        <div class="character-sidebar">
+<div class="appearance-option">
+
+    <button class="appearance-button"
+        data-image="../../IMG/SonicRacing/Characters/Riders/32 - Ichiban.png"
+        data-description="Versão de fã baseado em Sonic Riders.">
+
+        Riders<br>Base [X]
+
+    </button>
+
+    <div class="appearance-details" hidden>
+
+        <!-- Reference images -->
+        <div class="reference-images">
+            <img src="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders1.png"
+                 alt="Sonic Riders configuration">
+
+        </div>
+
+        <!-- Download links -->
+        <div class="download-links">
+            <a href="https://gamebanana.com/mods/622707"
+
+               target="_blank"
+               rel="noopener noreferrer">
+                Baixe aqui
+            </a>
+
+        </div>
+
+        <!-- Credits -->
+        <div class="appearance-credits">
+            <p>Creditos: <a href="https://gamebanana.com/studios/38634">Extreme Gear Team</a></p>
+        </div>
+
+    </div>
+
+</div>
+
+            <button class="back-button">Back</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="majima-section" class="character-section" hidden>
+
+    <h1>Majima</h1>
+
+    <div class="character-layout">
+
+
+        <div class="character-main">
+
+            <div class="character-images">
+
+                <div>
+                    <h2>Original</h2>
+                    <img
+                        src="../../IMG/SonicRacing/Characters/Base/33 - Majima.png"
+                        alt="Original Majima"
+                        class="original-image"
+                    >
+                    <p class="original-description">
+                        Versão original.
+                    </p>
+                </div>
+
+                <div>
+                    <h2>Alternativo</h2>
+                    <img
+                        src="../../IMG/SonicRacing/Characters/Base/33 - Majima.png"
+                        alt="Alternativo Majima"
+                        class="changeable-image"
+                    >
+                    <p class="appearance-description">
+                        Clique em um botão para mudar a aparição do personagem.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="appearance-description-image"></div>
+
+        </div>
+
+
+        <div class="character-sidebar">
+            <div class="appearance-option">
+
+                <button class="appearance-button"
+                    data-image="../../IMG/SonicRacing/Characters/Misc/33a - Majima (Dante DMC3 coat).png"
+                    data-description="Troca o personagem pelo Dante do jogo Devil May Cry 3 com a jaqueta.">
+                    Dante (DMC3, jaqueta)<br>Base [X]
+
+                </button>
+
+                <div class="appearance-details" hidden>
+
+                    <!-- Reference images -->
+                    <div class="reference-images">
+                        <img src="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders1.png"
+                            alt="Sonic Riders configuration">
+
+                        <img src="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders2.png"
+                            alt="Sonic Riders character comparison">
+                    </div>
+
+                    <!-- Download links -->
+                    <div class="download-links">
+                        <a href="https://gamebanana.com/mods/713767"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            Baixe aqui
+                        </a>
+
+                    </div>
+
+                    <!-- Credits -->
+                    <div class="appearance-credits">
+                        <p>Creditos: <a href="https://gamebanana.com/members/4017697">Mandjoka</a></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="appearance-option">
+
+                <button class="appearance-button"
+                    data-image="../../IMG/SonicRacing/Characters/Misc/33b - Majima (Dante DMC3 coatless).png"
+                    data-description="Troca o personagem pelo Dante do jogo Devil May Cry 3 sem a jaqueta.">
+                    Dante (DMC3, jaqueta)<br>Base [X]
+
+                </button>
+
+                <div class="appearance-details" hidden>
+
+                    <!-- Reference images -->
+                    <div class="reference-images">
+                        <img src="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders1.png"
+                            alt="Sonic Riders configuration">
+
+                        <img src="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders2.png"
+                            alt="Sonic Riders character comparison">
+                    </div>
+
+                    <!-- Download links -->
+                    <div class="download-links">
+                        <a href="https://gamebanana.com/mods/713767"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            Baixe aqui
+                        </a>
+
+                    </div>
+
+                    <!-- Credits -->
+                    <div class="appearance-credits">
+                        <p>Creditos: <a href="https://gamebanana.com/members/4017697">Mandjoka</a></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="appearance-option">
+
+                <button class="appearance-button"
+                    data-image="../../IMG/SonicRacing/Characters/Misc/33c - Majima (Movie Eggman).png"
+                    data-description="Troca o personagem pela versão do Jim Carrey do Eggman nos filmes. (Possui versão com ou sem óculos.)">
+
+                    Eggman (Jim Carrey)<br>Base [X]
+
+                </button>
+
+                <div class="appearance-details" hidden>
+
+                    <!-- Reference images -->
+                    <div class="reference-images">
+                        <img src="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders1.png"
+                            alt="Sonic Riders configuration">
+
+                        <img src="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders2.png"
+                            alt="Sonic Riders character comparison">
+                    </div>
+
+                    <!-- Download links -->
+                    <div class="download-links">
+                        <a href="https://gamebanana.com/mods/673282"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            Baixe aqui
+                        </a>
+
+                    </div>
+
+                    <!-- Credits -->
+                    <div class="appearance-credits"> 
+                        <p>Creditos: <a href="https://gamebanana.com/members/1504484">andree1263</a></p>
+                        <p>Creditos Modelo 3D: <a href="https://www.deviantart.com/thekingdog">thekingdog</a></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <button class="back-button">Back</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="aiai-section" class="character-section" hidden>
+
+    <h1>AiAi</h1>
+
+    <div class="character-layout">
+
+
+        <div class="character-main">
+
+            <div class="character-images">
+
+                <div>
+                    <h2>Original</h2>
+                    <img
+                        src="../../IMG/SonicRacing/Characters/Base/34 - AiAi.png"
+                        alt="Original AiAi"
+                        class="original-image"
+                    >
+                    <p class="original-description">
+                        Versão original.
+                    </p>
+                </div>
+
+                <div>
+                    <h2>Alternativo</h2>
+                    <img
+                        src="../../IMG/SonicRacing/Characters/Base/34 - AiAi.png"
+                        alt="Alternativo AiAi"
+                        class="changeable-image"
+                    >
+                    <p class="appearance-description">
+                        Clique em um botão para mudar a aparição do personagem.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="appearance-description-image"></div>
+
+            <div class="appearance-link"></div>
+
+            <div class="appearance-credits-display"></div>
+
+        </div>
+
+
+        <div class="character-sidebar">
+<div class="appearance-option">
+
+    <button class="appearance-button"
+        data-image="../../IMG/SonicRacing/Characters/Misc/34a - AiAi (classico).png"
+        data-description="Troca pela versão original do personagem">
+
+        Clássico<br>Base [X]
+
+    </button>
+
+    <div class="appearance-details" hidden>
+
+        <!-- Download links -->
+        <div class="download-links">
+            <a href="https://gamebanana.com/mods/660119"
+               target="_blank"
+               rel="noopener noreferrer">
+                Baixe aqui.
+            </a>
+
+        </div>
+
+        <!-- Credits -->
+        <div class="appearance-credits">
+            <p>Créditos: <a href="https://gamebanana.com/members/1803222">Matt Crafts</a></p>
+   
+        </div>
+
+    </div>
+
+</div>
+
+            <button class="back-button">Back</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="arle-section" class="character-section" hidden>
+
+    <h1>Arle</h1>
+
+    <div class="character-layout">
+
+
+        <div class="character-main">
+
+            <div class="character-images">
+
+                <div>
+                    <h2>Original</h2>
+                    <img
+                        src="../../IMG/SonicRacing/Characters/Base/35 - Arle.png"
+                        alt="Original Arle"
+                        class="original-image"
+                    >
+                    <p class="original-description">
+                        Versão original.
+                    </p>
+                </div>
+
+                <div>
+                    <h2>Alternativo</h2>
+                    <img
+                        src="../../IMG/SonicRacing/Characters/Base/35 - Arle.png"
+                        alt="Alternativo Arle"
+                        class="changeable-image"
+                    >
+                    <p class="appearance-description">
+                        Clique em um botão para mudar a aparição do personagem.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="appearance-description-image"></div>
+
+            <div class="appearance-link"></div>
+
+            <div class="appearance-credits-display"></div>
+
+        </div>
+
+
+        <div class="character-sidebar">
+            <div class="appearance-option">
+
+                <button class="appearance-button"
+                    data-image="../../IMG/SonicRacing/Characters/Misc/35a - Arle (Roll).png"
+                    data-description="Troca o personagem pela Roll da franquia Mega Man, você pode escolher entre trocar a Arle ou o Protoman.">
+
+                    Roll (Mega Man)<br>Base [X]
+
+                </button>
+
+                <div class="appearance-details" hidden>
+
+                    <!-- Reference images -->
+                    <div class="reference-images">
+                        <img src="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders1.png"
+                            alt="Sonic Riders configuration">
+                    </div>
+
+                    <!-- Download links -->
+                    <div class="download-links">
+                        <a href="https://gamebanana.com/mods/681067"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            Baixe aqui.
+                        </a>
+
+                    </div>
+
+                    <!-- Credits -->
+                    <div class="appearance-credits">
+                        <p>Créditos: <a href="https://gamebanana.com/members/3089533">Emasplatter</a></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="appearance-option">
+
+                <button class="appearance-button"
+                    data-image="../../IMG/SonicRacing/Characters/Misc/35b - Arle (Maria).png"
+                    data-description="Troca a personagem pela Maria. (Os pés atravessando a Extreme Gear só acontece no menu, no jogo este problema não ocorre.)">
+
+                   Maria Robotnik<br>Base [X]
+
+                </button>
+
+                <div class="appearance-details" hidden>
+
+                    <!-- Download links -->
+                    <div class="download-links">
+                        <a href="https://gamebanana.com/mods/681067"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            Baixe aqui.
+                        </a>
+
+                    </div>
+
+                    <!-- Credits -->
+                    <div class="appearance-credits">
+                        <p>Créditos: <a href="https://gamebanana.com/members/1282053">ModSomeFun</a></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <button class="back-button">Back</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="axel-section" class="character-section" hidden>
+
+    <h1>Axel</h1>
+
+    <div class="character-layout">
+
+
+        <div class="character-main">
+
+            <div class="character-images">
+
+                <div>
+                    <h2>Original</h2>
+                    <img
+                        src="../../IMG/SonicRacing/Characters/Base/36 - Axel.png"
+                        alt="Original Axel"
+                        class="original-image"
+                    >
+                    <p class="original-description">
+                        Versão original.
+                    </p>
+                </div>
+
+                <div>
+                    <h2>Alternativo</h2>
+                    <img
+                        src="../../IMG/SonicRacing/Characters/Base/36 - Axel.png"
+                        alt="Alternativo Axel"
+                        class="changeable-image"
+                    >
+                    <p class="appearance-description">
+                        Clique em um botão para mudar a aparição do personagem.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="appearance-description-image"></div>
+
+            <div class="appearance-link"></div>
+
+            <div class="appearance-credits-display"></div>
+
+        </div>
+
+        
+
+        <div class="character-sidebar">
+
+            <div class="appearance-option">
+
+                <button class="appearance-button"
+                    data-image="../../IMG/SonicRacing/Characters/Misc/36a - Axel (BD Joe).png"
+                    data-description="Troca o personagem B.D. Joe do Crazy Taxi: World Tour.">
+                    B.D. Joe<br>Base [X]
+
+                </button>
+
+                <div class="appearance-details" hidden>
+
+                    <!-- Download links -->
+                    <div class="download-links">
+                        <a href="https://gamebanana.com/mods/709830"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            Baixe aqui.
+                        </a>
+
+                    </div>
+
+                    <!-- Credits -->
+                    <div class="appearance-credits">
+                        <p>Créditos: <a href="https://gamebanana.com/members/4919925">Prowervolt</a></p>
+                        <p>Créditos (extraiu modelo): <a href="https://gamebanana.com/members/4766201">ArtemisPendragon</a></p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="appearance-option">
+
+                <button class="appearance-button"
+                    data-image="../../IMG/SonicRacing/Characters/Misc/36b - Axel (Sora KH3).png"
+                    data-description="Troca o personagem pelo Sora na sua aparição em Fortnite.">
+                    Sora (Fortnite)<br>Base [X]
+
+                </button>
+
+                <div class="appearance-details" hidden>
+
+                    <!-- Download links -->
+                    <div class="download-links">
+                        <a href="https://gamebanana.com/mods/727990"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            Baixe aqui.
+                        </a>
+
+                    </div>
+
+                    <!-- Credits -->
+                    <div class="appearance-credits">
+                        <p>Créditos: <a href="https://gamebanana.com/members/4411712">Aigami_</a></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <button class="back-button">Back</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="amigo-section" class="character-section" hidden>
+
+    <h1>Amigo</h1>
+
+    <div class="character-layout">
+
+
+        <div class="character-main">
+
+            <div class="character-images">
+
+                <div>
+                    <h2>Original</h2>
+                    <img
+                        src="../../IMG/SonicRacing/Characters/Base/37b - Amigo Classico.png"
+                        alt="Original Amigo"
+                        class="original-image"
+                    >
+                    <p class="original-description">
+                        Versão original.
+                    </p>
+                </div>
+
+                <div>
+                    <h2>Alternativo</h2>
+                    <img
+                        src="../../IMG/SonicRacing/Characters/Base/37b - Amigo Classico.png"
+                        alt="Alternativo Amigo"
+                        class="changeable-image"
+                    >
+                    <p class="appearance-description">
+                        Clique em um botão para mudar a aparição do personagem.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="appearance-description-image"></div>
+
+            <div class="appearance-link"></div>
+
+            <div class="appearance-credits-display"></div>
+
+        </div>
+
+
+        <div class="character-sidebar">
+
+            <div class="appearance-option">
+
+                <button class="appearance-button"
+                    data-image="../../IMG/SonicRacing/Characters/Misc/37ba - Amigo Classico (Yamigo).png"
+                    data-description="Troca o personagem pelo Yamigo de Samba de Amigo: Party-To-Go.">
+
+                    Yamigo<br>Festival [ ] Clássico [X]
+                </button>
+
+                <div class="appearance-details" hidden>
+
+                    <!-- Reference images -->
+                    <div class="reference-images">
+                        <img src="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders1.png"
+                            alt="Sonic Riders configuration">
+                    </div>
+
+                    <!-- Download links -->
+                    <div class="download-links">
+                        <a href="https://gamebanana.com/mods/719827"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            Baixe aqui.
+                        </a>
+
+                    </div>
+
+                    <!-- Credits -->
+                    <div class="appearance-credits">
+                        <p>Créditos: <a href="https://gamebanana.com/members/4411712">Aigami_</a></p>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="appearance-option">
+
+                <button class="appearance-button"
+                    data-image="../../IMG/SonicRacing/Characters/Misc/37bb - Amigo Classico (Amiga).png"
+                    data-description="Troca o personagem pela Amiga de Samba de Amigo: Party Central.">
+                    Amiga<br>Festival [X] Clássico [X]
+                </button>
+
+                <div class="appearance-details" hidden>
+
+                    <!-- Reference images -->
+                    <div class="reference-images">
+                        <img src="../../IMG/SonicRacing/Characters/Menu/1 - Sonic-Riders1.png"
+                            alt="Sonic Riders configuration">
+                    </div>
+
+                    <!-- Download links -->
+                    <div class="download-links">
+                        <a href="https://gamebanana.com/mods/717777"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            Baixe aqui.
+                        </a>
+
+                    </div>
+
+                    <!-- Credits -->
+                    <div class="appearance-credits">
+                        <p>Créditos: <a href="https://gamebanana.com/members/4411712">Aigami_</a></p>
+                        <p>Créditos (Animações faciais): <a href="https://gamebanana.com/members/4924591">Trinitronity</a></p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <button class="back-button">Back</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="red-section" class="character-section" hidden>
+
+    <h1>Red</h1>
+
+    <div class="character-layout">
+
+
+        <div class="character-main">
+
+            <div class="character-images">
+
+                <div>
+                    <h2>Original</h2>
+                    <img
+                        src="../../IMG/SonicRacing/Characters/Base/38 - Red.png"
+                        alt="Original Red"
+                        class="original-image"
+                    >
+                    <p class="original-description">
+                        Versão original.
+                    </p>
+                </div>
+
+                <div>
+                    <h2>Alternativo</h2>
+                    <img
+                        src="../../IMG/SonicRacing/Characters/Base/38 - Red.png"
+                        alt="Alternativo Red"
+                        class="changeable-image"
+                    >
+                    <p class="appearance-description">
+                        Clique em um botão para mudar a aparição do personagem.
+                    </p>
+
+                    <div class="appearance-link"></div>
+                </div>
+
+            </div>
+
+            <div class="appearance-description-image"></div>
+
+            <div class="appearance-link"></div>
+
+            <div class="appearance-credits-display"></div>
+            
+        </div>
+
+
+        <div class="character-sidebar">
+            <div class="appearance-option">
+
+                <button class="appearance-button"
+                    data-image="../../IMG/SonicRacing/Characters/Misc/38a - Red (Classico).png"
+                    data-description="Troca pela versão clássico do personagem.">
+                    Clássico<br>Base [X]
+                </button>
+
+                <div class="appearance-details" hidden>
+
+                    <!-- Download links -->
+                    <div class="download-links">
+                        <a href="https://gamebanana.com/mods/670983"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            Baixe aqui.
+                        </a>
+
+                    </div>
+
+                    <!-- Credits -->
+                    <div class="appearance-credits">
+                        <p>Créditos: <a href="https://gamebanana.com/members/5094059">MariosRoadBlocks</a></p>
+                        <p>Créditos (Modelo): <a href="https://x.com/_UniverseXP_">UniverseXP</a></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="appearance-option">
+
+                <button class="appearance-button"
+                    data-image="../../IMG/SonicRacing/Characters/Misc/38b - Red (Bonzana).png"
+                    data-description="Troca o personagem pelos Bonzana Bros. do jogo do mesmo nome.">
+                    Bonzana Bros.<br>Base [X]
+                </button>
+
+                <div class="appearance-details" hidden>
+
+                    <!-- Download links -->
+                    <div class="download-links">
+                        <a href="https://gamebanana.com/mods/705933"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            Baixe aqui.
+                        </a>
+
+                    </div>
+
+                    <!-- Credits -->
+                    <div class="appearance-credits">
+                        <p>Créditos: <a href="https://gamebanana.com/members/5094059">MGTuser</a></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <button class="back-button">Back</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="miku-section" class="character-section" hidden>
+
+    <h1>Hatsune Miku</h1>
+
+    <div class="character-layout">
+
+
+        <div class="character-main">
+
+            <div class="character-images">
+
+                <div>
+                    <h2>Original</h2>
+                    <img
+                        src="../../IMG/SonicRacing/Characters/Base/39 - Miku.png"
+                        alt="Original Hatsune Miku"
+                        class="original-image"
+                    >
+                    <p class="original-description">
+                        Versão original.
+                    </p>
+                </div>
+
+                <div>
+                    <h2>Alternativo</h2>
+                    <img
+                        src="../../IMG/SonicRacing/Characters/Base/39 - Miku.png"
+                        alt="Alternativo Hatsune Miku"
+                        class="changeable-image"
+                    >
+                    <p class="appearance-description">
+                        Clique em um botão para mudar a aparição do personagem.
+                    </p>
+
+                    <div class="appearance-link"></div>
+                </div>
+
+            </div>
+
+            <div class="appearance-description-image"></div>
+
+            <div class="appearance-link"></div>
+
+            <div class="appearance-credits-display"></div>
+            
+        </div>
+
+
+        <div class="character-sidebar">
+            <div class="appearance-option">
+
+                <button class="appearance-button"
+                    data-image="../../IMG/SonicRacing/Characters/Misc/39a - Miku (Vanilla).png"
+                    data-description="Troca a personagem pela Vanilla, há opções com ou sem a cauda.">
+
+                    Vanilla the Rabbit<br>Base [X]
+
+                </button>
+
+                <div class="appearance-details" hidden>
+
+                    <!-- Download links -->
+                    <div class="download-links">
+                        <a href="https://gamebanana.com/mods/634636"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            Baixe aqui.
+                        </a>
+
+                    </div>
+
+                    <!-- Credits -->
+                    <div class="appearance-credits">
+                        <p>Créditos: <a href="https://gamebanana.com/members/1573560">Niment</a></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="appearance-option">
+
+                <button class="appearance-button"
+                    data-image="../../IMG/SonicRacing/Characters/Misc/39b - Miku (Ulala).png"
+                    data-description="Troca a personagem pela Ulala de Space Channel 5">
+                    Ulala<br>Base [X]
+
+                </button>
+
+                <div class="appearance-details" hidden>
+
+                    <!-- Download links -->
+                    <div class="download-links">
+                        <a href="https://gamebanana.com/mods/662308"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            Baixe aqui.
+                        </a>
+
+                    </div>
+
+                    <!-- Credits -->
+                    <div class="appearance-credits">
+                        <p>Créditos: <a href="https://gamebanana.com/members/2365738">1one</a></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+<div class="appearance-option">
+
+                <button class="appearance-button"
+                    data-image="../../IMG/SonicRacing/Characters/Misc/39c - Miku (Teto).png"
+                    data-description="Troca a personagem pela Kasane Teto da Vocaloid. Há opção para trocas as músicas.">
+                    Teto<br>Base [X]
+
+                </button>
+
+                <div class="appearance-details" hidden>
+
+                    <!-- Download links -->
+                    <div class="download-links">
+                        <a href="https://gamebanana.com/mods/625330"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            Baixe aqui.
+                        </a>
+
+                    </div>
+
+                    <!-- Credits -->
+                    <div class="appearance-credits">
+                        <p>Créditos (Lider do projeto): <a href="https://gamebanana.com/members/1946919">NockCS</a></p>
+                        <p>Créditos (Vozes e arranjo de remixes): <a href="https://gamebanana.com/members/2414839">Taqillity</a></p>
+                        <p>Créditos (Emotes e vozes): <a href="https://gamebanana.com/members/2636372">kitifulnines</a></p>
+                        <p>Créditos (Emotes e vozes): <a href="https://gamebanana.com/members/1726468">SB_Games!</a></p>
+                        <p>Créditos (Logo): <a href="https://gamebanana.com/members/2205394">SuperPeelOut</a></p>
+                        <p>Créditos (Musica de vitória de Grand Prix): <a href="https://gamebanana.com/members/4851319">SuperPeelOut</a></p>
+
+
+                        
+                    </div>
+
+                </div>
+
+            </div>
+            <button class="back-button">Back</button>
+
+        </div>
+
+
+
+        </div>
+
+    </div>
+
+</section>
 
 
 </main>
